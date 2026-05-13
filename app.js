@@ -181,9 +181,9 @@ const TermsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Our Offerings"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"We offer educational resources, coaching, and strategic guidance for independent travel agents. Our offerings include:"}),
         (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
-          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Free 3-Week Challenge:"})," Access to community, training, and worksheets."]}),
-          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Premium Membership ($49/mo or $470/yr):"})," LLC setup guidance, compliance education, and live group coaching."]}),
-          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"VIP Membership ($149/mo or $1,497/yr):"})," 100% Commission Pathway guidance, monthly group trainings, and quarterly private reviews."]})
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Free 14-Day Challenge:"})," Access to community, training, and worksheets."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Premium Membership ($97/mo or $933/yr):"})," LLC setup guidance, compliance education, and live group coaching."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"VIP Membership ($497/mo or $5,000/yr):"})," 100% Commission Pathway guidance, monthly group trainings, and quarterly private reviews."]})
         ]})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
