@@ -23,3 +23,16 @@
 /* Form inputs for new pages */
 .btbi-input{width:100%;padding:13px 16px;border:1px solid var(--line);background:var(--paper);font-family:var(--sans);font-size:14px;color:var(--ink);outline:none;box-sizing:border-box}
 .btbi-input:focus{border-color:var(--green)}
+
+/* ── Mobile overflow fixes ── */
+@media (max-width: 600px) {
+  .btn{white-space:normal;text-align:center;justify-content:center}
+  .hero-cta .btn{width:100%;max-width:100%}
+  .hero-copy .script{font-size:42px}
+  .hero-copy{overflow:hidden}
+  .wrap{overflow-x:hidden}
+  .hero-grid{overflow:hidden}
+}
+@media (max-width: 980px) {
+  .btn-primary,.btn-gold{max-width:100%}
+}
