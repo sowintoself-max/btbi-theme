@@ -184,10 +184,67 @@ const TermsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 
 const StudentNDAPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)($n,{}),
-  (0,j.jsxs)("section",{style:{padding:"80px 24px 60px"},children:[
+  (0,j.jsxs)("section",{style:{padding:"80px 24px 72px"},children:[
     (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
-      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:32},children:"Student Non-Disclosure Agreement"}),
-      (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:18,fontStyle:"italic",color:"var(--muted)",marginBottom:40},children:"This document is currently being prepared. Please check back soon."}),
+      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:8},children:"Student Non-Disclosure Agreement"}),
+      (0,j.jsx)("p",{style:{fontSize:14,color:"var(--muted)",marginBottom:40},children:"Effective as of the date of enrollment"}),
+      (0,j.jsx)("p",{style:{marginBottom:32,lineHeight:1.8},children:'This Student Non-Disclosure Agreement (this “Agreement”) is entered into as of the date of enrollment (the “Effective Date”) by and between The Best Travel Biz Institute™ (“Company”), and the individual enrolling in any course, challenge, or membership program offered by the Company (“Student”).'}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"1. Purpose"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The Company provides specialized business education, strategic guidance, and proprietary systems designed for independent travel agents to transition to true business ownership and a 100% commission model. In connection with the Student’s participation in the Free 3-Week Travel Agent to CEO Challenge, Premium Membership, or VIP Membership (collectively, the “Programs”), the Company will disclose certain confidential and proprietary information. This Agreement is intended to prevent the unauthorized use and disclosure of such information."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"2. Confidential Information"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:16},children:"“Confidential Information” shall include all data, materials, and information disclosed by the Company to the Student, whether oral, written, or digital, including but not limited to:"}),
+        (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Educational Materials:"})," Workbooks, worksheets, training videos, mindset and strategy modules, and curriculum structure."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Proprietary Strategies:"})," The “100% Commission Pathway” methodology, business infrastructure guidance (LLC/EIN setup, compliance education), and systems for client management, contracts, and payments."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Marketing and Branding:"})," Advanced AI-enhanced branding techniques, marketing strategies, and group travel mastery frameworks."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Internal Data:"})," Business snapshots, private coaching session recordings, community discussions, and any trade secrets related to the Company’s operations."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Third-Party Information:"})," Information regarding the Company’s partners, vendors, or other students disclosed during group coaching or community interactions."]})
+        ]})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"3. Non-Disclosure Obligations"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:16},children:"The Student agrees to:"}),
+        (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Maintain Secrecy:"})," Hold all Confidential Information in strict confidence and take all reasonable precautions to prevent unauthorized disclosure."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Restrict Use:"})," Use the Confidential Information solely for their own personal business development within the scope of the Programs. The Student shall not use the Confidential Information to create a competing educational or consulting business."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"No Sharing With Third Parties:"})," Not share, disclose, or provide access to any proprietary institute details, strategy materials, curriculum, frameworks, methods, processes, workbooks, worksheets, templates, trainings, recordings, community content, or other Program materials to any third party without the Company’s express written consent."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Prohibit Distribution:"})," Not copy, distribute, sell, license, publish, upload, post, transmit, livestream, screen-share, or otherwise disseminate any workbooks, worksheets, or Program materials to any third party (including other travel agents, host agencies, sub-agents, or the general public) without express written consent from the Company."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Protect Community Privacy:"})," Maintain the confidentiality of any information shared by other participants during live group coaching calls or within private community forums."]})
+        ]})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"4. Intellectual Property"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The Student acknowledges that all Confidential Information and materials provided by the Company remain the sole and exclusive property of The Best Travel Biz Institute. Nothing in this Agreement or the Student’s participation in the Programs shall be construed as granting any ownership rights or licenses to the Student, other than a limited, non-transferable right to use the materials for personal business education."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"5. Exclusions"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:16},children:"Confidential Information does not include information that:"}),
+        (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
+          (0,j.jsx)("li",{children:"Is or becomes publicly known through no breach of this Agreement by the Student."}),
+          (0,j.jsx)("li",{children:"Was in the Student’s possession prior to disclosure by the Company, as proven by written records."}),
+          (0,j.jsx)("li",{children:"Is received from a third party without breach of any non-disclosure obligation."})
+        ]})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"6. Term and Termination"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The obligations of this Agreement shall survive the termination of the Student’s membership or completion of the Programs. The duty to protect Confidential Information shall remain in effect indefinitely for trade secrets and for a period of five (5) years for all other Confidential Information following the Student’s last date of access to the Programs."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"7. Remedies"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The Student acknowledges that any breach of this Agreement may cause irreparable harm to the Company for which monetary damages may be inadequate. Therefore, the Company shall be entitled to seek injunctive relief to prevent further breach, in addition to all other remedies available at law or in equity, including the immediate termination of the Student’s access to all Programs without refund."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"8. Governing Law"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"This Agreement shall be governed by and construed in accordance with the laws of the State in which the Company is headquartered, without regard to its conflict of laws principles."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:48},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"9. Entire Agreement"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"This Agreement constitutes the entire understanding between the parties regarding the subject matter herein and supersedes all prior discussions or agreements. No amendment to this Agreement shall be valid unless made in writing and signed by both parties."})
+      ]}),
+      (0,j.jsx)("div",{style:{background:"var(--green-ink)",borderRadius:8,padding:"24px 28px",marginBottom:40},children:(0,j.jsx)("p",{style:{color:"var(--cream)",fontWeight:700,lineHeight:1.8,fontSize:14,margin:0},children:"BY ENROLLING IN A PROGRAM, ACCESSING WORKBOOKS, OR PARTICIPATING IN THE INSTITUTE, THE STUDENT ACKNOWLEDGES THEY HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT."})}),
       (0,j.jsx)("a",{href:"/",className:"btn btn-outline",children:"Return to the Institute"})
     ]})
   ]}),
