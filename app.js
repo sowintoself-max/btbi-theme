@@ -388,10 +388,45 @@ const PrivacyPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 
 const EarningsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)($n,{}),
-  (0,j.jsxs)("section",{style:{padding:"80px 24px 60px"},children:[
+  (0,j.jsxs)("section",{style:{padding:"80px 24px 72px"},children:[
     (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
-      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:32},children:"Earnings Disclaimer"}),
-      (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:18,fontStyle:"italic",color:"var(--muted)",marginBottom:40},children:"This disclaimer is currently being prepared. Please check back soon."}),
+      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:8},children:"Earnings Disclaimer"}),
+      (0,j.jsx)("p",{style:{fontSize:14,color:"var(--muted)",marginBottom:40},children:"Last Updated: May 13, 2026"}),
+      (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:32},children:'The Best Travel Biz Institute™, a program operated by Sow Into Self Wellness & Travel Group, LLC ("Company," "we," "us," or "our"), provides executive education, training, coaching, tools, and resources designed to help travel professionals build and grow independent travel businesses. The information on this website, in our programs, and in any related materials is intended for educational and informational purposes only.'}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"No Guarantee of Results or Earnings"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:16},children:"We do not guarantee, promise, or warrant any specific level of income, revenue, commissions, profits, sales, business growth, or success as a result of purchasing, enrolling in, or using any of our programs, courses, coaching, products, or services. Any earnings, revenue, or income statements, examples, testimonials, case studies, or figures referenced on this website or in our materials are illustrative only and should not be considered typical, average, exact, or promised results."}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The travel industry is competitive, dynamic, and influenced by economic conditions, consumer behavior, supplier relationships, geopolitical events, and other factors outside our control. Building a profitable travel business requires significant time, effort, skill, capital, and ongoing commitment."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Your Results Depend on You"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:16},children:"Your individual results will vary and depend on many factors, including but not limited to: your background, experience, work ethic, business acumen, financial resources, marketing efforts, ability to follow instructions, market conditions, niche selection, supplier and host relationships, and other circumstances unique to you and your business. We cannot and do not predict or guarantee what you will or will not achieve."}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"By engaging with our programs, you acknowledge and accept that you alone are responsible for your actions, decisions, and outcomes. Any decision you make to start, operate, or grow a travel business is your own, and you assume the risks associated with any such business venture."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Testimonials and Case Studies"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"Any testimonials, success stories, or examples featured on this website or in our materials reflect the experiences of specific individuals. They are not intended to represent or guarantee that anyone else will achieve the same or similar results. The individuals featured have invested time and effort into applying what they learned, and their results are not typical."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Forward-Looking Statements"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"Materials on this site may contain forward-looking statements that reflect projections, opinions, or expectations about potential business outcomes. These statements are based on assumptions and are inherently uncertain. Actual results may differ materially from any projections or expectations expressed or implied."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Not Financial, Legal, or Tax Advice"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"Nothing on this website or in our programs constitutes financial, legal, accounting, or tax advice. You should consult with qualified professionals before making any business, financial, legal, or tax decisions related to starting or operating a travel business."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"No Affiliation Representations"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The Best Travel Biz Institute™ is an independent education and training program operated by Sow Into Self Wellness & Travel Group, LLC. We are not a host agency, travel consortium, or government regulatory body, and we do not control commissions, supplier policies, or third-party platforms that may affect your business outcomes."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Acceptance of This Disclaimer"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"By using this website and purchasing or enrolling in any of our programs, you acknowledge that you have read, understood, and agreed to this Earnings Disclaimer. If you do not agree, please do not use our website or purchase our programs."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:48},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Contact Us"}),
+        (0,j.jsxs)("p",{style:{lineHeight:1.8},children:["If you have questions about this Earnings Disclaimer, please contact us at:",(0,j.jsx)("br",{}),"The Best Travel Biz Institute™",(0,j.jsx)("br",{}),"A program of Sow Into Self Wellness & Travel Group, LLC",(0,j.jsx)("br",{}),"Email: ",(0,j.jsx)("a",{href:"mailto:admin@thebesttravelbiz.com",style:{color:"var(--green-ink)"},children:"admin@thebesttravelbiz.com"})]})
+      ]}),
       (0,j.jsx)("a",{href:"/",className:"btn btn-outline",children:"Return to the Institute"})
     ]})
   ]}),
