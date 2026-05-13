@@ -4,23 +4,9 @@
    BTBI DESIGN OVERRIDES
    ═══════════════════════════════════════════════════════════════ */
 
-/* ── 1. All membership tiers → dark green (match original design) ── */
-.tier{background:var(--green);color:var(--cream);border:none}
-.tier:hover{transform:translateY(-4px);box-shadow:0 40px 80px -40px rgba(4,38,26,.5)}
-.tier .tier-tag{color:var(--gold)}
-.tier h3{color:var(--cream)}
-.tier .price{color:var(--gold)}
-.tier .price small{color:rgba(250,246,238,.65)}
-.tier .tier-motto{color:var(--gold)}
-.tier .desc{color:rgba(250,246,238,.85)}
-.tier ul li{color:rgba(250,246,238,.9)}
-.tier li:before{background:var(--gold)}
-.tier .tier-gate{color:rgba(250,246,238,.6);border-top-color:rgba(250,246,238,.18)}
-.tier .cta-row,.tier .btn-outline{border-color:var(--gold);color:var(--gold)}
-.tier .btn-outline:hover{background:var(--gold);color:var(--green-ink)}
-.tier .ribbon{background:var(--gold);color:var(--green-ink)}
-.tier .tier-host{color:rgba(250,246,238,.7)}
-.tier .sp-vip-line{color:rgba(250,246,238,.55);font-size:12px}
+/* ── 1. Membership tiers — only featured (Premium) is dark green ── */
+/* Non-featured tiers stay as light/cream cards (default styles preserved) */
+.tier.featured .ribbon{background:var(--gold);color:var(--green-ink)}
 
 /* ── 2. Growth path image → full width ── */
 .growth-path{max-width:100%;padding:0;margin:36px 0 56px}
