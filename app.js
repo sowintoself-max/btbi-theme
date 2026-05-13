@@ -316,10 +316,70 @@ const StudentNDAPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 
 const PrivacyPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)($n,{}),
-  (0,j.jsxs)("section",{style:{padding:"80px 24px 60px"},children:[
+  (0,j.jsxs)("section",{style:{padding:"80px 24px 72px"},children:[
     (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
-      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:32},children:"Privacy Policy"}),
-      (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:18,fontStyle:"italic",color:"var(--muted)",marginBottom:40},children:"This policy is currently being prepared. Please check back soon."}),
+      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:8},children:"Privacy Policy"}),
+      (0,j.jsx)("p",{style:{fontSize:14,color:"var(--muted)",marginBottom:40},children:"Last Updated: April 15, 2026"}),
+      (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:32},children:'The Best Travel Biz Institute is a program operated by Sow Into Self Wellness & Travel Group, LLC ("Parent Company"). All references to "The Best Travel Biz Institute," "we," "us," or "our" refer to the Institute and its parent company collectively, unless otherwise stated. We respect your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains what information we collect, how we use it, and the choices you have regarding your data.'}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"About Us"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"We provide career coaching services, including consultations, resources, and online workshops. As part of this work, we may collect certain personal information to deliver our services effectively and improve your experience."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Information We Collect"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"We may collect the following information when you interact with us:"}),
+        (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Personal Information:"})," name, email address, phone number, billing address"]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Payment Information:"})," processed securely through third-party payment processors (we do not store full credit card details)"]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Business Information:"})," travel business details, agency status, experience level"]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Technical Information:"})," IP address, browser type, device data, cookies, analytics"]})
+        ]})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"How We Use Your Information"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"Your information is used to:"}),
+        (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
+          (0,j.jsx)("li",{children:"Provide access to courses, memberships, coaching, and resources"}),
+          (0,j.jsx)("li",{children:"Process payments and deliver purchased products"}),
+          (0,j.jsx)("li",{children:"Communicate important updates, training notices, and support responses"}),
+          (0,j.jsx)("li",{children:"Improve our services, content, and user experience"}),
+          (0,j.jsx)("li",{children:"Comply with legal and regulatory obligations"})
+        ]})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Cookies & Tracking Technologies"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"We may use cookies, pixels, and analytics tools to understand website usage and improve performance. You may disable cookies through your browser settings, though some features may not function properly."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Third-Party Services"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"We may share limited data with trusted third-party platforms strictly for business operations, including but not limited to:"}),
+        (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
+          (0,j.jsx)("li",{children:"Payment processors (e.g., Stripe, SamCart)"}),
+          (0,j.jsx)("li",{children:"Email marketing platforms"}),
+          (0,j.jsx)("li",{children:"Course and community platforms"}),
+          (0,j.jsx)("li",{children:"Analytics and automation tools"})
+        ]}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8,marginTop:12},children:"These providers are required to safeguard your data."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Your Privacy Rights"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"You have the right to:"}),
+        (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
+          (0,j.jsx)("li",{children:"Access the personal information we hold about you"}),
+          (0,j.jsx)("li",{children:"Request corrections or updates to your data"}),
+          (0,j.jsx)("li",{children:"Request deletion of your data, subject to legal or contractual obligations"}),
+          (0,j.jsx)("li",{children:"Opt out of marketing communications at any time"})
+        ]}),
+        (0,j.jsxs)("p",{style:{lineHeight:1.8,marginTop:12},children:["To exercise these rights, please contact us at ",(0,j.jsx)("a",{href:"mailto:admin@thebesttravelbiz.com",style:{color:"var(--green-ink)"},children:"admin@thebesttravelbiz.com"})]})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Data Security"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"We implement reasonable administrative, technical, and physical safeguards to protect your personal information. However, no method of transmission over the internet is 100% secure."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:48},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Changes to This Policy"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"We may update this Privacy Policy periodically. Continued use of our services constitutes acceptance of any changes."})
+      ]}),
       (0,j.jsx)("a",{href:"/",className:"btn btn-outline",children:"Return to the Institute"})
     ]})
   ]}),
