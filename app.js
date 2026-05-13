@@ -137,4 +137,85 @@ const BookstorePage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)(fr,{})
 ]});
 
-function Gr(){return(0,j.jsx)(En,{children:(0,j.jsxs)(Rt,{children:[(0,j.jsx)(It,{path:`/`,element:(0,j.jsx)(pr,{})}),(0,j.jsx)(It,{path:`/snapshot`,element:(0,j.jsx)(Tr,{})}),(0,j.jsx)(It,{path:`/snapshot-intake`,element:(0,j.jsx)(jr,{})}),(0,j.jsx)(It,{path:`/challenge`,element:(0,j.jsx)(Wr,{})}),(0,j.jsx)(It,{path:`/contact`,element:(0,j.jsx)(ContactPage,{})}),(0,j.jsx)(It,{path:`/media`,element:(0,j.jsx)(MediaPage,{})}),(0,j.jsx)(It,{path:`/careers`,element:(0,j.jsx)(CareersPage,{})}),(0,j.jsx)(It,{path:`/ceo-letters`,element:(0,j.jsx)(CEOLettersPage,{})}),(0,j.jsx)(It,{path:`/bookstore`,element:(0,j.jsx)(BookstorePage,{})})]})})}document.documentElement.style.setProperty(`--founder-bg`,`url(${Qn(`founder.png`)})`),(0,qn.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(x.StrictMode,{children:(0,j.jsx)(Gr,{})}));
+const CEOVaultPage=()=>(0,j.jsxs)("main",{id:"top",children:[
+  (0,j.jsx)($n,{}),
+  (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px 60px",textAlign:"center"},children:[
+    (0,j.jsxs)("div",{className:"wrap",children:[
+      (0,j.jsx)("span",{style:{fontFamily:"var(--serif-body)",fontSize:13,letterSpacing:"0.2em",textTransform:"uppercase",color:"var(--gold)",display:"block",marginBottom:16},children:"Tier 03 · VIP · By Invitation"}),
+      (0,j.jsxs)("h1",{style:{color:"var(--cream)",fontFamily:"var(--serif-display)",fontSize:"clamp(36px,6vw,72px)",margin:"0 0 24px"},children:["VIP CEO ",(0,j.jsx)("em",{style:{fontFamily:"var(--serif-body)",color:"var(--gold)",fontStyle:"italic"},children:"Vault"})]}),
+      (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:22,fontStyle:"italic",color:"var(--gold)",margin:"0 0 16px"},children:"Implement · Scale · Lead."}),
+      (0,j.jsx)("p",{style:{color:"var(--cream)",fontSize:18,maxWidth:640,margin:"0 auto"},children:"An invitation-based advisory environment for qualified operators ready to scale with strategic guidance and curated access."})
+    ]})
+  ]}),
+  (0,j.jsxs)("section",{style:{padding:"72px 24px",background:"var(--cream)"},children:[
+    (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
+      (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",textAlign:"center",marginBottom:48},children:"What's Included"}),
+      (0,j.jsxs)("ul",{style:{listStyle:"none",padding:0,margin:"0 0 48px",display:"grid",gap:16},children:[
+        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Quarterly 1:1 CEO strategy sessions with Bobbie"}),
+        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Annual private CEO retreat"}),
+        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Priority executive support access"}),
+        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Strategic accreditation & supplier implementation guidance"}),
+        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Private VIP roundtable discussions"}),
+        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Exclusive CEO-level trainings & resources"}),
+        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Advanced ownership & scaling workshops"}),
+        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Early access to Institute opportunities & resources"})
+      ]}),
+      (0,j.jsxs)("div",{style:{background:"var(--green-ink)",borderRadius:12,padding:"40px 32px",textAlign:"center"},children:[
+        (0,j.jsxs)("p",{style:{fontFamily:"var(--serif-display)",fontSize:48,color:"var(--cream)",margin:"0 0 4px"},children:["$497",(0,j.jsx)("small",{style:{fontSize:16,letterSpacing:"0.1em"},children:" / MO · FOUNDING MEMBER"})]}),
+        (0,j.jsx)("p",{style:{color:"var(--gold)",fontFamily:"var(--serif-body)",fontStyle:"italic",fontSize:16,margin:"16px 0 24px"},children:"Completion of the Travel Business Snapshot™ is required before VIP consideration."}),
+        (0,j.jsx)("a",{href:"/snapshot",className:"btn btn-gold",children:"Complete the Snapshot for VIP Consideration"})
+      ]})
+    ]})
+  ]}),
+  (0,j.jsx)(fr,{})
+]});
+
+const TermsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
+  (0,j.jsx)($n,{}),
+  (0,j.jsxs)("section",{style:{padding:"80px 24px 60px"},children:[
+    (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
+      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:32},children:"Terms and Conditions"}),
+      (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:18,fontStyle:"italic",color:"var(--muted)",marginBottom:40},children:"This page is currently being prepared. Please check back soon."}),
+      (0,j.jsx)("a",{href:"/",className:"btn btn-outline",children:"Return to the Institute"})
+    ]})
+  ]}),
+  (0,j.jsx)(fr,{})
+]});
+
+const StudentNDAPage=()=>(0,j.jsxs)("main",{id:"top",children:[
+  (0,j.jsx)($n,{}),
+  (0,j.jsxs)("section",{style:{padding:"80px 24px 60px"},children:[
+    (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
+      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:32},children:"Student Non-Disclosure Agreement"}),
+      (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:18,fontStyle:"italic",color:"var(--muted)",marginBottom:40},children:"This document is currently being prepared. Please check back soon."}),
+      (0,j.jsx)("a",{href:"/",className:"btn btn-outline",children:"Return to the Institute"})
+    ]})
+  ]}),
+  (0,j.jsx)(fr,{})
+]});
+
+const PrivacyPage=()=>(0,j.jsxs)("main",{id:"top",children:[
+  (0,j.jsx)($n,{}),
+  (0,j.jsxs)("section",{style:{padding:"80px 24px 60px"},children:[
+    (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
+      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:32},children:"Privacy Policy"}),
+      (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:18,fontStyle:"italic",color:"var(--muted)",marginBottom:40},children:"This policy is currently being prepared. Please check back soon."}),
+      (0,j.jsx)("a",{href:"/",className:"btn btn-outline",children:"Return to the Institute"})
+    ]})
+  ]}),
+  (0,j.jsx)(fr,{})
+]});
+
+const EarningsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
+  (0,j.jsx)($n,{}),
+  (0,j.jsxs)("section",{style:{padding:"80px 24px 60px"},children:[
+    (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
+      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:32},children:"Earnings Disclaimer"}),
+      (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:18,fontStyle:"italic",color:"var(--muted)",marginBottom:40},children:"This disclaimer is currently being prepared. Please check back soon."}),
+      (0,j.jsx)("a",{href:"/",className:"btn btn-outline",children:"Return to the Institute"})
+    ]})
+  ]}),
+  (0,j.jsx)(fr,{})
+]});
+
+function Gr(){return(0,j.jsx)(En,{children:(0,j.jsxs)(Rt,{children:[(0,j.jsx)(It,{path:`/`,element:(0,j.jsx)(pr,{})}),(0,j.jsx)(It,{path:`/snapshot`,element:(0,j.jsx)(Tr,{})}),(0,j.jsx)(It,{path:`/snapshot-intake`,element:(0,j.jsx)(jr,{})}),(0,j.jsx)(It,{path:`/challenge`,element:(0,j.jsx)(Wr,{})}),(0,j.jsx)(It,{path:`/contact`,element:(0,j.jsx)(ContactPage,{})}),(0,j.jsx)(It,{path:`/media`,element:(0,j.jsx)(MediaPage,{})}),(0,j.jsx)(It,{path:`/careers`,element:(0,j.jsx)(CareersPage,{})}),(0,j.jsx)(It,{path:`/ceo-letters`,element:(0,j.jsx)(CEOLettersPage,{})}),(0,j.jsx)(It,{path:`/bookstore`,element:(0,j.jsx)(BookstorePage,{})}),(0,j.jsx)(It,{path:`/ceo-vault`,element:(0,j.jsx)(CEOVaultPage,{})}),(0,j.jsx)(It,{path:`/terms-and-conditions`,element:(0,j.jsx)(TermsPage,{})}),(0,j.jsx)(It,{path:`/student-non-disclosure`,element:(0,j.jsx)(StudentNDAPage,{})}),(0,j.jsx)(It,{path:`/privacy-policy`,element:(0,j.jsx)(PrivacyPage,{})}),(0,j.jsx)(It,{path:`/earnings-disclaimer`,element:(0,j.jsx)(EarningsPage,{})})]})})}document.documentElement.style.setProperty(`--founder-bg`,`url(${Qn(`founder.png`)})`),(0,qn.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(x.StrictMode,{children:(0,j.jsx)(Gr,{})}));
