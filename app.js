@@ -172,10 +172,73 @@ const CEOVaultPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 
 const TermsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)($n,{}),
-  (0,j.jsxs)("section",{style:{padding:"80px 24px 60px"},children:[
+  (0,j.jsxs)("section",{style:{padding:"80px 24px 72px"},children:[
     (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
-      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:32},children:"Terms and Conditions"}),
-      (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:18,fontStyle:"italic",color:"var(--muted)",marginBottom:40},children:"This page is currently being prepared. Please check back soon."}),
+      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:8},children:"Terms and Conditions"}),
+      (0,j.jsx)("p",{style:{fontSize:14,color:"var(--muted)",marginBottom:40},children:"Last Updated: April 15, 2026"}),
+      (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:32},children:'Welcome to The Best Travel Biz Institute™, a program operated by Sow Into Self Wellness & Travel Group, LLC (“Company,” “we,” “us,” or “our”). By accessing our website, purchasing our products, or joining our memberships, you agree to comply with and be bound by the following Terms and Conditions.'}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Our Offerings"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"We offer educational resources, coaching, and strategic guidance for independent travel agents. Our offerings include:"}),
+        (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Free 3-Week Challenge:"})," Access to community, training, and worksheets."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Premium Membership ($49/mo or $470/yr):"})," LLC setup guidance, compliance education, and live group coaching."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"VIP Membership ($149/mo or $1,497/yr):"})," 100% Commission Pathway guidance, monthly group trainings, and quarterly private reviews."]})
+        ]})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Our Philosophy"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"The Best Travel Biz Institute is an educational institution."}),
+        (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"No Recruiting/MLM:"})," We are not a Multi-Level Marketing (MLM) organization. We do not participate in recruiting, downlines, or host-agency dependence."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Ownership Focus:"})," Our curriculum is designed to help agents transition to true business ownership and independent commission structures."]})
+        ]})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Income Disclaimer"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The Best Travel Biz Institute™ provides a pathway toward 100% commission and business ownership. We do not guarantee specific income results, levels of success, or that you will achieve any particular financial goal. Your results depend on your individual effort, business background, and market conditions."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Intellectual Property"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"All materials, including but not limited to strategy workbooks, training videos, templates, and proprietary methodologies, are the intellectual property of the Company."}),
+        (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Personal Use Only:"})," These materials are for your personal business use only."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"No Redistribution:"})," You are strictly prohibited from sharing, selling, or redistributing our materials or “academy secrets” to third parties."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Student NDA:"})," By enrolling in our Premium or VIP memberships, you are also bound by the ",(0,j.jsx)("a",{href:"/student-non-disclosure",style:{color:"var(--green-ink)"},children:"Student Non-Disclosure Agreement"}),"."]})
+        ]})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Billing & Cancellation"}),
+        (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Recurring Billing:"})," Memberships are billed on a recurring monthly or annual basis until canceled."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"No Refunds:"})," All payments for memberships, diagnostic services (including the Travel Business Snapshot), and educational materials are non-refundable."]}),
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Cancellation:"})," You may cancel your membership at any time, but you will retain access until the end of your current billing period. No partial refunds will be issued."]})
+        ]})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"VIP Membership Admissions"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"Admission to the VIP Membership is by application only. We reserve the right to deny any application for any reason. Information shared during the application process is kept confidential as per our Privacy Policy."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Limitation of Liability"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The information provided is for educational purposes and does not constitute legal, tax, or professional financial advice. We are not liable for any business decisions you make based on our content."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Third-Party Platforms"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"We utilize third-party platforms to deliver our services, including Skool (community), SamCart/Stripe (payments), and others. Your use of these platforms is also subject to their respective terms and privacy policies."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Governing Law"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"These Terms shall be governed by and construed in accordance with the laws of the State in which Sow Into Self Wellness & Travel Group, LLC is registered, without regard to conflict of law principles."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:32},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Changes to These Terms"}),
+        (0,j.jsx)("p",{style:{lineHeight:1.8},children:"We reserve the right to modify these terms at any time. Your continued use of our website or services constitutes acceptance of the updated terms."})
+      ]}),
+      (0,j.jsxs)("section",{style:{marginBottom:48},children:[
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Contact"}),
+        (0,j.jsxs)("p",{style:{lineHeight:1.8},children:["For questions regarding these Terms, please contact: The Best Travel Biz Institute™",(0,j.jsx)("br",{}),"Email: ",(0,j.jsx)("a",{href:"mailto:admin@thebesttravelbiz.com",style:{color:"var(--green-ink)"},children:"admin@thebesttravelbiz.com"})]})
+      ]}),
       (0,j.jsx)("a",{href:"/",className:"btn btn-outline",children:"Return to the Institute"})
     ]})
   ]}),
