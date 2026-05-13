@@ -133,7 +133,7 @@ const BookstorePage=()=>(0,j.jsxs)("main",{id:"top",children:[
       ]}),
       (0,j.jsx)("div",{style:{marginTop:40},children:(0,j.jsx)("a",{href:"/",className:"btn btn-outline",children:"Return to the Institute"})})
     ]})
-  ]),
+  ]}),
   (0,j.jsx)(fr,{})
 ]});
 
