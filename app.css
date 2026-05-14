@@ -182,3 +182,30 @@ button,.btn,a.btn{max-width:100%;white-space:normal;overflow-wrap:break-word}
   .testi-card blockquote{flex:1}
   .creds{grid-template-columns:repeat(4,1fr)}
 }
+
+/* ════════════════════════════════════════════════════════
+   HAMBURGER + BADGE TARGETED FIXES
+   ════════════════════════════════════════════════════════ */
+
+/* Hide the "Take the Snapshot" CTA button inside the nav on mobile
+   so only the hamburger toggle is visible — prevents crowding / overlap */
+@media (max-width:980px){
+  .nav-cta .btn-primary{display:none!important}
+  .nav-toggle{display:inline-grid!important;z-index:301;position:relative}
+}
+
+/* Badge quote box: pull out of absolute on mobile so it never overlaps the photo */
+@media (max-width:768px){
+  .hero-visual .badge{
+    position:static!important;
+    margin-top:16px;
+    left:auto!important;
+    bottom:auto!important;
+    max-width:100%;
+    box-shadow:none
+  }
+  .hero-visual{
+    display:flex;
+    flex-direction:column
+  }
+}
