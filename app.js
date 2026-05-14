@@ -436,7 +436,7 @@ const EarningsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 (0,j.jsx)($n,{}),
 (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"100px 24px 80px"},children:[
-  (0,j.jsxs)("div",{className:"wrap r",style:{display:"grid",gridTemplateColumns:"1fr 260px",gap:48,alignItems:"center",maxWidth:900},children:[
+  (0,j.jsxs)("div",{className:"wrap",style:{display:"grid",gridTemplateColumns:"1fr 260px",gap:48,alignItems:"center",maxWidth:900},children:[
     (0,j.jsxs)("div",{children:[
       (0,j.jsx)("span",{style:{fontFamily:"var(--sans)",fontSize:12,letterSpacing:"0.2em",textTransform:"uppercase",color:"var(--gold)",display:"block",marginBottom:20},children:`Founder · The Best Travel Biz Institute™`}),
       (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--cream)",fontSize:"clamp(36px,6vw,72px)",margin:"0 0 16px",lineHeight:1.1},children:`Bobbie A. Self, MBA`}),
