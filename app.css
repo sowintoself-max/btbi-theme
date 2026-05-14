@@ -43,3 +43,33 @@
 .nav-links.open a{color:var(--cream);font-size:13px}
 .nav-links.open a:hover{color:var(--gold)}
 }
+/* ── Portrait mobile fixes ── */
+@media (width<=700px){
+  /* About page hero: stack vertically on portrait */
+  .about-hero-grid{grid-template-columns:1fr!important;justify-items:center}
+  .about-hero-img{max-width:280px!important;height:auto!important;aspect-ratio:4/5;order:-1;margin-bottom:8px}
+
+  /* General: prevent content overflow */
+  main,section,.wrap{max-width:100%;overflow-x:hidden}
+  img{max-width:100%;height:auto}
+
+  /* Legal pages: reduce heading size */
+  h1{font-size:clamp(26px,7vw,42px)}
+
+  /* CEO Vault hero grid */
+  .wrap{padding-left:20px!important;padding-right:20px!important}
+}
+
+@media (width<=480px){
+  /* Extra small phones: tighter spacing */
+  section{padding-left:0;padding-right:0}
+  .about-hero-img{max-width:220px!important}
+
+  /* Nav: prevent brand text overflow */
+  .brand-text .name{font-size:10px}
+  .brand-text .sub{font-size:9px}
+
+  /* Buttons: full width on very small screens */
+  .btn{width:100%;max-width:100%;justify-content:center;text-align:center;white-space:normal}
+  .hero-cta,.snap-cta,.challenge-cta{flex-direction:column}
+}
