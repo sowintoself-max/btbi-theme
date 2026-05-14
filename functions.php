@@ -122,7 +122,6 @@ $tbtb_seo_data = [
         'og_description'      => 'Executive education for travel entrepreneurs. Stop renting a desk — learn how to own the building with structure, ownership, and systems that build long-term wealth.',
         'og_image'            => '',  // fill in absolute URL to branded social image when ready
         'og_type'             => 'website',
-        'og_url'              => 'https://thebesttravelbiz.com/',
         'twitter_title'       => 'The Best Travel Biz Institute™',
         'twitter_description' => 'Executive education for travel entrepreneurs. From travel agent to CEO — with structure, ownership, and systems that build long-term wealth.',
         'twitter_image'       => '',  // fill in when og_image is ready
@@ -253,122 +252,11 @@ add_filter('wpseo_robots',               'tbtb_yoast_robots');
 
 
 // ════════════════════════════════════════════════════════════════════════════
-// SCHEMA MARKUP
+// SCHEMA MARKUP — pending
 //
-// Yoast outputs JSON-LD schema via the wpseo_schema_graph filter, which
-// receives the full @graph array. We modify or append pieces here per page.
-//
-// Schema types used on this site:
-//   /          → Organization
-//   /about     → Person (Bobbie A. Self)
-//   /snapshot  → Service
-//   /ceo-vault → Service
-//   /challenge → Course
-//   all others → WebPage (Yoast default — no override needed)
-//
-// Fill in the placeholder values below when ready. The @id values must be
-// unique absolute URLs — using the canonical + '#type' is the convention.
+// Schema blocks for Organization (/), Person (/about), Service (/snapshot,
+// /ceo-vault), and Course (/challenge) are ready to add here via the
+// wpseo_schema_graph filter once logo URL, social links, descriptions, and
+// founder photo URL are available. Do not add them until all field values
+// are populated — placeholder strings in JSON-LD break schema validation.
 // ════════════════════════════════════════════════════════════════════════════
-
-add_filter('wpseo_schema_graph', function (array $graph): array {
-    if (!btbi_is_react_page()) return $graph;
-
-    $route = tbtb_get_route();
-
-    // ── Organization schema (homepage) ───────────────────────────────────────
-    if ($route === '/') {
-        $graph[] = [
-            '@type'       => 'Organization',
-            '@id'         => 'https://thebesttravelbiz.com/#organization',
-            'name'        => 'The Best Travel Biz Institute™',
-            'url'         => 'https://thebesttravelbiz.com/',
-            'logo'        => '...',   // absolute URL to logo image
-            'description' => '...',
-            'sameAs'      => [
-                '...',   // Facebook URL
-                '...',   // Instagram URL
-                '...',   // LinkedIn URL
-            ],
-        ];
-    }
-
-    // ── Person schema (About page) ────────────────────────────────────────────
-    if ($route === '/about') {
-        $graph[] = [
-            '@type'       => 'Person',
-            '@id'         => 'https://thebesttravelbiz.com/about/#person',
-            'name'        => 'Bobbie A. Self',
-            'jobTitle'    => 'Founder & CEO',
-            'worksFor'    => ['@id' => 'https://thebesttravelbiz.com/#organization'],
-            'url'         => 'https://thebesttravelbiz.com/about/',
-            'image'       => '...',   // absolute URL to founder photo
-            'description' => '...',
-            'sameAs'      => [
-                '...',   // LinkedIn profile URL
-            ],
-        ];
-    }
-
-    // ── Service schema (Snapshot page) ───────────────────────────────────────
-    if ($route === '/snapshot') {
-        $graph[] = [
-            '@type'            => 'Service',
-            '@id'              => 'https://thebesttravelbiz.com/snapshot/#service',
-            'name'             => 'Travel Business Snapshot™',
-            'url'              => 'https://thebesttravelbiz.com/snapshot/',
-            'provider'         => ['@id' => 'https://thebesttravelbiz.com/#organization'],
-            'description'      => '...',
-            'serviceType'      => 'Business Diagnostic',
-            'areaServed'       => 'US',
-        ];
-    }
-
-    // ── Service schema (CEO Vault page) ──────────────────────────────────────
-    if ($route === '/ceo-vault') {
-        $graph[] = [
-            '@type'            => 'Service',
-            '@id'              => 'https://thebesttravelbiz.com/ceo-vault/#service',
-            'name'             => 'VIP CEO Vault',
-            'url'              => 'https://thebesttravelbiz.com/ceo-vault/',
-            'provider'         => ['@id' => 'https://thebesttravelbiz.com/#organization'],
-            'description'      => '...',
-            'serviceType'      => 'Advisory Program',
-            'offers' => [
-                '@type'         => 'Offer',
-                'price'         => '997.00',
-                'priceCurrency' => 'USD',
-                'priceSpecification' => [
-                    '@type'           => 'UnitPriceSpecification',
-                    'price'           => '997.00',
-                    'priceCurrency'   => 'USD',
-                    'unitText'        => 'MONTH',
-                ],
-            ],
-        ];
-    }
-
-    // ── Course schema (Challenge page) ───────────────────────────────────────
-    if ($route === '/challenge') {
-        $graph[] = [
-            '@type'          => 'Course',
-            '@id'            => 'https://thebesttravelbiz.com/challenge/#course',
-            'name'           => '14-Day Travel Agent to CEO Challenge',
-            'url'            => 'https://thebesttravelbiz.com/challenge/',
-            'provider'       => ['@id' => 'https://thebesttravelbiz.com/#organization'],
-            'description'    => '...',
-            'hasCourseInstance' => [
-                '@type'           => 'CourseInstance',
-                'courseMode'      => 'online',
-                'instructor'      => ['@id' => 'https://thebesttravelbiz.com/about/#person'],
-            ],
-            'offers' => [
-                '@type'         => 'Offer',
-                'price'         => '0',
-                'priceCurrency' => 'USD',
-                'availability'  => 'https://schema.org/InStock',
-            ],
-        ];
-    }
-
-    return $graph;
-});
