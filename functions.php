@@ -120,11 +120,11 @@ $tbtb_seo_data = [
         'canonical'           => 'https://thebesttravelbiz.com/',
         'og_title'            => 'The Best Travel Biz Institute™',
         'og_description'      => 'Executive education for travel entrepreneurs. Stop renting a desk — learn how to own the building with structure, ownership, and systems that build long-term wealth.',
-        'og_image'            => '',  // fill in absolute URL to branded social image when ready
+        'og_image'            => 'https://thebesttravelbiz.com/wp-content/uploads/2026/05/the-best-travel-biz-institute-meta.png',
         'og_type'             => 'website',
         'twitter_title'       => 'The Best Travel Biz Institute™',
         'twitter_description' => 'Executive education for travel entrepreneurs. From travel agent to CEO — with structure, ownership, and systems that build long-term wealth.',
-        'twitter_image'       => '',  // fill in when og_image is ready
+        'twitter_image'       => 'https://thebesttravelbiz.com/wp-content/uploads/2026/05/the-best-travel-biz-institute-meta.png',
         'robots'              => 'index, follow, max-image-preview:large',
     ],
 
