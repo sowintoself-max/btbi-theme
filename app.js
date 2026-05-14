@@ -142,14 +142,14 @@ const CEOVaultPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px 60px",textAlign:"center"},children:[
     (0,j.jsxs)("div",{className:"wrap",children:[
       (0,j.jsx)("span",{style:{fontFamily:"var(--serif-body)",fontSize:13,letterSpacing:"0.2em",textTransform:"uppercase",color:"var(--gold)",display:"block",marginBottom:16},children:"Tier 03 · VIP · By Invitation"}),
-      (0,j.jsxs)("h1",{style:{color:"var(--cream)",fontFamily:"var(--serif-display)",fontSize:"clamp(36px,6vw,72px)",margin:"0 0 24px"},children:["VIP CEO ",(0,j.jsx)("em",{style:{fontFamily:"var(--serif-body)",color:"var(--gold)",fontStyle:"italic"},children:"Vault"})]}),
+      (0,j.jsxs)("h1",{style:{color:"var(--cream)",fontFamily:"var(--serif)",fontSize:"clamp(36px,6vw,72px)",margin:"0 0 24px"},children:["VIP CEO ",(0,j.jsx)("em",{style:{fontFamily:"var(--serif-body)",color:"var(--gold)",fontStyle:"italic"},children:"Vault"})]}),
       (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:22,fontStyle:"italic",color:"var(--gold)",margin:"0 0 16px"},children:"Implement · Scale · Lead."}),
       (0,j.jsx)("p",{style:{color:"var(--cream)",fontSize:18,maxWidth:640,margin:"0 auto"},children:"An invitation-based advisory environment for qualified operators ready to scale with strategic guidance and curated access."})
     ]})
   ]}),
   (0,j.jsxs)("section",{style:{padding:"72px 24px",background:"var(--cream)"},children:[
     (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
-      (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",textAlign:"center",marginBottom:48},children:"What's Included"}),
+      (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",color:"var(--green-ink)",textAlign:"center",marginBottom:48},children:"What's Included"}),
       (0,j.jsxs)("ul",{style:{listStyle:"none",padding:0,margin:"0 0 48px",display:"grid",gap:16},children:[
         (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Quarterly 1:1 CEO strategy sessions with Bobbie"}),
         (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Annual private CEO retreat"}),
@@ -165,15 +165,15 @@ const CEOVaultPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         (0,j.jsxs)("div",{style:{display:"grid",gap:12,marginBottom:28},children:[
           (0,j.jsxs)("div",{style:{border:"1px solid rgba(212,175,100,0.4)",borderRadius:6,padding:"16px 20px",textAlign:"left",display:"flex",justifyContent:"space-between",alignItems:"center"},children:[
             (0,j.jsx)("span",{style:{color:"var(--cream)",fontSize:14},children:"Monthly"}),
-            (0,j.jsx)("span",{style:{fontFamily:"var(--serif-display)",color:"var(--gold)",fontSize:20},children:"$997/mo for 12 months"})
+            (0,j.jsx)("span",{style:{fontFamily:"var(--serif)",color:"var(--gold)",fontSize:20},children:"$997/mo for 12 months"})
           ]}),
           (0,j.jsxs)("div",{style:{border:"1px solid rgba(212,175,100,0.4)",borderRadius:6,padding:"16px 20px",textAlign:"left",display:"flex",justifyContent:"space-between",alignItems:"center"},children:[
             (0,j.jsxs)("span",{style:{color:"var(--cream)",fontSize:14},children:["Quarterly",(0,j.jsx)("span",{style:{color:"var(--gold)",fontSize:11,marginLeft:8},children:"saves $1,000"})]}),
-            (0,j.jsx)("span",{style:{fontFamily:"var(--serif-display)",color:"var(--gold)",fontSize:20},children:"$2,891/quarter"})
+            (0,j.jsx)("span",{style:{fontFamily:"var(--serif)",color:"var(--gold)",fontSize:20},children:"$2,891/quarter"})
           ]}),
           (0,j.jsxs)("div",{style:{border:"1px solid var(--gold)",borderRadius:6,padding:"16px 20px",textAlign:"left",background:"rgba(212,175,100,0.08)",display:"flex",justifyContent:"space-between",alignItems:"center"},children:[
             (0,j.jsxs)("span",{style:{color:"var(--cream)",fontSize:14},children:["Pay-in-Full",(0,j.jsx)("span",{style:{color:"var(--gold)",fontSize:11,marginLeft:8},children:"saves $1,967"})]}),
-            (0,j.jsx)("span",{style:{fontFamily:"var(--serif-display)",color:"var(--gold)",fontSize:20},children:"$9,997"})
+            (0,j.jsx)("span",{style:{fontFamily:"var(--serif)",color:"var(--gold)",fontSize:20},children:"$9,997"})
           ]})
         ]}),
         (0,j.jsx)("p",{style:{color:"var(--gold)",fontFamily:"var(--serif-body)",fontStyle:"italic",fontSize:16,margin:"0 0 24px"},children:"Completion of the Travel Business Snapshot™ is required before VIP consideration."}),
@@ -188,11 +188,11 @@ const TermsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)($n,{}),
   (0,j.jsxs)("section",{style:{padding:"80px 24px 72px"},children:[
     (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
-      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:8},children:"Terms and Conditions"}),
+      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif)",color:"var(--green-ink)",marginBottom:8},children:"Terms and Conditions"}),
       (0,j.jsx)("p",{style:{fontSize:14,color:"var(--muted)",marginBottom:40},children:"Last Updated: April 15, 2026"}),
       (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:32},children:'Welcome to The Best Travel Biz Institute™, a program operated by Sow Into Self Wellness & Travel Group, LLC (“Company,” “we,” “us,” or “our”). By accessing our website, purchasing our products, or joining our memberships, you agree to comply with and be bound by the following Terms and Conditions.'}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Our Offerings"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Our Offerings"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"We offer educational resources, coaching, and strategic guidance for independent travel agents. Our offerings include:"}),
         (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
           (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Free 14-Day Challenge:"})," Access to community, training, and worksheets."]}),
@@ -201,7 +201,7 @@ const TermsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         ]})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Our Philosophy"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Our Philosophy"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"The Best Travel Biz Institute is an educational institution."}),
         (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
           (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"No Recruiting/MLM:"})," We are not a Multi-Level Marketing (MLM) organization. We do not participate in recruiting, downlines, or host-agency dependence."]}),
@@ -209,11 +209,11 @@ const TermsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         ]})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Income Disclaimer"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Income Disclaimer"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The Best Travel Biz Institute™ provides a pathway toward 100% commission and business ownership. We do not guarantee specific income results, levels of success, or that you will achieve any particular financial goal. Your results depend on your individual effort, business background, and market conditions."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Intellectual Property"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Intellectual Property"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"All materials, including but not limited to strategy workbooks, training videos, templates, and proprietary methodologies, are the intellectual property of the Company."}),
         (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
           (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Personal Use Only:"})," These materials are for your personal business use only."]}),
@@ -222,7 +222,7 @@ const TermsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         ]})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Billing & Cancellation"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Billing & Cancellation"}),
         (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
           (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Recurring Billing:"})," Memberships are billed on a recurring monthly or annual basis until canceled."]}),
           (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"No Refunds:"})," All payments for memberships, diagnostic services (including the Travel Business Snapshot), and educational materials are non-refundable."]}),
@@ -230,27 +230,27 @@ const TermsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         ]})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"VIP Membership Admissions"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"VIP Membership Admissions"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"Admission to the VIP Membership is by application only. We reserve the right to deny any application for any reason. Information shared during the application process is kept confidential as per our Privacy Policy."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Limitation of Liability"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Limitation of Liability"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The information provided is for educational purposes and does not constitute legal, tax, or professional financial advice. We are not liable for any business decisions you make based on our content."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Third-Party Platforms"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Third-Party Platforms"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"We utilize third-party platforms to deliver our services, including Skool (community), SamCart/Stripe (payments), and others. Your use of these platforms is also subject to their respective terms and privacy policies."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Governing Law"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Governing Law"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"These Terms shall be governed by and construed in accordance with the laws of the State in which Sow Into Self Wellness & Travel Group, LLC is registered, without regard to conflict of law principles."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Changes to These Terms"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Changes to These Terms"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"We reserve the right to modify these terms at any time. Your continued use of our website or services constitutes acceptance of the updated terms."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:48},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Contact"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Contact"}),
         (0,j.jsxs)("p",{style:{lineHeight:1.8},children:["For questions regarding these Terms, please contact: The Best Travel Biz Institute™",(0,j.jsx)("br",{}),"Email: ",(0,j.jsx)("a",{href:"mailto:admin@thebesttravelbiz.com",style:{color:"var(--green-ink)"},children:"admin@thebesttravelbiz.com"})]})
       ]}),
       (0,j.jsx)("a",{href:"/",className:"btn btn-outline",children:"Return to the Institute"})
@@ -263,15 +263,15 @@ const StudentNDAPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)($n,{}),
   (0,j.jsxs)("section",{style:{padding:"80px 24px 72px"},children:[
     (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
-      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:8},children:"Student Non-Disclosure Agreement"}),
+      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif)",color:"var(--green-ink)",marginBottom:8},children:"Student Non-Disclosure Agreement"}),
       (0,j.jsx)("p",{style:{fontSize:14,color:"var(--muted)",marginBottom:40},children:"Effective as of the date of enrollment"}),
       (0,j.jsx)("p",{style:{marginBottom:32,lineHeight:1.8},children:'This Student Non-Disclosure Agreement (this “Agreement”) is entered into as of the date of enrollment (the “Effective Date”) by and between The Best Travel Biz Institute™ (“Company”), and the individual enrolling in any course, challenge, or membership program offered by the Company (“Student”).'}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"1. Purpose"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"1. Purpose"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The Company provides specialized business education, strategic guidance, and proprietary systems designed for independent travel agents to transition to true business ownership and a 100% commission model. In connection with the Student’s participation in the Free 3-Week Travel Agent to CEO Challenge, Premium Membership, or VIP Membership (collectively, the “Programs”), the Company will disclose certain confidential and proprietary information. This Agreement is intended to prevent the unauthorized use and disclosure of such information."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"2. Confidential Information"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"2. Confidential Information"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:16},children:"“Confidential Information” shall include all data, materials, and information disclosed by the Company to the Student, whether oral, written, or digital, including but not limited to:"}),
         (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
           (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Educational Materials:"})," Workbooks, worksheets, training videos, mindset and strategy modules, and curriculum structure."]}),
@@ -282,7 +282,7 @@ const StudentNDAPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         ]})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"3. Non-Disclosure Obligations"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"3. Non-Disclosure Obligations"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:16},children:"The Student agrees to:"}),
         (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
           (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Maintain Secrecy:"})," Hold all Confidential Information in strict confidence and take all reasonable precautions to prevent unauthorized disclosure."]}),
@@ -293,11 +293,11 @@ const StudentNDAPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         ]})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"4. Intellectual Property"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"4. Intellectual Property"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The Student acknowledges that all Confidential Information and materials provided by the Company remain the sole and exclusive property of The Best Travel Biz Institute. Nothing in this Agreement or the Student’s participation in the Programs shall be construed as granting any ownership rights or licenses to the Student, other than a limited, non-transferable right to use the materials for personal business education."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"5. Exclusions"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"5. Exclusions"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:16},children:"Confidential Information does not include information that:"}),
         (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
           (0,j.jsx)("li",{children:"Is or becomes publicly known through no breach of this Agreement by the Student."}),
@@ -306,19 +306,19 @@ const StudentNDAPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         ]})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"6. Term and Termination"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"6. Term and Termination"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The obligations of this Agreement shall survive the termination of the Student’s membership or completion of the Programs. The duty to protect Confidential Information shall remain in effect indefinitely for trade secrets and for a period of five (5) years for all other Confidential Information following the Student’s last date of access to the Programs."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"7. Remedies"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"7. Remedies"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The Student acknowledges that any breach of this Agreement may cause irreparable harm to the Company for which monetary damages may be inadequate. Therefore, the Company shall be entitled to seek injunctive relief to prevent further breach, in addition to all other remedies available at law or in equity, including the immediate termination of the Student’s access to all Programs without refund."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"8. Governing Law"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"8. Governing Law"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"This Agreement shall be governed by and construed in accordance with the laws of the State in which the Company is headquartered, without regard to its conflict of laws principles."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:48},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"9. Entire Agreement"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"9. Entire Agreement"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"This Agreement constitutes the entire understanding between the parties regarding the subject matter herein and supersedes all prior discussions or agreements. No amendment to this Agreement shall be valid unless made in writing and signed by both parties."})
       ]}),
       (0,j.jsx)("div",{style:{background:"var(--green-ink)",borderRadius:8,padding:"24px 28px",marginBottom:40},children:(0,j.jsx)("p",{style:{color:"var(--cream)",fontWeight:700,lineHeight:1.8,fontSize:14,margin:0},children:"BY ENROLLING IN A PROGRAM, ACCESSING WORKBOOKS, OR PARTICIPATING IN THE INSTITUTE, THE STUDENT ACKNOWLEDGES THEY HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT."})}),
@@ -332,15 +332,15 @@ const PrivacyPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)($n,{}),
   (0,j.jsxs)("section",{style:{padding:"80px 24px 72px"},children:[
     (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
-      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:8},children:"Privacy Policy"}),
+      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif)",color:"var(--green-ink)",marginBottom:8},children:"Privacy Policy"}),
       (0,j.jsx)("p",{style:{fontSize:14,color:"var(--muted)",marginBottom:40},children:"Last Updated: April 15, 2026"}),
       (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:32},children:'The Best Travel Biz Institute is a program operated by Sow Into Self Wellness & Travel Group, LLC ("Parent Company"). All references to "The Best Travel Biz Institute," "we," "us," or "our" refer to the Institute and its parent company collectively, unless otherwise stated. We respect your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains what information we collect, how we use it, and the choices you have regarding your data.'}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"About Us"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"About Us"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"We provide career coaching services, including consultations, resources, and online workshops. As part of this work, we may collect certain personal information to deliver our services effectively and improve your experience."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Information We Collect"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Information We Collect"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"We may collect the following information when you interact with us:"}),
         (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
           (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Personal Information:"})," name, email address, phone number, billing address"]}),
@@ -350,7 +350,7 @@ const PrivacyPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         ]})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"How We Use Your Information"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"How We Use Your Information"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"Your information is used to:"}),
         (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
           (0,j.jsx)("li",{children:"Provide access to courses, memberships, coaching, and resources"}),
@@ -361,11 +361,11 @@ const PrivacyPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         ]})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Cookies & Tracking Technologies"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Cookies & Tracking Technologies"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"We may use cookies, pixels, and analytics tools to understand website usage and improve performance. You may disable cookies through your browser settings, though some features may not function properly."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Third-Party Services"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Third-Party Services"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"We may share limited data with trusted third-party platforms strictly for business operations, including but not limited to:"}),
         (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
           (0,j.jsx)("li",{children:"Payment processors (e.g., Stripe, SamCart)"}),
@@ -376,7 +376,7 @@ const PrivacyPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginTop:12},children:"These providers are required to safeguard your data."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Your Privacy Rights"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Your Privacy Rights"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:12},children:"You have the right to:"}),
         (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
           (0,j.jsx)("li",{children:"Access the personal information we hold about you"}),
@@ -387,11 +387,11 @@ const PrivacyPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         (0,j.jsxs)("p",{style:{lineHeight:1.8,marginTop:12},children:["To exercise these rights, please contact us at ",(0,j.jsx)("a",{href:"mailto:admin@thebesttravelbiz.com",style:{color:"var(--green-ink)"},children:"admin@thebesttravelbiz.com"})]})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Data Security"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Data Security"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"We implement reasonable administrative, technical, and physical safeguards to protect your personal information. However, no method of transmission over the internet is 100% secure."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:48},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Changes to This Policy"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Changes to This Policy"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"We may update this Privacy Policy periodically. Continued use of our services constitutes acceptance of any changes."})
       ]}),
       (0,j.jsx)("a",{href:"/",className:"btn btn-outline",children:"Return to the Institute"})
@@ -404,41 +404,41 @@ const EarningsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)($n,{}),
   (0,j.jsxs)("section",{style:{padding:"80px 24px 72px"},children:[
     (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
-      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--green-ink)",marginBottom:8},children:"Earnings Disclaimer"}),
+      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif)",color:"var(--green-ink)",marginBottom:8},children:"Earnings Disclaimer"}),
       (0,j.jsx)("p",{style:{fontSize:14,color:"var(--muted)",marginBottom:40},children:"Last Updated: May 13, 2026"}),
       (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:32},children:'The Best Travel Biz Institute™, a program operated by Sow Into Self Wellness & Travel Group, LLC ("Company," "we," "us," or "our"), provides executive education, training, coaching, tools, and resources designed to help travel professionals build and grow independent travel businesses. The information on this website, in our programs, and in any related materials is intended for educational and informational purposes only.'}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"No Guarantee of Results or Earnings"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"No Guarantee of Results or Earnings"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:16},children:"We do not guarantee, promise, or warrant any specific level of income, revenue, commissions, profits, sales, business growth, or success as a result of purchasing, enrolling in, or using any of our programs, courses, coaching, products, or services. Any earnings, revenue, or income statements, examples, testimonials, case studies, or figures referenced on this website or in our materials are illustrative only and should not be considered typical, average, exact, or promised results."}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The travel industry is competitive, dynamic, and influenced by economic conditions, consumer behavior, supplier relationships, geopolitical events, and other factors outside our control. Building a profitable travel business requires significant time, effort, skill, capital, and ongoing commitment."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Your Results Depend on You"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Your Results Depend on You"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8,marginBottom:16},children:"Your individual results will vary and depend on many factors, including but not limited to: your background, experience, work ethic, business acumen, financial resources, marketing efforts, ability to follow instructions, market conditions, niche selection, supplier and host relationships, and other circumstances unique to you and your business. We cannot and do not predict or guarantee what you will or will not achieve."}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"By engaging with our programs, you acknowledge and accept that you alone are responsible for your actions, decisions, and outcomes. Any decision you make to start, operate, or grow a travel business is your own, and you assume the risks associated with any such business venture."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Testimonials and Case Studies"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Testimonials and Case Studies"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"Any testimonials, success stories, or examples featured on this website or in our materials reflect the experiences of specific individuals. They are not intended to represent or guarantee that anyone else will achieve the same or similar results. The individuals featured have invested time and effort into applying what they learned, and their results are not typical."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Forward-Looking Statements"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Forward-Looking Statements"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"Materials on this site may contain forward-looking statements that reflect projections, opinions, or expectations about potential business outcomes. These statements are based on assumptions and are inherently uncertain. Actual results may differ materially from any projections or expectations expressed or implied."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Not Financial, Legal, or Tax Advice"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Not Financial, Legal, or Tax Advice"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"Nothing on this website or in our programs constitutes financial, legal, accounting, or tax advice. You should consult with qualified professionals before making any business, financial, legal, or tax decisions related to starting or operating a travel business."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"No Affiliation Representations"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"No Affiliation Representations"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"The Best Travel Biz Institute™ is an independent education and training program operated by Sow Into Self Wellness & Travel Group, LLC. We are not a host agency, travel consortium, or government regulatory body, and we do not control commissions, supplier policies, or third-party platforms that may affect your business outcomes."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Acceptance of This Disclaimer"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Acceptance of This Disclaimer"}),
         (0,j.jsx)("p",{style:{lineHeight:1.8},children:"By using this website and purchasing or enrolling in any of our programs, you acknowledge that you have read, understood, and agreed to this Earnings Disclaimer. If you do not agree, please do not use our website or purchase our programs."})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:48},children:[
-        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Contact Us"}),
+        (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:18,color:"var(--green-ink)",marginBottom:12},children:"Contact Us"}),
         (0,j.jsxs)("p",{style:{lineHeight:1.8},children:["If you have questions about this Earnings Disclaimer, please contact us at:",(0,j.jsx)("br",{}),"The Best Travel Biz Institute™",(0,j.jsx)("br",{}),"A program of Sow Into Self Wellness & Travel Group, LLC",(0,j.jsx)("br",{}),"Email: ",(0,j.jsx)("a",{href:"mailto:admin@thebesttravelbiz.com",style:{color:"var(--green-ink)"},children:"admin@thebesttravelbiz.com"})]})
       ]}),
       (0,j.jsx)("a",{href:"/",className:"btn btn-outline",children:"Return to the Institute"})
@@ -462,7 +462,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(22px,4vw,38px)",color:"var(--green-ink)",marginBottom:36,lineHeight:1.35},children:`Long before "travel agent to CEO" became a teaching framework, I was already building it in practice.`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--green-ink)",marginBottom:36,lineHeight:1.35},children:`Long before "travel agent to CEO" became a teaching framework, I was already building it in practice.`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:20,fontSize:17},children:`First inside the host-agency system. Then outside of it. But the pattern goes further back than that.`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:20,fontSize:17},children:`I've spent the last 25 years building purpose-driven institutions — beginning with a childcare center I founded at age 20, continuing through two decades of business consulting and executive leadership, and including the founding of a multi-generational performing arts non-profit and a quarter-century leading creative arts ministry work.`}),
     (0,j.jsxs)("p",{style:{lineHeight:1.9,marginBottom:20,fontSize:17},children:[`The pattern across every venture I've built has been the same: `,(0,j.jsx)("strong",{children:`intentional structures that develop people.`})]}),
@@ -472,7 +472,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--gold)",marginBottom:36},children:`The Travel-Industry Pioneer Years`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--gold)",marginBottom:36},children:`The Travel-Industry Pioneer Years`}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:`Years ago, while operating within a host-agency environment, I became the very first independent travel agent in the company to receive approval for my own independently branded website — outside of the host agency's standard replicated template system.`}),
     (0,j.jsxs)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:[`At a time when most agents operated entirely under the host's branding and infrastructure, I built `,(0,j.jsx)("strong",{style:{color:"var(--gold)"},children:`TheBestTravelBiz.com`}),` as my own business identity, web presence, and customer-facing brand.`]}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:`This mattered because it represented a different mindset.`}),
@@ -494,14 +494,14 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 (0,j.jsxs)("section",{style:{padding:"80px 24px",textAlign:"center"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:700},children:[
     (0,j.jsx)("div",{style:{width:60,height:3,background:"var(--gold)",margin:"0 auto 40px"}}),
-    (0,j.jsx)("blockquote",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,40px)",color:"var(--green-ink)",lineHeight:1.4,margin:"0 0 24px",fontStyle:"italic"},children:`"I wasn't just selling travel. I was building infrastructure."`}),
+    (0,j.jsx)("blockquote",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--green-ink)",lineHeight:1.4,margin:"0 0 24px",fontStyle:"italic"},children:`"I wasn't just selling travel. I was building infrastructure."`}),
     (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:17,fontStyle:"italic",color:"var(--muted)",lineHeight:1.8},children:`And that difference is the foundation of everything I teach today: the difference between participating in someone else's business and intentionally building a business you actually own.`}),
     (0,j.jsx)("div",{style:{width:60,height:3,background:"var(--gold)",margin:"40px auto 0"}})
   ]})
 ]}),
 (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--gold)",marginBottom:36},children:`The Professional Arc`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--gold)",marginBottom:36},children:`The Professional Arc`}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:`The travel industry was the natural intersection of two career arcs that had been developing in parallel for decades.`}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:`I earned my MBA and spent over 20 years in business consulting — work that taught me how to look at organizations structurally, identify the systems that produce results, and design frameworks that scale beyond any single operator.`}),
     (0,j.jsxs)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:[`I served as a `,(0,j.jsx)("strong",{style:{color:"var(--gold)"},children:`Centurion Membership Executive with American Express Travel`}),` — the invitation-only tier serving Amex's most exclusive cardholders — and held executive leadership inside a `,(0,j.jsx)("strong",{style:{color:"var(--gold)"},children:`Fortune 100 luxury travel and lifestyle department.`})]}),
@@ -512,7 +512,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--green-ink)",marginBottom:36},children:`The Year of Intentional Design`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--green-ink)",marginBottom:36},children:`The Year of Intentional Design`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:20,fontSize:17},children:`After stepping away from both corporate leadership and the host-agency system, I did something most founders skip:`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:20,fontSize:17},children:(0,j.jsx)("strong",{children:`I took a full year — not to launch quickly, but to research, refine, and design.`})}),
     (0,j.jsxs)("p",{style:{lineHeight:1.9,marginBottom:20,fontSize:17},children:[`I wanted to build something that addressed the structural gaps I had experienced firsthand and gave travel professionals a clearer, sustainable path to ownership. Not a course. Not a coaching program. `,(0,j.jsx)("strong",{children:`A real educational institution`}),` — with tiers, with progression, with measurable transformation.`]}),
@@ -522,7 +522,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--gold)",marginBottom:36},children:`What I Do Today`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--gold)",marginBottom:36},children:`What I Do Today`}),
     (0,j.jsxs)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:[`I currently operate `,(0,j.jsx)("strong",{style:{color:"var(--gold)"},children:`Sow Into Self Wellness & Luxury Travel Group`}),` — a women-only luxury wellness travel business where I personally host curated group experiences for intentional women investing in rest, restoration, and self-discovery.`]}),
     (0,j.jsxs)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:[`I'm not a former agent teaching from memory. `,(0,j.jsx)("strong",{style:{color:"var(--gold)"},children:`I'm an active travel CEO teaching what I do.`})]}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:`I host my own groups. I manage my own supplier relationships. I operate fully outside the host-agency model. Every commission I earn, I keep. The transition I now guide other professionals through is the transition I completed myself.`}),
@@ -532,7 +532,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--green-ink)",marginBottom:36},children:`The Pattern, Looking Back`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--green-ink)",marginBottom:36},children:`The Pattern, Looking Back`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:36,fontSize:17},children:`If you trace my work backwards, the pattern is unmistakable:`}),
     (0,j.jsxs)("div",{style:{display:"grid",gap:28},children:[
       (0,j.jsxs)("div",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:24},children:[(0,j.jsxs)("p",{style:{fontSize:17,lineHeight:1.8,margin:0},children:[(0,j.jsx)("strong",{children:`A childcare center at age 20`}),` — structured environments designed to develop children.`]})]}),
@@ -551,7 +551,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--gold)",marginBottom:36},children:`What I Stand For`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--gold)",marginBottom:36},children:`What I Stand For`}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:28,fontSize:17},children:`I lead each member of The Best Travel Biz Institute toward building a path to 100% commission through education, structure, and true business ownership —`}),
     (0,j.jsxs)("div",{style:{marginBottom:32},children:[
       (0,j.jsx)("p",{style:{color:"var(--gold)",fontFamily:"var(--serif)",fontSize:24,margin:"0 0 8px"},children:`without recruiting.`}),
@@ -568,7 +568,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{padding:"80px 24px",textAlign:"center"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:700},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,40px)",color:"var(--green-ink)",marginBottom:24},children:`The Conviction Underneath Everything`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--green-ink)",marginBottom:24},children:`The Conviction Underneath Everything`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:16,fontSize:18},children:`The Best Travel Biz Institute was built for travel professionals ready to move beyond dependency models and build ownership with structure, strategy, and intention.`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:24,fontSize:18},children:`Because long-term transformation is rarely accidental.`}),
     (0,j.jsx)("p",{style:{fontFamily:"var(--serif)",fontSize:36,color:"var(--green-ink)",fontWeight:700,margin:0},children:`It's built.`})
@@ -576,7 +576,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:680,textAlign:"center"},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--cream)",marginBottom:48},children:`Where to Go From Here`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--cream)",marginBottom:48},children:`Where to Go From Here`}),
     (0,j.jsx)("p",{style:{color:"rgba(250,246,238,0.7)",marginBottom:40,fontSize:13,letterSpacing:"0.2em",textTransform:"uppercase"},children:`Explore The Best Travel Biz Institute™`}),
     (0,j.jsxs)("div",{style:{display:"grid",gap:16},children:[
       (0,j.jsxs)("a",{href:"/",style:{display:"block",border:"1px solid rgba(212,175,100,0.5)",borderRadius:8,padding:"20px 24px",textAlign:"left",textDecoration:"none"},children:[
