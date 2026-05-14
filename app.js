@@ -453,7 +453,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsxs)("div",{className:"wrap about-hero-grid",style:{display:"grid",gridTemplateColumns:"1fr 260px",gap:48,alignItems:"center",maxWidth:900},children:[
     (0,j.jsxs)("div",{children:[
       
-      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif-display)",color:"var(--cream)",fontSize:"clamp(36px,6vw,72px)",margin:"0 0 16px",lineHeight:1.1},children:`Bobbie A. Self, MBA`}),
+      (0,j.jsx)("h1",{style:{fontFamily:"var(--serif)",color:"var(--cream)",fontSize:"clamp(36px,6vw,72px)",margin:"0 0 16px",lineHeight:1.1},children:`Bobbie A. Self, MBA`}),
       (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:22,fontStyle:"italic",color:"var(--gold)",margin:"0 0 12px"},children:`The Travel CEO Architect`}),
       (0,j.jsx)("p",{style:{color:"rgba(250,246,238,0.7)",fontSize:13,letterSpacing:"0.15em",textTransform:"uppercase"},children:`Founder, The Best Travel Biz Institute™`})
     ]}),
@@ -462,7 +462,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:"clamp(22px,4vw,38px)",color:"var(--green-ink)",marginBottom:36,lineHeight:1.35},children:`Long before "travel agent to CEO" became a teaching framework, I was already building it in practice.`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(22px,4vw,38px)",color:"var(--green-ink)",marginBottom:36,lineHeight:1.35},children:`Long before "travel agent to CEO" became a teaching framework, I was already building it in practice.`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:20,fontSize:17},children:`First inside the host-agency system. Then outside of it. But the pattern goes further back than that.`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:20,fontSize:17},children:`I've spent the last 25 years building purpose-driven institutions — beginning with a childcare center I founded at age 20, continuing through two decades of business consulting and executive leadership, and including the founding of a multi-generational performing arts non-profit and a quarter-century leading creative arts ministry work.`}),
     (0,j.jsxs)("p",{style:{lineHeight:1.9,marginBottom:20,fontSize:17},children:[`The pattern across every venture I've built has been the same: `,(0,j.jsx)("strong",{children:`intentional structures that develop people.`})]}),
@@ -472,7 +472,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:"clamp(24px,4vw,42px)",color:"var(--gold)",marginBottom:36},children:`The Travel-Industry Pioneer Years`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--gold)",marginBottom:36},children:`The Travel-Industry Pioneer Years`}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:`Years ago, while operating within a host-agency environment, I became the very first independent travel agent in the company to receive approval for my own independently branded website — outside of the host agency's standard replicated template system.`}),
     (0,j.jsxs)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:[`At a time when most agents operated entirely under the host's branding and infrastructure, I built `,(0,j.jsx)("strong",{style:{color:"var(--gold)"},children:`TheBestTravelBiz.com`}),` as my own business identity, web presence, and customer-facing brand.`]}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:`This mattered because it represented a different mindset.`}),
@@ -494,14 +494,14 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 (0,j.jsxs)("section",{style:{padding:"80px 24px",textAlign:"center"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:700},children:[
     (0,j.jsx)("div",{style:{width:60,height:3,background:"var(--gold)",margin:"0 auto 40px"}}),
-    (0,j.jsx)("blockquote",{style:{fontFamily:"var(--serif-display)",fontSize:"clamp(24px,4vw,40px)",color:"var(--green-ink)",lineHeight:1.4,margin:"0 0 24px",fontStyle:"italic"},children:`"I wasn't just selling travel. I was building infrastructure."`}),
+    (0,j.jsx)("blockquote",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,40px)",color:"var(--green-ink)",lineHeight:1.4,margin:"0 0 24px",fontStyle:"italic"},children:`"I wasn't just selling travel. I was building infrastructure."`}),
     (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:17,fontStyle:"italic",color:"var(--muted)",lineHeight:1.8},children:`And that difference is the foundation of everything I teach today: the difference between participating in someone else's business and intentionally building a business you actually own.`}),
     (0,j.jsx)("div",{style:{width:60,height:3,background:"var(--gold)",margin:"40px auto 0"}})
   ]})
 ]}),
 (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:"clamp(24px,4vw,42px)",color:"var(--gold)",marginBottom:36},children:`The Professional Arc`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--gold)",marginBottom:36},children:`The Professional Arc`}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:`The travel industry was the natural intersection of two career arcs that had been developing in parallel for decades.`}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:`I earned my MBA and spent over 20 years in business consulting — work that taught me how to look at organizations structurally, identify the systems that produce results, and design frameworks that scale beyond any single operator.`}),
     (0,j.jsxs)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:[`I served as a `,(0,j.jsx)("strong",{style:{color:"var(--gold)"},children:`Centurion Membership Executive with American Express Travel`}),` — the invitation-only tier serving Amex's most exclusive cardholders — and held executive leadership inside a `,(0,j.jsx)("strong",{style:{color:"var(--gold)"},children:`Fortune 100 luxury travel and lifestyle department.`})]}),
@@ -512,7 +512,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:"clamp(24px,4vw,42px)",color:"var(--green-ink)",marginBottom:36},children:`The Year of Intentional Design`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--green-ink)",marginBottom:36},children:`The Year of Intentional Design`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:20,fontSize:17},children:`After stepping away from both corporate leadership and the host-agency system, I did something most founders skip:`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:20,fontSize:17},children:(0,j.jsx)("strong",{children:`I took a full year — not to launch quickly, but to research, refine, and design.`})}),
     (0,j.jsxs)("p",{style:{lineHeight:1.9,marginBottom:20,fontSize:17},children:[`I wanted to build something that addressed the structural gaps I had experienced firsthand and gave travel professionals a clearer, sustainable path to ownership. Not a course. Not a coaching program. `,(0,j.jsx)("strong",{children:`A real educational institution`}),` — with tiers, with progression, with measurable transformation.`]}),
@@ -522,7 +522,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:"clamp(24px,4vw,42px)",color:"var(--gold)",marginBottom:36},children:`What I Do Today`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--gold)",marginBottom:36},children:`What I Do Today`}),
     (0,j.jsxs)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:[`I currently operate `,(0,j.jsx)("strong",{style:{color:"var(--gold)"},children:`Sow Into Self Wellness & Luxury Travel Group`}),` — a women-only luxury wellness travel business where I personally host curated group experiences for intentional women investing in rest, restoration, and self-discovery.`]}),
     (0,j.jsxs)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:[`I'm not a former agent teaching from memory. `,(0,j.jsx)("strong",{style:{color:"var(--gold)"},children:`I'm an active travel CEO teaching what I do.`})]}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:`I host my own groups. I manage my own supplier relationships. I operate fully outside the host-agency model. Every commission I earn, I keep. The transition I now guide other professionals through is the transition I completed myself.`}),
@@ -532,7 +532,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:"clamp(24px,4vw,42px)",color:"var(--green-ink)",marginBottom:36},children:`The Pattern, Looking Back`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--green-ink)",marginBottom:36},children:`The Pattern, Looking Back`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:36,fontSize:17},children:`If you trace my work backwards, the pattern is unmistakable:`}),
     (0,j.jsxs)("div",{style:{display:"grid",gap:28},children:[
       (0,j.jsxs)("div",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:24},children:[(0,j.jsxs)("p",{style:{fontSize:17,lineHeight:1.8,margin:0},children:[(0,j.jsx)("strong",{children:`A childcare center at age 20`}),` — structured environments designed to develop children.`]})]}),
@@ -551,12 +551,12 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:"clamp(24px,4vw,42px)",color:"var(--gold)",marginBottom:36},children:`What I Stand For`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--gold)",marginBottom:36},children:`What I Stand For`}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:28,fontSize:17},children:`I lead each member of The Best Travel Biz Institute toward building a path to 100% commission through education, structure, and true business ownership —`}),
     (0,j.jsxs)("div",{style:{marginBottom:32},children:[
-      (0,j.jsx)("p",{style:{color:"var(--gold)",fontFamily:"var(--serif-display)",fontSize:24,margin:"0 0 8px"},children:`without recruiting.`}),
-      (0,j.jsx)("p",{style:{color:"var(--gold)",fontFamily:"var(--serif-display)",fontSize:24,margin:"0 0 8px"},children:`without downlines.`}),
-      (0,j.jsx)("p",{style:{color:"var(--gold)",fontFamily:"var(--serif-display)",fontSize:24,margin:0},children:`without dependence on host-agency models.`})
+      (0,j.jsx)("p",{style:{color:"var(--gold)",fontFamily:"var(--serif)",fontSize:24,margin:"0 0 8px"},children:`without recruiting.`}),
+      (0,j.jsx)("p",{style:{color:"var(--gold)",fontFamily:"var(--serif)",fontSize:24,margin:"0 0 8px"},children:`without downlines.`}),
+      (0,j.jsx)("p",{style:{color:"var(--gold)",fontFamily:"var(--serif)",fontSize:24,margin:0},children:`without dependence on host-agency models.`})
     ]}),
     (0,j.jsx)("p",{style:{color:"rgba(250,246,238,0.8)",fontStyle:"italic",marginBottom:36,fontSize:16},children:`This is independent ownership in its most structural form.`}),
     (0,j.jsxs)("div",{style:{display:"grid",gap:24},children:[
@@ -568,15 +568,15 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]}),
 (0,j.jsxs)("section",{style:{padding:"80px 24px",textAlign:"center"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:700},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:"clamp(24px,4vw,40px)",color:"var(--green-ink)",marginBottom:24},children:`The Conviction Underneath Everything`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,40px)",color:"var(--green-ink)",marginBottom:24},children:`The Conviction Underneath Everything`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:16,fontSize:18},children:`The Best Travel Biz Institute was built for travel professionals ready to move beyond dependency models and build ownership with structure, strategy, and intention.`}),
     (0,j.jsx)("p",{style:{lineHeight:1.9,marginBottom:24,fontSize:18},children:`Because long-term transformation is rarely accidental.`}),
-    (0,j.jsx)("p",{style:{fontFamily:"var(--serif-display)",fontSize:36,color:"var(--green-ink)",fontWeight:700,margin:0},children:`It's built.`})
+    (0,j.jsx)("p",{style:{fontFamily:"var(--serif)",fontSize:36,color:"var(--green-ink)",fontWeight:700,margin:0},children:`It's built.`})
   ]})
 ]}),
 (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:680,textAlign:"center"},children:[
-    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif-display)",fontSize:"clamp(24px,4vw,42px)",color:"var(--cream)",marginBottom:48},children:`Where to Go From Here`}),
+    (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(24px,4vw,42px)",color:"var(--cream)",marginBottom:48},children:`Where to Go From Here`}),
     (0,j.jsx)("p",{style:{color:"rgba(250,246,238,0.7)",marginBottom:40,fontSize:13,letterSpacing:"0.2em",textTransform:"uppercase"},children:`Explore The Best Travel Biz Institute™`}),
     (0,j.jsxs)("div",{style:{display:"grid",gap:16},children:[
       (0,j.jsxs)("a",{href:"/",style:{display:"block",border:"1px solid rgba(212,175,100,0.5)",borderRadius:8,padding:"20px 24px",textAlign:"left",textDecoration:"none"},children:[
