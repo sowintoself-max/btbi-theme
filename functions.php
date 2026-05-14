@@ -115,17 +115,18 @@ add_action('init', function () {
 $tbtb_seo_data = [
 
     '/' => [
-        'title'               => '...',
-        'meta_description'    => '...',
+        'title'               => 'The Best Travel Biz Institute™ | Travel CEO Education for Independent Agents',
+        'meta_description'    => 'Executive education for travel entrepreneurs. Stop renting a desk — learn how to own the building with structure, ownership, and systems that build long-term wealth.',
         'canonical'           => 'https://thebesttravelbiz.com/',
-        'og_title'            => '...',
-        'og_description'      => '...',
-        'og_image'            => '...',
+        'og_title'            => 'The Best Travel Biz Institute™',
+        'og_description'      => 'Executive education for travel entrepreneurs. Stop renting a desk — learn how to own the building with structure, ownership, and systems that build long-term wealth.',
+        'og_image'            => '',  // fill in absolute URL to branded social image when ready
         'og_type'             => 'website',
-        'twitter_title'       => '...',
-        'twitter_description' => '...',
-        'twitter_image'       => '...',
-        'robots'              => 'index, follow',
+        'og_url'              => 'https://thebesttravelbiz.com/',
+        'twitter_title'       => 'The Best Travel Biz Institute™',
+        'twitter_description' => 'Executive education for travel entrepreneurs. From travel agent to CEO — with structure, ownership, and systems that build long-term wealth.',
+        'twitter_image'       => '',  // fill in when og_image is ready
+        'robots'              => 'index, follow, max-image-preview:large',
     ],
 
 ];
@@ -158,7 +159,10 @@ function tbtb_seo(string $key, $fallback = '') {
     global $tbtb_seo_data;
     if (!btbi_is_react_page()) return $fallback;
     $route = tbtb_get_route();
-    return $tbtb_seo_data[$route][$key] ?? $fallback;
+    // ?? handles missing keys without a notice; ?: then catches empty strings
+    // so an empty og_image/twitter_image falls back to Yoast's default instead
+    // of outputting an empty meta tag.
+    return ($tbtb_seo_data[$route][$key] ?? null) ?: $fallback;
 }
 
 
