@@ -161,8 +161,22 @@ const CEOVaultPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Early access to Institute opportunities & resources"})
       ]}),
       (0,j.jsxs)("div",{style:{background:"var(--green-ink)",borderRadius:12,padding:"40px 32px",textAlign:"center"},children:[
-        (0,j.jsxs)("p",{style:{fontFamily:"var(--serif-display)",fontSize:48,color:"var(--cream)",margin:"0 0 4px"},children:["$997",(0,j.jsx)("small",{style:{fontSize:16,letterSpacing:"0.1em"},children:" / MO · FOUNDING MEMBER"})]}),
-        (0,j.jsx)("p",{style:{color:"var(--gold)",fontFamily:"var(--serif-body)",fontStyle:"italic",fontSize:16,margin:"16px 0 24px"},children:"Completion of the Travel Business Snapshot™ is required before VIP consideration."}),
+        (0,j.jsx)("p",{style:{fontFamily:"var(--sans)",fontSize:11,letterSpacing:"0.2em",textTransform:"uppercase",color:"var(--gold)",marginBottom:20},children:"Payment Options"}),
+        (0,j.jsxs)("div",{style:{display:"grid",gap:12,marginBottom:28},children:[
+          (0,j.jsxs)("div",{style:{border:"1px solid rgba(212,175,100,0.4)",borderRadius:6,padding:"16px 20px",textAlign:"left",display:"flex",justifyContent:"space-between",alignItems:"center"},children:[
+            (0,j.jsx)("span",{style:{color:"var(--cream)",fontSize:14},children:"Monthly"}),
+            (0,j.jsx)("span",{style:{fontFamily:"var(--serif-display)",color:"var(--gold)",fontSize:20},children:"$997/mo for 12 months"})
+          ]}),
+          (0,j.jsxs)("div",{style:{border:"1px solid rgba(212,175,100,0.4)",borderRadius:6,padding:"16px 20px",textAlign:"left",display:"flex",justifyContent:"space-between",alignItems:"center"},children:[
+            (0,j.jsxs)("span",{style:{color:"var(--cream)",fontSize:14},children:["Quarterly",(0,j.jsx)("span",{style:{color:"var(--gold)",fontSize:11,marginLeft:8},children:"saves $1,000"})]}),
+            (0,j.jsx)("span",{style:{fontFamily:"var(--serif-display)",color:"var(--gold)",fontSize:20},children:"$2,891/quarter"})
+          ]}),
+          (0,j.jsxs)("div",{style:{border:"1px solid var(--gold)",borderRadius:6,padding:"16px 20px",textAlign:"left",background:"rgba(212,175,100,0.08)",display:"flex",justifyContent:"space-between",alignItems:"center"},children:[
+            (0,j.jsxs)("span",{style:{color:"var(--cream)",fontSize:14},children:["Pay-in-Full",(0,j.jsx)("span",{style:{color:"var(--gold)",fontSize:11,marginLeft:8},children:"saves $1,967"})]}),
+            (0,j.jsx)("span",{style:{fontFamily:"var(--serif-display)",color:"var(--gold)",fontSize:20},children:"$9,997"})
+          ]})
+        ]}),
+        (0,j.jsx)("p",{style:{color:"var(--gold)",fontFamily:"var(--serif-body)",fontStyle:"italic",fontSize:16,margin:"0 0 24px"},children:"Completion of the Travel Business Snapshot™ is required before VIP consideration."}),
         (0,j.jsx)("a",{href:"/snapshot",className:"btn btn-gold",children:"Complete the Snapshot for VIP Consideration"})
       ]})
     ]})
@@ -183,7 +197,7 @@ const TermsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
         (0,j.jsxs)("ul",{style:{paddingLeft:24,lineHeight:2},children:[
           (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Free 14-Day Challenge:"})," Access to community, training, and worksheets."]}),
           (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"Premium Membership ($97/mo or $933/yr):"})," LLC setup guidance, compliance education, and live group coaching."]}),
-          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"VIP Membership ($997/mo or $9,970/yr):"})," 100% Commission Pathway guidance, monthly group trainings, and quarterly private reviews."]})
+          (0,j.jsxs)("li",{children:[(0,j.jsx)("strong",{children:"VIP Membership ($997/mo · $2,891/quarter · $9,997 pay-in-full):"})," 100% Commission Pathway guidance, monthly group trainings, and quarterly private reviews."]})
         ]})
       ]}),
       (0,j.jsxs)("section",{style:{marginBottom:32},children:[
