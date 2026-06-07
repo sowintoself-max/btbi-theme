@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Day 05 - Choose Your Niche - Travel Agent to CEO Challenge</title>
+<meta name="robots" content="noindex, nofollow" />
+<meta name="googlebot" content="noindex, nofollow" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500;600;700&display=swap" />
+<style>
+:root{
+  --green:#0C563B;
+  --green-deep:#08402B;
+  --green-ink:#04261A;
+  --gold:#C9A961;
+  --gold-soft:#E2CE9B;
+  --gold-deep:#A88841;
+  --cream:#FAF6EE;
+  --cream-2:#F3ECDF;
+  --paper:#FFFFFF;
+  --ink:#141414;
+  --ink-2:#3a3a3a;
+  --muted:#7a7468;
+  --line:rgba(8,40,28,.18);
+  --serif:"Cinzel", "Cormorant Garamond", serif;
+  --serif-body:"Cormorant Garamond", Georgia, serif;
+  --sans:"Montserrat", system-ui, sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#e9e3d4;color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+
+/* ---------- Toolbar (screen only) ---------- */
+.toolbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:14px 24px;background:var(--green-ink);color:var(--cream);box-shadow:0 8px 20px -10px rgba(0,0,0,.4)}
+.toolbar .tb-l{display:flex;align-items:center;gap:14px;font-family:var(--serif);letter-spacing:.18em;font-size:12px;text-transform:uppercase;color:var(--gold-soft)}
+.toolbar .tb-l .dot{width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.toolbar .tb-r{display:flex;gap:10px}
+.toolbar button{font:inherit;font-family:var(--sans);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;padding:10px 18px;border:1px solid var(--gold);background:transparent;color:var(--gold-soft);cursor:pointer;transition:all .2s}
+.toolbar button:hover{background:var(--gold);color:var(--green-ink)}
+.toolbar button.primary{background:var(--gold);color:var(--green-ink)}
+.toolbar button.primary:hover{background:var(--gold-soft)}
+
+/* ---------- Page shell ---------- */
+.deck{padding:40px 20px 80px}
+.page{
+  width:8.5in;
+  min-height:11in;
+  margin:0 auto 36px;
+  background:var(--cream);
+  position:relative;
+  box-shadow:0 30px 70px -20px rgba(8,40,28,.35);
+  overflow:hidden;
+}
+.page-inner{padding:.55in .65in .55in .65in;position:relative;z-index:2;min-height:11in;display:flex;flex-direction:column}
+
+/* Cover corner geometry — echoes the workbook cover */
+.geo{position:absolute;pointer-events:none;z-index:0}
+.geo svg{display:block}
+.geo-tl{top:0;left:0;width:1.6in;height:1.1in}
+.geo-br{bottom:0;right:0;width:1.4in;height:1in}
+.geo-strip{position:absolute;top:0;right:0;width:.18in;height:100%;background:linear-gradient(180deg,var(--gold) 0%,var(--gold-deep) 100%)}
+
+/* ---------- Header ---------- */
+.hdr{display:flex;align-items:center;justify-content:space-between;padding-bottom:14px;border-bottom:1px solid rgba(8,40,28,.16);position:relative;z-index:2}
+.hdr-brand{display:flex;align-items:center;gap:14px}
+.hdr-shield{width:46px;height:46px;display:grid;place-items:center;flex:0 0 46px}
+.hdr-shield svg{display:block;width:100%;height:100%}
+.hdr-name{display:flex;flex-direction:column;line-height:1}
+.hdr-name .n1{font-family:var(--serif);font-size:11.5px;letter-spacing:.22em;color:var(--green-ink);font-weight:600;text-transform:uppercase}
+.hdr-name .n2{font-family:var(--sans);font-size:8.5px;letter-spacing:.3em;color:var(--gold-deep);font-weight:600;text-transform:uppercase;margin-top:5px}
+.hdr-day{text-align:right}
+.hdr-day .d1{font-family:var(--serif);font-size:10.5px;letter-spacing:.32em;color:var(--gold-deep);font-weight:600;text-transform:uppercase}
+.hdr-day .d2{font-family:var(--serif);font-size:14px;letter-spacing:.22em;color:var(--green-ink);font-weight:600;margin-top:4px}
+
+/* ---------- Title block ---------- */
+.title-block{margin-top:12px;position:relative;z-index:2}
+.eyebrow{font-family:var(--sans);font-size:9.5px;letter-spacing:.42em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;display:inline-flex;align-items:center;gap:12px}
+.eyebrow::before{content:"";width:28px;height:1px;background:var(--gold)}
+.title-block h1{font-family:var(--serif);font-weight:700;color:var(--green-ink);margin:12px 0 6px;font-size:46px;letter-spacing:.02em;line-height:1.02}
+.title-block .sub{font-family:var(--serif-body);font-style:italic;font-size:22px;color:var(--green);line-height:1.2;margin:0}
+.title-block .rule{margin-top:14px;width:64px;height:1px;background:var(--gold)}
+
+/* ---------- Welcome ---------- */
+.welcome{margin-top:10px;position:relative;z-index:2}
+.welcome h2{font-family:var(--serif);font-size:13px;letter-spacing:.32em;text-transform:uppercase;color:var(--green);font-weight:600;margin:0 0 10px}
+.welcome p{font-family:var(--serif-body);font-size:15px;line-height:1.4;color:var(--ink-2);margin:0;max-width:6.6in}
+
+/* ---------- Compare table ---------- */
+.section-tag{display:flex;align-items:center;gap:14px;margin:12px 0 6px;position:relative;z-index:2}
+.section-tag .num{font-family:var(--serif);font-size:13px;letter-spacing:.32em;color:var(--gold-deep);font-weight:700;padding-right:14px;border-right:1px solid var(--gold)}
+.section-tag .ttl{font-family:var(--serif);font-size:14px;letter-spacing:.28em;text-transform:uppercase;color:var(--green-ink);font-weight:600}
+
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid rgba(8,40,28,.18);position:relative;z-index:2;background:var(--paper)}
+.compare-col{padding:20px 22px 22px}
+.compare-col.agent{background:#fbf7ed;border-right:1px solid rgba(8,40,28,.16)}
+.compare-col.owner{background:var(--green);color:var(--cream)}
+.compare-col .ch{font-family:var(--serif);font-size:10.5px;letter-spacing:.36em;text-transform:uppercase;font-weight:700;color:var(--gold-deep);margin-bottom:4px}
+.compare-col.owner .ch{color:var(--gold)}
+.compare-col h3{font-family:var(--serif);font-size:18px;font-weight:600;color:var(--green-ink);margin:0 0 14px;letter-spacing:.04em}
+.compare-col.owner h3{color:var(--cream)}
+.compare-col ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:11px}
+.compare-col li{font-family:var(--serif-body);font-style:italic;font-size:14.5px;line-height:1.4;color:var(--ink-2);padding-left:18px;position:relative}
+.compare-col li::before{content:"";position:absolute;left:0;top:9px;width:8px;height:1px;background:var(--gold)}
+.compare-col.owner li{color:rgba(250,246,238,.88)}
+.compare-col.owner li::before{background:var(--gold)}
+
+/* ---------- Footer ---------- */
+.foot{margin-top:auto;padding:18px 16px 4px;border-top:1px solid rgba(8,40,28,.14);display:flex;justify-content:space-between;align-items:flex-end;font-family:var(--sans);font-size:9px;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);font-weight:600;position:relative;z-index:3;background:var(--cream)}
+.foot .l{display:flex;flex-direction:column;gap:4px;letter-spacing:.16em;padding-right:32px}
+.foot .l .a{color:var(--green-ink);font-weight:700}
+.foot .pg{font-family:var(--serif);font-size:11px;letter-spacing:.32em;color:var(--gold-deep)}
+
+/* ---------- Page 2 specific ---------- */
+.decl{margin-top:14px;position:relative;z-index:2}
+.decl-card{background:var(--paper);border:1px solid rgba(8,40,28,.18);padding:18px 24px;position:relative;box-shadow:0 14px 30px -16px rgba(8,40,28,.25)}
+.decl-card::before{content:"";position:absolute;inset:0;border:1px solid rgba(201,169,97,.25);margin:6px;pointer-events:none}
+.decl-card .lbl{font-family:var(--sans);font-size:9px;letter-spacing:.42em;text-transform:uppercase;color:var(--gold-deep);font-weight:700}
+.decl-card .q-open,.decl-card .q-close{font-family:var(--serif);color:var(--gold);font-size:30px;line-height:0;vertical-align:-8px}
+.decl-card blockquote{font-family:var(--serif-body);font-style:italic;font-size:20px;line-height:1.4;color:var(--green-ink);margin:14px 0 0;text-align:center;max-width:6in;margin-left:auto;margin-right:auto;font-weight:500}
+
+/* Field rows */
+.field{margin-top:4px;position:relative;z-index:2}
+.field-q{font-family:var(--serif);font-size:13px;letter-spacing:.04em;color:var(--green-ink);font-weight:600;margin:0 0 4px;line-height:1.35}
+.field-q .qn{font-family:var(--serif);font-size:11.5px;letter-spacing:.32em;color:var(--gold-deep);font-weight:700;margin-right:10px;text-transform:uppercase}
+.field-hint{font-family:var(--serif-body);font-style:italic;font-size:13.5px;color:var(--muted);margin:0 0 10px}
+.field-input{
+  width:100%;
+  background:transparent;
+  border:none;
+  border-bottom:none;
+  font-family:var(--serif-body);
+  font-size:14px;
+  color:var(--green-ink);
+  resize:none;
+  padding:0;
+  line-height:24px;
+  background-image:repeating-linear-gradient(transparent 0 23px, rgba(8,40,28,.22) 23px 24px);
+  background-attachment:local;
+  outline:none;
+}
+.field-input:focus{background-image:repeating-linear-gradient(transparent 0 23px, var(--gold) 23px 24px)}
+.field-input.lines-2{height:48px}
+.field-input.lines-3{height:72px}
+.field-input.lines-4{height:96px}
+.field-input.lines-5{height:120px}
+
+.sign-row{display:grid;grid-template-columns:1fr 1.6in;gap:24px;margin-top:8px;align-items:end}
+.sign-row .label{font-family:var(--sans);font-size:9px;letter-spacing:.32em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;margin-bottom:4px;display:block}
+.sign-line{height:28px;border-bottom:1px solid rgba(8,40,28,.4);font-family:var(--serif-body);font-style:italic;font-size:15px;color:var(--green-ink);padding:0 4px;background:transparent;outline:none;width:100%}
+.sign-line:focus{border-color:var(--gold-deep)}
+
+.commit{margin-top:10px;background:rgba(12,86,59,.05);border-left:3px solid var(--gold);padding:14px 20px;position:relative;z-index:2}
+.commit .stem{font-family:var(--serif-body);font-style:italic;font-size:15px;color:var(--green-ink);margin:0 0 6px;line-height:1.5}
+.commit .stem .blank{display:inline-block;min-width:60%;border-bottom:1px solid var(--gold-deep)}
+.commit .input{margin-top:6px}
+
+.action{margin-top:10px;display:flex;align-items:flex-start;gap:16px;position:relative;z-index:2}
+.action .icon{flex:0 0 38px;width:38px;height:38px;border-radius:50%;background:var(--green);color:var(--gold);display:grid;place-items:center;font-family:var(--serif);font-size:14px;font-weight:700;letter-spacing:.04em}
+.action .body{flex:1}
+.action .body h4{font-family:var(--serif);font-size:13px;letter-spacing:.28em;text-transform:uppercase;color:var(--green-ink);font-weight:700;margin:0 0 4px}
+.action .body p{font-family:var(--serif-body);font-style:italic;font-size:14.5px;color:var(--ink-2);margin:0 0 5px;line-height:1.5}
+.action .body .prompt{font-family:var(--serif-body);font-size:14.5px;color:var(--green-ink);margin:0;padding:8px 12px;background:var(--paper);border:1px dashed rgba(201,169,97,.6)}
+.action .body .prompt .blank{display:inline-block;min-width:55%;border-bottom:1px solid rgba(8,40,28,.35)}
+
+/* Italic deep-green instruction line (declarations & commitments) */
+.instruct{font-family:var(--serif-body);font-style:italic;font-size:14.5px;color:var(--green);margin:0 0 5px;line-height:1.5;max-width:6.4in}
+
+/* Reality-check list — true fillable checkboxes */
+.check-list{margin-top:4px;display:flex;flex-direction:column;position:relative;z-index:2;border-top:1px solid rgba(8,40,28,.14)}
+.check-row{display:grid;grid-template-columns:30px 1fr;gap:14px;padding:3px 4px;border-bottom:1px solid rgba(8,40,28,.14);align-items:center}
+.check-box{appearance:none;-webkit-appearance:none;width:22px;height:22px;border:1.5px solid var(--green);background:var(--paper);cursor:pointer;justify-self:center;margin:0;position:relative;flex:0 0 22px}
+.check-box:checked::after{content:"\2713";position:absolute;inset:0;display:grid;place-items:center;font-family:var(--serif);color:var(--gold-deep);font-weight:700;font-size:16px;line-height:1}
+.check-row label{font-family:var(--serif-body);font-size:14.5px;color:var(--ink-2);margin:0;line-height:1.4;font-style:italic;cursor:pointer}
+
+/* Cream / gold-left callout (reassurance + pull quote family) */
+.callout{margin-top:10px;background:rgba(12,86,59,.05);border-left:3px solid var(--gold);padding:11px 18px;position:relative;z-index:2}
+.callout p{font-family:var(--serif-body);font-style:italic;font-size:15px;line-height:1.5;color:var(--green-ink);margin:0;max-width:6.4in}
+.pull{margin-top:10px;padding:12px 18px;background:rgba(12,86,59,.05);border-left:3px solid var(--gold);position:relative;z-index:2}
+.pull p{font-family:var(--serif-body);font-style:italic;font-size:15.5px;line-height:1.5;color:var(--green-ink);margin:0;max-width:6.4in}
+
+/* Write-in prompt label (no question number) */
+.prompt-q{font-family:var(--serif);font-size:13.5px;letter-spacing:.02em;color:var(--green-ink);font-weight:600;margin:0 0 4px;line-height:1.35}
+
+/* ===== Day 3 additions ===== */
+/* Two-column vision table */
+.vtable{border:1px solid var(--line);position:relative;z-index:2;margin-top:6px;background:var(--paper)}
+.vrow{display:grid;grid-template-columns:1.7in 1fr;border-bottom:1px solid var(--line)}
+.vrow:last-child{border-bottom:none}
+.vrow .cat{background:#fbf7ed;border-right:1px solid var(--line);padding:12px 14px;display:flex;align-items:center}
+.vrow .cat span{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--green);font-weight:700;line-height:1.35}
+.vrow .resp{padding:11px 16px}
+.vrow .resp .pr{font-family:var(--serif-body);font-style:italic;font-size:13px;color:var(--muted);margin:0 0 8px;line-height:1.4}
+.vline{width:100%;border:none;border-bottom:1px solid rgba(8,40,28,.32);background:transparent;font-family:var(--serif-body);font-size:14px;color:var(--green-ink);outline:none;padding:0 2px 5px;line-height:1.4}
+.vline:focus{border-color:var(--gold-deep)}
+/* Inline Yes / No / Maybe */
+.opts{display:flex;gap:18px;align-items:center;margin:0 0 8px;flex-wrap:wrap}
+.opts label{font-family:var(--serif-body);font-style:italic;font-size:13.5px;color:var(--ink-2);display:flex;align-items:center;gap:7px;cursor:pointer}
+.cb-sm{appearance:none;-webkit-appearance:none;width:16px;height:16px;border:1.5px solid var(--green);background:var(--paper);cursor:pointer;position:relative;margin:0;flex:0 0 16px}
+.cb-sm:checked::after{content:"\2713";position:absolute;inset:0;display:grid;place-items:center;font-size:11px;color:var(--gold-deep);font-weight:700;font-family:var(--serif)}
+/* Guided sentence builder */
+.brow{display:flex;flex-wrap:wrap;align-items:flex-end;gap:6px 10px;margin-top:18px}
+.brow .lead{font-family:var(--serif-body);font-style:italic;font-size:15.5px;color:var(--green-ink);line-height:1.5;white-space:nowrap;flex:0 0 auto}
+.brow input{flex:1 1 220px;min-width:200px;border:none;border-bottom:1px solid rgba(8,40,28,.4);background:transparent;font-family:var(--serif-body);font-size:15px;color:var(--green-ink);outline:none;padding:0 2px 5px}
+.brow input:focus{border-color:var(--gold-deep)}
+/* Vision-statement declaration label */
+.commit .vlabel{font-family:var(--sans);font-size:9px;letter-spacing:.42em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;margin:0 0 8px}
+/* Optional bonus note */
+.bonus{font-family:var(--serif-body);font-style:italic;font-size:12.5px;color:var(--muted);margin-top:10px;line-height:1.5}
+/* Taller write-in fields */
+.field-input.lines-6{height:144px}
+.field-input.lines-7{height:168px}
+.field-input.lines-8{height:192px}
+/* Page-bottom pull quote + footer anchoring */
+.pquote{margin-top:auto;padding-top:16px;text-align:center;position:relative;z-index:2}
+.pquote::before{content:"";display:block;width:48px;height:1px;background:var(--gold);margin:0 auto 14px}
+.pquote p{font-family:var(--serif-body);font-style:italic;font-size:16px;line-height:1.45;color:var(--green);margin:0 auto;max-width:5.6in}
+.foot{margin-top:14px}
+
+/* ===== Day 4 additions ===== */
+/* Name brainstorm grid */
+.ngrid{border:1px solid var(--line);margin-top:6px;background:var(--paper);position:relative;z-index:2}
+.ng-h,.ng-r{display:grid;grid-template-columns:1.5in 1fr 1fr}
+.ng-h{background:var(--green);color:var(--cream)}
+.ng-h span{padding:7px 10px;font-family:var(--sans);font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;border-right:1px solid rgba(250,246,238,.2)}
+.ng-h span:last-child{border-right:none}
+.ng-r{border-top:1px solid var(--line)}
+.ng-r > div{padding:7px 10px;border-right:1px solid var(--line);display:flex;align-items:center;gap:7px}
+.ng-r > div:last-child{border-right:none}
+.ng-n{font-family:var(--serif);color:var(--gold-deep);font-weight:700;font-size:11.5px;flex:0 0 auto}
+.gline{border:none;border-bottom:1px solid rgba(8,40,28,.25);background:transparent;font-family:var(--serif-body);font-size:13px;color:var(--green-ink);outline:none;width:100%;padding:1px 0 3px}
+.gline:focus{border-color:var(--gold-deep)}
+/* Availability checklist */
+.atable{border:1px solid var(--line);margin-top:6px;background:var(--paper);position:relative;z-index:2}
+.a-h,.a-r{display:grid;grid-template-columns:2.05in 1.85in 1fr}
+.a-h{background:var(--green);color:var(--cream)}
+.a-h span{padding:7px 10px;font-family:var(--sans);font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;border-right:1px solid rgba(250,246,238,.2)}
+.a-h span:last-child{border-right:none}
+.a-r{border-top:1px solid var(--line)}
+.a-r > div{padding:8px 10px;border-right:1px solid var(--line)}
+.a-r > div:last-child{border-right:none}
+.a-r .alabel{font-family:var(--serif-body);font-size:12.5px;color:var(--green-ink);font-style:italic;display:flex;align-items:center}
+.a-stat{display:flex;flex-direction:column;gap:5px;justify-content:center}
+.a-stat label{font-family:var(--serif-body);font-style:italic;font-size:11.5px;color:var(--ink-2);display:flex;align-items:center;gap:6px;cursor:pointer}
+.a-note{display:flex;align-items:center}
+.a-note input{border:none;border-bottom:1px solid rgba(8,40,28,.25);background:transparent;font-family:var(--serif-body);font-size:12.5px;color:var(--green-ink);outline:none;width:100%;padding:1px 0 3px}
+.a-note input:focus{border-color:var(--gold-deep)}
+/* Five CEO questions */
+.qtable{margin-top:8px;border-top:2px solid var(--gold-deep);border-bottom:2px solid var(--gold-deep);background:rgba(12,86,59,.05);position:relative;z-index:2}
+.q-h,.q-r{display:grid;grid-template-columns:1fr 0.5in 0.5in 1.65in}
+.q-h{background:rgba(12,86,59,.1)}
+.q-h span{padding:6px 10px;font-family:var(--sans);font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--green);text-align:center}
+.q-h span:first-child{text-align:left}
+.q-r{border-top:1px solid rgba(8,40,28,.14)}
+.q-r > div{padding:8px 10px;display:flex;align-items:center}
+.q-r .qq{font-family:var(--serif-body);font-size:13px;color:var(--green-ink);line-height:1.35;gap:8px}
+.q-r .qq b{font-family:var(--serif);color:var(--gold-deep);font-weight:700;flex:0 0 auto}
+.q-r .qc{justify-content:center}
+.q-r .q-note input{border:none;border-bottom:1px solid rgba(8,40,28,.25);background:transparent;font-family:var(--serif-body);font-size:12px;color:var(--green-ink);outline:none;width:100%;padding:1px 0 3px}
+.q-r .q-note input:focus{border-color:var(--gold-deep)}
+/* Final business name */
+.nameline{width:100%;border:none;border-bottom:2px solid var(--gold-deep);background:transparent;font-family:var(--serif);font-size:22px;color:var(--green-ink);text-align:center;padding:8px 4px 10px;outline:none;letter-spacing:.02em}
+.nameline:focus{border-color:var(--green)}
+/* inline single-field with label */
+.inline-field{margin-top:6px;position:relative;z-index:2}
+.inline-field .il{font-family:var(--serif);font-size:13px;letter-spacing:.02em;color:var(--green-ink);font-weight:600;margin:0 0 5px;display:block}
+.inline-field .vline{max-width:none}
+
+/* ===== Day 5 additions ===== */
+/* Elegant niche list */
+.nichelist{margin-top:6px;padding:14px 22px;background:var(--paper);border:1px solid var(--line);text-align:center;position:relative;z-index:2}
+.nichelist p{font-family:var(--serif-body);font-size:15.5px;color:var(--green-ink);line-height:2;margin:0}
+.nichelist .sep{color:var(--gold-deep);margin:0 9px;font-weight:600}
+.nichelist .nm{white-space:nowrap}
+/* Validation test (5-column) */
+.vtest{margin-top:6px;border-top:2px solid var(--gold-deep);border-bottom:2px solid var(--gold-deep);background:rgba(12,86,59,.05);position:relative;z-index:2}
+.vt-h,.vt-r{display:grid;grid-template-columns:1.15in 1fr 0.42in 0.42in 1.15in}
+.vt-h{background:rgba(12,86,59,.1)}
+.vt-h span{padding:6px 9px;font-family:var(--sans);font-size:8px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--green);text-align:center}
+.vt-h span:nth-child(1),.vt-h span:nth-child(2){text-align:left}
+.vt-r{border-top:1px solid rgba(8,40,28,.14)}
+.vt-r > div{padding:5px 9px;display:flex;align-items:center}
+.vt-r .vf{font-family:var(--sans);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--green);font-weight:700;line-height:1.3}
+.vt-r .vq{font-family:var(--serif-body);font-size:12.5px;color:var(--green-ink);line-height:1.35}
+.vt-r .vc{justify-content:center}
+.vt-r .vn input{border:none;border-bottom:1px solid rgba(8,40,28,.25);background:transparent;font-family:var(--serif-body);font-size:12px;color:var(--green-ink);outline:none;width:100%;padding:1px 0 3px}
+.vt-r .vn input:focus{border-color:var(--gold-deep)}
+/* Decision-guide tiers */
+.tiers{margin-top:10px;background:rgba(201,169,97,.1);border-left:3px solid var(--gold-deep);padding:14px 20px;position:relative;z-index:2}
+.tiers .tier{font-family:var(--serif-body);font-size:14px;color:var(--green-ink);line-height:1.5;margin:0 0 8px;display:flex;gap:10px}
+.tiers .tier:last-child{margin-bottom:0}
+.tiers .tier b{font-family:var(--serif);color:var(--gold-deep);font-weight:700;flex:0 0 auto}
+/* Vertical option list */
+.opts-v{display:flex;flex-direction:column;gap:7px;margin:0 0 4px}
+.opts-v label{font-family:var(--serif-body);font-style:italic;font-size:14px;color:var(--ink-2);display:flex;align-items:center;gap:9px;cursor:pointer}
+/* CEO authority statement (member-spoken declaration) */
+.authority{margin-top:6px;background:rgba(12,86,59,.05);border-left:3px solid var(--gold);padding:20px 26px;position:relative;z-index:2}
+.authority p{font-family:var(--serif-body);font-style:italic;font-size:16.5px;line-height:1.5;color:var(--green-ink);margin:0;max-width:none;text-align:center;font-weight:500}
+.authority .q-open,.authority .q-close{font-family:var(--serif);color:var(--gold);font-size:26px;line-height:0;vertical-align:-6px}
+
+/* ---------- Print ---------- */
+@page{size:letter;margin:0}
+@media print{
+  html,body{background:var(--cream)}
+  .toolbar,.print-hide{display:none !important}
+  .deck{padding:0;margin:0}
+  .page{margin:0;box-shadow:none;page-break-after:always;width:8.5in;min-height:11in;overflow:visible}
+  .page:last-child{page-break-after:auto}
+  .field-input{background-image:repeating-linear-gradient(transparent 0 23px, rgba(8,40,28,.35) 23px 24px)}
+}
+
+/* Mobile screen scaling for the letter-size pages */
+@media (max-width: 900px){
+  .deck{padding:20px 0 60px}
+  .page{
+    width:100%;
+    min-height:0;
+    transform-origin:top left;
+  }
+  .page-inner{padding:.5in .5in .5in .5in;min-height:0}
+  .title-block h1{font-size:36px}
+  .compare{grid-template-columns:1fr}
+  .compare-col.agent{border-right:none;border-bottom:1px solid rgba(8,40,28,.16)}
+}
+
+/* ── Worksheet enhancements ─────────────────────────────────── */
+.ws-saved-toast{
+  position:fixed;bottom:24px;right:24px;background:var(--green-ink);
+  color:var(--gold);padding:10px 20px;font-family:var(--sans);font-size:10px;
+  letter-spacing:.26em;text-transform:uppercase;font-weight:600;
+  opacity:0;transition:opacity .35s;z-index:200;pointer-events:none;
+  border-left:3px solid var(--gold)
+}
+.ws-saved-toast.show{opacity:1}
+.toolbar button.ghost{background:transparent;color:rgba(226,206,155,.65);border-color:rgba(226,206,155,.35)}
+.toolbar button.ghost:hover{background:rgba(226,206,155,.1);color:var(--gold-soft);border-color:var(--gold)}
+.toolbar button.danger{border-color:rgba(226,206,155,.25);color:rgba(226,206,155,.45)}
+.toolbar button.danger:hover{background:rgba(180,50,50,.25);color:#f5a0a0;border-color:rgba(180,50,50,.5)}
+
+/* Background-off state — simulates default browser print (no backgrounds) */
+body.ws-no-bg{background:#e8e8e8}
+body.ws-no-bg .page{background:#fff;box-shadow:0 2px 12px rgba(0,0,0,.12)}
+body.ws-no-bg .geo,body.ws-no-bg .geo-strip{visibility:hidden}
+body.ws-no-bg .compare-col.owner{background:#1a1a1a;color:#f0f0f0}
+body.ws-no-bg .compare-col.owner .ch{color:var(--gold)}
+body.ws-no-bg .compare-col.owner li{color:#e0e0e0}
+body.ws-no-bg .compare-col.owner h3{color:#f0f0f0}
+body.ws-no-bg .toolbar{background:#222}
+body.ws-no-bg .sp-areas,body.ws-no-bg .ch-hero,body.ws-no-bg .in-hero{background:#1a1a1a}
+
+</style>
+</head>
+<body>
+
+<div class="toolbar print-hide">
+  <div class="tb-l"><span class="dot"></span> Day 05 · Choose Your Niche · 14-Day Travel Agent to CEO Transformation Challenge™</div>
+  <div class="tb-r">
+    <button onclick="window.print()" class="primary">Print / Save as PDF</button>
+    <button id="ws-bg" class="ghost" title="Preview how this page looks when printed without background colors">Check Background</button>
+    <button id="ws-clear" class="danger" title="Clear all saved answers for this worksheet">Clear Answers</button>
+  </div>
+</div>
+
+<main class="deck">
+
+  <!-- ============ PAGE 1 ============ -->
+  <section class="page" data-screen-label="Day 05 · Page 1 Why a Niche">
+    <div class="geo geo-tl" aria-hidden="true">
+      <svg viewBox="0 0 200 140" preserveAspectRatio="none">
+        <path d="M0 0 L200 0 L200 8 L80 8 L40 60 L40 140 L0 140 Z" fill="#0C563B"/>
+        <path d="M40 60 L80 8 L200 8 L200 18 L86 18 L50 70 L50 140 L40 140 Z" fill="#C9A961"/>
+      </svg>
+    </div>
+    <div class="geo-strip" aria-hidden="true"></div>
+
+    <div class="page-inner">
+
+      <header class="hdr">
+        <div class="hdr-brand">
+          <div class="hdr-shield">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <path d="M40 4 L72 14 L72 40 C72 58 58 70 40 76 C22 70 8 58 8 40 L8 14 Z" fill="#0C563B" stroke="#C9A961" stroke-width="2"/>
+              <path d="M40 10 L66 18 L66 40 C66 54 54 64 40 70 C26 64 14 54 14 40 L14 18 Z" fill="none" stroke="#C9A961" stroke-width="1" opacity=".55"/>
+              <text x="40" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#C9A961">B</text>
+            </svg>
+          </div>
+          <div class="hdr-name">
+            <span class="n1">The Best Travel Biz Institute™</span>
+            <span class="n2">Travel Agent to CEO Transformation</span>
+          </div>
+        </div>
+        <div class="hdr-day">
+          <div class="d1">Day 05 of 14</div>
+          <div class="d2">Your Niche</div>
+        </div>
+      </header>
+
+      <div class="title-block">
+        <span class="eyebrow">The 14-Day Challenge · Module One</span>
+        <h1>Choose Your Niche.</h1>
+        <p class="sub">The CEO-Level Decision That Sharpens Everything.</p>
+        <div class="rule"></div>
+      </div>
+
+      <section class="welcome">
+        <h2>Why a Niche Is a Position</h2>
+        <p>You have claimed an identity. You have accepted responsibility. You have defined a vision. You have aligned a brand. Today, you choose the market you will serve. A niche is not a limitation — it is a position. When you operate within a niche, you compete with almost no one, because you are the specialist, and specialists are paid differently than generalists. A focused business grows faster than a scattered one.</p>
+      </section>
+
+      <div class="section-tag"><span class="num">§ I</span><span class="ttl">Niches to Consider</span></div>
+      <p class="instruct">Read through the niches below. Notice which ones make you lean in — and which feel like noise. Instinct matters, but it is only the starting point.</p>
+
+      <div class="nichelist"><p><span class="nm">Luxury</span> <span class="sep">·</span> <span class="nm">Group Travel</span> <span class="sep">·</span> <span class="nm">Corporate Travel</span> <span class="sep">·</span> <span class="nm">Destination Weddings</span> <span class="sep">·</span> <span class="nm">Honeymoons</span> <span class="sep">·</span> <span class="nm">Family Travel</span> <span class="sep">·</span> <span class="nm">Cruise Travel</span> <span class="sep">·</span> <span class="nm">Faith-Based Travel</span> <span class="sep">·</span> <span class="nm">Wellness Retreats</span> <span class="sep">·</span> <span class="nm">Adventure Travel</span> <span class="sep">·</span> <span class="nm">International Tours</span> <span class="sep">·</span> <span class="nm">Sports & Events</span></p></div>
+
+      <div class="field">
+        <p class="prompt-q">Additional niches I am drawn to (write in your own):</p>
+        <textarea class="field-input lines-2"></textarea>
+      </div>
+
+      <div class="callout">
+        <p>None of these niches are inherently better than the others. The question is not which niche is best — it is which niche best aligns with your vision, your positioning, your strengths, and your business goals.</p>
+      </div>
+
+      <footer class="foot">
+        <div class="l">
+          <span class="a">© 2026 The Best Travel Biz Institute™</span>
+          <span>For personal educational use only. This material may not be shared, sold, or redistributed.</span>
+        </div>
+        <div class="pg">Day 05 · Page 01 of 04</div>
+      </footer>
+
+    </div>
+  </section>
+
+  <!-- ============ PAGE 2 ============ -->
+  <section class="page" data-screen-label="Day 05 · Page 2 Alignment & Validation">
+    <div class="geo geo-br" aria-hidden="true">
+      <svg viewBox="0 0 240 160" preserveAspectRatio="none">
+        <path d="M240 160 L0 160 L0 150 L150 150 L200 90 L200 0 L240 0 Z" fill="#0C563B"/>
+        <path d="M200 90 L150 150 L0 150 L0 142 L146 142 L192 88 L192 0 L200 0 Z" fill="#C9A961"/>
+      </svg>
+    </div>
+
+    <div class="page-inner">
+
+      <header class="hdr">
+        <div class="hdr-brand">
+          <div class="hdr-shield">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <path d="M40 4 L72 14 L72 40 C72 58 58 70 40 76 C22 70 8 58 8 40 L8 14 Z" fill="#0C563B" stroke="#C9A961" stroke-width="2"/>
+              <path d="M40 10 L66 18 L66 40 C66 54 54 64 40 70 C26 64 14 54 14 40 L14 18 Z" fill="none" stroke="#C9A961" stroke-width="1" opacity=".55"/>
+              <text x="40" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#C9A961">B</text>
+            </svg>
+          </div>
+          <div class="hdr-name">
+            <span class="n1">The Best Travel Biz Institute™</span>
+            <span class="n2">Travel Agent to CEO Transformation</span>
+          </div>
+        </div>
+        <div class="hdr-day">
+          <div class="d1">Day 05 · Worksheet</div>
+          <div class="d2">Your Niche</div>
+        </div>
+      </header>
+
+      <div class="section-tag" style="margin-top:12px"><span class="num">§ II</span><span class="ttl">Finding Your Alignment</span></div>
+      <p class="instruct">Before evaluating any niche for profit, evaluate it for alignment with the foundation you have already built.</p>
+
+      <div class="field">
+        <p class="field-q"><span class="qn">1</span>What do I currently sell the most in travel — or feel most drawn to?</p>
+        <textarea class="field-input lines-2"></textarea>
+      </div>
+      <div class="field">
+        <p class="field-q"><span class="qn">2</span>What types of travel excite me the most?</p>
+        <textarea class="field-input lines-2"></textarea>
+      </div>
+      <div class="field">
+        <p class="field-q"><span class="qn">3</span>What personal experiences connect me to travel?</p>
+        <textarea class="field-input lines-2"></textarea>
+      </div>
+      <div class="field">
+        <p class="field-q"><span class="qn">4</span>What problems do people already come to me for help with?</p>
+        <textarea class="field-input lines-2"></textarea>
+      </div>
+      <div class="field">
+        <p class="field-q"><span class="qn">5</span>Does this niche align with my Day 3 vision and my Day 4 brand positioning?</p>
+        <textarea class="field-input lines-2"></textarea>
+      </div>
+
+      <div class="section-tag"><span class="num">§ III</span><span class="ttl">The Validation Test</span></div>
+      <p class="instruct">Evaluate your top niche using executive-level criteria — based on real market behavior, not emotion.</p>
+
+      <div class="inline-field">
+        <span class="il">Niche being evaluated:</span>
+        <input type="text" class="vline" />
+      </div>
+
+      <div class="vtest">
+        <div class="vt-h"><span>Filter</span><span>The Question</span><span>Yes</span><span>No</span><span>Notes</span></div>
+        <div class="vt-r">
+          <div class="vf">Demand Stability</div>
+          <div class="vq">Does this niche show consistent, year-round demand supported by proven purchasing trends and repeat behavior?</div>
+          <div class="vc"><input type="checkbox" class="cb-sm" /></div>
+          <div class="vc"><input type="checkbox" class="cb-sm" /></div>
+          <div class="vn"><input type="text" /></div>
+        </div>
+        <div class="vt-r">
+          <div class="vf">Revenue Scaling</div>
+          <div class="vq">Beyond base bookings, does it lend itself to high-margin add-ons, group volume, corporate contracts, or premium experiences?</div>
+          <div class="vc"><input type="checkbox" class="cb-sm" /></div>
+          <div class="vc"><input type="checkbox" class="cb-sm" /></div>
+          <div class="vn"><input type="text" /></div>
+        </div>
+        <div class="vt-r">
+          <div class="vf">Client Lifetime Value</div>
+          <div class="vq">Can it generate long-term relationships — repeat business, referrals, renewals, or annual travel planning?</div>
+          <div class="vc"><input type="checkbox" class="cb-sm" /></div>
+          <div class="vc"><input type="checkbox" class="cb-sm" /></div>
+          <div class="vn"><input type="text" /></div>
+        </div>
+        <div class="vt-r">
+          <div class="vf">Market Accessibility</div>
+          <div class="vq">Do you have, or can you build within 6–12 months, direct access to this audience through platforms, partnerships, or community?</div>
+          <div class="vc"><input type="checkbox" class="cb-sm" /></div>
+          <div class="vc"><input type="checkbox" class="cb-sm" /></div>
+          <div class="vn"><input type="text" /></div>
+        </div>
+        <div class="vt-r">
+          <div class="vf">Operational Feasibility</div>
+          <div class="vq">Can it be delivered with systems, automation, and supplier partnerships — manageable workload, without burnout?</div>
+          <div class="vc"><input type="checkbox" class="cb-sm" /></div>
+          <div class="vc"><input type="checkbox" class="cb-sm" /></div>
+          <div class="vn"><input type="text" /></div>
+        </div>
+      </div>
+
+      <footer class="foot">
+        <div class="l">
+          <span class="a">© 2026 The Best Travel Biz Institute™</span>
+          <span>For personal educational use only. This material may not be shared, sold, or redistributed.</span>
+        </div>
+        <div class="pg">Day 05 · Page 02 of 04</div>
+      </footer>
+
+    </div>
+  </section>
+
+  <!-- ============ PAGE 3 ============ -->
+  <section class="page" data-screen-label="Day 05 · Page 3 Decision & Niche">
+    <div class="geo geo-tl" aria-hidden="true">
+      <svg viewBox="0 0 200 140" preserveAspectRatio="none">
+        <path d="M0 0 L200 0 L200 8 L80 8 L40 60 L40 140 L0 140 Z" fill="#0C563B"/>
+        <path d="M40 60 L80 8 L200 8 L200 18 L86 18 L50 70 L50 140 L40 140 Z" fill="#C9A961"/>
+      </svg>
+    </div>
+    <div class="geo-strip" aria-hidden="true"></div>
+
+    <div class="page-inner">
+
+      <header class="hdr">
+        <div class="hdr-brand">
+          <div class="hdr-shield">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <path d="M40 4 L72 14 L72 40 C72 58 58 70 40 76 C22 70 8 58 8 40 L8 14 Z" fill="#0C563B" stroke="#C9A961" stroke-width="2"/>
+              <path d="M40 10 L66 18 L66 40 C66 54 54 64 40 70 C26 64 14 54 14 40 L14 18 Z" fill="none" stroke="#C9A961" stroke-width="1" opacity=".55"/>
+              <text x="40" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#C9A961">B</text>
+            </svg>
+          </div>
+          <div class="hdr-name">
+            <span class="n1">The Best Travel Biz Institute™</span>
+            <span class="n2">Travel Agent to CEO Transformation</span>
+          </div>
+        </div>
+        <div class="hdr-day">
+          <div class="d1">Day 05 · Worksheet</div>
+          <div class="d2">Your Niche</div>
+        </div>
+      </header>
+
+      <div class="section-tag" style="margin-top:12px"><span class="num">§ IV</span><span class="ttl">Executive Decision Guide</span></div>
+      <p class="instruct">Count your "Yes" answers from the validation test and find your strategic position below.</p>
+
+      <div class="tiers">
+        <p class="tier"><b>4–5 Yes</b> This niche is strategically viable for primary income growth.</p>
+        <p class="tier"><b>2–3 Yes</b> This niche is best suited as a secondary or emerging niche — not your primary focus.</p>
+        <p class="tier"><b>0–1 Yes</b> This niche is passion-driven but not currently growth-optimized.</p>
+      </div>
+
+      <p class="prompt-q" style="margin-top:12px">Based on my score, this niche is best positioned as:</p>
+      <div class="opts-v">
+        <label><input type="checkbox" class="cb-sm" /> My primary income niche</label>
+        <label><input type="checkbox" class="cb-sm" /> A secondary or emerging niche</label>
+        <label><input type="checkbox" class="cb-sm" /> A passion focus — not my primary income source</label>
+      </div>
+      <div class="field">
+        <p class="prompt-q">What this means for my business going forward:</p>
+        <textarea class="field-input lines-3"></textarea>
+      </div>
+
+      <div class="section-tag"><span class="num">§ V</span><span class="ttl">Your Primary Travel Niche</span></div>
+
+      <div class="commit">
+        <p class="vlabel">My primary travel niche is</p>
+        <input type="text" class="nameline" />
+        <p class="prompt-q" style="margin-top:14px">My secondary or emerging niche (if applicable):</p>
+        <input type="text" class="vline" />
+        <p class="prompt-q" style="margin-top:12px">I am committed to building my business in this area because:</p>
+        <textarea class="field-input lines-3"></textarea>
+      </div>
+      <div class="sign-row">
+        <div>
+          <span class="label">Signed</span>
+          <input type="text" class="sign-line" placeholder="" />
+        </div>
+        <div>
+          <span class="label">Date</span>
+          <input type="text" class="sign-line" placeholder="" />
+        </div>
+      </div>
+
+      <footer class="foot">
+        <div class="l">
+          <span class="a">© 2026 The Best Travel Biz Institute™</span>
+          <span>For personal educational use only. This material may not be shared, sold, or redistributed.</span>
+        </div>
+        <div class="pg">Day 05 · Page 03 of 04</div>
+      </footer>
+
+    </div>
+  </section>
+
+  <!-- ============ PAGE 4 ============ -->
+  <section class="page" data-screen-label="Day 05 · Page 4 Authority & Community">
+    <div class="geo geo-br" aria-hidden="true">
+      <svg viewBox="0 0 240 160" preserveAspectRatio="none">
+        <path d="M240 160 L0 160 L0 150 L150 150 L200 90 L200 0 L240 0 Z" fill="#0C563B"/>
+        <path d="M200 90 L150 150 L0 150 L0 142 L146 142 L192 88 L192 0 L200 0 Z" fill="#C9A961"/>
+      </svg>
+    </div>
+
+    <div class="page-inner">
+
+      <header class="hdr">
+        <div class="hdr-brand">
+          <div class="hdr-shield">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <path d="M40 4 L72 14 L72 40 C72 58 58 70 40 76 C22 70 8 58 8 40 L8 14 Z" fill="#0C563B" stroke="#C9A961" stroke-width="2"/>
+              <path d="M40 10 L66 18 L66 40 C66 54 54 64 40 70 C26 64 14 54 14 40 L14 18 Z" fill="none" stroke="#C9A961" stroke-width="1" opacity=".55"/>
+              <text x="40" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#C9A961">B</text>
+            </svg>
+          </div>
+          <div class="hdr-name">
+            <span class="n1">The Best Travel Biz Institute™</span>
+            <span class="n2">Travel Agent to CEO Transformation</span>
+          </div>
+        </div>
+        <div class="hdr-day">
+          <div class="d1">Day 05 · Worksheet</div>
+          <div class="d2">Your Niche</div>
+        </div>
+      </header>
+
+      <div class="section-tag" style="margin-top:12px"><span class="num">§ VI</span><span class="ttl">Your CEO Authority Statement</span></div>
+      <p class="instruct">Read this aloud after signing your niche commitment on the previous page.</p>
+      <div class="authority">
+        <p><span class="q-open">"</span>This is my niche. Not because my host agency promotes it. Not because the suppliers with the loudest commission offers want me to. Not because of what is trending on social media. This niche is my CEO decision — chosen with intention, aligned with my vision, and committed to with full ownership.<span class="q-close">"</span></p>
+      </div>
+
+      <div class="section-tag"><span class="num">§ VII</span><span class="ttl">Action Step · Community Post</span></div>
+
+      <div class="action">
+        <div class="icon">→</div>
+        <div class="body">
+          <h4>Post in the Institute Community</h4>
+          <p>Share your primary travel niche inside our Skool community. Specialists do not compete the way generalists do — your specificity makes room for everyone else's.</p>
+          <p class="prompt">"My primary travel niche is <span class="blank">&nbsp;</span> , and I am committed to building my business in this area."</p>
+        </div>
+      </div>
+
+      <div class="pquote"><p>"When you stop trying to serve everyone, the right clients finally know they are in the right place."</p></div>
+
+      <footer class="foot">
+        <div class="l">
+          <span class="a">© 2026 The Best Travel Biz Institute™</span>
+          <span>For personal educational use only. This material may not be shared, sold, or redistributed.</span>
+        </div>
+        <div class="pg">Day 05 · Page 04 of 04</div>
+      </footer>
+
+    </div>
+  </section>
+
+</main>
+
+<div class="ws-saved-toast" id="ws-toast">Answers saved</div>
+<script>
+(function(){
+  var KEY = 'tbtbi-challenge-day-05';
+
+  /* ── Collect all fillable fields ──────────────────────────── */
+  var fields = document.querySelectorAll(
+    'textarea.field-input, input.sign-line, input.field-input, input[type="text"]'
+  );
+
+  /* ── Restore saved answers on load ───────────────────────── */
+  fields.forEach(function(el, i){
+    var saved = localStorage.getItem(KEY + ':f' + i);
+    if (saved !== null) el.value = saved;
+  });
+
+  /* ── Auto-save on every keystroke ────────────────────────── */
+  var toast = document.getElementById('ws-toast');
+  var toastTimer;
+  fields.forEach(function(el, i){
+    el.addEventListener('input', function(){
+      localStorage.setItem(KEY + ':f' + i, el.value);
+      clearTimeout(toastTimer);
+      toast.classList.add('show');
+      toastTimer = setTimeout(function(){ toast.classList.remove('show'); }, 1800);
+    });
+  });
+
+  /* ── Clear answers button ─────────────────────────────────── */
+  var clearBtn = document.getElementById('ws-clear');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', function(){
+      if (!confirm('Clear all saved answers for this worksheet? This cannot be undone.')) return;
+      fields.forEach(function(el, i){
+        localStorage.removeItem(KEY + ':f' + i);
+        el.value = '';
+      });
+      toast.textContent = 'Answers cleared';
+      toast.classList.add('show');
+      setTimeout(function(){ toast.classList.remove('show'); toast.textContent = 'Answers saved'; }, 2000);
+    });
+  }
+
+  /* ── Background toggle ────────────────────────────────────── */
+  var bgBtn = document.getElementById('ws-bg');
+  if (bgBtn) {
+    bgBtn.addEventListener('click', function(){
+      var off = document.body.classList.toggle('ws-no-bg');
+      bgBtn.textContent = off ? 'Show Colors' : 'Check Background';
+      bgBtn.title = off
+        ? 'Switch back to full color view'
+        : 'Preview how the page will look when printed without background colors';
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
