@@ -1,0 +1,504 @@
+<!doctype html>
+<!-- @dsCard group="Brand" name="Bonus Worksheet 1 — Red Flag Clients" subtitle="Client Standards Resource — 2-page companion to Day 6" -->
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bonus Worksheet — Red Flag Clients — Travel Agent to CEO Challenge</title>
+<meta name="robots" content="noindex, nofollow" />
+<meta name="googlebot" content="noindex, nofollow" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500;600;700&display=swap" />
+<style>
+:root{
+  --green:#0C563B;
+  --green-deep:#08402B;
+  --green-ink:#04261A;
+  --gold:#C9A961;
+  --gold-soft:#E2CE9B;
+  --gold-deep:#A88841;
+  --cream:#FAF6EE;
+  --cream-2:#F3ECDF;
+  --paper:#FFFFFF;
+  --ink:#141414;
+  --ink-2:#3a3a3a;
+  --muted:#7a7468;
+  --red-ink:#8A2B22;
+  --line:rgba(8,40,28,.18);
+  --serif:"Cinzel", "Cormorant Garamond", serif;
+  --serif-body:"Cormorant Garamond", Georgia, serif;
+  --sans:"Montserrat", system-ui, sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#e9e3d4;color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+
+/* ---------- Toolbar (screen only) ---------- */
+.toolbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:14px 24px;background:var(--green-ink);color:var(--cream);box-shadow:0 8px 20px -10px rgba(0,0,0,.4)}
+.toolbar .tb-l{display:flex;align-items:center;gap:14px;font-family:var(--serif);letter-spacing:.18em;font-size:12px;text-transform:uppercase;color:var(--gold-soft)}
+.toolbar .tb-l .dot{width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.toolbar .tb-r{display:flex;gap:10px}
+.toolbar button{font:inherit;font-family:var(--sans);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;padding:10px 18px;border:1px solid var(--gold);background:transparent;color:var(--gold-soft);cursor:pointer;transition:all .2s}
+.toolbar button:hover{background:var(--gold);color:var(--green-ink)}
+.toolbar button.primary{background:var(--gold);color:var(--green-ink)}
+.toolbar button.primary:hover{background:var(--gold-soft)}
+
+/* ---------- Page shell ---------- */
+.deck{padding:40px 20px 80px}
+.page{
+  width:8.5in;
+  min-height:11in;
+  margin:0 auto 36px;
+  background:var(--cream);
+  position:relative;
+  box-shadow:0 30px 70px -20px rgba(8,40,28,.35);
+  overflow:hidden;
+}
+.page-inner{padding:.46in .6in .46in .6in;position:relative;z-index:2;min-height:11in;display:flex;flex-direction:column}
+
+/* Cover corner geometry — echoes the workbook cover */
+.geo{position:absolute;pointer-events:none;z-index:0}
+.geo svg{display:block}
+.geo-tl{top:0;left:0;width:1.6in;height:1.1in}
+.geo-br{bottom:0;right:0;width:1.4in;height:1in}
+.geo-strip{position:absolute;top:0;right:0;width:.18in;height:100%;background:linear-gradient(180deg,var(--gold) 0%,var(--gold-deep) 100%)}
+
+/* ---------- Header ---------- */
+.hdr{display:flex;align-items:center;justify-content:space-between;padding-bottom:11px;border-bottom:1px solid rgba(8,40,28,.16);position:relative;z-index:2}
+.hdr-brand{display:flex;align-items:center;gap:14px}
+.hdr-shield{width:46px;height:46px;display:grid;place-items:center;flex:0 0 46px}
+.hdr-shield svg{display:block;width:100%;height:100%}
+.hdr-name{display:flex;flex-direction:column;line-height:1}
+.hdr-name .n1{font-family:var(--serif);font-size:11.5px;letter-spacing:.22em;color:var(--green-ink);font-weight:600;text-transform:uppercase;white-space:nowrap}
+.hdr-name .n2{font-family:var(--sans);font-size:8.5px;letter-spacing:.3em;color:var(--gold-deep);font-weight:600;text-transform:uppercase;margin-top:5px}
+.hdr-day{text-align:right}
+.hdr-day .d1{font-family:var(--serif);font-size:10.5px;letter-spacing:.3em;color:var(--gold-deep);font-weight:600;text-transform:uppercase}
+.hdr-day .d2{font-family:var(--serif);font-size:14px;letter-spacing:.22em;color:var(--green-ink);font-weight:600;margin-top:4px}
+
+/* ---------- Resource label (hero) ---------- */
+.res-label{font-family:var(--sans);font-size:9.5px;letter-spacing:.4em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;display:inline-flex;align-items:center;gap:12px;margin-top:12px}
+.res-label::before{content:"";width:28px;height:1px;background:var(--gold)}
+
+/* ---------- Title block ---------- */
+.title-block{margin-top:8px;position:relative;z-index:2}
+.title-block h1{font-family:var(--serif);font-weight:700;color:var(--green-ink);margin:0 0 6px;font-size:41px;letter-spacing:.02em;line-height:1;display:flex;align-items:center;gap:16px}
+.title-block h1 .flag{font-size:33px;line-height:1;filter:saturate(1.05)}
+.title-block .sub{font-family:var(--serif-body);font-style:italic;font-size:20px;color:var(--gold-deep);line-height:1.25;margin:0;max-width:6.4in}
+.provenance{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--green);font-weight:600;margin:11px 0 0;display:inline-flex;align-items:center;gap:9px}
+.provenance .lk{width:5px;height:5px;background:var(--green);transform:rotate(45deg);flex:0 0 5px}
+
+/* ---------- Foundational principle ---------- */
+.ghead{font-family:var(--serif);font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;margin:0 0 8px;display:flex;align-items:center;gap:12px}
+.ghead::after{content:"";flex:1;height:1px;background:rgba(201,169,97,.45)}
+.principle{margin-top:12px;position:relative;z-index:2}
+.principle .lead{font-family:var(--serif-body);font-style:italic;font-size:17px;line-height:1.4;color:var(--green-ink);margin:0 0 6px;font-weight:500}
+.principle p{font-family:var(--serif-body);font-size:14.5px;line-height:1.45;color:var(--ink-2);margin:0;max-width:6.7in}
+.principle p .em{color:var(--green-ink);font-weight:600}
+
+/* ---------- Section tag ---------- */
+.section-tag{display:flex;align-items:center;gap:14px;margin:6px 0 3px;position:relative;z-index:2}
+.section-tag .num{font-family:var(--serif);font-size:13px;letter-spacing:.32em;color:var(--gold-deep);font-weight:700;padding-right:14px;border-right:1px solid var(--gold)}
+.section-tag .ttl{font-family:var(--serif);font-size:14px;letter-spacing:.28em;text-transform:uppercase;color:var(--green-ink);font-weight:600}
+.instruct{font-family:var(--serif-body);font-style:italic;font-size:14px;color:var(--green);margin:0 0 4px;line-height:1.4;max-width:6.4in}
+
+/* ---------- Paired comparison table ---------- */
+.cmp2{border:1px solid rgba(8,40,28,.2);position:relative;z-index:2;background:var(--paper);overflow:hidden}
+.cmp2-h,.cmp2-r{display:grid;grid-template-columns:1fr 1fr}
+.cmp2-h > div{padding:9px 22px;display:flex;align-items:center;gap:11px}
+.cmp2-h .red{background:#FBF5EA;border-right:1px solid rgba(8,40,28,.16)}
+.cmp2-h .grn{background:var(--green)}
+.cmp2-h .hl{font-family:var(--serif);font-weight:600;letter-spacing:.04em;font-size:17px}
+.cmp2-h .red .hl{color:var(--green-ink)}
+.cmp2-h .grn .hl{color:var(--cream)}
+.cmp2-h .mk{font-size:18px;line-height:1;flex:0 0 auto}
+.cmp2-r{border-top:1px solid rgba(8,40,28,.14)}
+.cmp2-r > div{padding:6px 22px;font-family:var(--serif-body);font-style:italic;font-size:14px;line-height:1.35;display:flex;align-items:center;min-height:31px}
+.cmp2-r .red{background:#FBF5EA;color:var(--ink-2);border-right:1px solid rgba(8,40,28,.16)}
+.cmp2-r .grn{background:var(--green);color:rgba(250,246,238,.92)}
+.cmp2-r .red::before{content:"";width:7px;height:7px;border:1px solid var(--red-ink);opacity:.55;margin-right:13px;flex:0 0 7px;transform:rotate(45deg)}
+.cmp2-r .grn::before{content:"";width:7px;height:1px;background:var(--gold);margin-right:13px;flex:0 0 7px}
+
+/* ---------- Callout (gold left border) ---------- */
+.callout{margin-top:9px;background:rgba(12,86,59,.05);border-left:3px solid var(--gold);padding:13px 22px;position:relative;z-index:2}
+.callout.weighty{background:rgba(201,169,97,.12);border-left-width:4px;border-color:var(--gold-deep);padding:13px 22px;box-shadow:0 16px 34px -22px rgba(8,40,28,.4)}
+.callout .ct{font-family:var(--serif);font-size:13.5px;letter-spacing:.04em;color:var(--green-ink);font-weight:700;margin:0 0 6px;display:flex;align-items:center;gap:11px}
+.callout .ct .mk{font-size:16px;line-height:1;flex:0 0 auto}
+.callout p{font-family:var(--serif-body);font-size:14px;line-height:1.45;color:var(--ink-2);margin:0 0 6px;max-width:6.6in}
+.callout p:last-child{margin-bottom:0}
+.callout p .em{color:var(--green-ink);font-weight:600;font-style:italic}
+
+/* ---------- Footer ---------- */
+.foot{margin-top:auto;padding:18px 16px 4px;border-top:1px solid rgba(8,40,28,.14);display:flex;justify-content:space-between;align-items:flex-end;font-family:var(--sans);font-size:9px;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);font-weight:600;position:relative;z-index:3;background:var(--cream)}
+.foot .l{display:flex;flex-direction:column;gap:4px;letter-spacing:.16em;padding-right:32px}
+.foot .l .a{color:var(--green-ink);font-weight:700}
+.foot .pg{font-family:var(--serif);font-size:11px;letter-spacing:.3em;color:var(--gold-deep);text-align:right;white-space:nowrap}
+
+/* ---------- Four-step protocol ---------- */
+.steps{margin-top:3px;display:flex;flex-direction:column;gap:3px;position:relative;z-index:2}
+.step{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start}
+.step .sn{font-family:var(--serif);font-size:12.5px;letter-spacing:.06em;color:var(--gold-deep);font-weight:700;text-transform:uppercase;white-space:nowrap;padding-top:1px}
+.step .sb h4{font-family:var(--serif);font-size:14.5px;font-weight:600;color:var(--green-ink);margin:0 0 2px;letter-spacing:.02em}
+.step .sb p{font-family:var(--serif-body);font-size:13px;line-height:1.28;color:var(--ink-2);margin:0;max-width:6.3in}
+.step .sb p .quote{color:var(--green-ink);font-style:italic;font-weight:500}
+.step + .step{border-top:1px solid rgba(8,40,28,.12);padding-top:2px}
+
+/* ---------- Reflection / write-in ---------- */
+.prompt-q{font-family:var(--serif);font-size:13.5px;letter-spacing:.02em;color:var(--green-ink);font-weight:600;margin:0 0 4px;line-height:1.4}
+.field-hint{font-family:var(--serif-body);font-style:italic;font-size:12.5px;color:var(--muted);margin:3px 0 0;line-height:1.3;max-width:6.4in}
+.field-input{
+  width:100%;
+  background:transparent;
+  border:none;
+  font-family:var(--serif-body);
+  font-size:14px;
+  color:var(--green-ink);
+  resize:none;
+  padding:0;
+  line-height:24px;
+  background-image:repeating-linear-gradient(transparent 0 23px, rgba(8,40,28,.22) 23px 24px);
+  background-attachment:local;
+  outline:none;
+}
+.field-input:focus{background-image:repeating-linear-gradient(transparent 0 23px, var(--gold) 23px 24px)}
+.field-input.lines-2{height:48px}
+.field-input.lines-3{height:72px}
+.field-input.lines-4{height:96px}
+.field-input.lines-5{height:120px}
+
+/* ---------- Boundary declaration ---------- */
+.boundary{margin-top:4px;background:var(--paper);border:1px solid rgba(8,40,28,.18);border-left:4px solid var(--gold-deep);padding:11px 22px;position:relative;z-index:2;box-shadow:0 14px 30px -18px rgba(8,40,28,.3)}
+.boundary .blbl{font-family:var(--serif-body);font-style:italic;font-size:15px;color:var(--green-ink);margin:0 0 4px;font-weight:500}
+.boundary .field-input{font-style:italic}
+.closing{margin-top:5px;text-align:center;position:relative;z-index:2}
+.closing::before{content:"";display:block;width:48px;height:1px;background:var(--gold);margin:0 auto 7px}
+.closing p{font-family:var(--serif-body);font-style:italic;font-size:15px;line-height:1.4;color:var(--green);margin:0 auto;max-width:5.7in;font-weight:500}
+
+.sign-row{display:grid;grid-template-columns:1fr 1.7in;gap:24px;margin-top:5px;align-items:end}
+.sign-row .label{font-family:var(--sans);font-size:9px;letter-spacing:.32em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;margin-bottom:4px;display:block}
+.sign-line{height:28px;border-bottom:1px solid rgba(8,40,28,.4);font-family:var(--serif-body);font-style:italic;font-size:15px;color:var(--green-ink);padding:0 4px;background:transparent;outline:none;width:100%}
+.sign-line:focus{border-color:var(--gold-deep)}
+
+/* ---------- Final note from Bobbie ---------- */
+.note{margin-top:7px;background:rgba(12,86,59,.05);border-left:3px solid var(--gold);padding:10px 22px;position:relative;z-index:2}
+.note .nlbl{font-family:var(--sans);font-size:9px;letter-spacing:.4em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;margin:0 0 5px}
+.note p{font-family:var(--serif-body);font-size:13px;line-height:1.3;color:var(--ink-2);margin:0 0 4px;max-width:6.5in}
+.note .mantra{font-style:italic;color:var(--green-ink);font-weight:500;font-size:14px;line-height:1.38;margin:5px 0 0}
+.note .sig{margin-top:7px;display:flex;flex-direction:column;gap:2px}
+.note .sig .nm{font-family:var(--serif);font-size:15px;color:var(--green-ink);font-weight:600;letter-spacing:.04em}
+.note .sig .ti{font-family:var(--sans);font-size:9px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-deep);font-weight:600;margin-top:3px}
+
+/* ---------- Print ---------- */
+@page{size:letter;margin:0}
+@media print{
+  html,body{background:var(--cream)}
+  .toolbar,.print-hide{display:none !important}
+  .deck{padding:0;margin:0}
+  .page{margin:0;box-shadow:none;page-break-after:always;width:8.5in;min-height:11in;overflow:visible}
+  .page:last-child{page-break-after:auto}
+  .field-input{background-image:repeating-linear-gradient(transparent 0 23px, rgba(8,40,28,.35) 23px 24px)}
+}
+
+/* Mobile screen scaling for the letter-size pages */
+@media (max-width: 900px){
+  .deck{padding:20px 0 60px}
+  .page{width:100%;min-height:0}
+  .page-inner{padding:.5in .5in .5in .5in;min-height:0}
+  .title-block h1{font-size:38px}
+  .cmp2-h,.cmp2-r{grid-template-columns:1fr 1fr}
+}
+
+/* ── Worksheet enhancements ─────────────────────────────────── */
+.ws-saved-toast{
+  position:fixed;bottom:24px;right:24px;background:var(--green-ink);
+  color:var(--gold);padding:10px 20px;font-family:var(--sans);font-size:10px;
+  letter-spacing:.26em;text-transform:uppercase;font-weight:600;
+  opacity:0;transition:opacity .35s;z-index:200;pointer-events:none;
+  border-left:3px solid var(--gold)
+}
+.ws-saved-toast.show{opacity:1}
+.toolbar button.ghost{background:transparent;color:rgba(226,206,155,.65);border-color:rgba(226,206,155,.35)}
+.toolbar button.ghost:hover{background:rgba(226,206,155,.1);color:var(--gold-soft);border-color:var(--gold)}
+.toolbar button.danger{border-color:rgba(226,206,155,.25);color:rgba(226,206,155,.45)}
+.toolbar button.danger:hover{background:rgba(180,50,50,.25);color:#f5a0a0;border-color:rgba(180,50,50,.5)}
+
+/* Background-off state — simulates default browser print (no backgrounds) */
+body.ws-no-bg{background:#e8e8e8}
+body.ws-no-bg .page{background:#fff;box-shadow:0 2px 12px rgba(0,0,0,.12)}
+body.ws-no-bg .geo,body.ws-no-bg .geo-strip{visibility:hidden}
+body.ws-no-bg .compare-col.owner{background:#1a1a1a;color:#f0f0f0}
+body.ws-no-bg .compare-col.owner .ch{color:var(--gold)}
+body.ws-no-bg .compare-col.owner li{color:#e0e0e0}
+body.ws-no-bg .compare-col.owner h3{color:#f0f0f0}
+body.ws-no-bg .toolbar{background:#222}
+body.ws-no-bg .sp-areas,body.ws-no-bg .ch-hero,body.ws-no-bg .in-hero{background:#1a1a1a}
+
+</style>
+</head>
+<body>
+
+<div class="toolbar print-hide">
+  <div class="tb-l"><span class="dot"></span> Bonus Worksheet · Red Flag Clients · Institute Resource Library</div>
+  <div class="tb-r">
+    <button onclick="window.print()" class="primary">Print / Save as PDF</button>
+    <button id="ws-bg" class="ghost" title="Preview how this page looks when printed without background colors">Check Background</button>
+    <button id="ws-clear" class="danger" title="Clear all saved answers for this worksheet">Clear Answers</button>
+  </div>
+</div>
+
+<main class="deck">
+
+  <!-- ============ PAGE 1 ============ -->
+  <section class="page" data-screen-label="Bonus · Page 1 The Two Client Profiles">
+    <div class="geo geo-tl" aria-hidden="true">
+      <svg viewBox="0 0 200 140" preserveAspectRatio="none">
+        <path d="M0 0 L200 0 L200 8 L80 8 L40 60 L40 140 L0 140 Z" fill="#0C563B"/>
+        <path d="M40 60 L80 8 L200 8 L200 18 L86 18 L50 70 L50 140 L40 140 Z" fill="#C9A961"/>
+      </svg>
+    </div>
+    <div class="geo-strip" aria-hidden="true"></div>
+
+    <div class="page-inner">
+
+      <header class="hdr">
+        <div class="hdr-brand">
+          <div class="hdr-shield">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <path d="M40 4 L72 14 L72 40 C72 58 58 70 40 76 C22 70 8 58 8 40 L8 14 Z" fill="#0C563B" stroke="#C9A961" stroke-width="2"/>
+              <path d="M40 10 L66 18 L66 40 C66 54 54 64 40 70 C26 64 14 54 14 40 L14 18 Z" fill="none" stroke="#C9A961" stroke-width="1" opacity=".55"/>
+              <text x="40" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#C9A961">B</text>
+            </svg>
+          </div>
+          <div class="hdr-name">
+            <span class="n1">The Best Travel Biz Institute™</span>
+            <span class="n2">Travel Agent to CEO Transformation</span>
+          </div>
+        </div>
+        <div class="hdr-day">
+          <div class="d1">Institute Resource Library</div>
+          <div class="d2">Client Standards</div>
+        </div>
+      </header>
+
+      <span class="res-label">Institute Resource Library · Client Standards Resource</span>
+
+      <div class="title-block">
+        <h1><span class="flag" aria-hidden="true">🚩</span>Red Flag Clients</h1>
+        <p class="sub">Who Your Business Is Not Built to Serve — and Who It Is.</p>
+        <p class="provenance"><span class="lk" aria-hidden="true"></span>Unlocked: Day 6 · 14-Day Travel Agent to CEO Challenge™</p>
+      </div>
+
+      <section class="principle">
+        <h2 class="ghead">The Foundational Principle</h2>
+        <p class="lead">Not every paying client is a good client.</p>
+        <p>Green Flag Clients strengthen your income, your brand, and your peace of mind. Red Flag Clients create chaos, burnout, and instability — even when they can afford to pay. <span class="em">CEOs choose alignment over desperation.</span> A CEO is not defined by who they say yes to. A CEO is defined by what they refuse to build with.</p>
+      </section>
+
+      <div class="section-tag"><span class="num">§ I</span><span class="ttl">The Two Client Profiles</span></div>
+      <p class="instruct">Study both sides. The clarity is in the contrast.</p>
+
+      <div class="cmp2">
+        <div class="cmp2-h">
+          <div class="red"><span class="mk" aria-hidden="true">🚩</span><span class="hl">Red Flag Clients</span></div>
+          <div class="grn"><span class="mk" aria-hidden="true">✅</span><span class="hl">Green Flag Clients</span></div>
+        </div>
+        <div class="cmp2-r"><div class="red">Price shops constantly</div><div class="grn">Values your expertise</div></div>
+        <div class="cmp2-r"><div class="red">Undermines your expertise</div><div class="grn">Trusts your process</div></div>
+        <div class="cmp2-r"><div class="red">Avoids contracts and policies</div><div class="grn">Signs agreements promptly</div></div>
+        <div class="cmp2-r"><div class="red">Wants luxury on a bargain budget</div><div class="grn">Invests in quality experiences</div></div>
+        <div class="cmp2-r"><div class="red">Misses deadlines or payments</div><div class="grn">Pays deposits and balances on time</div></div>
+        <div class="cmp2-r"><div class="red">Disrespects boundaries</div><div class="grn">Respects your time</div></div>
+        <div class="cmp2-r"><div class="red">Avoids insurance and responsibility</div><div class="grn">Understands risk and responsibility</div></div>
+        <div class="cmp2-r"><div class="red">Indecisive with repeated changes</div><div class="grn">Makes clear decisions</div></div>
+      </div>
+
+      <div class="callout weighty">
+        <p class="ct"><span class="mk" aria-hidden="true">🚩</span>Multiple Small Red Flags Matter</p>
+        <p>Most problematic clients do not announce themselves with one major red flag. They reveal themselves through multiple small ones. A late-night text alone may not be a problem. A late-night text combined with fee resistance and indecisiveness is a pattern.</p>
+        <p><span class="em">CEOs evaluate patterns, not isolated incidents.</span> Use the eight Red Flag patterns as a correlation tool. One signal is data. Two or more together is a decision point.</p>
+      </div>
+
+      <footer class="foot">
+        <div class="l">
+          <span class="a">© 2026 The Best Travel Biz Institute™</span>
+          <span>For personal educational use only. This material may not be shared, sold, or redistributed.</span>
+        </div>
+        <div class="pg">Bonus Worksheet · Page 01 of 02</div>
+      </footer>
+
+    </div>
+  </section>
+
+  <!-- ============ PAGE 2 ============ -->
+  <section class="page" data-screen-label="Bonus · Page 2 Response Protocol & Boundary Statement">
+    <div class="geo geo-br" aria-hidden="true">
+      <svg viewBox="0 0 240 160" preserveAspectRatio="none">
+        <path d="M240 160 L0 160 L0 150 L150 150 L200 90 L200 0 L240 0 Z" fill="#0C563B"/>
+        <path d="M200 90 L150 150 L0 150 L0 142 L146 142 L192 88 L192 0 L200 0 Z" fill="#C9A961"/>
+      </svg>
+    </div>
+
+    <div class="page-inner">
+
+      <header class="hdr">
+        <div class="hdr-brand">
+          <div class="hdr-shield">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <path d="M40 4 L72 14 L72 40 C72 58 58 70 40 76 C22 70 8 58 8 40 L8 14 Z" fill="#0C563B" stroke="#C9A961" stroke-width="2"/>
+              <path d="M40 10 L66 18 L66 40 C66 54 54 64 40 70 C26 64 14 54 14 40 L14 18 Z" fill="none" stroke="#C9A961" stroke-width="1" opacity=".55"/>
+              <text x="40" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#C9A961">B</text>
+            </svg>
+          </div>
+          <div class="hdr-name">
+            <span class="n1">The Best Travel Biz Institute™</span>
+            <span class="n2">Travel Agent to CEO Transformation</span>
+          </div>
+        </div>
+        <div class="hdr-day">
+          <div class="d1">Client Standards Resource</div>
+          <div class="d2">Your Response Protocol</div>
+        </div>
+      </header>
+
+      <div class="section-tag" style="margin-top:12px"><span class="num">§ II</span><span class="ttl">What To Do When You Spot a Pattern</span></div>
+      <p class="instruct">Recognizing red flags is only half the work. CEOs also know how to respond.</p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="sn">Step 1</div>
+          <div class="sb">
+            <h4>Pause before responding.</h4>
+            <p>The instinct to convert every inquiry into a client is what created the burnout in the first place. Give yourself permission to slow the response. A 24-hour pause costs you nothing and reveals patterns quickly.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="sn">Step 2</div>
+          <div class="sb">
+            <h4>Test the boundary.</h4>
+            <p>Send your service agreement, your pricing, or your stated process. The right client honors it without resistance. The wrong client argues, negotiates, or disappears — and saves you weeks of work.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="sn">Step 3</div>
+          <div class="sb">
+            <h4>Disqualify with grace.</h4>
+            <p><span class="quote">"After reviewing your needs, I do not believe my services are the right fit for what you are looking for. I wish you well on your search."</span> That sentence — used with calm professionalism — protects your business without burning a bridge.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="sn">Step 4</div>
+          <div class="sb">
+            <h4>Refer when appropriate.</h4>
+            <p>If the client is simply not aligned with your niche, refer them to someone whose business is built to serve them. The referral protects both of you and reinforces your specialist positioning.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-tag"><span class="num">§ III</span><span class="ttl">CEO Reflection</span></div>
+      <p class="instruct">Before you can recognize patterns in the future, name the patterns you have already experienced.</p>
+      <p class="prompt-q">What types of clients have historically created stress, confusion, or burnout for you?</p>
+      <textarea class="field-input lines-2" placeholder=""></textarea>
+      <p class="field-hint">Write down specific patterns — not specific people, but the behaviors you have learned to recognize. The patterns you name here become the early warning system for every inquiry that follows.</p>
+
+      <div class="section-tag"><span class="num">§ IV</span><span class="ttl">Your CEO Boundary Statement</span></div>
+      <div class="boundary">
+        <p class="blbl">My business is not built to serve clients who:</p>
+        <textarea class="field-input lines-2" placeholder=""></textarea>
+      </div>
+
+      <div class="closing">
+        <p>Knowing who you do not serve is what protects your capacity to serve who you do.</p>
+      </div>
+
+      <div class="sign-row">
+        <div>
+          <span class="label">Signed</span>
+          <input type="text" class="sign-line" />
+        </div>
+        <div>
+          <span class="label">Date</span>
+          <input type="text" class="sign-line" />
+        </div>
+      </div>
+
+      <div class="note">
+        <p class="nlbl">A Final Note from Bobbie</p>
+        <p>The first time you turn down a red flag client, you will feel the discomfort of leaving money on the table. The tenth time, you will feel the relief of leaving a problem unclaimed. The hundredth time, you will recognize that this — this discernment — is what built the business you actually wanted.</p>
+        <p class="mantra">A CEO is not defined by who they say yes to. A CEO is defined by what they refuse to build with.</p>
+        <div class="sig">
+          <span class="nm">— Bobbie A. Self</span>
+          <span class="ti">Founder &amp; Travel CEO Architect · The Best Travel Biz Institute™</span>
+        </div>
+      </div>
+
+      <footer class="foot">
+        <div class="l">
+          <span class="a">© 2026 The Best Travel Biz Institute™</span>
+          <span>For personal educational use only. This material may not be shared, sold, or redistributed.</span>
+        </div>
+        <div class="pg">Bonus Worksheet · Page 02 of 02</div>
+      </footer>
+
+    </div>
+  </section>
+
+</main>
+
+<div class="ws-saved-toast" id="ws-toast">Answers saved</div>
+<script>
+(function(){
+  var KEY = 'tbtbi-challenge-bonus-01';
+
+  /* ── Collect all fillable fields ──────────────────────────── */
+  var fields = document.querySelectorAll(
+    'textarea.field-input, input.sign-line, input.field-input, input[type="text"]'
+  );
+
+  /* ── Restore saved answers on load ───────────────────────── */
+  fields.forEach(function(el, i){
+    var saved = localStorage.getItem(KEY + ':f' + i);
+    if (saved !== null) el.value = saved;
+  });
+
+  /* ── Auto-save on every keystroke ────────────────────────── */
+  var toast = document.getElementById('ws-toast');
+  var toastTimer;
+  fields.forEach(function(el, i){
+    el.addEventListener('input', function(){
+      localStorage.setItem(KEY + ':f' + i, el.value);
+      clearTimeout(toastTimer);
+      toast.classList.add('show');
+      toastTimer = setTimeout(function(){ toast.classList.remove('show'); }, 1800);
+    });
+  });
+
+  /* ── Clear answers button ─────────────────────────────────── */
+  var clearBtn = document.getElementById('ws-clear');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', function(){
+      if (!confirm('Clear all saved answers for this worksheet? This cannot be undone.')) return;
+      fields.forEach(function(el, i){
+        localStorage.removeItem(KEY + ':f' + i);
+        el.value = '';
+      });
+      toast.textContent = 'Answers cleared';
+      toast.classList.add('show');
+      setTimeout(function(){ toast.classList.remove('show'); toast.textContent = 'Answers saved'; }, 2000);
+    });
+  }
+
+  /* ── Background toggle ────────────────────────────────────── */
+  var bgBtn = document.getElementById('ws-bg');
+  if (bgBtn) {
+    bgBtn.addEventListener('click', function(){
+      var off = document.body.classList.toggle('ws-no-bg');
+      bgBtn.textContent = off ? 'Show Colors' : 'Check Background';
+      bgBtn.title = off
+        ? 'Switch back to full color view'
+        : 'Preview how the page will look when printed without background colors';
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
