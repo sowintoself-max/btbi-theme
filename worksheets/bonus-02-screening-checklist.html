@@ -1,0 +1,484 @@
+<!doctype html>
+<!-- @dsCard group="Brand" name="Bonus Worksheet 2 — CEO Client Screening Checklist" subtitle="Client Evaluation Tool — 2-page companion to Day 7" -->
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bonus Worksheet — CEO Client Screening Checklist — Travel Agent to CEO Challenge</title>
+<meta name="robots" content="noindex, nofollow" />
+<meta name="googlebot" content="noindex, nofollow" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500;600;700&display=swap" />
+<style>
+:root{
+  --green:#0C563B;
+  --green-deep:#08402B;
+  --green-ink:#04261A;
+  --gold:#C9A961;
+  --gold-soft:#E2CE9B;
+  --gold-deep:#A88841;
+  --cream:#FAF6EE;
+  --cream-2:#F3ECDF;
+  --paper:#FFFFFF;
+  --ink:#141414;
+  --ink-2:#3a3a3a;
+  --muted:#7a7468;
+  --line:rgba(8,40,28,.18);
+  --serif:"Cinzel", "Cormorant Garamond", serif;
+  --serif-body:"Cormorant Garamond", Georgia, serif;
+  --sans:"Montserrat", system-ui, sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#e9e3d4;color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+
+/* ---------- Toolbar (screen only) ---------- */
+.toolbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:14px 24px;background:var(--green-ink);color:var(--cream);box-shadow:0 8px 20px -10px rgba(0,0,0,.4)}
+.toolbar .tb-l{display:flex;align-items:center;gap:14px;font-family:var(--serif);letter-spacing:.18em;font-size:12px;text-transform:uppercase;color:var(--gold-soft)}
+.toolbar .tb-l .dot{width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.toolbar .tb-r{display:flex;gap:10px}
+.toolbar button{font:inherit;font-family:var(--sans);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;padding:10px 18px;border:1px solid var(--gold);background:transparent;color:var(--gold-soft);cursor:pointer;transition:all .2s}
+.toolbar button:hover{background:var(--gold);color:var(--green-ink)}
+.toolbar button.primary{background:var(--gold);color:var(--green-ink)}
+.toolbar button.primary:hover{background:var(--gold-soft)}
+
+/* ---------- Page shell ---------- */
+.deck{padding:40px 20px 80px}
+.page{
+  width:8.5in;
+  min-height:11in;
+  margin:0 auto 36px;
+  background:var(--cream);
+  position:relative;
+  box-shadow:0 30px 70px -20px rgba(8,40,28,.35);
+  overflow:hidden;
+}
+.page-inner{padding:.42in .6in .42in .6in;position:relative;z-index:2;min-height:11in;display:flex;flex-direction:column}
+
+/* Cover corner geometry — echoes the workbook cover */
+.geo{position:absolute;pointer-events:none;z-index:0}
+.geo svg{display:block}
+.geo-tl{top:0;left:0;width:1.6in;height:1.1in}
+.geo-br{bottom:0;right:0;width:1.4in;height:1in}
+.geo-strip{position:absolute;top:0;right:0;width:.18in;height:100%;background:linear-gradient(180deg,var(--gold) 0%,var(--gold-deep) 100%)}
+
+/* ---------- Header ---------- */
+.hdr{display:flex;align-items:center;justify-content:space-between;padding-bottom:9px;border-bottom:1px solid rgba(8,40,28,.16);position:relative;z-index:2}
+.hdr-brand{display:flex;align-items:center;gap:14px}
+.hdr-shield{width:46px;height:46px;display:grid;place-items:center;flex:0 0 46px}
+.hdr-shield svg{display:block;width:100%;height:100%}
+.hdr-name{display:flex;flex-direction:column;line-height:1}
+.hdr-name .n1{font-family:var(--serif);font-size:11.5px;letter-spacing:.22em;color:var(--green-ink);font-weight:600;text-transform:uppercase;white-space:nowrap}
+.hdr-name .n2{font-family:var(--sans);font-size:8.5px;letter-spacing:.3em;color:var(--gold-deep);font-weight:600;text-transform:uppercase;margin-top:5px}
+.hdr-day{text-align:right}
+.hdr-day .d1{font-family:var(--serif);font-size:10.5px;letter-spacing:.3em;color:var(--gold-deep);font-weight:600;text-transform:uppercase}
+.hdr-day .d2{font-family:var(--serif);font-size:14px;letter-spacing:.22em;color:var(--green-ink);font-weight:600;margin-top:4px}
+
+/* ---------- Resource label (hero) ---------- */
+.res-label{font-family:var(--sans);font-size:9.5px;letter-spacing:.4em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;display:inline-flex;align-items:center;gap:12px;margin-top:9px}
+.res-label::before{content:"";width:28px;height:1px;background:var(--gold)}
+
+/* ---------- Title block ---------- */
+.title-block{margin-top:6px;position:relative;z-index:2}
+.title-block h1{font-family:var(--serif);font-weight:700;color:var(--green-ink);margin:0 0 5px;font-size:36px;letter-spacing:.01em;line-height:1.04}
+.title-block h1 .flag{font-size:29px;margin-right:14px;vertical-align:-1px}
+.title-block .sub{font-family:var(--serif-body);font-style:italic;font-size:19px;color:var(--gold-deep);line-height:1.2;margin:0;max-width:6.4in}
+.provenance{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--green);font-weight:600;margin:9px 0 0;display:inline-flex;align-items:center;gap:9px}
+.provenance .lk{width:5px;height:5px;background:var(--green);transform:rotate(45deg);flex:0 0 5px}
+
+/* ---------- Foundational principle ---------- */
+.ghead{font-family:var(--serif);font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;margin:0 0 6px;display:flex;align-items:center;gap:12px}
+.ghead::after{content:"";flex:1;height:1px;background:rgba(201,169,97,.45)}
+.principle{margin-top:8px;position:relative;z-index:2}
+.principle .lead{font-family:var(--serif-body);font-style:italic;font-size:15.5px;line-height:1.35;color:var(--green-ink);margin:0 0 4px;font-weight:500}
+.principle p{font-family:var(--serif-body);font-size:13px;line-height:1.34;color:var(--ink-2);margin:0;max-width:6.7in}
+.principle p .em{color:var(--green-ink);font-weight:600}
+.principle p .tm{font-style:italic}
+
+/* ---------- Section tag ---------- */
+.section-tag{display:flex;align-items:center;gap:14px;margin:5px 0 2px;position:relative;z-index:2}
+.section-tag .num{font-family:var(--serif);font-size:13px;letter-spacing:.32em;color:var(--gold-deep);font-weight:700;padding-right:14px;border-right:1px solid var(--gold)}
+.section-tag .ttl{font-family:var(--serif);font-size:14px;letter-spacing:.28em;text-transform:uppercase;color:var(--green-ink);font-weight:600}
+.instruct{font-family:var(--serif-body);font-style:italic;font-size:12.5px;color:var(--green);margin:0 0 2px;line-height:1.3;max-width:6.5in}
+
+/* ---------- Client tracking block ---------- */
+.tracklabel{margin-top:9px}
+.track{border:1px solid var(--line);background:var(--paper);margin-top:3px;position:relative;z-index:2}
+.track-row{display:grid;grid-template-columns:2.5in 1fr;border-bottom:1px solid var(--line)}
+.track-row:last-child{border-bottom:none}
+.track-row .tl{background:#fbf7ed;border-right:1px solid var(--line);padding:6px 16px;font-family:var(--serif);font-size:12px;letter-spacing:.04em;color:var(--green-ink);font-weight:600;display:flex;align-items:center}
+.track-row .tv{padding:3px 14px;display:flex;align-items:center}
+.track-row .tv input{width:100%;border:none;background:transparent;font-family:var(--serif-body);font-size:14px;color:var(--green-ink);outline:none;padding:3px 0}
+.track-row .tv input::placeholder{color:rgba(122,116,104,.55);font-style:italic}
+
+/* ---------- Checklist (the five filters) ---------- */
+.chk{margin-top:1px;display:flex;flex-direction:column;position:relative;z-index:2}
+.chk-row{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;padding:1px 2px;border-bottom:1px solid rgba(8,40,28,.08)}
+.chk-row:last-child{border-bottom:none}
+.chk-box{appearance:none;-webkit-appearance:none;width:17px;height:17px;border:1.5px solid var(--green);background:var(--paper);cursor:pointer;margin:1px 0 0;position:relative;flex:0 0 17px}
+.chk-box:checked::after{content:"\2713";position:absolute;inset:0;display:grid;place-items:center;font-family:var(--serif);color:var(--gold-deep);font-weight:700;font-size:13px;line-height:1}
+.chk-row label{font-family:var(--serif-body);font-size:13.5px;color:var(--ink-2);line-height:1.28;cursor:pointer}
+
+/* ---------- CEO Quick-Evaluation (Yes/No) ---------- */
+.eval{margin-top:4px;border-top:2px solid var(--gold-deep);border-bottom:2px solid var(--gold-deep);background:rgba(12,86,59,.05);position:relative;z-index:2}
+.eval-h,.eval-r{display:grid;grid-template-columns:1fr 0.85in 0.85in}
+.eval-h{background:rgba(12,86,59,.1)}
+.eval-h span{padding:6px 16px;font-family:var(--sans);font-size:9px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--green);text-align:center}
+.eval-h span:first-child{text-align:left}
+.eval-r{border-top:1px solid rgba(8,40,28,.14)}
+.eval-r > div{padding:4px 16px;display:flex;align-items:center}
+.eval-r .eq{font-family:var(--serif-body);font-size:14px;color:var(--green-ink);line-height:1.3}
+.eval-r .ec{justify-content:center;border-left:1px solid rgba(8,40,28,.1)}
+
+/* ---------- Reference block (institutional language, no fill) ---------- */
+.reference{margin-top:4px;background:rgba(12,86,59,.05);border-left:4px solid var(--gold-deep);padding:10px 24px;position:relative;z-index:2}
+.reference .rintro{font-family:var(--serif-body);font-style:italic;font-size:13px;color:var(--muted);margin:0 0 5px;line-height:1.32}
+.reference .rquote{font-family:var(--serif-body);font-style:italic;font-size:15.5px;color:var(--green-ink);line-height:1.36;margin:0;font-weight:500}
+.reference .rquote .q-open,.reference .rquote .q-close{font-family:var(--serif);color:var(--gold);font-size:24px;line-height:0;vertical-align:-6px}
+
+/* ---------- Callout (gold left border) ---------- */
+.callout{margin-top:4px;background:rgba(12,86,59,.05);border-left:3px solid var(--gold);padding:9px 22px;position:relative;z-index:2}
+.callout.weighty{background:rgba(201,169,97,.12);border-left-width:4px;border-color:var(--gold-deep);padding:9px 22px;box-shadow:0 16px 34px -22px rgba(8,40,28,.4)}
+.callout .ct{font-family:var(--serif);font-size:13.5px;letter-spacing:.02em;color:var(--green-ink);font-weight:700;margin:0 0 5px;display:flex;align-items:center;gap:11px}
+.callout .ct .mk{font-size:16px;line-height:1;flex:0 0 auto}
+.callout p{font-family:var(--serif-body);font-size:13.5px;line-height:1.38;color:var(--ink-2);margin:0;max-width:6.6in}
+.callout p .em{color:var(--green-ink);font-weight:600;font-style:italic}
+
+/* ---------- Closing principle ---------- */
+.closing{margin-top:5px;text-align:center;position:relative;z-index:2}
+.closing::before{content:"";display:block;width:48px;height:1px;background:var(--gold);margin:0 auto 4px}
+.closing p{font-family:var(--serif-body);font-style:italic;font-size:16px;line-height:1.38;color:var(--green);margin:0 auto;max-width:5.7in;font-weight:500}
+
+/* ---------- Footer ---------- */
+.foot{margin-top:auto;padding:18px 16px 4px;border-top:1px solid rgba(8,40,28,.14);display:flex;justify-content:space-between;align-items:flex-end;font-family:var(--sans);font-size:9px;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);font-weight:600;position:relative;z-index:3;background:var(--cream)}
+.foot .l{display:flex;flex-direction:column;gap:4px;letter-spacing:.16em;padding-right:32px}
+.foot .l .a{color:var(--green-ink);font-weight:700}
+.foot .pg{font-family:var(--serif);font-size:11px;letter-spacing:.3em;color:var(--gold-deep);text-align:right;white-space:nowrap}
+
+/* ---------- Final note from Bobbie ---------- */
+.note{margin-top:6px;background:rgba(12,86,59,.05);border-left:3px solid var(--gold);padding:8px 24px;position:relative;z-index:2}
+.note .nlbl{font-family:var(--sans);font-size:9px;letter-spacing:.4em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;margin:0 0 5px}
+.note p{font-family:var(--serif-body);font-size:12.5px;line-height:1.3;color:var(--ink-2);margin:0 0 4px;max-width:6.5in}
+.note .mantra{font-style:italic;color:var(--green-ink);font-weight:500;font-size:13.5px;line-height:1.36;margin:6px 0 0}
+.note .sig{margin-top:6px;display:flex;flex-direction:column;gap:2px}
+.note .sig .nm{font-family:var(--serif);font-size:15px;color:var(--green-ink);font-weight:600;letter-spacing:.04em}
+.note .sig .ti{font-family:var(--sans);font-size:9px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-deep);font-weight:600;margin-top:3px}
+
+/* ---------- Print ---------- */
+@page{size:letter;margin:0}
+@media print{
+  html,body{background:var(--cream)}
+  .toolbar,.print-hide{display:none !important}
+  .deck{padding:0;margin:0}
+  .page{margin:0;box-shadow:none;page-break-after:always;width:8.5in;min-height:11in;overflow:visible}
+  .page:last-child{page-break-after:auto}
+}
+
+/* Mobile screen scaling for the letter-size pages */
+@media (max-width: 900px){
+  .deck{padding:20px 0 60px}
+  .page{width:100%;min-height:0}
+  .page-inner{padding:.5in .5in .5in .5in;min-height:0}
+  .title-block h1{font-size:32px}
+  .track-row{grid-template-columns:2in 1fr}
+}
+
+/* ── Worksheet enhancements ─────────────────────────────────── */
+.ws-saved-toast{
+  position:fixed;bottom:24px;right:24px;background:var(--green-ink);
+  color:var(--gold);padding:10px 20px;font-family:var(--sans);font-size:10px;
+  letter-spacing:.26em;text-transform:uppercase;font-weight:600;
+  opacity:0;transition:opacity .35s;z-index:200;pointer-events:none;
+  border-left:3px solid var(--gold)
+}
+.ws-saved-toast.show{opacity:1}
+.toolbar button.ghost{background:transparent;color:rgba(226,206,155,.65);border-color:rgba(226,206,155,.35)}
+.toolbar button.ghost:hover{background:rgba(226,206,155,.1);color:var(--gold-soft);border-color:var(--gold)}
+.toolbar button.danger{border-color:rgba(226,206,155,.25);color:rgba(226,206,155,.45)}
+.toolbar button.danger:hover{background:rgba(180,50,50,.25);color:#f5a0a0;border-color:rgba(180,50,50,.5)}
+
+/* Background-off state — simulates default browser print (no backgrounds) */
+body.ws-no-bg{background:#e8e8e8}
+body.ws-no-bg .page{background:#fff;box-shadow:0 2px 12px rgba(0,0,0,.12)}
+body.ws-no-bg .geo,body.ws-no-bg .geo-strip{visibility:hidden}
+body.ws-no-bg .compare-col.owner{background:#1a1a1a;color:#f0f0f0}
+body.ws-no-bg .compare-col.owner .ch{color:var(--gold)}
+body.ws-no-bg .compare-col.owner li{color:#e0e0e0}
+body.ws-no-bg .compare-col.owner h3{color:#f0f0f0}
+body.ws-no-bg .toolbar{background:#222}
+body.ws-no-bg .sp-areas,body.ws-no-bg .ch-hero,body.ws-no-bg .in-hero{background:#1a1a1a}
+
+</style>
+</head>
+<body>
+
+<div class="toolbar print-hide">
+  <div class="tb-l"><span class="dot"></span> Bonus Worksheet · CEO Client Screening Checklist™ · Institute Resource Library</div>
+  <div class="tb-r">
+    <button onclick="window.print()" class="primary">Print / Save as PDF</button>
+    <button id="ws-bg" class="ghost" title="Preview how this page looks when printed without background colors">Check Background</button>
+    <button id="ws-clear" class="danger" title="Clear all saved answers for this worksheet">Clear Answers</button>
+  </div>
+</div>
+
+<main class="deck">
+
+  <!-- ============ PAGE 1 ============ -->
+  <section class="page" data-screen-label="Bonus · Page 1 Client Tracking & The Five Filters">
+    <div class="geo geo-tl" aria-hidden="true">
+      <svg viewBox="0 0 200 140" preserveAspectRatio="none">
+        <path d="M0 0 L200 0 L200 8 L80 8 L40 60 L40 140 L0 140 Z" fill="#0C563B"/>
+        <path d="M40 60 L80 8 L200 8 L200 18 L86 18 L50 70 L50 140 L40 140 Z" fill="#C9A961"/>
+      </svg>
+    </div>
+    <div class="geo-strip" aria-hidden="true"></div>
+
+    <div class="page-inner">
+
+      <header class="hdr">
+        <div class="hdr-brand">
+          <div class="hdr-shield">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <path d="M40 4 L72 14 L72 40 C72 58 58 70 40 76 C22 70 8 58 8 40 L8 14 Z" fill="#0C563B" stroke="#C9A961" stroke-width="2"/>
+              <path d="M40 10 L66 18 L66 40 C66 54 54 64 40 70 C26 64 14 54 14 40 L14 18 Z" fill="none" stroke="#C9A961" stroke-width="1" opacity=".55"/>
+              <text x="40" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#C9A961">B</text>
+            </svg>
+          </div>
+          <div class="hdr-name">
+            <span class="n1">The Best Travel Biz Institute™</span>
+            <span class="n2">Travel Agent to CEO Transformation</span>
+          </div>
+        </div>
+        <div class="hdr-day">
+          <div class="d1">Institute Resource Library</div>
+          <div class="d2">Client Evaluation</div>
+        </div>
+      </header>
+
+      <span class="res-label">Institute Resource Library · Client Evaluation Tool</span>
+
+      <div class="title-block">
+        <h1><span class="flag" aria-hidden="true">✅</span>CEO Client Screening Checklist™</h1>
+        <p class="sub">The CEO Standard for Evaluating Every Inquiry.</p>
+        <p class="provenance"><span class="lk" aria-hidden="true"></span>Unlocked: Day 7 · 14-Day Travel Agent to CEO Challenge™</p>
+      </div>
+
+      <section class="principle">
+        <h2 class="ghead">The Foundational Principle</h2>
+        <p class="lead">CEOs do not screen clients to be exclusive. They screen clients to be intentional.</p>
+        <p>Every yes you give is a no to something else — your capacity, your other clients, your boundaries, and the higher-aligned client who could have taken that spot. The <span class="tm">CEO Client Screening Checklist™</span> is how you make sure each yes is the right one. <span class="em">The goal is not to disqualify everyone</span> — it is to ensure that every client you accept supports your time, your brand standards, and your long-term profitability.</p>
+      </section>
+
+      <h2 class="ghead tracklabel">Client Tracking</h2>
+      <p class="instruct">Use this checklist before accepting or confirming any client. Track the inquiry and follow-up dates for your records.</p>
+      <div class="track">
+        <div class="track-row"><div class="tl">Client Name</div><div class="tv"><input type="text" placeholder="Full name" /></div></div>
+        <div class="track-row"><div class="tl">1st Date of Communication</div><div class="tv"><input type="text" placeholder="MM / DD / YYYY" /></div></div>
+        <div class="track-row"><div class="tl">2nd Date of Communication</div><div class="tv"><input type="text" placeholder="MM / DD / YYYY" /></div></div>
+      </div>
+
+      <div class="section-tag"><span class="num">§ I</span><span class="ttl">Alignment &amp; Intent</span></div>
+      <p class="instruct">The first filter is whether the client is even oriented toward the kind of relationship a CEO-led business requires.</p>
+      <div class="chk">
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="a1" /><label for="a1">Client is clear about why they are traveling</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="a2" /><label for="a2">Client respects professional boundaries and processes</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="a3" /><label for="a3">Client understands that you operate as a business, not a hobby</label></div>
+      </div>
+
+      <div class="section-tag"><span class="num">§ II</span><span class="ttl">Communication &amp; Professionalism</span></div>
+      <p class="instruct">The way a client communicates before they book tells you exactly how they will communicate after they pay you.</p>
+      <div class="chk">
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="b1" /><label for="b1">Responds within reasonable timeframes</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="b2" /><label for="b2">Communicates with respect and clarity</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="b3" /><label for="b3">Willing to complete required forms and follow instructions</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="b4" /><label for="b4">Does not bypass systems to rush decisions</label></div>
+      </div>
+
+      <div class="section-tag"><span class="num">§ III</span><span class="ttl">Financial Readiness</span></div>
+      <p class="instruct">This section is not about whether a client can afford travel. It is about whether they understand what they are paying for.</p>
+      <div class="chk">
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="c1" /><label for="c1">Comfortable discussing budget honestly</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="c2" /><label for="c2">Understands that professional planning includes service value</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="c3" /><label for="c3">Understands that expertise has value beyond the booking itself</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="c4" /><label for="c4">Able to pay deposits and fees on time</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="c5" /><label for="c5">Not excessively price-focused at the expense of quality</label></div>
+      </div>
+
+      <footer class="foot">
+        <div class="l">
+          <span class="a">© 2026 The Best Travel Biz Institute™</span>
+          <span>For personal educational use only. This material may not be shared, sold, or redistributed.</span>
+        </div>
+        <div class="pg">Bonus Worksheet · Page 01 of 02</div>
+      </footer>
+
+    </div>
+  </section>
+
+  <!-- ============ PAGE 2 ============ -->
+  <section class="page" data-screen-label="Bonus · Page 2 Decision-Making, Risk, Evaluation & Boundary Statement">
+    <div class="geo geo-br" aria-hidden="true">
+      <svg viewBox="0 0 240 160" preserveAspectRatio="none">
+        <path d="M240 160 L0 160 L0 150 L150 150 L200 90 L200 0 L240 0 Z" fill="#0C563B"/>
+        <path d="M200 90 L150 150 L0 150 L0 142 L146 142 L192 88 L192 0 L200 0 Z" fill="#C9A961"/>
+      </svg>
+    </div>
+
+    <div class="page-inner">
+
+      <header class="hdr">
+        <div class="hdr-brand">
+          <div class="hdr-shield">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <path d="M40 4 L72 14 L72 40 C72 58 58 70 40 76 C22 70 8 58 8 40 L8 14 Z" fill="#0C563B" stroke="#C9A961" stroke-width="2"/>
+              <path d="M40 10 L66 18 L66 40 C66 54 54 64 40 70 C26 64 14 54 14 40 L14 18 Z" fill="none" stroke="#C9A961" stroke-width="1" opacity=".55"/>
+              <text x="40" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#C9A961">B</text>
+            </svg>
+          </div>
+          <div class="hdr-name">
+            <span class="n1">The Best Travel Biz Institute™</span>
+            <span class="n2">Travel Agent to CEO Transformation</span>
+          </div>
+        </div>
+        <div class="hdr-day">
+          <div class="d1">Client Evaluation Tool</div>
+          <div class="d2">Decision &amp; Boundaries</div>
+        </div>
+      </header>
+
+      <div class="section-tag" style="margin-top:11px"><span class="num">§ IV</span><span class="ttl">Decision-Making Behavior</span></div>
+      <p class="instruct">This is the filter most travel professionals underestimate — and the one that costs them the most hours.</p>
+      <div class="chk">
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="d1" /><label for="d1">Has real authority to make travel decisions</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="d2" /><label for="d2">Not dependent on too many outside opinions</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="d3" /><label for="d3">Able to commit once information is provided</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="d4" /><label for="d4">Does not repeatedly change scope without cause</label></div>
+      </div>
+
+      <div class="section-tag"><span class="num">§ V</span><span class="ttl">Risk &amp; Responsibility Awareness</span></div>
+      <p class="instruct">A client who understands that travel includes inherent risk treats your guidance as expertise — not as a guarantee.</p>
+      <div class="chk">
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="e1" /><label for="e1">Open to travel insurance and disclaimers</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="e2" /><label for="e2">Understands cancellation and change policies</label></div>
+        <div class="chk-row"><input type="checkbox" class="chk-box" id="e3" /><label for="e3">Accepts personal responsibility for travel documents and deadlines</label></div>
+      </div>
+
+      <div class="section-tag"><span class="num">§ VI</span><span class="ttl">The CEO Quick-Evaluation</span></div>
+      <p class="instruct">After your initial consultation — before you send any quote, agreement, or deposit invoice — pause and answer these three questions honestly.</p>
+      <div class="eval">
+        <div class="eval-h"><span>Question</span><span>Yes</span><span>No</span></div>
+        <div class="eval-r">
+          <div class="eq">Does this client respect my process?</div>
+          <div class="ec"><input type="checkbox" class="chk-box" id="q1y" /></div>
+          <div class="ec"><input type="checkbox" class="chk-box" id="q1n" /></div>
+        </div>
+        <div class="eval-r">
+          <div class="eq">Does this client fit my niche and brand?</div>
+          <div class="ec"><input type="checkbox" class="chk-box" id="q2y" /></div>
+          <div class="ec"><input type="checkbox" class="chk-box" id="q2n" /></div>
+        </div>
+        <div class="eval-r">
+          <div class="eq">Does this client support my income goals without burnout?</div>
+          <div class="ec"><input type="checkbox" class="chk-box" id="q3y" /></div>
+          <div class="ec"><input type="checkbox" class="chk-box" id="q3n" /></div>
+        </div>
+      </div>
+
+      <div class="callout weighty">
+        <p class="ct"><span class="mk" aria-hidden="true">💡</span>If you answer No to more than one, consider declining or referring out.</p>
+        <p>This is the discernment that protects your business. Not every "no" needs explanation. Not every client needs your service. <span class="em">The right ones will find you.</span> Your job is to make sure you are still available when they do.</p>
+      </div>
+
+      <div class="section-tag"><span class="num">§ VII</span><span class="ttl">Your CEO Boundary Statement</span></div>
+      <div class="reference">
+        <p class="rintro">Use this language internally — or directly with clients when needed:</p>
+        <p class="rquote"><span class="q-open">"</span>To protect the quality of service I provide, I only work with clients who align with my process, communication standards, and planning expectations.<span class="q-close">"</span></p>
+      </div>
+
+      <div class="closing">
+        <p>Standards do not need defending. They simply need to be maintained.</p>
+      </div>
+
+      <div class="note">
+        <p class="nlbl">A Final Note from Bobbie</p>
+        <p>Many travel professionals are afraid that screening clients will cost them business. The opposite happens.</p>
+        <p>When you maintain clear standards, three things happen at once: the right clients trust you faster (because professionalism signals expertise), the wrong clients self-select out (saving you time you would have wasted), and your business stops attracting what it has been tolerating (because clarity is its own form of marketing).</p>
+        <p class="mantra">Standards are not what limit your growth. Standards are what create the conditions for the growth you have been working toward.</p>
+        <div class="sig">
+          <span class="nm">— Bobbie A. Self</span>
+          <span class="ti">Founder &amp; Travel CEO Architect · The Best Travel Biz Institute™</span>
+        </div>
+      </div>
+
+      <footer class="foot">
+        <div class="l">
+          <span class="a">© 2026 The Best Travel Biz Institute™</span>
+          <span>For personal educational use only. This material may not be shared, sold, or redistributed.</span>
+        </div>
+        <div class="pg">Bonus Worksheet · Page 02 of 02</div>
+      </footer>
+
+    </div>
+  </section>
+
+</main>
+
+<div class="ws-saved-toast" id="ws-toast">Answers saved</div>
+<script>
+(function(){
+  var KEY = 'tbtbi-challenge-bonus-02';
+
+  /* ── Collect all fillable fields ──────────────────────────── */
+  var fields = document.querySelectorAll(
+    'textarea.field-input, input.sign-line, input.field-input, input[type="text"]'
+  );
+
+  /* ── Restore saved answers on load ───────────────────────── */
+  fields.forEach(function(el, i){
+    var saved = localStorage.getItem(KEY + ':f' + i);
+    if (saved !== null) el.value = saved;
+  });
+
+  /* ── Auto-save on every keystroke ────────────────────────── */
+  var toast = document.getElementById('ws-toast');
+  var toastTimer;
+  fields.forEach(function(el, i){
+    el.addEventListener('input', function(){
+      localStorage.setItem(KEY + ':f' + i, el.value);
+      clearTimeout(toastTimer);
+      toast.classList.add('show');
+      toastTimer = setTimeout(function(){ toast.classList.remove('show'); }, 1800);
+    });
+  });
+
+  /* ── Clear answers button ─────────────────────────────────── */
+  var clearBtn = document.getElementById('ws-clear');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', function(){
+      if (!confirm('Clear all saved answers for this worksheet? This cannot be undone.')) return;
+      fields.forEach(function(el, i){
+        localStorage.removeItem(KEY + ':f' + i);
+        el.value = '';
+      });
+      toast.textContent = 'Answers cleared';
+      toast.classList.add('show');
+      setTimeout(function(){ toast.classList.remove('show'); toast.textContent = 'Answers saved'; }, 2000);
+    });
+  }
+
+  /* ── Background toggle ────────────────────────────────────── */
+  var bgBtn = document.getElementById('ws-bg');
+  if (bgBtn) {
+    bgBtn.addEventListener('click', function(){
+      var off = document.body.classList.toggle('ws-no-bg');
+      bgBtn.textContent = off ? 'Show Colors' : 'Check Background';
+      bgBtn.title = off
+        ? 'Switch back to full color view'
+        : 'Preview how the page will look when printed without background colors';
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
