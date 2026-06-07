@@ -119,9 +119,27 @@ img{max-width:100%;display:block}
   .form-frame-body iframe{min-height:1080px}
   .grad-letter p{font-size:17.5px}
 }
+
+/* Back-to-community bar */
+.ws-back-bar{
+  position:sticky;top:0;z-index:100;background:var(--green-ink);
+  padding:12px 24px;display:flex;align-items:center
+}
+.ws-back-bar a{
+  font-family:var(--sans);font-size:11px;letter-spacing:.26em;text-transform:uppercase;
+  font-weight:600;color:rgba(226,206,155,.7);text-decoration:none;
+  border:1px solid rgba(226,206,155,.28);padding:8px 16px;transition:all .2s
+}
+.ws-back-bar a:hover{color:var(--gold-soft);border-color:var(--gold);background:rgba(226,206,155,.08)}
+@media print{.ws-back-bar{display:none}}
+
 </style>
 </head>
 <body>
+<div class="ws-back-bar">
+  <a href="https://www.skool.com/the-best-travel-biz-university-3508" title="Return to the Travel CEO Community on Skool">&#8592; Community</a>
+</div>
+
 
 <main data-screen-label="Challenge Feedback Survey Page">
 
