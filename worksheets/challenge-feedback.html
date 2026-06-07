@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Graduate Feedback · The Best Travel Biz Institute™</title>
+
+<!-- ===== SEARCH / AI CRAWLER PROTECTION (page-level layer) ===== -->
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+<meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet" />
+<!--
+  NOTE FOR DEPLOYMENT — page-level meta is only ONE layer. Also required at the
+  WordPress / server level (see project worksheet brief):
+    • Yoast: set this page to noindex,nofollow and EXCLUDE from XML sitemap
+    • Send HTTP header  X-Robots-Tag: noindex, nofollow, noarchive, nosnippet
+    • robots.txt:  Disallow: /challenge-feedback
+    • Do NOT link to this page from nav / footer / any indexed page
+  Open Graph & Twitter Card metadata are intentionally OMITTED so the page never
+  previews when the link is shared.
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500;600;700&family=Mrs+Saint+Delafield&display=swap" />
+<style>
+/* ===== Site tokens (from theme app.css :root) ===== */
+:root{
+  --green:#0c563b;--green-deep:#08402b;--green-ink:#04261a;
+  --gold:#c9a961;--gold-soft:#e2ce9b;--gold-deep:#a88841;
+  --cream:#faf6ee;--cream-2:#f3ecdf;--paper:#fff;
+  --ink:#141414;--ink-2:#3a3a3a;--muted:#7a7468;
+  --line:#1414141f;--line-on-green:#e2ce9b38;
+  --serif:"Cinzel", serif;
+  --serif-body:"Cormorant Garamond", serif;
+  --sans:"Montserrat", system-ui, sans-serif;
+  --script:"Mrs Saint Delafield", cursive;
+  --maxw:1240px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;padding:0;background:var(--cream);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+.wrap{max-width:920px;margin:0 auto;padding:0 32px}
+.eyebrow{font-family:var(--sans);letter-spacing:.34em;text-transform:uppercase;color:var(--gold-deep);font-size:11px;font-weight:700;display:inline-flex;align-items:center;gap:11px}
+
+/* ===== Section 1 · Institutional header ===== */
+.grad-top{text-align:center;padding:64px 32px 0}
+.grad-shield{width:70px;height:70px;margin:0 auto 18px}
+.grad-shield svg{display:block;width:100%;height:100%}
+.grad-wordmark{font-family:var(--serif);font-size:13px;letter-spacing:.34em;text-transform:uppercase;color:var(--green-ink);font-weight:600}
+.grad-rule{width:60px;height:1px;background:var(--gold);margin:26px auto 0}
+
+/* ===== Section 2 · Hero ===== */
+.grad-hero{text-align:center;padding:40px 32px 56px;max-width:840px;margin:0 auto}
+.grad-hero .eyebrow{justify-content:center}
+.grad-hero .eyebrow::before,.grad-hero .eyebrow::after{content:"";width:24px;height:1px;background:var(--gold)}
+.grad-hero h1{font-family:var(--serif);font-weight:600;color:var(--green-ink);font-size:clamp(40px,5.6vw,66px);line-height:1.06;letter-spacing:.01em;margin:24px 0 18px}
+.grad-hero h1 .cap{display:block;font-size:.82em;margin-bottom:10px;filter:saturate(1.05)}
+.grad-hero .sub{font-family:var(--serif-body);font-style:italic;font-size:clamp(19px,2.4vw,23px);line-height:1.4;color:var(--gold-deep);max-width:600px;margin:0 auto;font-weight:500}
+
+/* ===== Section 3 · Reflection letter ===== */
+.grad-letter{padding:8px 0 0}
+.grad-letter .wrap{max-width:680px}
+.grad-letter p{font-family:var(--serif-body);font-size:18.5px;line-height:1.72;color:var(--ink-2);margin:0 0 18px;text-align:left}
+.grad-letter p.open{font-size:21px;color:var(--green-ink);font-weight:500;line-height:1.6}
+.grad-letter p.turn{color:var(--green-ink);font-weight:500;font-size:19.5px}
+.grad-letter p.honest{font-family:var(--serif-body);font-style:italic;font-size:20px;color:var(--gold-deep);text-align:center;margin:30px auto 30px;max-width:520px}
+.grad-letter .lr{width:46px;height:1px;background:var(--gold);margin:0 auto;opacity:.7}
+
+/* ===== Section 4 · Pull quote band (the centerpiece) ===== */
+.grad-anchor{background:var(--green);color:var(--cream);margin-top:64px;padding:96px 32px;text-align:center;position:relative;overflow:hidden}
+.grad-anchor::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(201,169,97,.14),transparent 60%);pointer-events:none}
+.grad-anchor .inner{position:relative;z-index:1;max-width:880px;margin:0 auto}
+.grad-anchor .ar{width:64px;height:1px;background:var(--gold);margin:0 auto 34px}
+.grad-anchor blockquote{font-family:var(--serif-body);font-style:italic;font-weight:500;font-size:clamp(28px,4vw,46px);line-height:1.22;color:var(--cream);margin:0;letter-spacing:.005em}
+.grad-anchor blockquote .em{color:var(--gold);display:block;margin-top:6px}
+.grad-anchor .ar.b{margin:34px auto 0}
+
+/* ===== Section 5 · Survey form ===== */
+.grad-form{padding:88px 0 72px}
+.grad-form .form-head{text-align:center;max-width:680px;margin:0 auto 40px}
+.grad-form .form-head .eyebrow{justify-content:center;margin-bottom:16px}
+.grad-form .form-head .eyebrow::before{content:"";width:24px;height:1px;background:var(--gold)}
+.grad-form .form-head h2{font-family:var(--serif);font-size:clamp(28px,3.4vw,40px);font-weight:500;color:var(--green-ink);line-height:1.12;margin:0 0 16px}
+.grad-form .form-head .instr{font-family:var(--serif-body);font-style:italic;font-size:17px;line-height:1.55;color:var(--ink-2);margin:0}
+
+/* Premium chrome around the Jotform embed (mirrors site intake page) */
+.form-frame{max-width:760px;margin:0 auto;background:#fff;border:1px solid var(--line);box-shadow:0 32px 80px -40px rgba(8,40,28,.28);position:relative}
+.form-frame::before,.form-frame::after{content:"";position:absolute;width:24px;height:24px;border:1px solid var(--gold);z-index:2}
+.form-frame::before{top:-1px;left:-1px;border-right:none;border-bottom:none}
+.form-frame::after{bottom:-1px;right:-1px;border-left:none;border-top:none}
+.form-frame-head{background:var(--green);color:var(--cream);padding:18px 28px;display:flex;align-items:center;justify-content:space-between;gap:18px;border-bottom:1px solid var(--line-on-green)}
+.form-frame-head .fe{font-family:var(--sans);font-size:11px;letter-spacing:.3em;text-transform:uppercase;font-weight:700;color:var(--cream)}
+.form-frame-head .fd{width:8px;height:8px;background:var(--gold);border-radius:50%;box-shadow:0 0 0 4px rgba(201,169,97,.18);flex:0 0 8px}
+.form-frame-body{padding:8px 8px 0;background:#fff}
+.form-frame-body iframe{width:100%;min-width:100%;min-height:760px;border:0;display:block;background:#fff}
+.form-frame-foot{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 28px;border-top:1px solid var(--line);background:var(--cream);font-family:var(--serif-body);font-style:italic;color:var(--ink-2);font-size:13px;line-height:1.5}
+.form-frame-foot .seal{font-family:var(--serif);font-style:normal;font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;white-space:nowrap}
+
+/* ===== Section 6 · Closing note ===== */
+.grad-close{padding:8px 0 80px}
+.grad-close .wrap{max-width:640px}
+.grad-close p{font-family:var(--serif-body);font-size:17.5px;line-height:1.68;color:var(--ink-2);text-align:center;margin:0 0 14px}
+.grad-close a{color:var(--green);font-weight:600;border-bottom:1px solid var(--gold);font-family:var(--sans);font-size:14.5px}
+
+/* ===== Section 7 · Footer ===== */
+.grad-foot{background:var(--green-ink);color:rgba(250,246,238,.78);text-align:center;padding:40px 32px}
+.grad-foot .fm{font-family:var(--serif);font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold-soft);font-weight:600;margin:0 0 12px}
+.grad-foot p{font-family:var(--sans);font-size:11.5px;letter-spacing:.04em;line-height:1.7;color:rgba(250,246,238,.62);margin:0 auto;max-width:560px}
+
+@media (max-width:680px){
+  .grad-top{padding:48px 24px 0}
+  .grad-hero{padding:32px 24px 44px}
+  .wrap{padding:0 24px}
+  .grad-anchor{margin-top:48px;padding:64px 26px}
+  .grad-form{padding:64px 0 56px}
+  .form-frame-head{padding:14px 18px}
+  .form-frame-foot{flex-direction:column;align-items:flex-start;gap:8px;padding:14px 18px}
+  .form-frame-body iframe{min-height:1080px}
+  .grad-letter p{font-size:17.5px}
+}
+</style>
+</head>
+<body>
+
+<main data-screen-label="Challenge Feedback Survey Page">
+
+  <!-- ===== 1 · Header ===== -->
+  <header class="grad-top">
+    <div class="grad-shield" aria-hidden="true">
+      <svg viewBox="0 0 80 80">
+        <path d="M40 4 L72 14 L72 40 C72 58 58 70 40 76 C22 70 8 58 8 40 L8 14 Z" fill="#0C563B" stroke="#C9A961" stroke-width="2"/>
+        <path d="M40 10 L66 18 L66 40 C66 54 54 64 40 70 C26 64 14 54 14 40 L14 18 Z" fill="none" stroke="#C9A961" stroke-width="1" opacity=".55"/>
+        <text x="40" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#C9A961">B</text>
+      </svg>
+    </div>
+    <div class="grad-wordmark">The Best Travel Biz Institute™</div>
+    <div class="grad-rule"></div>
+  </header>
+
+  <!-- ===== 2 · Hero ===== -->
+  <section class="grad-hero">
+    <span class="eyebrow">Graduate Feedback · Your Voice Shapes What Comes Next</span>
+    <h1><span class="cap" aria-hidden="true">✨</span>Thank You for Completing the Challenge.</h1>
+    <p class="sub">Your reflection helps us serve the next cohort with even greater clarity.</p>
+  </section>
+
+  <!-- ===== 3 · Reflection letter ===== -->
+  <section class="grad-letter">
+    <div class="wrap">
+      <p class="open">Over the past fourteen days, you walked through the foundational executive education path of The Best Travel Biz Institute™. You declared a new identity. You built a vision. You named your niche and your ideal client. You audited your brand, your online presence, and your business structure. You committed to systems and identified the income level your vision requires.</p>
+
+      <p class="turn">Now we are asking for something different from you.</p>
+
+      <p>Your reflection — honest, unvarnished, and specific — is how this challenge continues to evolve. The members who walked the path before you helped shape what this cohort experienced. Your feedback shapes what the next cohort receives.</p>
+
+      <p class="honest">There are no wrong answers. Only honest ones.</p>
+
+      <p>The survey takes approximately five to seven minutes. Your responses are reviewed personally by our team — not aggregated into a dashboard and forgotten. The lessons that land hardest, the resources you returned to most often, the moments that shifted something in you, the moments that fell short — all of it informs how the Institute grows.</p>
+    </div>
+  </section>
+
+  <!-- ===== 4 · Brand anchor pull quote ===== -->
+  <section class="grad-anchor">
+    <div class="inner">
+      <div class="ar"></div>
+      <blockquote>The Institute grows because of the graduates who came before.<span class="em">Thank you for being one of them.</span></blockquote>
+      <div class="ar b"></div>
+    </div>
+  </section>
+
+  <!-- ===== 5 · Survey form ===== -->
+  <section class="grad-form">
+    <div class="form-head">
+      <span class="eyebrow">Share Your Reflection</span>
+      <h2>Share Your Reflection</h2>
+      <p class="instr">Your honest feedback helps us continue to elevate the work.</p>
+    </div>
+
+    <div class="form-frame">
+      <div class="form-frame-head">
+        <span class="fe">Graduate Feedback Survey</span>
+        <span class="fd" aria-hidden="true"></span>
+      </div>
+      <div class="form-frame-body">
+        <!-- Jotform Source embed (jsform) — injects the form inline during page parse; brings its own auto-resize -->
+        <script type="text/javascript" src="https://form.jotform.com/jsform/261563265303049"></script>
+      </div>
+      <div class="form-frame-foot">
+        <span>Your responses are submitted privately to The Best Travel Biz Institute™.</span>
+        <span class="seal">Reviewed Personally</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 6 · Closing note ===== -->
+  <section class="grad-close">
+    <div class="wrap">
+      <p>After you submit, your work with the Institute continues — through the community, the resources, the Virtual Graduation Ceremony, and the next chapter of your business.</p>
+      <p>If you have not yet registered for your Virtual Graduation Ceremony, return to your Day 14 lesson to do so.</p>
+      <p>If you have questions, contact us at <a href="mailto:support@thebesttravelbiz.com">support@thebesttravelbiz.com</a> or inside the Skool community.</p>
+    </div>
+  </section>
+
+  <!-- ===== 7 · Footer ===== -->
+  <footer class="grad-foot">
+    <div class="fm">The Best Travel Biz Institute™</div>
+    <p>© 2026 The Best Travel Biz Institute™ · All rights reserved.<br />This page is reserved for members who completed the 14-Day Travel Agent to CEO Challenge™. Please do not share this link publicly.</p>
+  </footer>
+
+</main>
+
+</body>
+</html>
