@@ -611,7 +611,7 @@ const PremiumPage=()=>(0,j.jsxs)("main",{id:"top",children:[
       (0,j.jsx)("div",{className:"pm-price-meta",children:"Hosted on Skool · Cancel anytime"})
     ]}),
     (0,j.jsx)("div",{className:"cta-row",children:
-      (0,j.jsxs)("a",{href:Jn.premiumJoin,className:"btn btn-gold","data-cta":"premium-enroll",children:["Enroll in Premium ",(0,j.jsx)(Xn,{})]})
+      (0,j.jsxs)("a",{href:"https://www.skool.com/the-best-travel-biz-university-3508/plans",target:"_blank",rel:"noopener",className:"btn btn-gold","data-cta":"premium-enroll",children:["Enroll in Premium ",(0,j.jsx)(Xn,{})]})
     }),
     (0,j.jsxs)("p",{className:"pm-trust",children:["The education foundation of The Best Travel Biz Institute",(0,j.jsx)("span",{className:"tm",children:"™"}),"."]})
   ]})
@@ -783,7 +783,7 @@ const PremiumPage=()=>(0,j.jsxs)("main",{id:"top",children:[
     ]}),
     (0,j.jsx)("p",{className:"pm-invest-body",children:"Premium is structured to be accessible alongside whatever operational tools you’re already using — not an additional burden. You’re not buying content. You’re investing in how you think about your own business — and that thinking compounds over time."}),
     (0,j.jsx)("div",{className:"cta-row",children:
-      (0,j.jsxs)("a",{href:Jn.premiumJoin,className:"btn btn-gold","data-cta":"premium-enroll",children:["Enroll in Premium ",(0,j.jsx)(Xn,{})]})
+      (0,j.jsxs)("a",{href:"https://www.skool.com/the-best-travel-biz-university-3508/plans",target:"_blank",rel:"noopener",className:"btn btn-gold","data-cta":"premium-enroll",children:["Enroll in Premium ",(0,j.jsx)(Xn,{})]})
     }),
     (0,j.jsx)("p",{className:"pm-after",children:"Hosted on Skool. Opens in new tab."})
   ]})
@@ -849,7 +849,7 @@ const PremiumPage=()=>(0,j.jsxs)("main",{id:"top",children:[
     (0,j.jsx)("p",{className:"lead",children:"Premium Membership is open enrollment. There are no launch windows, no countdown timers, no founding member discounts. The investment is $97/month, hosted on Skool, cancel anytime."}),
     (0,j.jsx)("p",{className:"lead",style:{marginTop:-18},children:"If you’re ready to learn how a real travel business is structured — and to lay the foundation before pursuing Fast Track or VIP CEO Vault — Premium is the next step."}),
     (0,j.jsx)("div",{className:"cta-row",children:
-      (0,j.jsxs)("a",{href:Jn.premiumJoin,className:"btn btn-gold","data-cta":"premium-enroll",children:["Enroll in Premium ",(0,j.jsx)(Xn,{})]})
+      (0,j.jsxs)("a",{href:"https://www.skool.com/the-best-travel-biz-university-3508/plans",target:"_blank",rel:"noopener",className:"btn btn-gold","data-cta":"premium-enroll",children:["Enroll in Premium ",(0,j.jsx)(Xn,{})]})
     }),
     (0,j.jsx)("p",{className:"pm-trust",style:{color:"var(--gold-soft)"},children:"Hosted on Skool. Opens in new tab. Cancel anytime."})
   ]})
