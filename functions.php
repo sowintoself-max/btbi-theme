@@ -141,7 +141,19 @@ $tbtb_seo_data = [
         'twitter_image'       => 'https://thebesttravelbiz.com/wp-content/uploads/travel-agent-premium_membership.png',
         'robots'              => 'index, follow, max-image-preview:large',
     ],
-
+    '/ceo-vault' => [
+        'title'               => 'VIP CEO Vault™ — Private 12-Month Advisory Cohort for Independent Travel Business Owners | The Best Travel Biz Institute™',
+        'meta_description'    => "The Best Travel Biz Institute's private 12-month advisory cohort for established travel professionals completing their structural transition to independent ownership. Phased executive implementation. Quarterly 1:1 with founder Bobbie A. Self. Group trip launch support. AI Executive Assistant Implementation. Limited to 24 members. Founding Cohort opens July 1, 2026. By application only.",
+        'canonical'           => 'https://thebesttravelbiz.com/ceo-vault/',
+        'og_title'            => 'VIP CEO Vault™ — Private 12-Month Advisory Cohort | The Best Travel Biz Institute™',
+        'og_description'      => 'A private 12-month advisory cohort for established travel professionals completing the transition to independent ownership. Limited to 24 members. By application only.',
+        'og_image'            => 'https://thebesttravelbiz.com/wp-content/uploads/the-best-travel-biz-institute-meta.png',
+        'og_type'             => 'website',
+        'twitter_title'       => 'VIP CEO Vault™ — Private 12-Month Advisory Cohort | The Best Travel Biz Institute™',
+        'twitter_description' => 'A private 12-month advisory cohort for established travel professionals completing the transition to independent ownership. Limited to 24 members. By application only.',
+        'twitter_image'       => 'https://thebesttravelbiz.com/wp-content/uploads/the-best-travel-biz-institute-meta.png',
+        'robots'              => 'index, follow, max-image-preview:large',
+    ],
 ];
 
 
