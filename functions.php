@@ -128,6 +128,20 @@ $tbtb_seo_data = [
         'robots'              => 'index, follow, max-image-preview:large',
     ],
 
+    '/premium' => [
+        'title'               => 'Premium Membership — Travel CEO Education Tier | The Best Travel Biz Institute™',
+        'meta_description'    => 'Premium Membership is the CEO education and foundational setup tier of The Best Travel Biz Institute™. Learn the structure, systems, and positioning of a true Institute-grade travel business. $97/month, cancel anytime.',
+        'canonical'           => 'https://thebesttravelbiz.com/premium/',
+        'og_title'            => 'Premium Membership — Travel CEO Education Tier | The Best Travel Biz Institute™',
+        'og_description'      => 'The CEO education and foundational setup tier of The Best Travel Biz Institute™. $97/month, cancel anytime.',
+        'og_image'            => 'https://thebesttravelbiz.com/wp-content/uploads/travel-agent-premium_membership.png',
+        'og_type'             => 'website',
+        'twitter_title'       => 'Premium Membership — Travel CEO Education Tier | The Best Travel Biz Institute™',
+        'twitter_description' => 'The CEO education and foundational setup tier of The Best Travel Biz Institute™. $97/month, cancel anytime.',
+        'twitter_image'       => 'https://thebesttravelbiz.com/wp-content/uploads/travel-agent-premium_membership.png',
+        'robots'              => 'index, follow, max-image-preview:large',
+    ],
+
 ];
 
 
