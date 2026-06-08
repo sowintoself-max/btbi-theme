@@ -1,0 +1,417 @@
+/* ============================================================
+   VIP CEO Vault™ — /ceo-vault/  · page-specific styles
+   Extends app.css + snapshot.css — same color & type vars.
+   Section rhythm alternates var(--green) and var(--cream).
+   ============================================================ */
+
+/* Shared helpers */
+.cv-eyebrow-gold{color:var(--gold) !important}
+.cv-center{text-align:center}
+.cv-narrow{max-width:820px;margin:0 auto}
+
+/* Generic section heads reused with gold eyebrow on green */
+.cv-green{background:var(--green);color:var(--cream);position:relative;overflow:hidden}
+.cv-green::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 18% 82%,rgba(196,164,108,.08),transparent 60%);pointer-events:none}
+.cv-green .wrap{position:relative;z-index:1}
+.cv-green h2{color:var(--cream)}
+.cv-green h2 em,.cv-green h3 em{color:var(--gold);font-style:italic;font-family:var(--serif-body);font-weight:400}
+.cv-green .eyebrow{color:var(--gold)}
+.cv-green .section-head p{color:var(--gold-soft);font-family:var(--serif-body);font-style:italic;font-size:18px}
+.cv-green p{color:rgba(250,246,238,.82)}
+
+.cv-cream{background:var(--cream);color:var(--ink);position:relative}
+.cv-cream h2{color:var(--green-ink)}
+.cv-cream h2 em,.cv-cream h3 em{color:var(--gold);font-style:italic;font-family:var(--serif-body);font-weight:400}
+.cv-cream .eyebrow{color:var(--gold)}
+.cv-cream.paper{background:var(--paper)}
+
+/* ============================================================
+   SECTION 1 — HERO
+   ============================================================ */
+.cv-hero{background:var(--green);color:var(--cream);padding:0;position:relative;overflow:hidden}
+.cv-hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 78% 16%,rgba(196,164,108,.12),transparent 55%);pointer-events:none}
+.cv-hero-top{height:4px;background:linear-gradient(90deg,transparent,var(--gold) 18%,var(--gold) 82%,transparent)}
+.cv-hero-inner{max-width:980px;margin:0 auto;padding:120px 32px 110px;position:relative;z-index:1;text-align:center}
+.cv-crest{width:96px;height:96px;margin:0 auto 38px;border:1px solid rgba(196,164,108,.55);border-radius:50%;display:grid;place-items:center;position:relative;background:rgba(250,246,238,.02)}
+.cv-crest::before{content:"";position:absolute;inset:9px;border:1px solid rgba(196,164,108,.32);border-radius:50%}
+.cv-crest .mono{font-family:var(--serif);font-size:34px;color:var(--gold);line-height:1;font-weight:500}
+.cv-crest .crest-tier{position:absolute;bottom:-30px;left:50%;transform:translateX(-50%);font-family:var(--sans);font-size:9px;letter-spacing:.34em;text-transform:uppercase;color:rgba(250,246,238,.5);font-weight:700;white-space:nowrap}
+.cv-hero .eyebrow{color:var(--gold);justify-content:center;margin-bottom:24px}
+.cv-hero h1{font-family:var(--serif);font-size:clamp(48px,6.4vw,92px);line-height:1.0;font-weight:500;letter-spacing:-.012em;color:var(--cream);margin:0 0 26px}
+.cv-hero h1 em{font-style:italic;color:var(--gold);font-family:var(--serif-body);font-weight:400}
+.cv-hero-sub{font-family:var(--serif-body);font-style:italic;font-size:clamp(19px,2.1vw,24px);line-height:1.5;color:var(--gold-soft);max-width:720px;margin:0 auto 36px}
+.cv-hero-body{max-width:680px;margin:0 auto;color:rgba(250,246,238,.82);font-size:16px;line-height:1.7}
+.cv-hero-body p{color:rgba(250,246,238,.82);margin:0 0 14px}
+
+/* Established-operator gate callout */
+.cv-gate{max-width:760px;margin:46px auto 0;padding:34px 40px;border:1px solid rgba(196,164,108,.4);background:rgba(8,40,28,.4);text-align:left;position:relative}
+.cv-gate::before,.cv-gate::after{content:"";position:absolute;width:22px;height:22px;border:1px solid var(--gold)}
+.cv-gate::before{top:-1px;left:-1px;border-right:none;border-bottom:none}
+.cv-gate::after{bottom:-1px;right:-1px;border-left:none;border-top:none}
+.cv-gate h4{font-family:var(--serif);font-size:22px;font-weight:500;color:var(--gold);margin:0 0 14px;letter-spacing:.01em}
+.cv-gate p{color:rgba(250,246,238,.82);font-size:14.5px;line-height:1.65;margin:0 0 12px}
+.cv-gate p:last-child{margin-bottom:0}
+.cv-gate em{font-family:var(--serif-body);font-style:italic;color:var(--gold-soft)}
+
+/* Status strip */
+.cv-status{margin:44px auto 0;max-width:760px;display:flex;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;padding:18px 26px;border-top:1px solid rgba(196,164,108,.28);border-bottom:1px solid rgba(196,164,108,.28)}
+.cv-status span{font-family:var(--sans);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-soft);font-weight:600;display:flex;align-items:center;gap:18px}
+.cv-status span::after{content:"·";color:var(--gold)}
+.cv-status span:last-child::after{display:none}
+
+.cv-hero-cta{margin-top:44px;display:flex;flex-direction:column;align-items:center;gap:16px}
+.cv-cta-sub{font-family:var(--serif-body);font-style:italic;font-size:14px;color:rgba(250,246,238,.6)}
+
+/* ============================================================
+   SECTION 2 — THE MATH
+   ============================================================ */
+.cv-math{background:var(--cream);padding:130px 0}
+.cv-math .section-head{margin-bottom:52px}
+.cv-math-body{max-width:760px;margin:0 auto}
+.cv-math-body p{font-size:16.5px;line-height:1.75;color:var(--ink-2);margin:0 0 20px}
+.cv-math-body p strong{color:var(--green-ink);font-weight:600}
+.cv-emph-line{font-family:var(--serif-body);font-style:italic;font-size:23px;color:var(--green-ink);line-height:1.4;text-align:center;margin:8px 0 8px}
+
+.cv-sub-h{font-family:var(--serif);font-size:13px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:54px 0 22px;display:flex;align-items:center;gap:14px}
+.cv-sub-h::before{content:"";width:30px;height:1px;background:var(--gold)}
+
+/* Featured stat trio (host split) */
+.cv-stat-band{max-width:760px;margin:32px auto;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--gold);box-shadow:0 24px 60px -38px rgba(8,40,28,.4)}
+.cv-stat-cell{background:var(--paper);padding:30px 24px;text-align:center}
+.cv-stat-cell.is-host{background:#0c563b;color:var(--cream)}
+.cv-stat-cell .lab{font-family:var(--sans);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:12px;line-height:1.4;min-height:28px}
+.cv-stat-cell.is-host .lab{color:var(--gold-soft)}
+.cv-stat-cell .fig{font-family:var(--serif);font-size:clamp(28px,3.4vw,40px);line-height:1;color:var(--green);font-weight:600}
+.cv-stat-cell.is-host .fig{color:var(--gold)}
+
+.cv-math-note{max-width:760px;margin:24px auto 0;text-align:center;font-family:var(--serif-body);font-style:italic;font-size:17px;color:var(--ink-2);line-height:1.6}
+.cv-math-note b{font-family:var(--serif);font-style:normal;color:var(--green);font-weight:600}
+
+/* Cost comparison tables */
+.cv-table{max-width:760px;margin:26px auto 0;width:calc(100% - 0px);border-collapse:collapse;background:var(--paper);border:1px solid var(--line)}
+.cv-table caption{caption-side:top;text-align:left;font-family:var(--sans);font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:700;padding:0 0 12px}
+.cv-table th{font-family:var(--sans);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:700;text-align:left;padding:16px 24px;border-bottom:1px solid var(--gold);background:var(--cream-2)}
+.cv-table th:last-child{text-align:right}
+.cv-table td{padding:15px 24px;font-size:14.5px;color:var(--ink-2);border-bottom:1px solid var(--line);line-height:1.4}
+.cv-table td:last-child{text-align:right;font-family:var(--serif);font-size:16px;color:var(--green-ink);font-weight:500;white-space:nowrap}
+.cv-table tr:last-child td{border-bottom:none}
+.cv-table tr.is-total td{background:var(--green);color:var(--cream);border-bottom:none;font-weight:600}
+.cv-table tr.is-total td{font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+.cv-table tr.is-total td:last-child{font-family:var(--serif);font-size:22px;letter-spacing:0;color:var(--gold);text-transform:none}
+
+/* The dramatic contrast block */
+.cv-contrast{max-width:760px;margin:40px auto 0;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:0;border:1px solid var(--gold)}
+.cv-contrast .side{padding:40px 32px;text-align:center}
+.cv-contrast .side.old{background:var(--paper)}
+.cv-contrast .side.new{background:var(--green);color:var(--cream)}
+.cv-contrast .side .lab{font-family:var(--sans);font-size:10px;letter-spacing:.22em;text-transform:uppercase;font-weight:700;margin-bottom:14px;color:var(--muted)}
+.cv-contrast .side.new .lab{color:var(--gold-soft)}
+.cv-contrast .side .fig{font-family:var(--serif);font-size:clamp(34px,4.6vw,54px);line-height:1;font-weight:600;color:var(--ink-2)}
+.cv-contrast .side.new .fig{color:var(--gold)}
+.cv-contrast .side .cap{font-family:var(--serif-body);font-style:italic;font-size:13.5px;color:var(--muted);margin-top:12px;line-height:1.45}
+.cv-contrast .side.new .cap{color:var(--gold-soft)}
+.cv-contrast .vs{background:var(--gold);color:var(--green-ink);align-self:stretch;display:grid;place-items:center;font-family:var(--sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;padding:0 18px}
+
+.cv-math-close{max-width:760px;margin:56px auto 0;padding-top:40px;border-top:1px solid var(--line);text-align:center}
+.cv-math-close .big{font-family:var(--serif);font-size:clamp(28px,3.4vw,40px);line-height:1.15;color:var(--green-ink);font-weight:500;margin:0 0 22px}
+.cv-math-close .big em{color:var(--gold);font-style:italic;font-family:var(--serif-body);font-weight:400}
+.cv-math-close p{font-size:16px;line-height:1.7;color:var(--ink-2);max-width:660px;margin:0 auto 16px}
+
+/* ============================================================
+   SECTION 3 — WHAT IT IS  (three-statement block)
+   ============================================================ */
+.cv-what-intro{max-width:760px;margin:0 auto 8px}
+.cv-what-intro p{font-size:17px;line-height:1.7;color:rgba(250,246,238,.85);margin:0 0 18px}
+.cv-triad{max-width:880px;margin:54px auto 0;display:grid;gap:18px}
+.cv-triad .ln{display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:start;padding:28px 34px;background:rgba(250,246,238,.04);border:1px solid rgba(196,164,108,.22);border-left:3px solid var(--gold)}
+.cv-triad .ln .no{font-family:var(--serif);font-size:14px;letter-spacing:.2em;color:var(--gold);font-weight:700;padding-top:4px}
+.cv-triad .ln p{margin:0;font-family:var(--serif-body);font-size:18.5px;line-height:1.5;color:var(--cream)}
+.cv-triad .ln p strong{font-style:normal;color:var(--gold);font-weight:600}
+.cv-close-italic{max-width:760px;margin:48px auto 0;text-align:center;font-family:var(--serif-body);font-style:italic;font-size:20px;line-height:1.55;color:var(--gold-soft)}
+
+/* ============================================================
+   SECTION 4 — FOUNDER AUTHORITY (no portrait)
+   ============================================================ */
+.cv-founder{background:var(--cream);padding:120px 0}
+.cv-founder-inner{max-width:880px;margin:0 auto;padding:0 32px;text-align:center}
+.cv-founder .eyebrow{justify-content:center}
+.cv-founder h2{margin:16px 0 28px;font-size:clamp(30px,3.6vw,46px)}
+.cv-founder-body{max-width:740px;margin:0 auto;text-align:left}
+.cv-founder-body p{font-size:16px;line-height:1.75;color:var(--ink-2);margin:0 0 18px}
+.cv-pullquote{margin:46px auto;max-width:760px;padding:36px 44px;border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);text-align:center}
+.cv-pullquote p{font-family:var(--serif-body);font-style:italic;font-size:clamp(22px,2.6vw,30px);line-height:1.4;color:var(--green-ink);margin:0}
+.cv-founder-link{display:inline-flex;align-items:center;gap:10px;margin-top:14px;font-family:var(--sans);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--green);font-weight:700;border-bottom:1px solid var(--gold);padding-bottom:4px;transition:color .2s}
+.cv-founder-link:hover{color:var(--gold)}
+
+/* ============================================================
+   SECTION 5 — FOUR PATHWAYS (green grid)
+   ============================================================ */
+.cv-paths-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:8px}
+.cv-path{padding:34px 28px 36px;background:rgba(250,246,238,.04);border:1px solid rgba(196,164,108,.22);transition:background .25s,border-color .25s}
+.cv-path:hover{background:rgba(250,246,238,.07);border-color:rgba(196,164,108,.5)}
+.cv-path .abbr{font-family:var(--serif);font-size:30px;color:var(--gold);font-weight:600;letter-spacing:.04em;line-height:1}
+.cv-path .full{font-family:var(--sans);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:rgba(250,246,238,.55);font-weight:600;margin:14px 0 16px;line-height:1.4;min-height:42px;border-bottom:1px solid rgba(196,164,108,.2);padding-bottom:16px}
+.cv-path p{font-size:13.5px;color:rgba(250,246,238,.72);line-height:1.6;margin:0}
+.cv-paths-intro{max-width:760px;margin:0 auto 18px;text-align:center}
+.cv-paths-intro p{color:var(--gold-soft);font-family:var(--serif-body);font-style:italic;font-size:18px;line-height:1.6;margin:0 0 14px}
+.cv-paths-close{max-width:780px;margin:48px auto 0;text-align:center;font-size:15.5px;color:rgba(250,246,238,.78);line-height:1.7}
+
+/* ============================================================
+   SECTION 6 — THE PROOF (testimonials, reuse .testi)
+   ============================================================ */
+.cv-proof{background:var(--cream);padding:120px 0}
+.cv-proof-close{max-width:760px;margin:54px auto 0;text-align:center;padding-top:40px;border-top:1px solid var(--line)}
+.cv-proof-close p{font-size:15.5px;color:var(--ink-2);line-height:1.7;margin:0 0 14px}
+
+/* ============================================================
+   SECTION 7 — 12-MONTH JOURNEY (ANCHOR)
+   ============================================================ */
+.cv-journey{background:var(--green);color:var(--cream);padding:130px 0;position:relative;overflow:hidden}
+.cv-journey::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 80% 10%,rgba(196,164,108,.1),transparent 55%);pointer-events:none}
+.cv-journey .wrap{position:relative;z-index:1}
+.cv-journey .section-head p{color:var(--gold-soft);font-family:var(--serif-body);font-style:italic;font-size:18px}
+.cv-phases{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:8px}
+.cv-phase{background:rgba(250,246,238,.04);border:1px solid rgba(196,164,108,.35);padding:0;position:relative;display:flex;flex-direction:column}
+.cv-phase-head{padding:30px 34px 24px;border-bottom:1px solid rgba(196,164,108,.25);position:relative}
+.cv-phase-no{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.cv-phase-no .ph{font-family:var(--sans);font-size:10.5px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.cv-phase-no .mo{font-family:var(--serif);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:rgba(250,246,238,.55);font-weight:600}
+.cv-phase-head h3{font-family:var(--serif);font-size:23px;font-weight:500;color:var(--cream);line-height:1.18;margin:0 0 12px}
+.cv-phase-head .lead{font-family:var(--serif-body);font-style:italic;font-size:15.5px;color:var(--gold-soft);line-height:1.55;max-width:none}
+.cv-phase-body{padding:24px 34px 30px;flex:1;display:flex;flex-direction:column}
+.cv-phase-body .incl{font-family:var(--sans);font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;color:rgba(250,246,238,.5);font-weight:700;margin-bottom:14px}
+.cv-phase-body ul{list-style:none;padding:0;margin:0 0 22px;display:grid;gap:11px}
+.cv-phase-body li{font-size:13.5px;color:rgba(250,246,238,.82);line-height:1.5;padding-left:20px;position:relative}
+.cv-phase-body li::before{content:"";position:absolute;left:2px;top:8px;width:5px;height:5px;background:var(--gold);border-radius:50%}
+.cv-phase-out{margin-top:auto;padding:16px 18px;background:rgba(8,40,28,.5);border-left:2px solid var(--gold);font-family:var(--serif-body);font-style:italic;font-size:14px;color:var(--cream);line-height:1.5}
+.cv-phase-out b{font-family:var(--serif);font-style:normal;color:var(--gold);font-weight:600;letter-spacing:.04em;display:block;font-size:10px;text-transform:uppercase;letter-spacing:.2em;margin-bottom:6px}
+.cv-journey-close{max-width:820px;margin:52px auto 0;text-align:center}
+.cv-journey-close p{color:rgba(250,246,238,.8);font-size:15.5px;line-height:1.7;margin:0 0 16px}
+
+/* ============================================================
+   SECTION 8 — WHY ACCESS UNLOCKS BY PHASE (reflective)
+   ============================================================ */
+.cv-reflect{background:var(--cream);padding:110px 0;text-align:center}
+.cv-reflect-inner{max-width:720px;margin:0 auto;padding:0 32px}
+.cv-reflect .eyebrow{justify-content:center}
+.cv-reflect h2{margin:16px 0 30px}
+.cv-reflect p{font-size:16px;line-height:1.8;color:var(--ink-2);margin:0 0 18px}
+.cv-reflect .accent{font-family:var(--serif-body);font-style:italic;font-size:21px;color:var(--green-ink);line-height:1.5}
+
+/* ============================================================
+   SECTION 9 — DIRECT ADVISORY ANCHORS
+   ============================================================ */
+.cv-anchors{max-width:900px;margin:8px auto 0;display:grid;gap:20px}
+.cv-anchor{padding:32px 38px;background:rgba(250,246,238,.04);border:1px solid rgba(196,164,108,.22);display:grid;grid-template-columns:auto 1fr;gap:30px;align-items:start}
+.cv-anchor .no{font-family:var(--serif);font-size:38px;color:rgba(196,164,108,.4);font-weight:500;line-height:1}
+.cv-anchor h4{font-family:var(--sans);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:6px 0 12px}
+.cv-anchor p{font-size:14.5px;color:rgba(250,246,238,.8);line-height:1.65;margin:0}
+.cv-anchors-intro{max-width:740px;margin:0 auto 14px;text-align:center}
+.cv-anchors-intro p{color:var(--gold-soft);font-family:var(--serif-body);font-style:italic;font-size:18px;line-height:1.6}
+.cv-anchors-note{max-width:760px;margin:36px auto 0;text-align:center;font-size:13.5px;color:rgba(250,246,238,.6);font-family:var(--serif-body);font-style:italic;line-height:1.65}
+
+/* ============================================================
+   SECTION 10 — DONE-WITH-YOU (restraint)
+   ============================================================ */
+.cv-dwy{background:var(--cream);padding:120px 0;text-align:center}
+.cv-dwy-inner{max-width:760px;margin:0 auto;padding:0 32px}
+.cv-dwy .eyebrow{justify-content:center}
+.cv-dwy h2{margin:16px 0 32px;font-size:clamp(32px,4vw,52px)}
+.cv-dwy p{font-size:17px;line-height:1.8;color:var(--ink-2);margin:0 0 20px}
+.cv-dwy .accent{font-family:var(--serif-body);font-style:italic;font-size:22px;color:var(--green-ink);line-height:1.5;margin-top:34px;padding-top:30px;border-top:1px solid var(--line)}
+
+/* ============================================================
+   SECTION 11 — INVESTMENT (pricing card)
+   ============================================================ */
+.cv-invest-card{max-width:680px;margin:8px auto 0;background:rgba(250,246,238,.04);border:1px solid var(--gold);position:relative;padding:0}
+.cv-invest-card::before,.cv-invest-card::after{content:"";position:absolute;width:24px;height:24px;border:1px solid var(--gold)}
+.cv-invest-card::before{top:-1px;left:-1px;border-right:none;border-bottom:none}
+.cv-invest-card::after{bottom:-1px;right:-1px;border-left:none;border-top:none}
+.cv-invest-top{padding:46px 48px 40px;text-align:center;border-bottom:1px solid rgba(196,164,108,.28)}
+.cv-invest-ribbon{display:inline-block;font-family:var(--sans);font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--green-ink);background:var(--gold);padding:8px 18px;font-weight:700;margin-bottom:26px}
+.cv-invest-price{font-family:var(--serif);font-size:clamp(56px,7vw,76px);line-height:.95;color:var(--gold);font-weight:600}
+.cv-invest-price .per{font-size:.32em;letter-spacing:.04em;color:rgba(250,246,238,.7)}
+.cv-invest-total{font-family:var(--serif-body);font-style:italic;font-size:17px;color:var(--gold-soft);margin-top:14px}
+.cv-invest-desc{max-width:520px;margin:22px auto 0;font-size:14.5px;color:rgba(250,246,238,.78);line-height:1.65}
+.cv-invest-desc b{color:var(--gold);font-weight:600}
+.cv-pay{padding:0}
+.cv-pay-row{display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center;padding:22px 48px;border-bottom:1px solid rgba(196,164,108,.16)}
+.cv-pay-row:last-child{border-bottom:none}
+.cv-pay-row .opt{font-family:var(--sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.cv-pay-row .amt{font-family:var(--serif);font-size:20px;color:var(--cream);font-weight:500;text-align:right;white-space:nowrap}
+.cv-pay-row .save{font-family:var(--serif-body);font-style:italic;font-size:13px;color:var(--gold-soft);text-align:center}
+.cv-invest-math{max-width:680px;margin:34px auto 0;text-align:center;padding:30px 40px;background:rgba(8,40,28,.45);border:1px solid rgba(196,164,108,.2)}
+.cv-invest-math .lab{font-family:var(--sans);font-size:10px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:14px}
+.cv-invest-math p{font-size:15px;color:rgba(250,246,238,.82);line-height:1.7;margin:0 0 10px}
+.cv-invest-math .hl{font-family:var(--serif);color:var(--gold);font-weight:600}
+
+/* ============================================================
+   SECTION 12 — STANDALONE COMPARISON
+   ============================================================ */
+.cv-compare{max-width:980px;margin:8px auto 0;border-collapse:collapse;width:calc(100% - 0px);background:var(--paper);border:1px solid var(--line)}
+.cv-compare th{font-family:var(--sans);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:700;text-align:left;padding:18px 26px;border-bottom:1px solid var(--gold);background:var(--cream-2)}
+.cv-compare th.mid,.cv-compare td.mid{text-align:right;white-space:nowrap}
+.cv-compare th.last,.cv-compare td.last{text-align:left}
+.cv-compare td{padding:16px 26px;font-size:14.5px;color:var(--ink-2);border-bottom:1px solid var(--line);line-height:1.45;vertical-align:top}
+.cv-compare td.mid{font-family:var(--serif);font-size:15px;color:var(--green-ink);font-weight:500}
+.cv-compare td.svc{color:var(--green-ink);font-weight:500;font-size:14.5px;font-family:var(--sans)}
+.cv-compare td.last{color:var(--green);font-weight:600;font-size:13px}
+.cv-compare td.last .ck{color:var(--gold);font-weight:700;margin-right:6px}
+.cv-compare tr.tot td{background:var(--cream-2);border-top:2px solid var(--gold);border-bottom:1px solid var(--gold);font-family:var(--serif);font-size:17px;color:var(--green-ink);font-weight:600;padding-top:20px;padding-bottom:20px}
+.cv-compare tr.final td{background:var(--green);color:var(--cream);border-bottom:none}
+.cv-compare tr.final td .big{font-family:var(--serif);font-size:26px;color:var(--gold);font-weight:600}
+.cv-compare tr.tot td .big{font-family:var(--serif);font-size:22px;color:var(--green);font-weight:600}
+
+/* ============================================================
+   SECTION 13 — APPLICATION PROCESS
+   ============================================================ */
+.cv-apply-body{max-width:780px;margin:0 auto}
+.cv-apply-body p{font-size:16px;line-height:1.75;color:rgba(250,246,238,.82);margin:0 0 18px}
+.cv-apply-list{max-width:780px;margin:30px auto 0;list-style:none;padding:0;counter-reset:cv-step;display:grid;gap:16px}
+.cv-apply-list li{display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:start;padding:22px 30px;background:rgba(250,246,238,.04);border:1px solid rgba(196,164,108,.2)}
+.cv-apply-list li::before{counter-increment:cv-step;content:counter(cv-step);font-family:var(--serif);font-size:20px;color:var(--gold);font-weight:600;width:42px;height:42px;border:1px solid rgba(196,164,108,.45);border-radius:50%;display:grid;place-items:center}
+.cv-apply-list li p{margin:0;font-size:14.5px;color:rgba(250,246,238,.85);line-height:1.6;align-self:center}
+.cv-apply-next{max-width:780px;margin:46px auto 0}
+.cv-apply-next .lab{font-family:var(--sans);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:20px;text-align:center}
+.cv-apply-note{max-width:680px;margin:34px auto 0;text-align:center;font-family:var(--serif-body);font-style:italic;font-size:14.5px;color:rgba(250,246,238,.66);line-height:1.65}
+.cv-apply-cta{margin-top:44px;text-align:center}
+
+/* ============================================================
+   SECTION 14 — FOUR TRACKS, ONE ECOSYSTEM
+   ============================================================ */
+.cv-tracks-intro{max-width:760px;margin:0 auto 16px;text-align:center}
+.cv-tracks-intro p{font-size:16px;color:var(--ink-2);line-height:1.7}
+.cv-tracks{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:8px;align-items:stretch}
+.cv-track{background:var(--paper);border:1px solid var(--line);padding:32px 26px 30px;display:flex;flex-direction:column;position:relative}
+.cv-track.apex{background:var(--green);color:var(--cream);border:1px solid var(--gold);box-shadow:0 30px 70px -38px rgba(8,40,28,.5)}
+.cv-track .apex-badge{position:absolute;top:0;right:24px;transform:translateY(-50%);background:var(--gold);color:var(--green-ink);font-family:var(--sans);font-size:9px;letter-spacing:.26em;text-transform:uppercase;font-weight:700;padding:7px 14px}
+.cv-track .tname{font-family:var(--serif);font-size:16px;font-weight:600;color:var(--green-ink);line-height:1.25;letter-spacing:.02em;min-height:60px}
+.cv-track.apex .tname{color:var(--gold)}
+.cv-track .tprice{font-family:var(--serif-body);font-style:italic;font-size:15px;color:var(--gold);margin:10px 0 18px;padding-bottom:18px;border-bottom:1px solid var(--line)}
+.cv-track.apex .tprice{color:var(--gold-soft);border-bottom-color:rgba(196,164,108,.25)}
+.cv-track ul{list-style:none;padding:0;margin:0 0 20px;display:grid;gap:9px;flex:1}
+.cv-track li{font-size:12.5px;color:var(--ink-2);line-height:1.45;padding-left:16px;position:relative}
+.cv-track.apex li{color:rgba(250,246,238,.85)}
+.cv-track li::before{content:"";position:absolute;left:2px;top:7px;width:4px;height:4px;border-radius:50%;background:var(--gold)}
+.cv-track .tfor{font-family:var(--sans);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600;padding-top:16px;border-top:1px solid var(--line);line-height:1.5}
+.cv-track.apex .tfor{color:var(--gold-soft);border-top-color:rgba(196,164,108,.25)}
+.cv-track .tfor b{color:var(--green-ink);display:block;font-size:9px;letter-spacing:.2em;margin-bottom:4px}
+.cv-track.apex .tfor b{color:var(--gold)}
+.cv-tracks-close{max-width:760px;margin:48px auto 0;text-align:center}
+.cv-tracks-close p{font-size:15.5px;color:var(--ink-2);line-height:1.7;margin:0 0 12px}
+.cv-tracks-close .em{font-family:var(--serif-body);font-style:italic;font-size:19px;color:var(--green-ink)}
+
+/* ============================================================
+   SECTION 15 — ALUMNI CIRCLE
+   ============================================================ */
+.cv-alumni{padding:100px 0}
+.cv-alumni-body{max-width:780px;margin:0 auto}
+.cv-alumni-body p{font-size:15.5px;color:rgba(250,246,238,.82);line-height:1.7;margin:0 0 18px}
+.cv-alumni-cols{max-width:880px;margin:40px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.cv-alum-card{padding:30px 32px;border:1px solid rgba(196,164,108,.25);background:rgba(250,246,238,.04)}
+.cv-alum-card.excl{background:transparent;border-style:dashed;border-color:rgba(196,164,108,.35)}
+.cv-alum-card h5{font-family:var(--sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:0 0 18px}
+.cv-alum-card ul{list-style:none;padding:0;margin:0;display:grid;gap:11px}
+.cv-alum-card li{font-size:13.5px;color:rgba(250,246,238,.82);line-height:1.5;padding-left:22px;position:relative}
+.cv-alum-card.incl li::before{content:"+";position:absolute;left:2px;top:0;color:var(--gold);font-weight:700}
+.cv-alum-card.excl li::before{content:"\2013";position:absolute;left:2px;top:0;color:rgba(196,164,108,.6);font-weight:700}
+.cv-alum-card .fine{margin-top:16px;font-family:var(--serif-body);font-style:italic;font-size:12.5px;color:rgba(250,246,238,.55)}
+.cv-alumni-close{max-width:760px;margin:40px auto 0;text-align:center;font-family:var(--serif-body);font-style:italic;font-size:19px;color:var(--gold-soft);line-height:1.55}
+
+/* ============================================================
+   SECTION 16 — WHY THIS STRUCTURE WORKS (philosophical)
+   ============================================================ */
+.cv-struct{background:var(--cream);padding:120px 0;text-align:center}
+.cv-struct-inner{max-width:780px;margin:0 auto;padding:0 32px}
+.cv-struct .eyebrow{justify-content:center}
+.cv-struct h2{margin:16px 0 30px}
+.cv-struct .opener{font-family:var(--serif-body);font-style:italic;font-size:clamp(20px,2.4vw,26px);line-height:1.5;color:var(--gold);max-width:680px;margin:0 auto 38px}
+.cv-struct-body{text-align:left;max-width:720px;margin:0 auto}
+.cv-struct-body p{font-size:15.5px;line-height:1.75;color:var(--ink-2);margin:0 0 16px}
+.cv-struct-body p strong{font-family:var(--serif);color:var(--green-ink);font-weight:600;letter-spacing:.01em}
+.cv-struct-close{margin-top:38px;padding-top:30px;border-top:1px solid var(--line);font-family:var(--serif);font-size:clamp(22px,2.6vw,30px);color:var(--green-ink);font-weight:500;line-height:1.3;text-align:center}
+
+/* ============================================================
+   SECTION 17 — FAQ (on green — override colors)
+   ============================================================ */
+.cv-faq{background:var(--green);color:var(--cream);padding:120px 0}
+.cv-faq .section-head h2{color:var(--cream)}
+.cv-faq .eyebrow{color:var(--gold);justify-content:center}
+.cv-faq-wrap{max-width:880px;margin:0 auto}
+.cv-faq .faq-list{border-top-color:rgba(196,164,108,.25)}
+.cv-faq .faq-item{border-bottom-color:rgba(196,164,108,.18)}
+.cv-faq .faq-item summary{color:var(--cream)}
+.cv-faq .faq-item .ans{color:rgba(250,246,238,.78);max-width:none}
+.cv-faq .faq-item .ans p{color:rgba(250,246,238,.78)}
+.cv-faq .faq-item .ans strong{color:var(--gold);font-weight:600}
+/* inline accreditation table inside FAQ */
+.cv-faq-table{width:100%;border-collapse:collapse;margin:18px 0;border:1px solid rgba(196,164,108,.3)}
+.cv-faq-table th{font-family:var(--sans);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:700;text-align:left;padding:12px 18px;border-bottom:1px solid rgba(196,164,108,.3);background:rgba(8,40,28,.5)}
+.cv-faq-table td{padding:12px 18px;font-size:13px;color:rgba(250,246,238,.82);border-bottom:1px solid rgba(196,164,108,.14);line-height:1.4}
+.cv-faq-table td:nth-child(2){font-family:var(--serif);color:var(--gold-soft);white-space:nowrap}
+.cv-faq-table tr:last-child td{border-bottom:none}
+
+/* ============================================================
+   SECTION 19 — FOUNDING COHORT PRICING REMINDER (green-deep)
+   ============================================================ */
+.cv-reminder{background:var(--green-deep);color:var(--cream);padding:100px 0;position:relative}
+.cv-reminder-inner{max-width:720px;margin:0 auto;padding:0 32px;text-align:center}
+.cv-reminder .eyebrow{justify-content:center;color:var(--gold)}
+.cv-reminder h2{color:var(--cream);margin:18px 0 28px;font-size:clamp(28px,3.4vw,44px)}
+.cv-reminder p{font-size:16px;line-height:1.75;color:rgba(250,246,238,.82);margin:0 0 18px;text-align:left}
+.cv-reminder .close{font-family:var(--serif-body);font-style:italic;font-size:21px;color:var(--gold);line-height:1.5;margin-top:30px;padding-top:28px;border-top:1px solid rgba(196,164,108,.25);text-align:center}
+
+/* ============================================================
+   SECTION 20 — FINAL CTA (reuse sp-final pattern, extended)
+   ============================================================ */
+.cv-final{background:var(--green);color:var(--cream);padding:140px 0;text-align:center;position:relative;overflow:hidden}
+.cv-final::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 100%,rgba(196,164,108,.13),transparent 60%);pointer-events:none}
+.cv-final .wrap{position:relative;z-index:1;max-width:860px}
+.cv-final h2{font-family:var(--serif);font-size:clamp(40px,5.2vw,76px);line-height:1.04;color:var(--cream);margin:0 auto 26px;max-width:760px}
+.cv-final h2 em{color:var(--gold);font-style:italic;font-family:var(--serif-body);font-weight:400}
+.cv-final-body{max-width:600px;margin:0 auto 18px}
+.cv-final-body p{color:rgba(250,246,238,.82);font-size:16px;line-height:1.7;margin:0 0 14px}
+.cv-final-emph{font-family:var(--serif);font-size:clamp(40px,6vw,80px);color:var(--gold);font-weight:600;line-height:1;margin:34px 0}
+.cv-final-status{display:inline-block;font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-soft);font-weight:600;padding:14px 28px;border-top:1px solid rgba(196,164,108,.28);border-bottom:1px solid rgba(196,164,108,.28);margin-bottom:44px;line-height:1.6}
+.cv-final .eyebrow{justify-content:center;color:var(--gold);margin-bottom:18px}
+.cv-final-diag{font-family:var(--serif-body);font-style:italic;font-size:18px;color:var(--gold-soft);max-width:600px;margin:0 auto 12px;line-height:1.55}
+.cv-final-rate{font-family:var(--serif);font-size:20px;color:var(--cream);margin-bottom:36px}
+.cv-final-rate b{color:var(--gold)}
+.cv-final-cta-sub{font-family:var(--serif-body);font-style:italic;font-size:13.5px;color:rgba(250,246,238,.62);max-width:600px;margin:18px auto 0;line-height:1.6}
+.cv-final-sig{margin-top:56px;font-family:var(--script);font-size:54px;color:var(--gold);line-height:1}
+.cv-final-sig small{display:block;font-family:var(--sans);font-size:10px;letter-spacing:.3em;color:rgba(250,246,238,.5);text-transform:uppercase;font-weight:600;margin-top:10px}
+
+/* Footer note strip */
+.cv-footnote{background:var(--green-ink);color:rgba(250,246,238,.6);padding:40px 0;text-align:center;border-top:1px solid var(--line-on-green)}
+.cv-footnote p{color:rgba(250,246,238,.6);font-family:var(--serif-body);font-style:italic;font-size:14px;line-height:1.7;margin:0;max-width:640px;margin:0 auto;padding:0 32px}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width:1080px){
+  .cv-paths-grid{grid-template-columns:repeat(2,1fr)}
+  .cv-tracks{grid-template-columns:repeat(2,1fr)}
+  .cv-track .apex-badge{right:16px}
+}
+@media (max-width:860px){
+  .cv-phases{grid-template-columns:1fr}
+  .cv-stat-band{grid-template-columns:1fr}
+  .cv-contrast{grid-template-columns:1fr}
+  .cv-contrast .vs{padding:14px}
+  .cv-alumni-cols{grid-template-columns:1fr}
+  .cv-pay-row{grid-template-columns:1fr;gap:6px;text-align:center}
+  .cv-pay-row .amt{text-align:center}
+  .cv-anchor{grid-template-columns:1fr;gap:10px}
+  .cv-anchor .no{font-size:28px}
+}
+@media (max-width:680px){
+  .cv-paths-grid,.cv-tracks{grid-template-columns:1fr}
+  .cv-hero-inner{padding:90px 22px 80px}
+  .cv-gate{padding:26px 24px}
+  .cv-triad .ln{grid-template-columns:1fr;gap:10px}
+  .cv-compare{font-size:12px}
+  .cv-compare th,.cv-compare td{padding:12px 14px}
+  .cv-table th,.cv-table td{padding:12px 14px}
+  .cv-status{flex-direction:column;gap:10px}
+  .cv-status span::after{display:none}
+}
