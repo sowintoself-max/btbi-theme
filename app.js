@@ -391,7 +391,7 @@ const CV_Founder = () => (0,j.jsx)("section", { className: "cv-founder", "data-s
   ] }),
   (0,j.jsx)("div", { className: "cv-pullquote", children: (0,j.jsx)("p", { children: "She's not a coach teaching from memory. She's an active travel CEO teaching what she currently operates." }) }),
   (0,j.jsx)("div", { className: "cv-founder-body", children: (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 is where she leads professionals through the same transition she completed herself \u2014 supported by an institutional infrastructure designed to deliver at premium depth." }) }),
-  (0,j.jsxs)("a", { href: "/founder-story", className: "cv-founder-link", children: [
+  (0,j.jsxs)("a", { href: "/about", className: "cv-founder-link", children: [
     "Read Bobbie's Founder Story ",
     (0,j.jsx)(Xn, {})
   ] })
