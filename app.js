@@ -1108,6 +1108,522 @@ const CEOVaultPage = () => (0,j.jsxs)("main", { id: "top", children: [
 ] });
 window.CEOVaultPage = CEOVaultPage;
 
+const FT_SnapshotCTA = ({ children, className = "" }) => (0,j.jsxs)(
+  "a",
+  {
+    href: Jn.snapshotCheckout,
+    className: `btn btn-gold ${className}`,
+    "data-cta": "snapshot-purchase",
+    children: [
+      children,
+      " ",
+      (0,j.jsx)(Xn, {})
+    ]
+  }
+);
+const FT_Hero = () => (0,j.jsxs)("section", { className: "cv-hero ft-hero", "data-screen-label": "01 Hero", children: [
+  (0,j.jsx)("div", { className: "cv-hero-top" }),
+  (0,j.jsxs)("div", { className: "cv-hero-inner", children: [
+    (0,j.jsxs)("div", { className: "cv-crest", children: [
+      (0,j.jsx)("span", { className: "mono", children: "B" }),
+      (0,j.jsx)("span", { className: "crest-tier", children: "Tier 02 \xB7 Self-Paced" })
+    ] }),
+    (0,j.jsx)("span", { className: "eyebrow", children: "Tier 02 \xB7 Self-Paced Ownership Implementation" }),
+    (0,j.jsxs)("h1", { children: [
+      "The Ownership Roadmap.",
+      (0,j.jsx)("br", {}),
+      "On Your ",
+      (0,j.jsx)("em", { children: "Timeline." })
+    ] }),
+    (0,j.jsx)("p", { className: "cv-hero-sub", children: "The structured implementation system for travel professionals ready to walk the path to 100% commission ownership \u2014 without the advisory cohort." }),
+    (0,j.jsxs)("div", { className: "cv-hero-body", children: [
+      (0,j.jsx)("p", { children: "100% Commission Fast Track\u2122 is the self-paced ownership implementation system from The Best Travel Biz Institute\u2122 \u2014 designed for travel professionals who want the structured pathway to independent ownership and 100% commission of every booking, but do not need the high-touch advisory environment of VIP CEO Vault\u2122." }),
+      (0,j.jsx)("p", { children: "You receive the complete 4 Paths to 100% Ownership\u2122 framework, your Snapshot-informed starting pathway, the implementation templates and checklists, and the operational setup guidance needed to walk the transition \u2014 at your pace." })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-status", children: [
+      (0,j.jsx)("span", { children: "$1,997 one-time" }),
+      (0,j.jsx)("span", { children: "or 3 payments of $697" }),
+      (0,j.jsx)("span", { children: "Lifetime access" }),
+      (0,j.jsx)("span", { children: "Travel Business Snapshot\u2122 required before enrollment" })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-hero-cta", children: [
+      (0,j.jsx)(FT_SnapshotCTA, { children: "Begin with the Travel Business Snapshot\u2122" }),
+      (0,j.jsx)("p", { className: "cv-cta-sub", children: "Snapshot is required before Fast Track enrollment to confirm your business is positioned for the program and to determine your starting pathway. Personally reviewed by Bobbie within 7 business days." })
+    ] })
+  ] })
+] });
+const FT_WhatItIs = () => (0,j.jsx)("section", { className: "cv-cream", style: { padding: "120px 0" }, "data-screen-label": "02 What Fast Track Is", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "The Fast Track System" }),
+    (0,j.jsxs)("h2", { children: [
+      "Self-Directed. Structured.",
+      (0,j.jsx)("br", {}),
+      (0,j.jsx)("em", { children: "Implementation-First." })
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "ft-what-intro", children: [
+    (0,j.jsx)("p", { children: "100% Commission Fast Track\u2122 is a self-paced implementation system \u2014 not a coaching program, not a cohort, not an advisory environment. It is the structured curriculum, sequencing, templates, and operational guidance you need to walk the path from host-dependent agent to independently accredited travel business CEO operating at 100% commission." }),
+    (0,j.jsx)("p", { children: "You move through the program on your timeline. Bobbie is not in 1:1 sessions with Fast Track members, and there are no scheduled cohort calls. What you receive is the complete structured system she designed \u2014 delivered through professional course architecture, structured for sequential implementation, and supported by templates, checklists, and frameworks at every step." })
+  ] }),
+  (0,j.jsxs)("div", { className: "ft-what-triad", children: [
+    (0,j.jsxs)("div", { className: "ln", children: [
+      (0,j.jsx)("span", { className: "no", children: "01" }),
+      (0,j.jsxs)("p", { children: [
+        "You receive the 4 Paths to 100% Ownership\u2122 framework \u2014 with your ",
+        (0,j.jsx)("em", { children: "starting pathway determined by your Snapshot results." })
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "ln", children: [
+      (0,j.jsx)("span", { className: "no", children: "02" }),
+      (0,j.jsxs)("p", { children: [
+        "You receive the implementation templates, checklists, and operational frameworks needed to ",
+        (0,j.jsx)("em", { children: "execute each step of your ownership transition." })
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "ln", children: [
+      (0,j.jsx)("span", { className: "no", children: "03" }),
+      (0,j.jsxs)("p", { children: [
+        "You receive lifetime access to the system, including ",
+        (0,j.jsx)("em", { children: "all future Fast Track updates" }),
+        " as the methodology evolves."
+      ] })
+    ] })
+  ] }),
+  (0,j.jsx)("p", { className: "ft-close-italic", children: "This is the ownership roadmap, delivered as a structured implementation system. Your timeline. Your pace. Your transition." })
+] }) });
+const FT_ForList = [
+  "You have established traction in your travel business (existing clients, consistent bookings, real revenue)",
+  "You are committed to transitioning from host dependency to 100% commission ownership",
+  "You prefer self-paced implementation over scheduled advisory sessions",
+  "You are comfortable executing structured implementation work independently",
+  "You want the complete ownership roadmap, templates, and operational system at a one-time investment",
+  "You have completed your Travel Business Snapshot\u2122 and been confirmed as positioned for the program"
+];
+const FT_NotForList = [
+  ["You are still building your first book of business", "(start with Premium Membership)"],
+  ["You want direct 1:1 advisory access to Bobbie", "(VIP CEO Vault\u2122 is built for this)"],
+  ["You want done-with-you implementation support, supplier introductions, or a private executive cohort", "(VIP CEO Vault\u2122 is built for this)"],
+  ["You prefer guided phased implementation with monthly cohort accountability", "(VIP CEO Vault\u2122 is built for this)"],
+  ["You need someone to walk every step with you", "(VIP CEO Vault\u2122 is built for this)"]
+];
+const FT_WhoFor = () => (0,j.jsx)("section", { className: "cv-green ft-fit", style: { padding: "120px 0" }, "data-screen-label": "03 Who It's For", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "Qualification" }),
+    (0,j.jsxs)("h2", { children: [
+      "Built for the",
+      (0,j.jsx)("br", {}),
+      (0,j.jsx)("em", { children: "Self-Directed Operator" })
+    ] })
+  ] }),
+  (0,j.jsx)("div", { className: "cv-what-intro", style: { textAlign: "center" }, children: (0,j.jsx)("p", { children: "Fast Track is built for travel professionals at a specific stage of the ownership journey \u2014 and not for everyone. Honest qualification protects both the buyer and the integrity of the program." }) }),
+  (0,j.jsxs)("div", { className: "pm-fit-grid", children: [
+    (0,j.jsxs)("div", { className: "ft-fit-col is", children: [
+      (0,j.jsx)("div", { className: "lab", children: "Fast Track is for you if" }),
+      (0,j.jsx)("h4", { children: "You're ready to implement independently." }),
+      (0,j.jsx)("ul", { children: FT_ForList.map((t, i) => (0,j.jsx)("li", { children: t }, i)) })
+    ] }),
+    (0,j.jsxs)("div", { className: "ft-fit-col not", children: [
+      (0,j.jsx)("div", { className: "lab", children: "Fast Track is not for you if" }),
+      (0,j.jsx)("h4", { children: "You want a guide walking each step with you." }),
+      (0,j.jsx)("ul", { children: FT_NotForList.map(([t, b], i) => (0,j.jsxs)("li", { children: [
+        t,
+        " ",
+        (0,j.jsx)("b", { children: b })
+      ] }, i)) })
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "ft-fit-close", children: [
+    (0,j.jsx)("p", { className: "em", children: "Fast Track teaches the pathway. VIP CEO Vault\u2122 walks with the operator." }),
+    (0,j.jsx)("p", { children: "Both are built on the same Institute methodology. Both lead to the same destination: 100% commission ownership of your travel business. They differ in how you get there \u2014 self-paced implementation versus founder-led advisory." })
+  ] })
+] }) });
+const FT_PrereqItems = [
+  ["1", "That your business is positioned for the Fast Track program.", "Some Snapshot results identify businesses better served by Premium Membership before Fast Track. Some are positioned for VIP CEO Vault\u2122 instead. The Snapshot ensures you're investing in the right tier for your stage."],
+  ["2", "That your starting pathway is correctly identified.", "Fast Track teaches the 4 Paths to 100% Ownership\u2122 \u2014 but your starting pathway is not chosen at random. It is determined by Bobbie's review of your Snapshot results."],
+  ["3", "That you understand the structural realities of independent ownership before investing $1,997 in implementation.", "This protects you. We do not enroll Fast Track buyers who, based on their Snapshot, would not be positioned to benefit from the program at this stage."]
+];
+const FT_Prereq = () => (0,j.jsx)("section", { className: "cv-cream", style: { padding: "120px 0" }, "data-screen-label": "04 Snapshot Prerequisite", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "Prerequisite" }),
+    (0,j.jsxs)("h2", { children: [
+      "The Travel Business Snapshot\u2122",
+      (0,j.jsx)("br", {}),
+      (0,j.jsx)("em", { children: "Comes First." })
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "ft-prereq-body", children: [
+    (0,j.jsx)("p", { children: "Fast Track requires the Travel Business Snapshot\u2122 as a prerequisite. Before any Fast Track purchase is processed, your Snapshot must be completed and personally reviewed by Bobbie." }),
+    (0,j.jsx)("p", { children: "The Snapshot is not a marketing form. It is an executive diagnostic of your current travel business \u2014 designed to confirm three things:" })
+  ] }),
+  (0,j.jsx)("div", { className: "ft-prereq-list", children: FT_PrereqItems.map(([n, h, p]) => (0,j.jsxs)("div", { className: "ft-prereq-item", children: [
+    (0,j.jsx)("span", { className: "pn", children: n }),
+    (0,j.jsxs)("div", { children: [
+      (0,j.jsx)("h4", { children: h }),
+      (0,j.jsx)("p", { children: p })
+    ] })
+  ] }, n)) }),
+  (0,j.jsx)("div", { className: "ft-prereq-close", children: (0,j.jsx)("p", { children: "The Snapshot is $97 (Founding Cohort Launch Rate) and is personally reviewed by Bobbie within 7 business days. Once your Snapshot is reviewed and your fit confirmed, you receive the recommendation to proceed with Fast Track enrollment along with your starting pathway." }) }),
+  (0,j.jsxs)("div", { className: "ft-prereq-sub", children: [
+    (0,j.jsx)("div", { className: "lab", children: "Why this protects you" }),
+    (0,j.jsx)("p", { children: "You should never invest $1,997 in an ownership implementation program based on assumptions about whether you qualify. The Snapshot is the diagnostic step that ensures Fast Track is the right fit before the larger investment is made." }),
+    (0,j.jsx)("p", { children: "The Snapshot prerequisite is not a sales obstacle. It is professional due diligence applied to your business decision." })
+  ] }),
+  (0,j.jsx)("div", { className: "ft-prereq-cta", children: (0,j.jsx)(FT_SnapshotCTA, { children: "Begin with the Travel Business Snapshot\u2122" }) })
+] }) });
+const FT_Paths = () => (0,j.jsx)("section", { className: "cv-green", style: { padding: "120px 0" }, "data-screen-label": "05 The Four Paths", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "The Pathway Framework" }),
+    (0,j.jsxs)("h2", { children: [
+      "The 4 Paths to",
+      (0,j.jsx)("br", {}),
+      (0,j.jsx)("em", { children: "100% Ownership\u2122" })
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "ft-paths-intro", children: [
+    (0,j.jsx)("p", { children: "Inside Fast Track, members are introduced to the 4 Paths to 100% Ownership\u2122 \u2014 the credentialing and operating pathways available to travel professionals pursuing independent ownership." }),
+    (0,j.jsx)("p", { children: "Each pathway carries different requirements, timelines, and operational implications. Your starting pathway is determined after your Travel Business Snapshot\u2122 review \u2014 selected by Bobbie based on your business stage, niche, and ownership goals." })
+  ] }),
+  (0,j.jsx)("div", { className: "ft-pathstrip", children: ["CLIA", "IATA / IATAN", "ARC VTC", "ARC"].map((p) => (0,j.jsxs)("div", { className: "pth", children: [
+    (0,j.jsx)("div", { className: "abbr", children: p }),
+    (0,j.jsx)("span", { className: "tag", children: "Pathway" })
+  ] }, p)) }),
+  (0,j.jsx)("p", { className: "ft-pathstrip-note", children: "Each pathway is a publicly recognized industry credential. The implementation methodology, sequencing logic, and pathway-placement system are proprietary to Fast Track and are delivered upon enrollment." }),
+  (0,j.jsx)("p", { className: "ft-paths-close", children: "All four pathways lead to the same destination: 100% commission ownership of your travel business. Fast Track delivers the structured implementation system. The Snapshot determines where you begin." })
+] }) });
+const FT_Categories = [
+  { h: "Foundational Implementation System", items: ["The 4 Paths to 100% Ownership\u2122 framework", "Ownership Readiness Assessment", "Pathway Selection Guide", "Business structure foundations", "Independent operations setup guidance", "Transition sequencing roadmap"] },
+  { h: "Pathway-Specific Implementation", items: ["Step-by-step pathway implementation modules", "Application preparation guidance", "Documentation requirements walkthrough", "Submission readiness assessment", "Common pitfalls and how to avoid them"] },
+  { h: "Templates & Frameworks", items: ["Implementation templates", "Operational checklists", "Application preparation frameworks", "Business setup forms guidance", "Supplier outreach templates"] },
+  { h: "Operational Setup Guidance", items: ["Business infrastructure essentials", "Independent operations foundations", "Client communication frameworks", "Foundational systems setup"] }
+];
+const FT_Inside = () => (0,j.jsx)("section", { className: "cv-cream", style: { padding: "120px 0" }, "data-screen-label": "06 What's Inside", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "The Implementation System" }),
+    (0,j.jsxs)("h2", { children: [
+      "What You Receive",
+      (0,j.jsx)("br", {}),
+      (0,j.jsx)("em", { children: "Inside Fast Track" })
+    ] })
+  ] }),
+  (0,j.jsx)("div", { className: "ft-inside-body", children: (0,j.jsx)("p", { children: "Fast Track is delivered as a structured implementation system inside a professional course platform. Every component is designed for sequential implementation \u2014 frameworks, templates, checklists, and operational guidance organized for self-directed execution." }) }),
+  (0,j.jsxs)("div", { className: "ft-inside-grid", children: [
+    FT_Categories.map((c) => (0,j.jsxs)("div", { className: "ft-cat", children: [
+      (0,j.jsx)("h4", { children: c.h }),
+      (0,j.jsx)("ul", { children: c.items.map((it, i) => (0,j.jsx)("li", { children: it }, i)) })
+    ] }, c.h)),
+    (0,j.jsxs)("div", { className: "ft-cat span", children: [
+      (0,j.jsx)("h4", { children: "Lifetime Access" }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "Lifetime access to the complete Fast Track system" }),
+        (0,j.jsx)("li", { children: "All future Fast Track updates and methodology refinements included" }),
+        (0,j.jsx)("li", { children: "Ongoing access as the curriculum evolves" })
+      ] })
+    ] })
+  ] }),
+  (0,j.jsx)("p", { className: "ft-inside-close", children: "Fast Track is a complete implementation system \u2014 not a content library. Every component is structured for sequential execution toward 100% commission ownership." })
+] }) });
+const FT_Access = () => (0,j.jsx)("section", { className: "cv-green", style: { padding: "120px 0" }, "data-screen-label": "07 How Access Works", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "How Access Is Delivered" }),
+    (0,j.jsxs)("h2", { children: [
+      "Two Payment Options.",
+      (0,j.jsx)("br", {}),
+      (0,j.jsx)("em", { children: "Two Access Structures." })
+    ] })
+  ] }),
+  (0,j.jsx)("div", { className: "ft-access-intro", children: (0,j.jsx)("p", { children: "Fast Track is offered with two payment options. Both deliver the complete Fast Track system. The pay-in-full option provides immediate full access. The payment plan provides progressive access aligned with the payment commitment." }) }),
+  (0,j.jsxs)("div", { className: "ft-access-grid", children: [
+    (0,j.jsxs)("div", { className: "ft-access-col", children: [
+      (0,j.jsxs)("div", { className: "top", children: [
+        (0,j.jsx)("div", { className: "opt", children: "Pay-in-Full" }),
+        (0,j.jsx)("div", { className: "amt", children: "$1,997" }),
+        (0,j.jsx)("div", { className: "struct", children: "Immediate full access" })
+      ] }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "Complete Fast Track implementation system unlocked at enrollment" }),
+        (0,j.jsx)("li", { children: "All foundational content, templates, frameworks, and pathway modules accessible" }),
+        (0,j.jsx)("li", { children: "Snapshot-informed starting pathway highlighted as your entry point" }),
+        (0,j.jsx)("li", { children: "Lifetime access to all future Fast Track updates" })
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "ft-access-col", children: [
+      (0,j.jsxs)("div", { className: "top", children: [
+        (0,j.jsx)("div", { className: "opt", children: "Payment Plan" }),
+        (0,j.jsxs)("div", { className: "amt", children: [
+          "3 ",
+          (0,j.jsx)("em", { children: "\xD7" }),
+          " $697"
+        ] }),
+        (0,j.jsx)("div", { className: "struct", children: "Progressive access aligned with payment milestones" })
+      ] }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "Foundational implementation content and starting pathway available at enrollment" }),
+        (0,j.jsx)("li", { children: "Additional curriculum unlocks progressively across the payment plan period" }),
+        (0,j.jsx)("li", { children: "Full system access at completion of the payment plan" }),
+        (0,j.jsx)("li", { children: "Lifetime access to all future Fast Track updates after final payment" })
+      ] })
+    ] })
+  ] }),
+  (0,j.jsx)("div", { className: "ft-access-close", children: (0,j.jsx)("p", { children: "Both options deliver the complete Fast Track system. The pay-in-full option rewards full upfront commitment with immediate access. The payment plan provides a structured, paced progression that supports focused implementation while protecting the integrity of the system." }) }),
+  (0,j.jsx)("div", { className: "ft-access-note", children: (0,j.jsx)("p", { children: "Payment plan members who default on subsequent payments remain contractually obligated for the full payment plan amount. Course access continues during the payment period to support active implementation." }) })
+] }) });
+const FT_Math = () => (0,j.jsx)("section", { className: "cv-math cv-cream ft-math", "data-screen-label": "08 The Math", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "The Executive Math" }),
+    (0,j.jsxs)("h2", { children: [
+      "The Math Behind",
+      (0,j.jsx)("br", {}),
+      "100% Commission Ownership"
+    ] })
+  ] }),
+  (0,j.jsx)("div", { className: "cv-math-body", children: (0,j.jsx)("p", { children: "For illustration, consider an established hosted travel agent earning $80,000 annually in take-home income. At a typical 70/30 host commission split, the agent's gross commissions before the split would total approximately $114,286. In that scenario, the host agency retains approximately $34,286 of the agent's earned commissions annually \u2014 for as long as the agent remains hosted." }) }),
+  (0,j.jsxs)("div", { className: "cv-stat-band", children: [
+    (0,j.jsxs)("div", { className: "cv-stat-cell", children: [
+      (0,j.jsx)("div", { className: "lab", children: "Gross commissions earned by the agent" }),
+      (0,j.jsx)("div", { className: "fig", children: "$114,286" })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-stat-cell", children: [
+      (0,j.jsx)("div", { className: "lab", children: "Take-home retained by the agent" }),
+      (0,j.jsx)("div", { className: "fig", children: "$80,000" })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-stat-cell is-host", children: [
+      (0,j.jsx)("div", { className: "lab", children: "Retained by the host, annually" }),
+      (0,j.jsx)("div", { className: "fig", children: "$34,286" })
+    ] })
+  ] }),
+  (0,j.jsx)("p", { className: "ft-math-illus", children: "This is illustrative of typical hosted-agent economics, not a representation of any specific situation." }),
+  (0,j.jsxs)("div", { className: "ft-math-roi", children: [
+    (0,j.jsx)("div", { className: "cv-sub-h", children: "The Fast Track ROI" }),
+    (0,j.jsx)("p", { children: "Fast Track is a one-time investment of $1,997 (or 3 \xD7 $697). It is the structured implementation system that walks the transition to 100% commission ownership." }),
+    (0,j.jsx)("p", { children: "If implementing Fast Track allows you to recover even a portion of the commissions currently retained by your host through accreditation and structural transition, the investment can return itself many times over within the first year of independent operation." }),
+    (0,j.jsxs)("p", { children: [
+      "A single well-executed independent group travel offer at 100% commission can return ",
+      (0,j.jsx)("strong", { children: "$12,000 to $25,000" }),
+      " to a fully accredited travel CEO. One launch can return many multiples of the Fast Track investment."
+    ] })
+  ] }),
+  (0,j.jsx)("p", { className: "ft-math-close", children: "Fast Track is structured implementation toward a real outcome: 100% of your earned commissions returning to your business, not to your host. The math is structural \u2014 outcomes depend on each member's business, market, effort, and credentialing approvals." })
+] }) });
+const FT_Founder = () => (0,j.jsx)("section", { className: "ft-founder", "data-screen-label": "09 Founder Authority", children: (0,j.jsxs)("div", { className: "ft-founder-inner", children: [
+  (0,j.jsx)("span", { className: "eyebrow center", children: "Who Designed This" }),
+  (0,j.jsxs)("h2", { children: [
+    "Created by Bobbie A. Self, MBA",
+    (0,j.jsx)("br", {}),
+    (0,j.jsx)("em", { children: "The Travel CEO Architect" })
+  ] }),
+  (0,j.jsxs)("div", { className: "ft-founder-body", children: [
+    (0,j.jsx)("p", { children: "Fast Track is the structured implementation system designed by Bobbie A. Self, MBA \u2014 founder of The Best Travel Biz Institute\u2122 and creator of the methodology behind every Institute program." }),
+    (0,j.jsx)("p", { children: "Bobbie's professional background includes service as a Centurion Membership Executive with American Express Travel, executive leadership inside a Fortune 100 luxury travel and lifestyle department, and nearly a decade operating within the host-agency model before stepping away to design The Best Travel Biz Institute\u2122 as the formal educational arm for travel professionals seeking the same transition." }),
+    (0,j.jsx)("p", { children: "She also actively operates Sow Into Self Wellness & Luxury Travel Group \u2014 a fully independent travel business operating at 100% commission, supported by the same infrastructure model The Institute teaches." })
+  ] }),
+  (0,j.jsx)("div", { className: "ft-founder-pull", children: (0,j.jsx)("p", { children: "Fast Track is the same ownership methodology Bobbie used to complete her own transition \u2014 structured as a self-paced implementation system for serious operators." }) }),
+  (0,j.jsxs)("a", { href: "/founder-story", className: "ft-founder-link", children: [
+    "Read Bobbie's Founder Story ",
+    (0,j.jsx)(Xn, {})
+  ] })
+] }) });
+const FT_Tracks = () => (0,j.jsx)("section", { className: "cv-cream ft-tracks", style: { padding: "120px 0" }, "data-screen-label": "10 Four Tracks", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "Where This Fits in the Institute" }),
+    (0,j.jsxs)("h2", { children: [
+      "Four Tracks. One Ecosystem.",
+      (0,j.jsx)("br", {}),
+      (0,j.jsx)("em", { children: "One Outcome." })
+    ] })
+  ] }),
+  (0,j.jsx)("div", { className: "cv-tracks-intro", children: (0,j.jsx)("p", { children: "All four tracks within The Best Travel Biz Institute\u2122 are structured around a single architectural outcome: the transition to 100% commission ownership. The tracks differ in level of guidance, pacing, and depth \u2014 not in destination." }) }),
+  (0,j.jsxs)("div", { className: "cv-tracks", children: [
+    (0,j.jsxs)("a", { className: "cv-track", href: "/challenge", children: [
+      (0,j.jsx)("div", { className: "tname", children: "14-Day Travel Agent to CEO Challenge\u2122" }),
+      (0,j.jsx)("div", { className: "tprice", children: "Free" }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "Mindset shift" }),
+        (0,j.jsx)("li", { children: "Ownership language" }),
+        (0,j.jsx)("li", { children: "Entry-level frameworks" }),
+        (0,j.jsx)("li", { children: "Virtual graduation" }),
+        (0,j.jsx)("li", { children: "Digital certificate" })
+      ] }),
+      (0,j.jsxs)("div", { className: "tfor", children: [
+        (0,j.jsx)("b", { children: "For" }),
+        "Anyone exploring the ownership journey"
+      ] })
+    ] }),
+    (0,j.jsxs)("a", { className: "cv-track", href: "/premium", children: [
+      (0,j.jsx)("div", { className: "tname", children: "Premium Membership" }),
+      (0,j.jsx)("div", { className: "tprice", children: "$97 / month" }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "Business education" }),
+        (0,j.jsx)("li", { children: "Foundational systems training" }),
+        (0,j.jsx)("li", { children: "Community access" }),
+        (0,j.jsx)("li", { children: "AI fundamentals" }),
+        (0,j.jsx)("li", { children: "100% Commission Pathway education" })
+      ] }),
+      (0,j.jsxs)("div", { className: "tfor", children: [
+        (0,j.jsx)("b", { children: "For" }),
+        "New and growing agents building foundation"
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-track apex", children: [
+      (0,j.jsx)("span", { className: "apex-badge", children: "This Tier" }),
+      (0,j.jsx)("div", { className: "tname", children: "100% Commission Fast Track\u2122" }),
+      (0,j.jsx)("div", { className: "tprice", children: "$1,997 one-time \xB7 or 3 \xD7 $697 \xB7 Lifetime access" }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "Complete 4 Paths to 100% Ownership\u2122 framework" }),
+        (0,j.jsx)("li", { children: "Snapshot-informed starting pathway" }),
+        (0,j.jsx)("li", { children: "Implementation templates and checklists" }),
+        (0,j.jsx)("li", { children: "Application preparation guidance" }),
+        (0,j.jsx)("li", { children: "Operational setup system" }),
+        (0,j.jsx)("li", { children: "Self-paced lifetime access" })
+      ] }),
+      (0,j.jsxs)("div", { className: "tfor", children: [
+        (0,j.jsx)("b", { children: "For" }),
+        "Self-directed operators implementing 100% commission on their own timeline"
+      ] })
+    ] }),
+    (0,j.jsxs)("a", { className: "cv-track", href: "/ceo-vault", children: [
+      (0,j.jsx)("div", { className: "tname", children: "VIP CEO Vault\u2122" }),
+      (0,j.jsx)("div", { className: "tprice", children: "$997 / month \xB7 12-month commitment" }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "Founder-led advisory cohort" }),
+        (0,j.jsx)("li", { children: "Phased executive implementation" }),
+        (0,j.jsx)("li", { children: "Quarterly 1:1 with Bobbie" }),
+        (0,j.jsx)("li", { children: "Monthly CEO Strategy Hour" }),
+        (0,j.jsx)("li", { children: "Done-with-you infrastructure" }),
+        (0,j.jsx)("li", { children: "AI Executive Assistant Implementation\u2122" }),
+        (0,j.jsx)("li", { children: "Group trip launch support" }),
+        (0,j.jsx)("li", { children: "Annual CEO Retreat" })
+      ] }),
+      (0,j.jsxs)("div", { className: "tfor", children: [
+        (0,j.jsx)("b", { children: "For" }),
+        "Established operators walking the transition with founder-led advisory"
+      ] })
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-tracks-close", children: [
+    (0,j.jsx)("p", { className: "em", children: "Fast Track teaches the pathway. VIP CEO Vault\u2122 walks the operator." }),
+    (0,j.jsx)("p", { children: 'Premium members may eventually advance to Fast Track or VIP. Fast Track buyers may apply for VIP CEO Vault\u2122 when they want advisory depth. There is no single "right" tier \u2014 only the right tier for your current stage.' })
+  ] })
+] }) });
+const FT_Investment = () => (0,j.jsx)("section", { className: "cv-green", style: { padding: "120px 0" }, "data-screen-label": "11 Investment", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "Investment" }),
+    (0,j.jsx)("h2", { children: "Fast Track Pricing" })
+  ] }),
+  (0,j.jsx)("div", { className: "ft-invest-card", children: (0,j.jsxs)("div", { className: "ft-invest-opts", children: [
+    (0,j.jsxs)("div", { className: "ft-invest-opt", children: [
+      (0,j.jsx)("div", { className: "amt", children: "$1,997" }),
+      (0,j.jsx)("div", { className: "lab", children: "Pay-in-Full" }),
+      (0,j.jsx)("div", { className: "desc", children: "Immediate full access \xB7 Lifetime access including all updates" })
+    ] }),
+    (0,j.jsx)("div", { className: "ft-invest-or", children: "or" }),
+    (0,j.jsxs)("div", { className: "ft-invest-opt", children: [
+      (0,j.jsx)("div", { className: "amt", children: "3 \xD7 $697" }),
+      (0,j.jsx)("div", { className: "lab", children: "Payment Plan \xB7 $2,091 total" }),
+      (0,j.jsx)("div", { className: "desc", children: "Progressive access aligned with payment milestones \xB7 Lifetime access after final payment" })
+    ] })
+  ] }) }),
+  (0,j.jsxs)("div", { className: "ft-invest-req", children: [
+    (0,j.jsx)("div", { className: "lab", children: "What's required first" }),
+    (0,j.jsx)("p", { children: "Travel Business Snapshot\u2122 ($97) is required before Fast Track enrollment. This ensures program fit and determines your starting pathway. Total combined investment for Snapshot + Fast Track:" }),
+    (0,j.jsxs)("div", { className: "ft-invest-totals", children: [
+      (0,j.jsxs)("div", { className: "ft-invest-trow", children: [
+        (0,j.jsx)("span", { className: "k", children: "Snapshot + Pay-in-Full Fast Track" }),
+        (0,j.jsx)("span", { className: "v", children: "$97 + $1,997 = $2,094" })
+      ] }),
+      (0,j.jsxs)("div", { className: "ft-invest-trow", children: [
+        (0,j.jsx)("span", { className: "k", children: "Snapshot + Payment Plan Fast Track" }),
+        (0,j.jsx)("span", { className: "v", children: "$97 + (3 \xD7 $697) = $2,188" })
+      ] })
+    ] })
+  ] }),
+  (0,j.jsx)("p", { className: "ft-invest-close", children: "Both Fast Track payment options deliver the complete system with lifetime access. The Snapshot prerequisite ensures fit before larger investment." }),
+  (0,j.jsx)("div", { className: "cv-apply-cta", style: { marginTop: 44, textAlign: "center" }, children: (0,j.jsx)(FT_SnapshotCTA, { children: "Begin with the Travel Business Snapshot\u2122" }) })
+] }) });
+const FT_FAQS = [
+  { q: "Why is the Travel Business Snapshot\u2122 required before Fast Track purchase?", a: ["The Snapshot serves three protective purposes: confirming your business is positioned for Fast Track (some buyers are better served by Premium first), determining your starting pathway, and ensuring you don't invest $1,997 in implementation work for which your business situation isn't yet aligned. The Snapshot is reviewed personally by Bobbie within 7 business days. This is professional due diligence applied to your investment decision."] },
+  { q: "How is my starting pathway determined?", a: ["Your starting pathway is determined by Bobbie based on your Snapshot results. Fast Track uses a proprietary pathway-placement methodology, delivered upon enrollment, that ensures you begin with the pathway most aligned with your business situation. Your starting pathway is communicated upon Fast Track enrollment."] },
+  { q: "Can I choose my own starting pathway?", a: ["No. Pathway placement in Fast Track is methodology-driven, not buyer-selected. This protects buyers from beginning with a pathway misaligned with their current business stage \u2014 a costly and avoidable outcome. Your Snapshot review determines your starting point."] },
+  { q: "What happens if I pay in full versus the payment plan?", a: ["The pay-in-full option ($1,997) unlocks the full Fast Track system immediately at enrollment. The payment plan (3 \xD7 $697) provides progressive access aligned with the payment commitment \u2014 foundational content and your starting pathway available at enrollment, additional curriculum unlocking across the payment plan period, full system access at the completion of the payment plan. Both options deliver the complete Fast Track system with lifetime access including future updates."] },
+  { q: "What is the fourth pathway, and how is access determined?", a: ["The fourth pathway is included as advanced content for members whose business operations are positioned for it. Access is determined through Snapshot review and program progression \u2014 not every member will be placed into the fourth pathway, and that is by design. Pathway placement methodology is part of Fast Track's proprietary curriculum and is delivered upon enrollment."] },
+  { q: "Is Premium Membership included with Fast Track?", a: ["No. Premium Membership ($97/month) and Fast Track ($1,997) are separate products serving different purposes. Premium teaches the foundational education. Fast Track provides the ownership implementation system. They can be purchased independently or together based on your needs."] },
+  { q: "Do I have access to Bobbie personally during Fast Track?", a: ["No. Fast Track is the self-paced implementation system. Bobbie's direct 1:1 access \u2014 quarterly strategy sessions, priority access, advisory support \u2014 is reserved for VIP CEO Vault\u2122 members. Fast Track delivers the structured methodology, templates, and frameworks she designed, but personal advisory time is not included at this tier."] },
+  { q: "What's the refund policy?", a: ["Fast Track includes a 14-day refund window from the date of enrollment, available only if no modules beyond Module 1 have been accessed. Because Fast Track delivers proprietary methodology and digital content, refunds are not available once meaningful program access has occurred. This policy protects both the buyer's purchase decision window and the integrity of the program's intellectual property."] },
+  { q: "What happens if I'm on the payment plan and miss a payment?", a: ["The 3-payment plan is a binding payment commitment. If a payment is missed, all remaining payments become immediately due. Course access continues during the payment period to support implementation. Members are responsible for ensuring their payment method remains current throughout the payment plan period."] },
+  { q: "Does Fast Track include the AI Executive Assistant Implementation\u2122 course?", a: ["No. The AI Executive Assistant Implementation\u2122 course is being developed as a separate product and will be available to Fast Track members at a member-discounted rate upon release. The course is also included as part of VIP CEO Vault\u2122 Phase 3 implementation."] },
+  { q: "How long does it take to complete Fast Track?", a: ["Implementation timeline varies based on your starting pathway, business situation, and pace. The structured curriculum is designed to support implementation over 3 to 9 months for most members, but lifetime access means you set your pace. There is no expiration on Fast Track access."] },
+  { q: "How is Fast Track different from VIP CEO Vault\u2122?", a: ["Both products are built on the same Institute methodology. The difference is delivery model. Fast Track is the self-paced implementation system at a one-time investment ($1,997) \u2014 no cohort, no 1:1 advisory, no scheduled calls. VIP CEO Vault\u2122 is the founder-led advisory cohort at $997/month for 12 months \u2014 quarterly 1:1 sessions with Bobbie, monthly cohort calls, done-with-you implementation, supplier strategy, group trip launch support. Both lead to 100% commission ownership; they differ in how you get there.", "__BOLD__Fast Track teaches the pathway. VIP CEO Vault\u2122 walks the operator."] }
+];
+const FT_FAQ = () => (0,j.jsx)("section", { className: "cv-faq cv-cream", style: { background: "var(--cream)" }, "data-screen-label": "12 FAQ", children: (0,j.jsxs)("div", { className: "wrap cv-faq-wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "Frequently Asked" }),
+    (0,j.jsx)("h2", { children: "Direct Answers Before You Invest" })
+  ] }),
+  (0,j.jsx)("div", { className: "faq-list", children: FT_FAQS.map((f, i) => (0,j.jsxs)("details", { className: "faq-item", open: i === 0, children: [
+    (0,j.jsxs)("summary", { children: [
+      f.q,
+      (0,j.jsx)("span", { className: "ico", children: "+" })
+    ] }),
+    (0,j.jsx)("div", { className: "ans", children: f.a.map(
+      (para, j) => para.startsWith("__BOLD__") ? (0,j.jsx)("p", { children: (0,j.jsx)("strong", { children: para.replace("__BOLD__", "") }) }, j) : (0,j.jsx)("p", { children: para }, j)
+    ) })
+  ] }, i)) })
+] }) });
+const FT_Disclaimer = () => (0,j.jsx)("section", { className: "sp-disclaimer", "data-screen-label": "13 Disclaimer", children: (0,j.jsxs)("div", { className: "wrap sp-disclaimer-wrap", children: [
+  (0,j.jsx)("h6", { className: "sp-disclaimer-label", children: "Important" }),
+  (0,j.jsx)("p", { className: "sp-disclaimer-text", children: "100% Commission Fast Track\u2122 provides structured educational guidance, implementation methodology, templates, and frameworks designed to assist travel professionals in their independent ownership transition. Outcomes depend on each member's business structure, qualifications, market conditions, effort, and third-party requirements." }),
+  (0,j.jsx)("p", { className: "sp-disclaimer-text", children: "Accreditation approvals, supplier relationships, and commission outcomes depend on factors outside the Institute's control. Fast Track does not guarantee accreditation approval, supplier acceptance, income outcomes, or specific business results. Industry math examples referenced on this page (including host commission split scenarios) are illustrative of typical industry conditions and not representations of any specific member's expected outcomes. Individual experiences vary based on market, niche, business stage, and effort." }),
+  (0,j.jsx)("p", { className: "sp-disclaimer-text", children: "The Travel Business Snapshot\u2122 is required prior to Fast Track enrollment to confirm program fit. Members not positioned for Fast Track based on Snapshot results may be directed toward Premium Membership or VIP CEO Vault\u2122 as appropriate." }),
+  (0,j.jsx)("p", { className: "sp-disclaimer-text", children: "Fast Track program content, methodology, frameworks, templates, pathway-placement system, and sequencing logic are proprietary intellectual property of The Best Travel Biz Institute\u2122. Distribution, reproduction, sharing, or unauthorized access of program materials is prohibited under enrollment terms and may result in access revocation and legal action. Each Fast Track member receives content licensed exclusively under the terms of their enrollment." }),
+  (0,j.jsx)("p", { className: "sp-disclaimer-text", children: "Refund Policy: 14-day refund window from enrollment date, available only if no modules beyond Module 1 have been accessed. Fast Track payment plan is a binding commitment for the full payment amount; missed payments result in all remaining payments becoming immediately due." }),
+  (0,j.jsx)("p", { className: "sp-disclaimer-text sp-disclaimer-italic", children: "Fast Track is a self-paced program. No advisory access, cohort participation, or 1:1 founder time is included at this tier. Those are available exclusively through VIP CEO Vault\u2122." })
+] }) });
+const FT_Final = () => (0,j.jsx)("section", { className: "cv-final", "data-screen-label": "14 Final CTA", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("h2", { children: [
+    "The Pathway. The System. ",
+    (0,j.jsx)("em", { children: "Your Timeline." })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-final-body", children: [
+    (0,j.jsx)("p", { children: "100% Commission Fast Track\u2122 was built for travel professionals ready to walk the path to independent ownership with structure, intention, and self-directed execution." }),
+    (0,j.jsx)("p", { children: "The methodology is structured. The implementation system is complete. The pathway is yours when you begin." })
+  ] }),
+  (0,j.jsx)("p", { className: "cv-final-diag", children: "Fast Track exists to deliver one structural outcome: a structured self-paced implementation system for travel professionals walking the path to 100% commission ownership \u2014 at their own pace, on their own timeline, with the complete Institute methodology in hand." }),
+  (0,j.jsx)("div", { className: "cv-final-status", children: "$1,997 one-time \xB7 or 3 \xD7 $697 \xB7 Lifetime access \xB7 Travel Business Snapshot\u2122 required before enrollment" }),
+  (0,j.jsx)("span", { className: "eyebrow center", children: "Start With the Travel Business Snapshot\u2122" }),
+  (0,j.jsx)("p", { className: "cv-final-diag", children: "The Snapshot is the required first step before Fast Track enrollment. It confirms your business is positioned for the program and determines your starting pathway. Personally reviewed by Bobbie within 7 business days." }),
+  (0,j.jsxs)("p", { className: "cv-final-rate", children: [
+    "Founding Cohort Launch Rate: ",
+    (0,j.jsx)("b", { children: "$97" }),
+    "."
+  ] }),
+  (0,j.jsx)("div", { className: "cta-row", children: (0,j.jsx)(FT_SnapshotCTA, { children: "Begin Your Snapshot" }) }),
+  (0,j.jsx)("p", { className: "cv-final-cta-sub", children: "Application personally reviewed by Bobbie. Fast Track enrollment available after Snapshot review confirms program fit." }),
+  (0,j.jsxs)("div", { className: "cv-final-sig", children: [
+    "Bobbie A. Self",
+    (0,j.jsx)("small", { children: "Founder \xB7 The Best Travel Biz Institute\u2122" })
+  ] })
+] }) });
+const FT_FootNote = () => (0,j.jsx)("section", { className: "cv-footnote", "data-screen-label": "fr Note", children: (0,j.jsx)("p", { children: "100% Commission Fast Track\u2122 is a self-paced implementation program of The Best Travel Biz Institute\u2122 \xB7 Founded by Bobbie A. Self, MBA \u2014 The Travel CEO Architect \xB7 \xA9 2026 The Best Travel Biz Institute\u2122" }) });
+const FastTrackPage = () => (0,j.jsxs)("main", { id: "top", children: [
+  (0,j.jsx)($n, { home: Jn.home }),
+  (0,j.jsx)(FT_Hero, {}),
+  (0,j.jsx)(FT_WhatItIs, {}),
+  (0,j.jsx)(FT_WhoFor, {}),
+  (0,j.jsx)(FT_Prereq, {}),
+  (0,j.jsx)(FT_Paths, {}),
+  (0,j.jsx)(FT_Inside, {}),
+  (0,j.jsx)(FT_Access, {}),
+  (0,j.jsx)(FT_Math, {}),
+  (0,j.jsx)(FT_Founder, {}),
+  (0,j.jsx)(FT_Tracks, {}),
+  (0,j.jsx)(FT_Investment, {}),
+  (0,j.jsx)(FT_FAQ, {}),
+  (0,j.jsx)(FT_Disclaimer, {}),
+  (0,j.jsx)(FT_Final, {}),
+  (0,j.jsx)(FT_FootNote, {}),
+  (0,j.jsx)(fr, { home: Jn.home })
+] });
+window.FastTrackPage = FastTrackPage;
+
 const TermsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)($n,{}),
   (0,j.jsxs)("section",{style:{padding:"80px 24px 72px"},children:[
@@ -1789,4 +2305,4 @@ const PremiumPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]});
 function SeoMeta(){(0,x.useEffect)(()=>{const p=(window.location.pathname||"/").replace(/\/$/,"")||"/";const T={"/":`The Best Travel Biz Institute™ | Travel CEO Education for Independent Agents`,"/about":`About Bobbie A. Self, MBA — The Travel CEO Architect | The Best Travel Biz Institute`,"/snapshot":`Travel Business Snapshot™ — CEO-Level Diagnostic | The Best Travel Biz Institute`,"/snapshot-intake":`Snapshot Intake Form | The Best Travel Biz Institute™`,"/premium":`Premium Membership — Travel CEO Education Tier | The Best Travel Biz Institute™`,"/challenge":`Free 14-Day Travel Agent to CEO Challenge | The Best Travel Biz Institute™`,"/ceo-vault":`VIP CEO Vault — By Invitation Only | The Best Travel Biz Institute™`,"/contact":`Contact | The Best Travel Biz Institute™`,"/media":`Media & Press | The Best Travel Biz Institute™`,"/careers":`Careers | The Best Travel Biz Institute™`,"/bookstore":`Bookstore | The Best Travel Biz Institute™`,"/ceo-letters":`CEO Letters | The Best Travel Biz Institute™`,"/terms-and-conditions":`Terms and Conditions | The Best Travel Biz Institute™`,"/student-non-disclosure":`Student Non-Disclosure Agreement | The Best Travel Biz Institute™`,"/privacy-policy":`Privacy Policy | The Best Travel Biz Institute™`,"/earnings-disclaimer":`Earnings Disclaimer | The Best Travel Biz Institute™`};const D={"/":`Education for independent travel agents transitioning to true CEO-level business ownership — without host-agency dependence, recruiting, or downlines.`,"/about":`MBA. Fortune 100 luxury travel executive. Founder of The Best Travel Biz Institute & Sow Into Self Wellness Travel. 25 years building structures that develop people into business owners.`,"/snapshot":`The Travel Business Snapshot™ assesses your business across 7 executive dimensions. Find out exactly where you stand before applying to VIP CEO Vault.`,"/snapshot-intake":`Complete your Travel Business Snapshot™ intake form. Share your business details to receive your personalized CEO-level diagnostic assessment.`,"/premium":`Premium Membership is the CEO education and foundational setup tier of The Best Travel Biz Institute™. Learn business structure, systems, and positioning for $97/month, hosted on Skool, cancel anytime.`,"/challenge":`Free 14-Day Challenge. Access training, community, and worksheets designed to shift your mindset from travel agent to business owner. No cost to join.`,"/ceo-vault":`Invitation-based advisory for qualified travel operators. Quarterly CEO sessions, annual retreat, and executive-level scaling guidance. Apply today.`,"/contact":`Reach The Best Travel Biz Institute™ for general inquiries, speaking requests, or media opportunities. Email: institute@thebesttravelbiz.com.`,"/media":`Media and press inquiries for The Best Travel Biz Institute™ and Bobbie A. Self, MBA. Contact our team at media@thebesttravelbiz.com.`,"/careers":`Career opportunities at The Best Travel Biz Institute™. Join the team helping travel agents transition to true business ownership.`,"/bookstore":`The Best Travel Biz Institute™ Bookstore. Educational resources and guides for independent travel agents building toward true ownership.`,"/ceo-letters":`Strategic letters and communications from Bobbie A. Self, MBA, Founder of The Best Travel Biz Institute™, to the travel CEO community.`,"/terms-and-conditions":`Terms and Conditions for The Best Travel Biz Institute™. Review membership tiers, billing, cancellation, and intellectual property guidelines.`,"/student-non-disclosure":`Student NDA for Premium and VIP members of The Best Travel Biz Institute™. Governs use of proprietary methods, strategies, and educational materials.`,"/privacy-policy":`Privacy Policy for The Best Travel Biz Institute™, operated by Sow Into Self Wellness & Travel Group, LLC. How we collect, use, and protect your information.`,"/earnings-disclaimer":`Earnings Disclaimer for The Best Travel Biz Institute™. Individual results vary. Income outcomes depend on individual effort, experience, and market conditions.`};document.title=T[p]||`The Best Travel Biz Institute™`;const m=document.querySelector(`meta[name='description']`);if(m)m.content=D[p]||`Travel business education for independent agents transitioning to true CEO-level ownership.`;});return null;}
 
-function Gr(){return(0,j.jsx)(En,{children:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(SeoMeta,{}),(0,j.jsxs)(Rt,{children:[(0,j.jsx)(It,{path:`/`,element:(0,j.jsx)(pr,{})}),(0,j.jsx)(It,{path:`/snapshot`,element:(0,j.jsx)(Tr,{})}),(0,j.jsx)(It,{path:`/snapshot-intake`,element:(0,j.jsx)(jr,{})}),(0,j.jsx)(It,{path:`/premium`,element:(0,j.jsx)(PremiumPage,{})}),(0,j.jsx)(It,{path:`/challenge`,element:(0,j.jsx)(Wr,{})}),(0,j.jsx)(It,{path:`/contact`,element:(0,j.jsx)(ContactPage,{})}),(0,j.jsx)(It,{path:`/media`,element:(0,j.jsx)(MediaPage,{})}),(0,j.jsx)(It,{path:`/careers`,element:(0,j.jsx)(CareersPage,{})}),(0,j.jsx)(It,{path:`/ceo-letters`,element:(0,j.jsx)(CEOLettersPage,{})}),(0,j.jsx)(It,{path:`/bookstore`,element:(0,j.jsx)(BookstorePage,{})}),(0,j.jsx)(It,{path:`/ceo-vault`,element:(0,j.jsx)(CEOVaultPage,{})}),(0,j.jsx)(It,{path:`/terms-and-conditions`,element:(0,j.jsx)(TermsPage,{})}),(0,j.jsx)(It,{path:`/student-non-disclosure`,element:(0,j.jsx)(StudentNDAPage,{})}),(0,j.jsx)(It,{path:`/privacy-policy`,element:(0,j.jsx)(PrivacyPage,{})}),(0,j.jsx)(It,{path:`/earnings-disclaimer`,element:(0,j.jsx)(EarningsPage,{})}),(0,j.jsx)(It,{path:`/about`,element:(0,j.jsx)(AboutPage,{})})]})]})})}document.documentElement.style.setProperty(`--founder-bg`,`url(${Qn(`founder.png`)})`),(0,qn.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(x.StrictMode,{children:(0,j.jsx)(Gr,{})}));
+function Gr(){return(0,j.jsx)(En,{children:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(SeoMeta,{}),(0,j.jsxs)(Rt,{children:[(0,j.jsx)(It,{path:`/`,element:(0,j.jsx)(pr,{})}),(0,j.jsx)(It,{path:`/snapshot`,element:(0,j.jsx)(Tr,{})}),(0,j.jsx)(It,{path:`/snapshot-intake`,element:(0,j.jsx)(jr,{})}),(0,j.jsx)(It,{path:`/premium`,element:(0,j.jsx)(PremiumPage,{})}),(0,j.jsx)(It,{path:`/challenge`,element:(0,j.jsx)(Wr,{})}),(0,j.jsx)(It,{path:`/contact`,element:(0,j.jsx)(ContactPage,{})}),(0,j.jsx)(It,{path:`/media`,element:(0,j.jsx)(MediaPage,{})}),(0,j.jsx)(It,{path:`/careers`,element:(0,j.jsx)(CareersPage,{})}),(0,j.jsx)(It,{path:`/ceo-letters`,element:(0,j.jsx)(CEOLettersPage,{})}),(0,j.jsx)(It,{path:`/bookstore`,element:(0,j.jsx)(BookstorePage,{})}),(0,j.jsx)(It,{path:`/ceo-vault`,element:(0,j.jsx)(CEOVaultPage,{})}),(0,j.jsx)(It,{path:`/fast-track`,element:(0,j.jsx)(FastTrackPage,{})}),(0,j.jsx)(It,{path:`/terms-and-conditions`,element:(0,j.jsx)(TermsPage,{})}),(0,j.jsx)(It,{path:`/student-non-disclosure`,element:(0,j.jsx)(StudentNDAPage,{})}),(0,j.jsx)(It,{path:`/privacy-policy`,element:(0,j.jsx)(PrivacyPage,{})}),(0,j.jsx)(It,{path:`/earnings-disclaimer`,element:(0,j.jsx)(EarningsPage,{})}),(0,j.jsx)(It,{path:`/about`,element:(0,j.jsx)(AboutPage,{})})]})]})})}document.documentElement.style.setProperty(`--founder-bg`,`url(${Qn(`founder.png`)})`),(0,qn.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(x.StrictMode,{children:(0,j.jsx)(Gr,{})}));
