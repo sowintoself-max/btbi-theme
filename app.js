@@ -1344,7 +1344,7 @@ const EarningsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 
 const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 (0,j.jsx)($n,{}),
-(0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"100px 24px 80px"},children:[
+(0,j.jsxs)("section",{style:{background:"var(--green)",padding:"100px 24px 80px"},children:[
   (0,j.jsxs)("div",{className:"wrap about-hero-grid",style:{display:"grid",gridTemplateColumns:"1fr 260px",gap:48,alignItems:"center",maxWidth:900},children:[
     (0,j.jsxs)("div",{children:[
       
@@ -1365,7 +1365,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
     (0,j.jsx)("p",{style:{lineHeight:1.9,fontSize:17},children:`This is the story of how that path came to be.`})
   ]})
 ]}),
-(0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
+(0,j.jsxs)("section",{style:{background:"var(--green)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
     (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--gold)",marginBottom:36},children:`The Travel-Industry Pioneer Years`}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:`Years ago, while operating within a host-agency environment, I became the very first independent travel agent in the company to receive approval for my own independently branded website — outside of the host agency's standard replicated template system.`}),
@@ -1394,7 +1394,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
     (0,j.jsx)("div",{style:{width:60,height:3,background:"var(--gold)",margin:"40px auto 0"}})
   ]})
 ]}),
-(0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
+(0,j.jsxs)("section",{style:{background:"var(--green)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
     (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--gold)",marginBottom:36},children:`The Professional Arc`}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:`The travel industry was the natural intersection of two career arcs that had been developing in parallel for decades.`}),
@@ -1415,7 +1415,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
     (0,j.jsx)("p",{style:{lineHeight:1.9,fontSize:17},children:`It was built to address what I had spent years inside the industry watching go unsolved: the absence of a structured, ownership-focused path for travel professionals ready to stop renting their business and start owning it.`})
   ]})
 ]}),
-(0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
+(0,j.jsxs)("section",{style:{background:"var(--green)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
     (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--gold)",marginBottom:36},children:`What I Do Today`}),
     (0,j.jsxs)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:20,fontSize:17},children:[`I currently operate `,(0,j.jsx)("strong",{style:{color:"var(--gold)"},children:`Sow Into Self Wellness & Luxury Travel Group`}),` — a women-only luxury wellness travel business where I personally host curated group experiences for intentional women investing in rest, restoration, and self-discovery.`]}),
@@ -1444,7 +1444,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
     (0,j.jsx)("p",{style:{lineHeight:1.9,fontSize:17,fontWeight:600},children:`I'm building those structures now.`})
   ]})
 ]}),
-(0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
+(0,j.jsxs)("section",{style:{background:"var(--green)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:800},children:[
     (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--gold)",marginBottom:36},children:`What I Stand For`}),
     (0,j.jsx)("p",{style:{color:"var(--cream)",lineHeight:1.9,marginBottom:28,fontSize:17},children:`I lead each member of The Best Travel Biz Institute toward building a path to 100% commission through education, structure, and true business ownership —`}),
@@ -1469,7 +1469,7 @@ const AboutPage=()=>(0,j.jsxs)("main",{id:"top",children:[
     (0,j.jsx)("p",{style:{fontFamily:"var(--serif)",fontSize:36,color:"var(--green-ink)",fontWeight:700,margin:0},children:`It's built.`})
   ]})
 ]}),
-(0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px"},children:[
+(0,j.jsxs)("section",{style:{background:"var(--green)",padding:"80px 24px"},children:[
   (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:680,textAlign:"center"},children:[
     (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",fontSize:"clamp(30px,3.6vw,52px)",color:"var(--cream)",marginBottom:48},children:`Where to Go From Here`}),
     (0,j.jsx)("p",{style:{color:"rgba(250,246,238,0.7)",marginBottom:40,fontSize:13,letterSpacing:"0.2em",textTransform:"uppercase"},children:`Explore The Best Travel Biz Institute™`}),
