@@ -137,52 +137,950 @@ const BookstorePage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)(fr,{})
 ]});
 
-const CEOVaultPage=()=>(0,j.jsxs)("main",{id:"top",children:[
-  (0,j.jsx)($n,{}),
-  (0,j.jsxs)("section",{style:{background:"var(--green-ink)",padding:"80px 24px 60px",textAlign:"center"},children:[
-    (0,j.jsxs)("div",{className:"wrap",children:[
-      (0,j.jsx)("span",{style:{fontFamily:"var(--serif-body)",fontSize:13,letterSpacing:"0.2em",textTransform:"uppercase",color:"var(--gold)",display:"block",marginBottom:16},children:"Tier 03 · VIP · By Invitation"}),
-      (0,j.jsxs)("h1",{style:{color:"var(--cream)",fontFamily:"var(--serif)",fontSize:"clamp(36px,6vw,72px)",margin:"0 0 24px"},children:["VIP CEO ",(0,j.jsx)("em",{style:{fontFamily:"var(--serif-body)",color:"var(--gold)",fontStyle:"italic"},children:"Vault"})]}),
-      (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:22,fontStyle:"italic",color:"var(--gold)",margin:"0 0 16px"},children:"Implement · Scale · Lead."}),
-      (0,j.jsx)("p",{style:{color:"var(--cream)",fontSize:18,maxWidth:640,margin:"0 auto"},children:"An invitation-based advisory environment for qualified operators ready to scale with strategic guidance and curated access."})
-    ]})
-  ]}),
-  (0,j.jsxs)("section",{style:{padding:"72px 24px",background:"var(--cream)"},children:[
-    (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
-      (0,j.jsx)("h2",{style:{fontFamily:"var(--serif)",color:"var(--green-ink)",textAlign:"center",marginBottom:48},children:"What's Included"}),
-      (0,j.jsxs)("ul",{style:{listStyle:"none",padding:0,margin:"0 0 48px",display:"grid",gap:16},children:[
-        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Quarterly 1:1 CEO strategy sessions with Bobbie"}),
-        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Annual private CEO retreat"}),
-        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Priority executive support access"}),
-        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Strategic accreditation & supplier implementation guidance"}),
-        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Private VIP roundtable discussions"}),
-        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Exclusive CEO-level trainings & resources"}),
-        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Advanced ownership & scaling workshops"}),
-        (0,j.jsx)("li",{style:{borderLeft:"3px solid var(--gold)",paddingLeft:20,fontSize:17},children:"Early access to Institute opportunities & resources"})
-      ]}),
-      (0,j.jsxs)("div",{style:{background:"var(--green-ink)",borderRadius:12,padding:"40px 32px",textAlign:"center"},children:[
-        (0,j.jsx)("p",{style:{fontFamily:"var(--sans)",fontSize:11,letterSpacing:"0.2em",textTransform:"uppercase",color:"var(--gold)",marginBottom:20},children:"Payment Options"}),
-        (0,j.jsxs)("div",{style:{display:"grid",gap:12,marginBottom:28},children:[
-          (0,j.jsxs)("div",{style:{border:"1px solid rgba(212,175,100,0.4)",borderRadius:6,padding:"16px 20px",textAlign:"left",display:"flex",justifyContent:"space-between",alignItems:"center"},children:[
-            (0,j.jsx)("span",{style:{color:"var(--cream)",fontSize:14},children:"Monthly"}),
-            (0,j.jsx)("span",{style:{fontFamily:"var(--serif)",color:"var(--gold)",fontSize:20},children:"$997/mo for 12 months"})
-          ]}),
-          (0,j.jsxs)("div",{style:{border:"1px solid rgba(212,175,100,0.4)",borderRadius:6,padding:"16px 20px",textAlign:"left",display:"flex",justifyContent:"space-between",alignItems:"center"},children:[
-            (0,j.jsxs)("span",{style:{color:"var(--cream)",fontSize:14},children:["Quarterly",(0,j.jsx)("span",{style:{color:"var(--gold)",fontSize:11,marginLeft:8},children:"saves $1,000"})]}),
-            (0,j.jsx)("span",{style:{fontFamily:"var(--serif)",color:"var(--gold)",fontSize:20},children:"$2,891/quarter"})
-          ]}),
-          (0,j.jsxs)("div",{style:{border:"1px solid var(--gold)",borderRadius:6,padding:"16px 20px",textAlign:"left",background:"rgba(212,175,100,0.08)",display:"flex",justifyContent:"space-between",alignItems:"center"},children:[
-            (0,j.jsxs)("span",{style:{color:"var(--cream)",fontSize:14},children:["Pay-in-Full",(0,j.jsx)("span",{style:{color:"var(--gold)",fontSize:11,marginLeft:8},children:"saves $1,967"})]}),
-            (0,j.jsx)("span",{style:{fontFamily:"var(--serif)",color:"var(--gold)",fontSize:20},children:"$9,997"})
-          ]})
-        ]}),
-        (0,j.jsx)("p",{style:{color:"var(--gold)",fontFamily:"var(--serif-body)",fontStyle:"italic",fontSize:16,margin:"0 0 24px"},children:"Completion of the Travel Business Snapshot™ is required before VIP consideration."}),
-        (0,j.jsx)("a",{href:"/snapshot",className:"btn btn-gold",children:"Complete the Snapshot for VIP Consideration"})
-      ]})
-    ]})
-  ]}),
-  (0,j.jsx)(fr,{})
-]});
+const CV_SnapshotCTA = ({ children, className = "" }) => (0,j.jsxs)(
+  "a",
+  {
+    href: Jn.snapshotCheckout,
+    className: `btn btn-gold ${className}`,
+    "data-cta": "snapshot-purchase",
+    children: [
+      children,
+      " ",
+      (0,j.jsx)(Xn, {})
+    ]
+  }
+);
+const CV_Hero = () => (0,j.jsxs)("section", { className: "cv-hero", "data-screen-label": "01 Hero", children: [
+  (0,j.jsx)("div", { className: "cv-hero-top" }),
+  (0,j.jsxs)("div", { className: "cv-hero-inner", children: [
+    (0,j.jsxs)("div", { className: "cv-crest", children: [
+      (0,j.jsx)("span", { className: "mono", children: "B" }),
+      (0,j.jsx)("span", { className: "crest-tier", children: "Tier 03 \xB7 The Apex" })
+    ] }),
+    (0,j.jsx)("span", { className: "eyebrow", children: "Tier 03 \xB7 By Application Only \xB7 24 Seats" }),
+    (0,j.jsxs)("h1", { children: [
+      "Stop Renting",
+      (0,j.jsx)("br", {}),
+      "Your ",
+      (0,j.jsx)("em", { children: "Business." })
+    ] }),
+    (0,j.jsx)("p", { className: "cv-hero-sub", children: "The 12-month executive cohort for established travel professionals walking the structural ownership transition." }),
+    (0,j.jsxs)("div", { className: "cv-hero-body", children: [
+      (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 is the private 12-month advisory cohort for established travel professionals ready to complete the structural transition from host-dependent agent to fully accredited, independently operating travel business CEO." }),
+      (0,j.jsx)("p", { children: "Founder-led methodology. Phased executive implementation. Guided accreditation. Real-world group trip launch. AI-powered executive infrastructure deployment. All inside a private community of 24 travel CEOs at every stage of the same transition." })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-gate", children: [
+      (0,j.jsx)("h4", { children: "This is not for new agents." }),
+      (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 is designed for established travel professionals who already have traction, clients, bookings, or consistent revenue \u2014 and are ready to build the structure required for independent ownership and scale." }),
+      (0,j.jsxs)("p", { children: [
+        "If you're still building your first book of business, Premium Membership is your starting point. If you want self-paced pathway education, 100% Commission Fast Track\u2122 is built for you. ",
+        (0,j.jsx)("em", { children: "VIP CEO Vault\u2122 is the apex tier \u2014 for operators ready to walk the transition with founder-led advisory." })
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-status", children: [
+      (0,j.jsx)("span", { children: "Founding Cohort opens July 1, 2026" }),
+      (0,j.jsx)("span", { children: "Founding rate $997/mo" }),
+      (0,j.jsx)("span", { children: "24 members" }),
+      (0,j.jsx)("span", { children: "By application only" })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-hero-cta", children: [
+      (0,j.jsx)(CV_SnapshotCTA, { children: "Begin with the Travel Business Snapshot\u2122" }),
+      (0,j.jsx)("p", { className: "cv-cta-sub", children: "Application gateway. Personally reviewed by Bobbie within 7 business days." })
+    ] })
+  ] })
+] });
+const CV_Math = () => (0,j.jsx)("section", { className: "cv-math cv-cream", "data-screen-label": "02 The Math", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "The Executive Math" }),
+    (0,j.jsxs)("h2", { children: [
+      "The Math No One in the",
+      (0,j.jsx)("br", {}),
+      "Industry Talks About"
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-math-body", children: [
+    (0,j.jsx)("p", { children: "Most independent travel professionals don't sell $500,000 in travel annually. Their host agency does \u2014 across the entire book of agents underneath them. The individual agent's reality is different." }),
+    (0,j.jsx)("p", { children: "Consider an established hosted travel agent earning $80,000 in annual take-home income. That number is real. It reflects what a good hosted agent \u2014 one with traction, clients, and consistent booking volume \u2014 actually nets after the host's commission split." }),
+    (0,j.jsx)("p", { className: "cv-emph-line", children: "But $80,000 is only what the agent received." }),
+    (0,j.jsx)("div", { className: "cv-sub-h", children: "The Host Split Math" }),
+    (0,j.jsx)("p", { children: "At a typical 70/30 host split, an agent's $80,000 take-home represents only 70% of what they actually earned in commissions." })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-stat-band", children: [
+    (0,j.jsxs)("div", { className: "cv-stat-cell", children: [
+      (0,j.jsx)("div", { className: "lab", children: "Gross commissions earned by the agent" }),
+      (0,j.jsx)("div", { className: "fig", children: "$114,286" })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-stat-cell", children: [
+      (0,j.jsx)("div", { className: "lab", children: "Take-home retained by the agent" }),
+      (0,j.jsx)("div", { className: "fig", children: "$80,000" })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-stat-cell is-host", children: [
+      (0,j.jsx)("div", { className: "lab", children: "Retained by the host, annually" }),
+      (0,j.jsx)("div", { className: "fig", children: "$34,286" })
+    ] })
+  ] }),
+  (0,j.jsxs)("p", { className: "cv-math-note", children: [
+    "That $34,286 happens every year, indefinitely, for as long as the agent remains hosted. Over ten years: ",
+    (0,j.jsx)("b", { children: "$342,860" }),
+    " in retained commissions to the host agency."
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-math-body", children: [
+    (0,j.jsx)("div", { className: "cv-sub-h", children: "The Operating Cost Reality" }),
+    (0,j.jsx)("p", { children: "But the host split is only half of the math. To operate a serious independent travel business at scale \u2014 without modern infrastructure \u2014 typically requires significant labor:" })
+  ] }),
+  (0,j.jsxs)("table", { className: "cv-table", children: [
+    (0,j.jsx)("caption", { children: "Traditional Labor Capacity" }),
+    (0,j.jsx)("thead", { children: (0,j.jsxs)("tr", { children: [
+      (0,j.jsx)("th", { children: "Role" }),
+      (0,j.jsx)("th", { children: "Typical Annual Salary" })
+    ] }) }),
+    (0,j.jsxs)("tbody", { children: [
+      (0,j.jsxs)("tr", { children: [
+        (0,j.jsx)("td", { children: "Office Manager / Administrative Lead" }),
+        (0,j.jsx)("td", { children: "~$50,000" })
+      ] }),
+      (0,j.jsxs)("tr", { children: [
+        (0,j.jsx)("td", { children: "Sales Coordinator" }),
+        (0,j.jsx)("td", { children: "~$45,000" })
+      ] }),
+      (0,j.jsxs)("tr", { children: [
+        (0,j.jsx)("td", { children: "Marketing Coordinator" }),
+        (0,j.jsx)("td", { children: "~$50,000" })
+      ] }),
+      (0,j.jsxs)("tr", { children: [
+        (0,j.jsx)("td", { children: "Content & Communications Manager" }),
+        (0,j.jsx)("td", { children: "~$45,000" })
+      ] }),
+      (0,j.jsxs)("tr", { children: [
+        (0,j.jsx)("td", { children: "Customer Service Specialist" }),
+        (0,j.jsx)("td", { children: "~$40,000" })
+      ] }),
+      (0,j.jsxs)("tr", { className: "is-total", children: [
+        (0,j.jsx)("td", { children: "Total annual labor capacity needed" }),
+        (0,j.jsx)("td", { children: "~$230,000" })
+      ] })
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-math-body", children: [
+    (0,j.jsx)("p", { children: "For decades, this is why most travel professionals stayed hosted. The host agency provided the operational infrastructure that an independent agent couldn't afford to build alone." }),
+    (0,j.jsx)("p", { className: "cv-emph-line", children: "That equation has fundamentally changed." }),
+    (0,j.jsx)("div", { className: "cv-sub-h", children: "The Modern Infrastructure Math" }),
+    (0,j.jsx)("p", { children: "A modern independent travel business operating with AI-powered executive infrastructure and current automation tools can replicate the operational capacity of that $230,000 staff for approximately:" })
+  ] }),
+  (0,j.jsxs)("table", { className: "cv-table", children: [
+    (0,j.jsx)("caption", { children: "Modern Operational Infrastructure" }),
+    (0,j.jsx)("thead", { children: (0,j.jsxs)("tr", { children: [
+      (0,j.jsx)("th", { children: "Infrastructure Component" }),
+      (0,j.jsx)("th", { children: "Typical Annual Cost" })
+    ] }) }),
+    (0,j.jsxs)("tbody", { children: [
+      (0,j.jsxs)("tr", { children: [
+        (0,j.jsx)("td", { children: "CRM platform + email infrastructure" }),
+        (0,j.jsx)("td", { children: "$600 \u2013 $2,400" })
+      ] }),
+      (0,j.jsxs)("tr", { children: [
+        (0,j.jsx)("td", { children: "AI-powered executive assistant systems" }),
+        (0,j.jsx)("td", { children: "$240 \u2013 $600" })
+      ] }),
+      (0,j.jsxs)("tr", { children: [
+        (0,j.jsx)("td", { children: "Automation infrastructure & workflows" }),
+        (0,j.jsx)("td", { children: "$300 \u2013 $1,200" })
+      ] }),
+      (0,j.jsxs)("tr", { className: "is-total", children: [
+        (0,j.jsx)("td", { children: "Total annual operational infrastructure" }),
+        (0,j.jsx)("td", { children: "~$2,000 \u2013 $2,400" })
+      ] })
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-contrast", children: [
+    (0,j.jsxs)("div", { className: "side old", children: [
+      (0,j.jsx)("div", { className: "lab", children: "Traditional Labor" }),
+      (0,j.jsx)("div", { className: "fig", children: "$230,000+" }),
+      (0,j.jsx)("div", { className: "cap", children: "in traditional annual staffing" })
+    ] }),
+    (0,j.jsx)("div", { className: "vs", children: "replaced by" }),
+    (0,j.jsxs)("div", { className: "side new", children: [
+      (0,j.jsx)("div", { className: "lab", children: "Modern Infrastructure" }),
+      (0,j.jsx)("div", { className: "fig", children: "~$2,400" }),
+      (0,j.jsx)("div", { className: "cap", children: "in modern annual infrastructure" })
+    ] })
+  ] }),
+  (0,j.jsxs)("p", { className: "cv-math-note", children: [
+    "That is not a typo. Approximately ",
+    (0,j.jsx)("b", { children: "$2,400" }),
+    " in modern infrastructure now replaces the operational capacity that would otherwise require ",
+    (0,j.jsx)("b", { children: "$230,000+" }),
+    " in traditional labor. This is the structural shift that has finally made full independent ownership accessible to serious travel professionals \u2014 not as theory, but as operating reality."
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-math-body", children: [
+    (0,j.jsx)("div", { className: "cv-sub-h", children: "The Group Trip Math" }),
+    (0,j.jsxs)("p", { children: [
+      "A single well-run independent group travel offer at 100% commission can return ",
+      (0,j.jsx)("strong", { children: "$12,000 to $25,000" }),
+      " to a fully accredited travel CEO."
+    ] }),
+    (0,j.jsx)("p", { children: "One successful group launch \u2014 supported as part of this program \u2014 has the potential to recover the full annual VIP CEO Vault\u2122 investment. Every transition after that compounds independent income year over year." })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-math-close", children: [
+    (0,j.jsxs)("p", { className: "big", children: [
+      "The math isn't the problem. ",
+      (0,j.jsx)("em", { children: "The path is." })
+    ] }),
+    (0,j.jsx)("p", { children: "Most travel professionals stay tethered to their host not because they want to \u2014 but because the route to independent accreditation, infrastructure, AI deployment, and operational scale is rarely mapped clearly." }),
+    (0,j.jsx)("p", { children: "Inside VIP CEO Vault\u2122, it is \u2014 with structured methodology, supporting infrastructure, and direct guidance from someone who has walked this path personally and led others through it successfully." })
+  ] })
+] }) });
+const CV_WhatItIs = () => (0,j.jsx)("section", { className: "cv-green", style: { padding: "120px 0" }, "data-screen-label": "03 What It Is", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "What VIP CEO Vault\u2122 Is" }),
+    (0,j.jsxs)("h2", { children: [
+      "A Private Advisory Cohort \u2014",
+      (0,j.jsx)("br", {}),
+      (0,j.jsx)("em", { children: "Not Coaching, Not a Course" })
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-what-intro", children: [
+    (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 is a private, founder-led advisory cohort built around a single outcome: complete your structural transition from host-dependent travel agent to operating travel business CEO within 12 months \u2014 with a real, launched group travel offer as proof." }),
+    (0,j.jsx)("p", { children: "Over those 12 months, you'll move through four phases of guided implementation \u2014 supported by Bobbie's direct advisory, the Institute's operational infrastructure, monthly cohort sessions, and 23 other travel professionals at every stage of the same journey." })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-triad", children: [
+    (0,j.jsxs)("div", { className: "ln", children: [
+      (0,j.jsx)("span", { className: "no", children: "01" }),
+      (0,j.jsxs)("p", { children: [
+        "You won't be learning ",
+        (0,j.jsx)("em", { children: "about" }),
+        " accreditation. ",
+        (0,j.jsx)("strong", { children: "You'll be completing your first guided application" }),
+        " alongside structured guidance."
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "ln", children: [
+      (0,j.jsx)("span", { className: "no", children: "02" }),
+      (0,j.jsxs)("p", { children: [
+        "You won't be reading ",
+        (0,j.jsx)("em", { children: "about" }),
+        " CRM strategy. ",
+        (0,j.jsx)("strong", { children: "You'll be building yours" }),
+        " \u2014 with client payment plan infrastructure for your group trip."
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "ln", children: [
+      (0,j.jsx)("span", { className: "no", children: "03" }),
+      (0,j.jsxs)("p", { children: [
+        "You won't be watching webinars ",
+        (0,j.jsx)("em", { children: "about" }),
+        " AI implementation. ",
+        (0,j.jsx)("strong", { children: "You'll be deploying AI-powered executive infrastructure" }),
+        " to support a real group trip launch already in motion."
+      ] })
+    ] })
+  ] }),
+  (0,j.jsx)("p", { className: "cv-close-italic", children: "This is the work the travel industry has rarely made available at this depth to independent professionals making the ownership transition." })
+] }) });
+const CV_Founder = () => (0,j.jsx)("section", { className: "cv-founder", "data-screen-label": "04 Founder Authority", children: (0,j.jsxs)("div", { className: "cv-founder-inner", children: [
+  (0,j.jsx)("span", { className: "eyebrow center", children: "Why VIP CEO Vault\u2122 Exists" }),
+  (0,j.jsxs)("h2", { children: [
+    "Designed by Bobbie A. Self, MBA",
+    (0,j.jsx)("br", {}),
+    (0,j.jsx)("em", { children: "The Travel CEO Architect" })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-founder-body", children: [
+    (0,j.jsx)("p", { children: "Built on more than 25 years of experience designing purpose-driven institutions that develop people through intentional structure." }),
+    (0,j.jsx)("p", { children: "Bobbie's professional history includes service as a Centurion Membership Executive with American Express Travel \u2014 the invitation-only tier serving Amex's most exclusive cardholders \u2014 and executive leadership inside a Fortune 100 luxury travel and lifestyle department. She spent nearly a decade operating within the host-agency model before stepping away and taking a full year to design The Best Travel Biz Institute\u2122 as the formal educational arm for travel professionals seeking the same transition." }),
+    (0,j.jsx)("p", { children: "She also operates Sow Into Self Wellness & Luxury Travel Group \u2014 actively hosting curated group experiences as a fully independent travel CEO, supported by the same AI-powered infrastructure model The Institute teaches." })
+  ] }),
+  (0,j.jsx)("div", { className: "cv-pullquote", children: (0,j.jsx)("p", { children: "She's not a coach teaching from memory. She's an active travel CEO teaching what she currently operates." }) }),
+  (0,j.jsx)("div", { className: "cv-founder-body", children: (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 is where she leads professionals through the same transition she completed herself \u2014 supported by an institutional infrastructure designed to deliver at premium depth." }) }),
+  (0,j.jsxs)("a", { href: "/founder-story", className: "cv-founder-link", children: [
+    "Read Bobbie's Founder Story ",
+    (0,j.jsx)(Xn, {})
+  ] })
+] }) });
+const CV_Pathways = () => (0,j.jsx)("section", { className: "cv-green", style: { padding: "120px 0" }, "data-screen-label": "05 Four Pathways", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "Pathway Architecture" }),
+    (0,j.jsxs)("h2", { children: [
+      "The Four Pathways to",
+      (0,j.jsx)("br", {}),
+      (0,j.jsx)("em", { children: "100% Commission Ownership" })
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-paths-intro", children: [
+    (0,j.jsx)("p", { children: "There is no single way to become an independent travel business CEO. There are four \u2014 and which one fits depends on your business stage, your goals, and the structure that best serves your specific operation." }),
+    (0,j.jsx)("p", { children: "Inside VIP CEO Vault\u2122, your Travel Business Snapshot\u2122 determines which pathway fits your situation. Then you walk it with structured guidance." })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-paths-grid", children: [
+    (0,j.jsxs)("div", { className: "cv-path", children: [
+      (0,j.jsx)("div", { className: "abbr", children: "CLIA" }),
+      (0,j.jsx)("div", { className: "full", children: "Cruise Lines International Association" }),
+      (0,j.jsx)("p", { children: "Membership and certification \u2014 the pathway for cruise-focused travel businesses seeking independent operating authority within the cruise industry." })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-path", children: [
+      (0,j.jsx)("div", { className: "abbr", children: "IATA / IATAN" }),
+      (0,j.jsx)("div", { className: "full", children: "International Air Transport Association" }),
+      (0,j.jsx)("p", { children: "The global standard for travel professionals seeking airline ticketing authority and broader international operating recognition." })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-path", children: [
+      (0,j.jsx)("div", { className: "abbr", children: "ARC" }),
+      (0,j.jsx)("div", { className: "full", children: "Airlines Reporting Corporation" }),
+      (0,j.jsx)("p", { children: "The most rigorous U.S. ticketing pathway \u2014 required for issuing airline tickets directly." })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-path", children: [
+      (0,j.jsx)("div", { className: "abbr", children: "ARC VTC" }),
+      (0,j.jsx)("div", { className: "full", children: "ARC Verified Travel Consultant" }),
+      (0,j.jsx)("p", { children: "A non-ticketing pathway designed for travel professionals seeking accredited recognition without full ticketing authority." })
+    ] })
+  ] }),
+  (0,j.jsx)("p", { className: "cv-paths-close", children: "Each pathway has different costs, different timelines, different strategic implications, and different operational outcomes. The Snapshot tells us which one is right for your business. The cohort walks you through it." })
+] }) });
+const CV_Proof = () => (0,j.jsx)("section", { className: "cv-proof testi", "data-screen-label": "06 The Proof", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "Voices From the Institute" }),
+    (0,j.jsxs)("h2", { children: [
+      "Travel Professionals",
+      (0,j.jsx)("br", {}),
+      "Who Stopped Renting"
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "testi-grid", children: [
+    (0,j.jsxs)("div", { className: "testi-card", children: [
+      (0,j.jsx)("div", { className: "stars", children: "\u2605\u2605\u2605\u2605\u2605" }),
+      (0,j.jsx)("blockquote", { children: '"I left my host agency less than 30 days after joining, because my Snapshot and consultation with Bobbie showed the profit leak. Within two weeks of full accreditation, I set up my first hosted cruise. We sail October 2026."' }),
+      (0,j.jsxs)("cite", { children: [
+        (0,j.jsx)("span", { className: "av", children: "T" }),
+        (0,j.jsxs)("div", { className: "who", children: [
+          (0,j.jsx)("span", { className: "nm", children: "Titinius W." }),
+          (0,j.jsx)("span", { className: "tt", children: "Travel CEO \xB7 Cruise" })
+        ] })
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "testi-card", children: [
+      (0,j.jsx)("div", { className: "stars", children: "\u2605\u2605\u2605\u2605\u2605" }),
+      (0,j.jsx)("blockquote", { children: `"Bobbie doesn't teach travel. She teaches ownership. The CEO Vault paid for itself in one contract renegotiation."` }),
+      (0,j.jsxs)("cite", { children: [
+        (0,j.jsx)("span", { className: "av", children: "A" }),
+        (0,j.jsxs)("div", { className: "who", children: [
+          (0,j.jsx)("span", { className: "nm", children: "Allene L." }),
+          (0,j.jsx)("span", { className: "tt", children: "Travel CEO \xB7 Independent" })
+        ] })
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "testi-card", children: [
+      (0,j.jsx)("div", { className: "stars", children: "\u2605\u2605\u2605\u2605\u2605" }),
+      (0,j.jsx)("blockquote", { children: '"The systems alone are worth the membership. I went from using my gmail and home address, to a full business setup, AI agents to assist with managing my business, and beautiful templates for client retention \u2014 and I sleep again."' }),
+      (0,j.jsxs)("cite", { children: [
+        (0,j.jsx)("span", { className: "av", children: "L" }),
+        (0,j.jsxs)("div", { className: "who", children: [
+          (0,j.jsx)("span", { className: "nm", children: "Dr. Latosha H." }),
+          (0,j.jsx)("span", { className: "tt", children: "Travel CEO \xB7 Group Travel" })
+        ] })
+      ] })
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-proof-close", children: [
+    (0,j.jsx)("p", { children: "These three travel professionals \u2014 along with three additional travel professionals who have completed similar transitions through 1:1 work with Bobbie \u2014 represent the documented track record VIP CEO Vault\u2122 is built on." }),
+    (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 exists to do this work again, intentionally, with 24 more travel professionals \u2014 through a structured cohort designed to deliver the same outcome with greater consistency, depth, and peer reinforcement." })
+  ] })
+] }) });
+const CV_PHASES = [
+  {
+    ph: "Phase 1",
+    mo: "Months 1\u20133",
+    title: "Foundation, Readiness & Pathway Selection",
+    lead: "Members establish the foundational structure of an independent travel business and complete their first major ownership milestone \u2014 a guided starter application.",
+    includes: [
+      "Travel Business Snapshot\u2122 review with Bobbie",
+      "Business structure audit",
+      "Pathway selection",
+      "One guided starter application pathway \u2014 typically CLIA or IATA/IATAN, selected based on the member's Snapshot, niche, readiness, and business structure",
+      "First Quarterly CEO Strategy Session with Bobbie (60 min, recorded)"
+    ],
+    outcome: "A clear structural foundation and one ownership milestone in motion within the first 90 days."
+  },
+  {
+    ph: "Phase 2",
+    mo: "Months 4\u20136",
+    title: "Infrastructure & Group Trip Implementation",
+    lead: "Members build the operational foundation required to sell and manage a structured group travel experience \u2014 then begin planning their first independent group trip.",
+    includes: [
+      "Travel business website strategy & build guidance (Institute templates and standards)",
+      "CRM selection & setup methodology with implementation walkthrough",
+      "Client intake forms and proposal/payment workflow",
+      "Client Payment Plan Infrastructure \u2014 group trip payment systems, installment tracking, payment communication workflows",
+      "Beginning of first structured group travel offer (cruise, retreat, conference, destination experience, or curated group trip)",
+      "Group offer planning, launch timeline mapping, supplier/vendor identification, booking/sales flow build",
+      "Second Quarterly CEO Strategy Session with Bobbie (60 min, recorded)"
+    ],
+    outcome: "A real operating business with a real group trip in motion \u2014 not theoretical preparation."
+  },
+  {
+    ph: "Phase 3",
+    mo: "Months 7\u20139",
+    title: "AI Executive Assistant & Supplier Strategy",
+    lead: "Members deploy AI-powered executive infrastructure to support the active group trip launch \u2014 building executive operational capacity into a business that is already selling.",
+    includes: [
+      "AI Executive Assistant Implementation\u2122 \u2014 proprietary methodology for deploying AI-powered virtual executive assistant capacity inside an independent travel business",
+      "AI applied to live group trip operations: payment plan reminders, client follow-up automation, content batching, group communication systems, FAQ and pre-trip education automation, missed payment communication, task tracking",
+      "Supplier education and partner conversations \u2014 introduced as relationships are confirmed and aligned with cohort needs",
+      "Third Quarterly CEO Strategy Session with Bobbie (60 min, recorded)"
+    ],
+    outcome: "AI-powered executive capacity layered onto a business actively operating in market."
+  },
+  {
+    ph: "Phase 4",
+    mo: "Months 10\u201312",
+    title: "Launch, Scale & Transition Completion",
+    lead: "Members complete their group trip launch, optimize operations based on real data, build retention and referral systems, and prepare for the alumni transition.",
+    includes: [
+      "Group trip optimization and launch review",
+      "Client retention systems",
+      "Referral strategy",
+      "Revenue review",
+      "Systems refinement based on live operations",
+      "Transition completion review",
+      "Fourth Quarterly CEO Strategy Session with Bobbie (60 min, recorded)",
+      "Alumni Circle invitation"
+    ],
+    outcome: "A fully operational independent travel business with a launched group offer, retention systems, and a path forward."
+  }
+];
+const CV_Journey = () => (0,j.jsx)("section", { className: "cv-journey", "data-screen-label": "07 The 12-Month Journey", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "The Cohort Journey" }),
+    (0,j.jsxs)("h2", { children: [
+      "The 12-Month Executive",
+      (0,j.jsx)("br", {}),
+      "Implementation Journey"
+    ] }),
+    (0,j.jsx)("p", { children: "Each phase delivers the right work in the right order \u2014 guided by Bobbie, supported by the Institute's infrastructure, and reinforced by your 23 cohort peers." })
+  ] }),
+  (0,j.jsx)("div", { className: "cv-phases", children: CV_PHASES.map((p) => (0,j.jsxs)("div", { className: "cv-phase", children: [
+    (0,j.jsxs)("div", { className: "cv-phase-head", children: [
+      (0,j.jsxs)("div", { className: "cv-phase-no", children: [
+        (0,j.jsx)("span", { className: "ph", children: p.ph }),
+        (0,j.jsx)("span", { className: "mo", children: p.mo })
+      ] }),
+      (0,j.jsx)("h3", { children: p.title }),
+      (0,j.jsx)("p", { className: "lead", children: p.lead })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-phase-body", children: [
+      (0,j.jsx)("div", { className: "incl", children: "Includes" }),
+      (0,j.jsx)("ul", { children: p.includes.map((item, i) => (0,j.jsx)("li", { children: item }, i)) }),
+      (0,j.jsxs)("div", { className: "cv-phase-out", children: [
+        (0,j.jsxs)("b", { children: [
+          p.ph,
+          " Outcome"
+        ] }),
+        p.outcome
+      ] })
+    ] })
+  ] }, p.ph)) }),
+  (0,j.jsxs)("div", { className: "cv-journey-close", children: [
+    (0,j.jsx)("p", { children: "The Founding Cohort timeline is intentionally designed to support 2027 group travel planning. Beginning group trip implementation in Phase 2 (fall 2026) gives members more runway to structure client payment plans, promote the trip with intention, and build toward stronger participation before final payment deadlines arrive." }),
+    (0,j.jsx)("p", { children: "Most established group travel \u2014 cruises, retreats, conferences, curated experiences \u2014 requires 6 to 12 months of payment plan runway for client installments. The Founding Cohort's phased timing is built for this reality." })
+  ] })
+] }) });
+const CV_Reflect = () => (0,j.jsx)("section", { className: "cv-reflect", "data-screen-label": "08 Why Access Unlocks", children: (0,j.jsxs)("div", { className: "cv-reflect-inner", children: [
+  (0,j.jsx)("span", { className: "eyebrow center", children: "Cohort Design Principle" }),
+  (0,j.jsx)("h2", { children: "Why Access Unlocks by Phase" }),
+  (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 is intentionally sequenced. Members do not receive the full program on day one \u2014 because this is not a content library. It is a 12-month executive implementation journey." }),
+  (0,j.jsx)("p", { children: "Each phase unlocks the curriculum, templates, application support, AI implementation, and done-with-you resources needed for that stage of the transition." }),
+  (0,j.jsx)("p", { className: "accent", children: "The goal is not to overwhelm members with information. The goal is to walk them through the right work in the right order." }),
+  (0,j.jsx)("p", { className: "accent", style: { marginTop: 30 }, children: "Progressive access protects member focus, preserves transformation depth, and ensures every resource arrives at the moment it becomes useful \u2014 not before." })
+] }) });
+const CV_ANCHORS = [
+  { no: "I", h: "Quarterly 1:1 CEO Strategy Sessions", p: "Four private 60-minute strategy sessions with Bobbie across the 12-month cohort. Each session is recorded for member reference and supported by a pre-session strategy form to ensure focused, implementation-driven conversation." },
+  { no: "II", h: "Monthly VIP CEO Strategy Hour", p: "A 60-minute Bobbie-led monthly cohort call combining structured teaching with member Q&A. Members submit questions one week prior to ensure each session is responsive to active implementation. Recorded for active members who cannot attend live." },
+  { no: "III", h: "Priority Executive Access", p: "A private support channel inside the cohort Skool community for time-sensitive strategic questions between scheduled sessions. Bobbie responds within 48 business hours. Members may also post in the broader VIP cohort community for peer and team response. This is structured executive access \u2014 not unlimited coaching, instant messaging, emergency support, or an open-ended help desk. It is designed to help members avoid stalled decisions during active implementation." },
+  { no: "IV", h: "Annual CEO Retreat", p: "A one-day, Atlanta-based in-person CEO Retreat. Retreat programming, content, and materials are included for active VIP CEO Vault\u2122 members. Members are responsible for their own travel, lodging, and personal expenses." }
+];
+const CV_Anchors = () => (0,j.jsx)("section", { className: "cv-green", style: { padding: "120px 0" }, "data-screen-label": "09 Direct Advisory Anchors", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "The Advisory Structure" }),
+    (0,j.jsx)("h2", { children: "Direct Advisory Anchors" })
+  ] }),
+  (0,j.jsx)("div", { className: "cv-anchors-intro", children: (0,j.jsx)("p", { children: "Across the 12-month journey, members receive consistent direct access to Bobbie and the Institute's executive infrastructure." }) }),
+  (0,j.jsx)("div", { className: "cv-anchors", children: CV_ANCHORS.map((a) => (0,j.jsxs)("div", { className: "cv-anchor", children: [
+    (0,j.jsx)("span", { className: "no", children: a.no }),
+    (0,j.jsxs)("div", { children: [
+      (0,j.jsx)("h4", { children: a.h }),
+      (0,j.jsx)("p", { children: a.p })
+    ] })
+  ] }, a.no)) }),
+  (0,j.jsx)("p", { className: "cv-anchors-note", children: "Partner and supplier education may be introduced throughout the cohort year as relationships are confirmed and aligned with the cohort's implementation phase." })
+] }) });
+const CV_DoneWithYou = () => (0,j.jsx)("section", { className: "cv-dwy", "data-screen-label": "10 Done-With-You", children: (0,j.jsxs)("div", { className: "cv-dwy-inner", children: [
+  (0,j.jsx)("span", { className: "eyebrow center", children: "The Institute Philosophy" }),
+  (0,j.jsxs)("h2", { children: [
+    "Done-With-You.",
+    (0,j.jsx)("br", {}),
+    "Not Done-For-You."
+  ] }),
+  (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 is a done-with-you advisory environment. We walk beside you through strategic decisions, infrastructure development, accreditation preparation, supplier positioning, group trip launch, and growth execution." }),
+  (0,j.jsx)("p", { children: "But you remain the CEO of the business you are building." }),
+  (0,j.jsx)("p", { children: "The Institute provides methodology, templates, frameworks, guided walkthroughs, and direct advisory at the highest-impact decision points. Members execute the work \u2014 supported, guided, and reviewed \u2014 but not outsourced." }),
+  (0,j.jsx)("p", { className: "accent", children: "This is what creates real ownership. Anything less creates dependence." })
+] }) });
+const CV_Investment = () => (0,j.jsx)("section", { className: "cv-green", style: { padding: "120px 0" }, "data-screen-label": "11 Investment", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "Investment" }),
+    (0,j.jsx)("h2", { children: "Founding Cohort Pricing" })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-invest-card", children: [
+    (0,j.jsxs)("div", { className: "cv-invest-top", children: [
+      (0,j.jsx)("span", { className: "cv-invest-ribbon", children: "Founding Cohort Rate" }),
+      (0,j.jsxs)("div", { className: "cv-invest-price", children: [
+        "$997",
+        (0,j.jsx)("span", { className: "per", children: " / month" })
+      ] }),
+      (0,j.jsx)("div", { className: "cv-invest-total", children: "12-month cohort commitment \xB7 $11,964 total" }),
+      (0,j.jsxs)("p", { className: "cv-invest-desc", children: [
+        "This is the Founding Cohort rate, available only while the first full cohort of 24 members is being seated. After the Founding Cohort fills, standard pricing of ",
+        (0,j.jsx)("b", { children: "$1,497/month" }),
+        " begins for all subsequent cohorts \u2014 a difference of $6,000 per year."
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-pay", children: [
+      (0,j.jsxs)("div", { className: "cv-pay-row", children: [
+        (0,j.jsx)("span", { className: "opt", children: "Monthly" }),
+        (0,j.jsx)("span", { className: "save", children: "$997/mo for 12 months" }),
+        (0,j.jsx)("span", { className: "amt", children: "$11,964 total" })
+      ] }),
+      (0,j.jsxs)("div", { className: "cv-pay-row", children: [
+        (0,j.jsx)("span", { className: "opt", children: "Quarterly" }),
+        (0,j.jsx)("span", { className: "save", children: "Saves $1,000 across the year" }),
+        (0,j.jsx)("span", { className: "amt", children: "$2,891/quarter" })
+      ] }),
+      (0,j.jsxs)("div", { className: "cv-pay-row", children: [
+        (0,j.jsx)("span", { className: "opt", children: "Pay-in-Full" }),
+        (0,j.jsx)("span", { className: "save", children: "Saves $1,967" }),
+        (0,j.jsx)("span", { className: "amt", children: "$9,997" })
+      ] })
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-invest-math", children: [
+    (0,j.jsx)("div", { className: "lab", children: "The Math" }),
+    (0,j.jsxs)("p", { children: [
+      "A single independent group travel offer at 100% commission can return ",
+      (0,j.jsx)("span", { className: "hl", children: "$12,000\u2013$25,000" }),
+      " to a fully accredited travel CEO."
+    ] }),
+    (0,j.jsx)("p", { children: "One successful group launch \u2014 supported as part of this program \u2014 has the potential to recover your full annual investment. Every transition after that compounds your independent income." })
+  ] })
+] }) });
+const CV_COMPARE_ROWS = [
+  ["Independent accreditation consulting", "$6,500 \u2013 $16,000", "Guided preparation"],
+  ["Travel business website + CRM build guidance", "$5,000 \u2013 $14,000", "Templates & methodology"],
+  ["AI Executive Assistant Implementation\u2122", "$2,000 \u2013 $5,000", "Phase 3 deployment"],
+  ["Direct advisory equivalent", "$4,000 \u2013 $12,000", "4 Quarterly 1:1 sessions"],
+  ["12 months executive cohort access", "$4,800 \u2013 $10,000", "Monthly CEO Strategy Hour"],
+  ["Annual in-person retreat", "$1,500 \u2013 $4,000", "Included"],
+  ["Group trip launch strategy support", "$2,000 \u2013 $5,000", "Phase 2\u20134 implementation"]
+];
+const CV_Compare = () => (0,j.jsx)("section", { className: "cv-cream", style: { padding: "120px 0" }, "data-screen-label": "12 Standalone Comparison", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "The Value Comparison" }),
+    (0,j.jsx)("h2", { children: "What This Would Cost Standalone" })
+  ] }),
+  (0,j.jsxs)("table", { className: "cv-compare", children: [
+    (0,j.jsx)("thead", { children: (0,j.jsxs)("tr", { children: [
+      (0,j.jsx)("th", { children: "Service Component" }),
+      (0,j.jsx)("th", { className: "mid", children: "Typical Market Value" }),
+      (0,j.jsx)("th", { className: "last", children: "Included in CEO Vault\u2122" })
+    ] }) }),
+    (0,j.jsxs)("tbody", { children: [
+      CV_COMPARE_ROWS.map(([svc, mid, inc], i) => (0,j.jsxs)("tr", { children: [
+        (0,j.jsx)("td", { className: "svc", children: svc }),
+        (0,j.jsx)("td", { className: "mid", children: mid }),
+        (0,j.jsxs)("td", { className: "last", children: [
+          (0,j.jsx)("span", { className: "ck", children: "\u2713" }),
+          inc
+        ] })
+      ] }, i)),
+      (0,j.jsxs)("tr", { className: "tot", children: [
+        (0,j.jsx)("td", { children: "Standalone Equivalent Value" }),
+        (0,j.jsx)("td", { className: "mid", children: (0,j.jsx)("span", { className: "big", children: "$25,800 \u2013 $66,000" }) }),
+        (0,j.jsx)("td", { className: "last" })
+      ] }),
+      (0,j.jsxs)("tr", { className: "final", children: [
+        (0,j.jsx)("td", { children: "VIP CEO Vault\u2122 Founding Cohort" }),
+        (0,j.jsx)("td", { className: "mid", children: (0,j.jsx)("span", { className: "big", children: "$11,964" }) }),
+        (0,j.jsx)("td", { className: "last" })
+      ] })
+    ] })
+  ] })
+] }) });
+const CV_Apply = () => (0,j.jsx)("section", { className: "cv-green", style: { padding: "120px 0" }, "data-screen-label": "13 Application Process", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "Application" }),
+    (0,j.jsx)("h2", { children: "How to Apply" })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-apply-body", children: [
+    (0,j.jsx)("p", { children: "Admission to VIP CEO Vault\u2122 is by application only." }),
+    (0,j.jsx)("p", { children: "The application begins with the Travel Business Snapshot\u2122 \u2014 an executive diagnostic of your current travel business, personally reviewed by Bobbie. This is not a marketing form. It is the same diagnostic our successful transitions completed, and it serves three real purposes:" })
+  ] }),
+  (0,j.jsxs)("ul", { className: "cv-apply-list", children: [
+    (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "Determine which of the four pathways fits your business situation." }) }),
+    (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "Confirm your business is at the stage where VIP CEO Vault\u2122 is the right fit \u2014 not every applicant is accepted; some are better served by Premium Membership or 100% Commission Fast Track\u2122 first." }) }),
+    (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "Build the foundation for your first quarterly CEO Strategy Session, if accepted." }) })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-apply-next", children: [
+    (0,j.jsx)("div", { className: "lab", children: "What Happens Next" }),
+    (0,j.jsxs)("ul", { className: "cv-apply-list", style: { marginTop: 0 }, children: [
+      (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "You complete the Travel Business Snapshot\u2122 \u2014 Founding Cohort Launch Rate: $97." }) }),
+      (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "Bobbie personally reviews your Snapshot within 7 business days." }) }),
+      (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "If you're a fit, we schedule an Acceptance Conversation." }) }),
+      (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "If accepted, you begin in the next available admission window \u2014 Founding Cohort opens July 1, 2026." }) })
+    ] })
+  ] }),
+  (0,j.jsx)("p", { className: "cv-apply-note", children: "Founding Cohort pricing of $997/month is available only while the inaugural 24 seats remain. Acceptance secures your rate for the full 12-month commitment." }),
+  (0,j.jsx)("div", { className: "cv-apply-cta", children: (0,j.jsx)(CV_SnapshotCTA, { children: "Begin with the Travel Business Snapshot\u2122" }) })
+] }) });
+const CV_Tracks = () => (0,j.jsx)("section", { className: "cv-cream", style: { padding: "120px 0" }, "data-screen-label": "14 Four Tracks", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "Where This Fits in the Institute" }),
+    (0,j.jsxs)("h2", { children: [
+      "Four Tracks. ",
+      (0,j.jsx)("em", { children: "One Ecosystem." })
+    ] })
+  ] }),
+  (0,j.jsx)("div", { className: "cv-tracks-intro", children: (0,j.jsx)("p", { children: "The Best Travel Biz Institute\u2122 serves travel professionals at every stage of the ownership journey. VIP CEO Vault\u2122 is the most advanced tier \u2014 for established operators ready to walk the full transition with founder-led advisory." }) }),
+  (0,j.jsxs)("div", { className: "cv-tracks", children: [
+    (0,j.jsxs)("a", { className: "cv-track", href: "/challenge", children: [
+      (0,j.jsx)("div", { className: "tname", children: "14-Day Travel Agent to CEO Challenge\u2122" }),
+      (0,j.jsx)("div", { className: "tprice", children: "Free" }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "Mindset shift" }),
+        (0,j.jsx)("li", { children: "Ownership language" }),
+        (0,j.jsx)("li", { children: "Entry-level frameworks" }),
+        (0,j.jsx)("li", { children: "Virtual graduation ceremony" }),
+        (0,j.jsx)("li", { children: "Digital certificate" })
+      ] }),
+      (0,j.jsxs)("div", { className: "tfor", children: [
+        (0,j.jsx)("b", { children: "For" }),
+        "Anyone entering the journey"
+      ] })
+    ] }),
+    (0,j.jsxs)("a", { className: "cv-track", href: "/premium", children: [
+      (0,j.jsx)("div", { className: "tname", children: "Premium Membership" }),
+      (0,j.jsx)("div", { className: "tprice", children: "$97 / month" }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "Business education" }),
+        (0,j.jsx)("li", { children: "Foundational systems training" }),
+        (0,j.jsx)("li", { children: "Community access" }),
+        (0,j.jsx)("li", { children: "AI fundamentals for Travel CEOs" }),
+        (0,j.jsx)("li", { children: "100% Commission Pathway education" })
+      ] }),
+      (0,j.jsxs)("div", { className: "tfor", children: [
+        (0,j.jsx)("b", { children: "For" }),
+        "New and growing agents"
+      ] })
+    ] }),
+    (0,j.jsxs)("a", { className: "cv-track", href: "/fast-track", children: [
+      (0,j.jsx)("div", { className: "tname", children: "100% Commission Fast Track\u2122" }),
+      (0,j.jsx)("div", { className: "tprice", children: "$1,997 one-time \xB7 Lifetime" }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "Self-paced pathway course" }),
+        (0,j.jsx)("li", { children: "Application implementation methodology" }),
+        (0,j.jsx)("li", { children: "Templates and frameworks" }),
+        (0,j.jsx)("li", { children: "AI marketing course" }),
+        (0,j.jsx)("li", { children: "Premium Membership included" })
+      ] }),
+      (0,j.jsxs)("div", { className: "tfor", children: [
+        (0,j.jsx)("b", { children: "For" }),
+        "Independent operators implementing on their own timeline"
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-track apex", children: [
+      (0,j.jsx)("span", { className: "apex-badge", children: "Apex Tier" }),
+      (0,j.jsx)("div", { className: "tname", children: "VIP CEO Vault\u2122" }),
+      (0,j.jsx)("div", { className: "tprice", children: "$997 / month \xB7 12-month commitment" }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "Founder-led advisory cohort" }),
+        (0,j.jsx)("li", { children: "Phased executive implementation" }),
+        (0,j.jsx)("li", { children: "Quarterly 1:1 with Bobbie" }),
+        (0,j.jsx)("li", { children: "Monthly CEO Strategy Hour" }),
+        (0,j.jsx)("li", { children: "Guided starter application" }),
+        (0,j.jsx)("li", { children: "Done-with-you infrastructure" }),
+        (0,j.jsx)("li", { children: "AI Executive Assistant Implementation\u2122" }),
+        (0,j.jsx)("li", { children: "Group trip launch support" }),
+        (0,j.jsx)("li", { children: "Annual CEO Retreat" }),
+        (0,j.jsx)("li", { children: "Alumni Circle access" })
+      ] }),
+      (0,j.jsxs)("div", { className: "tfor", children: [
+        (0,j.jsx)("b", { children: "For" }),
+        "Established operators walking the transition"
+      ] })
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-tracks-close", children: [
+    (0,j.jsx)("p", { className: "em", children: "Fast Track teaches the pathway. VIP CEO Vault\u2122 walks with the operator." }),
+    (0,j.jsx)("p", { children: `Premium members may eventually advance to Fast Track or VIP. Fast Track buyers may apply for VIP when they're ready for advisory depth. There is no single "right" tier \u2014 only the right tier for your current stage.` })
+  ] })
+] }) });
+const CV_Alumni = () => (0,j.jsx)("section", { className: "cv-green cv-alumni", "data-screen-label": "15 Alumni Circle", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "What Comes After" }),
+    (0,j.jsx)("h2", { children: "VIP CEO Vault\u2122 Alumni Circle" })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-alumni-body", children: [
+    (0,j.jsx)("p", { children: "Graduates of VIP CEO Vault\u2122 may continue inside the Alumni Circle at a discounted alumni rate for up to two years after graduation." }),
+    (0,j.jsx)("p", { children: "This alumni layer exists because the wisdom of those who have walked the path becomes priceless to those entering it. Alumni receive continued community access, selected continuing education, CEO Roundtables, and confirmed partner/supplier session replays as available \u2014 while also contributing lived insight to incoming cohorts." })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-alumni-cols", children: [
+    (0,j.jsxs)("div", { className: "cv-alum-card incl", children: [
+      (0,j.jsx)("h5", { children: "Alumni Access Includes" }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "Ongoing peer connection" }),
+        (0,j.jsx)("li", { children: "Selected continuing education" }),
+        (0,j.jsx)("li", { children: "CEO Roundtables" }),
+        (0,j.jsx)("li", { children: "Confirmed partner/supplier session replays as available" }),
+        (0,j.jsx)("li", { children: "Alumni-level community access" }),
+        (0,j.jsx)("li", { children: "Contribution opportunities to incoming cohorts" })
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "cv-alum-card excl", children: [
+      (0,j.jsx)("h5", { children: "Alumni Access Does Not Include" }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "Quarterly private 1:1 CEO Strategy Sessions" }),
+        (0,j.jsx)("li", { children: "Active phase-based implementation support" }),
+        (0,j.jsx)("li", { children: "Priority Executive Access" })
+      ] }),
+      (0,j.jsx)("p", { className: "fine", children: "Unless separately purchased or invited." })
+    ] })
+  ] }),
+  (0,j.jsx)("p", { className: "cv-alumni-close", children: "The Alumni Circle is for graduates. Active VIP enrollment is for those still walking the transition." })
+] }) });
+const CV_Structure = () => (0,j.jsx)("section", { className: "cv-struct", "data-screen-label": "16 Why This Structure Works", children: (0,j.jsxs)("div", { className: "cv-struct-inner", children: [
+  (0,j.jsx)("span", { className: "eyebrow center", children: "The Institutional Approach" }),
+  (0,j.jsx)("h2", { children: "Why This Structure Works" }),
+  (0,j.jsx)("p", { className: "opener", children: "In a trust-driven market, travel professionals do not simply choose programs and services. They choose the person behind them, the structure supporting them, and the institution built to deliver them." }),
+  (0,j.jsxs)("div", { className: "cv-struct-body", children: [
+    (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 was built on that principle." }),
+    (0,j.jsxs)("p", { children: [
+      (0,j.jsx)("strong", { children: "Founder-led methodology." }),
+      " Bobbie personally designs the work, reviews every Snapshot, and conducts every strategy session."
+    ] }),
+    (0,j.jsxs)("p", { children: [
+      (0,j.jsx)("strong", { children: "Phased implementation." }),
+      " Members walk through the right work in the right order \u2014 supported by templates, methodology, and direct advisory at every phase."
+    ] }),
+    (0,j.jsxs)("p", { children: [
+      (0,j.jsx)("strong", { children: "Real institutional infrastructure." }),
+      " The Institute Marketing Engine, the consulting team, and the cohort community all exist to support delivery at depth without compromising the quality of Bobbie's direct involvement."
+    ] }),
+    (0,j.jsxs)("p", { children: [
+      (0,j.jsx)("strong", { children: "Documented track record." }),
+      " Six successful transitions completed. Three publicly featured. Three additional transitions delivered through 1:1 advisory."
+    ] })
+  ] }),
+  (0,j.jsx)("p", { className: "cv-struct-close", children: "This is independent ownership in its most structural form." })
+] }) });
+const CV_FAQ = () => (0,j.jsx)("section", { className: "cv-faq", "data-screen-label": "17 FAQ", children: (0,j.jsxs)("div", { className: "wrap cv-faq-wrap", children: [
+  (0,j.jsxs)("div", { className: "section-head", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "Frequently Asked" }),
+    (0,j.jsx)("h2", { children: "Honest Questions, Honest Answers" })
+  ] }),
+  (0,j.jsxs)("div", { className: "faq-list", children: [
+    (0,j.jsxs)("details", { className: "faq-item", open: true, children: [
+      (0,j.jsxs)("summary", { children: [
+        "Why does access unlock by phase instead of all at once?",
+        (0,j.jsx)("span", { className: "ico", children: "+" })
+      ] }),
+      (0,j.jsx)("div", { className: "ans", children: (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 is not a content library \u2014 it is a 12-month executive implementation journey. Each phase delivers the right curriculum, templates, application support, AI implementation, and done-with-you resources for that stage of the transition. Progressive access protects member focus, preserves transformation depth, and ensures every resource arrives at the moment it becomes useful \u2014 not before." }) })
+    ] }),
+    (0,j.jsxs)("details", { className: "faq-item", children: [
+      (0,j.jsxs)("summary", { children: [
+        "Why only one guided application during the cohort year?",
+        (0,j.jsx)("span", { className: "ico", children: "+" })
+      ] }),
+      (0,j.jsx)("div", { className: "ans", children: (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 includes one guided starter application pathway during Phase 1 \u2014 typically CLIA or IATA/IATAN, selected based on your Snapshot. Additional pathways may be addressed later in the cohort based on readiness, business need, and strategic fit. We do not rush applications simply to check boxes; each pathway is selected according to your business model and long-term ownership strategy." }) })
+    ] }),
+    (0,j.jsxs)("details", { className: "faq-item", children: [
+      (0,j.jsxs)("summary", { children: [
+        "Does Bobbie personally deliver everything, or does the Institute use a team?",
+        (0,j.jsx)("span", { className: "ico", children: "+" })
+      ] }),
+      (0,j.jsxs)("div", { className: "ans", children: [
+        (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 is founder-led with operational infrastructure. Bobbie personally reviews every Travel Business Snapshot\u2122, leads acceptance conversations, conducts the four quarterly 1:1 strategy sessions, leads the monthly VIP CEO Strategy Hour, designs and teaches core methodology, leads the annual retreat, and provides Priority Executive Access via the cohort Skool channel within 48 business hours." }),
+        (0,j.jsx)("p", { children: "Implementation work \u2014 application reviews, methodology development, system templates, AI workflows, and the Institute Marketing Engine \u2014 is supported by the Institute's consulting team and infrastructure operating against Bobbie's standards." }),
+        (0,j.jsxs)("p", { children: [
+          "This structure is intentional. Premium-tier transformation work cannot be delivered at depth by any single operator. ",
+          (0,j.jsx)("strong", { children: "The Institute is founder-led but not founder-dependent" }),
+          " \u2014 and that is what allows premium members to receive premium work."
+        ] })
+      ] })
+    ] }),
+    (0,j.jsxs)("details", { className: "faq-item", children: [
+      (0,j.jsxs)("summary", { children: [
+        "What does accreditation actually cost?",
+        (0,j.jsx)("span", { className: "ico", children: "+" })
+      ] }),
+      (0,j.jsxs)("div", { className: "ans", children: [
+        (0,j.jsx)("p", { children: "Accreditation fees are paid directly to the credentialing bodies \u2014 separate from your VIP CEO Vault\u2122 investment." }),
+        (0,j.jsxs)("table", { className: "cv-faq-table", children: [
+          (0,j.jsx)("thead", { children: (0,j.jsxs)("tr", { children: [
+            (0,j.jsx)("th", { children: "Program" }),
+            (0,j.jsx)("th", { children: "Cost Range" }),
+            (0,j.jsx)("th", { children: "Notes" })
+          ] }) }),
+          (0,j.jsxs)("tbody", { children: [
+            (0,j.jsxs)("tr", { children: [
+              (0,j.jsx)("td", { children: "CLIA" }),
+              (0,j.jsx)("td", { children: "$139\u2013$848+ /yr" }),
+              (0,j.jsx)("td", { children: "Cruise-focused; individual & agency options" })
+            ] }),
+            (0,j.jsxs)("tr", { children: [
+              (0,j.jsx)("td", { children: "IATA / IATAN" }),
+              (0,j.jsx)("td", { children: "$600\u2013$2,000+" }),
+              (0,j.jsx)("td", { children: "Plus guarantees; required for airline ticketing authority" })
+            ] }),
+            (0,j.jsxs)("tr", { children: [
+              (0,j.jsx)("td", { children: "ARC" }),
+              (0,j.jsx)("td", { children: "$2,300 + $20,000" }),
+              (0,j.jsx)("td", { children: "Guarantee; most rigorous; required for issuing airline tickets" })
+            ] }),
+            (0,j.jsxs)("tr", { children: [
+              (0,j.jsx)("td", { children: "ARC VTC" }),
+              (0,j.jsx)("td", { children: "$195" }),
+              (0,j.jsx)("td", { children: "Low-cost alternative for recognition" })
+            ] })
+          ] })
+        ] }),
+        (0,j.jsx)("p", { children: "Most members will land in the $3,000\u2013$10,000 range depending on their chosen pathway. We discuss these costs transparently during your Acceptance Conversation, and your Snapshot helps determine which pathway makes the most sense for your business and budget." })
+      ] })
+    ] }),
+    (0,j.jsxs)("details", { className: "faq-item", children: [
+      (0,j.jsxs)("summary", { children: [
+        "What if my host agency won't release me cleanly?",
+        (0,j.jsx)("span", { className: "ico", children: "+" })
+      ] }),
+      (0,j.jsx)("div", { className: "ans", children: (0,j.jsx)("p", { children: "Inside VIP CEO Vault\u2122, we address host transitions strategically \u2014 including contract review considerations, notice periods, and client/booking transitions. Many of our members navigate this without burning bridges. The cohort community is a private space where these conversations happen openly." }) })
+    ] }),
+    (0,j.jsxs)("details", { className: "faq-item", children: [
+      (0,j.jsxs)("summary", { children: [
+        "What if my accreditation application is not approved?",
+        (0,j.jsx)("span", { className: "ico", children: "+" })
+      ] }),
+      (0,j.jsx)("div", { className: "ans", children: (0,j.jsx)("p", { children: "Strong outcomes are most likely when applications are completed thoroughly and accurately \u2014 which is exactly what the structured walkthrough and Institute consulting team review process are designed to support. If a credentialing body requests additional information or returns an application for revision, Bobbie works with you directly on the response strategy." }) })
+    ] }),
+    (0,j.jsxs)("details", { className: "faq-item", children: [
+      (0,j.jsxs)("summary", { children: [
+        "Can I afford this if my income is inconsistent?",
+        (0,j.jsx)("span", { className: "ico", children: "+" })
+      ] }),
+      (0,j.jsx)("div", { className: "ans", children: (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 requires real financial commitment. If your current income makes $997/mo a hardship, Premium Membership ($97/mo) or 100% Commission Fast Track\u2122 ($1,997 one-time) may be better starting points. We'd rather you build your foundation first than overcommit before you're ready." }) })
+    ] }),
+    (0,j.jsxs)("details", { className: "faq-item", children: [
+      (0,j.jsxs)("summary", { children: [
+        "What if I'm not ready to leave my host yet?",
+        (0,j.jsx)("span", { className: "ico", children: "+" })
+      ] }),
+      (0,j.jsx)("div", { className: "ans", children: (0,j.jsx)("p", { children: "That's exactly what the Travel Business Snapshot\u2122 is designed to assess. Not every applicant is accepted. Some receive guidance to spend 6\u201312 months in Premium or Fast Track first, then reapply. Better to start at the right tier than rush into the wrong one." }) })
+    ] }),
+    (0,j.jsxs)("details", { className: "faq-item", children: [
+      (0,j.jsxs)("summary", { children: [
+        "What happens after 12 months?",
+        (0,j.jsx)("span", { className: "ico", children: "+" })
+      ] }),
+      (0,j.jsx)("div", { className: "ans", children: (0,j.jsx)("p", { children: "You complete your 12-month cohort journey having worked through accreditation preparation, infrastructure build, AI deployment, and your first independent group launch. Graduates may continue in the VIP CEO Vault\u2122 Alumni Circle at a discounted rate for up to two years \u2014 for continued community access, selected continuing education, CEO Roundtables, and confirmed partner/supplier session replays as available." }) })
+    ] }),
+    (0,j.jsxs)("details", { className: "faq-item", children: [
+      (0,j.jsxs)("summary", { children: [
+        "How is this different from 100% Commission Fast Track\u2122?",
+        (0,j.jsx)("span", { className: "ico", children: "+" })
+      ] }),
+      (0,j.jsxs)("div", { className: "ans", children: [
+        (0,j.jsx)("p", { children: "Fast Track is the self-paced course covering pathway content. It's $1,997, lifetime access, and you implement on your own timeline without 1:1 advisory or cohort engagement." }),
+        (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 includes founder-led advisory with Bobbie, the 24-member cohort community, four quarterly 1:1 strategy sessions, monthly VIP CEO Strategy Hour, Priority Executive Access, the annual retreat, AI Executive Assistant Implementation\u2122, and done-with-you implementation across infrastructure, group trip launch, and supplier strategy." }),
+        (0,j.jsxs)("p", { children: [
+          "Different products. Different audiences. Both built on the same Pathways framework. ",
+          (0,j.jsx)("strong", { children: "Fast Track teaches the pathway. VIP CEO Vault\u2122 walks with the operator." })
+        ] })
+      ] })
+    ] }),
+    (0,j.jsxs)("details", { className: "faq-item", children: [
+      (0,j.jsxs)("summary", { children: [
+        "Will pricing stay at $997/month forever?",
+        (0,j.jsx)("span", { className: "ico", children: "+" })
+      ] }),
+      (0,j.jsx)("div", { className: "ans", children: (0,j.jsx)("p", { children: "No. $997/month is the Founding Cohort rate \u2014 available only while the inaugural 24 members are being seated. After the Founding Cohort fills, all subsequent cohorts move to standard pricing of $1,497/month. That is a $6,000 annual difference. Founding members who enroll at $997/month retain that rate for their full 12-month cohort commitment." }) })
+    ] })
+  ] })
+] }) });
+const CV_Disclaimer = () => (0,j.jsx)("section", { className: "sp-disclaimer", "data-screen-label": "18 Disclaimer", children: (0,j.jsxs)("div", { className: "wrap sp-disclaimer-wrap", children: [
+  (0,j.jsx)("h6", { className: "sp-disclaimer-label", children: "Important" }),
+  (0,j.jsx)("p", { className: "sp-disclaimer-text", children: "VIP CEO Vault\u2122 provides advisory services, educational guidance, structured methodology, and operational support designed to assist travel professionals in their independent ownership transition. Outcomes depend on each member's business structure, qualifications, market conditions, effort, and third-party requirements." }),
+  (0,j.jsx)("p", { className: "sp-disclaimer-text", children: "Accreditation approvals, supplier relationships, commission outcomes, group trip sales results, and client payment plan outcomes depend on factors outside the Institute's control. VIP CEO Vault\u2122 does not guarantee accreditation approval, supplier acceptance, income outcomes, specific group sales results, or business outcomes of any kind." }),
+  (0,j.jsx)("p", { className: "sp-disclaimer-text", children: "Industry math examples referenced on this page (including host commission split scenarios, traditional labor cost equivalents, and modern infrastructure cost ranges) are illustrative of typical industry conditions and are not representations of any specific member's expected outcomes. Individual experiences vary based on market, niche, business stage, and effort." }),
+  (0,j.jsx)("p", { className: "sp-disclaimer-text", children: "AI Executive Assistant Implementation\u2122 methodology, frameworks, tools, prompts, workflows, system architecture, and integrations are proprietary intellectual property of The Best Travel Biz Institute\u2122 and are disclosed only to active VIP CEO Vault\u2122 members under the terms of program enrollment. Public discussion or distribution of proprietary methodology by members is governed by the program's enrollment terms." }),
+  (0,j.jsx)("p", { className: "sp-disclaimer-text", children: "Testimonials reflect the experiences of specific members and are not a guarantee or prediction of similar results." }),
+  (0,j.jsx)("p", { className: "sp-disclaimer-text sp-disclaimer-italic", children: "Cohort delivery: 12 months from acceptance date. Application required. Founding Cohort opens July 1, 2026." })
+] }) });
+const CV_Reminder = () => (0,j.jsx)("section", { className: "cv-reminder", "data-screen-label": "19 Pricing Reminder", children: (0,j.jsxs)("div", { className: "cv-reminder-inner", children: [
+  (0,j.jsx)("span", { className: "eyebrow center", children: "A Note on Founding Cohort Pricing" }),
+  (0,j.jsxs)("h2", { children: [
+    "The $997 Rate Is the",
+    (0,j.jsx)("br", {}),
+    "Founding Cohort Rate."
+  ] }),
+  (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 is priced at $997/month for the Founding Cohort \u2014 the first 24 members seated during the inaugural cohort window opening July 1, 2026." }),
+  (0,j.jsx)("p", { children: "After the Founding Cohort fills, standard pricing of $1,497/month begins for all subsequent cohorts \u2014 a $6,000 annual difference." }),
+  (0,j.jsx)("p", { children: "Founding members who enroll at the $997 rate retain that rate for the full 12-month cohort commitment. Standard pricing applies to any re-enrollment or future cohort participation." }),
+  (0,j.jsx)("p", { className: "close", children: "The Founding Cohort exists once. Standard pricing is permanent." })
+] }) });
+const CV_Final = () => (0,j.jsx)("section", { className: "cv-final", "data-screen-label": "20 Final CTA", children: (0,j.jsxs)("div", { className: "wrap", children: [
+  (0,j.jsxs)("h2", { children: [
+    "You Were Created to ",
+    (0,j.jsx)("em", { children: "Build More." })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-final-body", children: [
+    (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 was built for travel professionals ready to move beyond dependency models and build ownership with structure, strategy, and intention." }),
+    (0,j.jsx)("p", { children: "Because long-term transformation is rarely accidental." })
+  ] }),
+  (0,j.jsx)("div", { className: "cv-final-emph", children: "It's built." }),
+  (0,j.jsx)("div", { className: "cv-final-status", children: "24 seats \xB7 Founding Cohort opens July 1, 2026 \xB7 Founding rate $997/mo \xB7 By application only" }),
+  (0,j.jsx)("span", { className: "eyebrow center", children: "Start With the Travel Business Snapshot\u2122" }),
+  (0,j.jsx)("p", { className: "cv-final-diag", children: "An executive diagnostic of your current travel business \u2014 designed to identify your structure, ownership readiness, revenue gaps, and next strategic move." }),
+  (0,j.jsxs)("p", { className: "cv-final-rate", children: [
+    "Founding Cohort Launch Rate: ",
+    (0,j.jsx)("b", { children: "$97" }),
+    "."
+  ] }),
+  (0,j.jsx)("div", { className: "cta-row", children: (0,j.jsx)(CV_SnapshotCTA, { children: "Begin Your Snapshot" }) }),
+  (0,j.jsx)("p", { className: "cv-final-cta-sub", children: "Application personally reviewed by Bobbie within 7 business days. Founding Cohort pricing of $997/mo locked for your 12-month journey. Standard pricing of $1,497/mo begins after the Founding Cohort fills." }),
+  (0,j.jsxs)("div", { className: "cv-final-sig", children: [
+    "Bobbie A. Self",
+    (0,j.jsx)("small", { children: "Founder \xB7 The Best Travel Biz Institute\u2122" })
+  ] })
+] }) });
+const CV_FootNote = () => (0,j.jsx)("section", { className: "cv-footnote", "data-screen-label": "fr Note", children: (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 is a private cohort program of The Best Travel Biz Institute\u2122 \xB7 Founded by Bobbie A. Self, MBA \u2014 The Travel CEO Architect \xB7 \xA9 2026 The Best Travel Biz Institute\u2122" }) });
+const CEOVaultPage = () => (0,j.jsxs)("main", { id: "top", children: [
+  (0,j.jsx)($n, { home: Jn.home }),
+  (0,j.jsx)(CV_Hero, {}),
+  (0,j.jsx)(CV_Math, {}),
+  (0,j.jsx)(CV_WhatItIs, {}),
+  (0,j.jsx)(CV_Founder, {}),
+  (0,j.jsx)(CV_Pathways, {}),
+  (0,j.jsx)(CV_Proof, {}),
+  (0,j.jsx)(CV_Journey, {}),
+  (0,j.jsx)(CV_Reflect, {}),
+  (0,j.jsx)(CV_Anchors, {}),
+  (0,j.jsx)(CV_DoneWithYou, {}),
+  (0,j.jsx)(CV_Investment, {}),
+  (0,j.jsx)(CV_Compare, {}),
+  (0,j.jsx)(CV_Apply, {}),
+  (0,j.jsx)(CV_Tracks, {}),
+  (0,j.jsx)(CV_Alumni, {}),
+  (0,j.jsx)(CV_Structure, {}),
+  (0,j.jsx)(CV_FAQ, {}),
+  (0,j.jsx)(CV_Disclaimer, {}),
+  (0,j.jsx)(CV_Reminder, {}),
+  (0,j.jsx)(CV_Final, {}),
+  (0,j.jsx)(CV_FootNote, {}),
+  (0,j.jsx)(fr, { home: Jn.home })
+] });
+window.CEOVaultPage = CEOVaultPage;
 
 const TermsPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)($n,{}),
