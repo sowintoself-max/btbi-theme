@@ -1564,7 +1564,7 @@ const FT_FAQ = () => (0,j.jsx)("section", { className: "cv-faq cv-cream", style:
       (0,j.jsx)("span", { className: "ico", children: "+" })
     ] }),
     (0,j.jsx)("div", { className: "ans", children: f.a.map(
-      (para, j) => para.startsWith("__BOLD__") ? (0,j.jsx)("p", { children: (0,j.jsx)("strong", { children: para.replace("__BOLD__", "") }) }, j) : (0,j.jsx)("p", { children: para }, j)
+      (para, k) => para.startsWith("__BOLD__") ? (0,j.jsx)("p", { children: (0,j.jsx)("strong", { children: para.replace("__BOLD__", "") }) }, k) : (0,j.jsx)("p", { children: para }, k)
     ) })
   ] }, i)) })
 ] }) });
