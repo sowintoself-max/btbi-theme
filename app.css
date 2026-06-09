@@ -997,3 +997,31 @@ button,.btn,a.btn{max-width:100%;white-space:normal;overflow-wrap:break-word}
   .ft-pathstrip .pth:last-child{border-bottom:none}
   .ft-cat.span ul{grid-template-columns:1fr}
 }
+
+/* ════════════════════════════════════════════════════════
+   HOMEPAGE FOUR-TIER SECTION
+   ════════════════════════════════════════════════════════ */
+
+/* 4-column grid override (default .tiers-grid is 3 cols) */
+.tiers-grid-4{grid-template-columns:repeat(4,1fr);gap:20px}
+@media (max-width:1180px){
+  .tiers-grid-4{grid-template-columns:repeat(2,1fr);gap:24px}
+}
+@media (max-width:640px){
+  .tiers-grid-4{grid-template-columns:1fr}
+}
+
+/* APEX TIER badge on the VIP card */
+.tier.apex{border:2px solid var(--gold);background:var(--green-ink);box-shadow:0 24px 48px -16px rgba(8,40,28,.4)}
+.tier-apex-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--green-ink);font-family:var(--sans);font-size:9.5px;letter-spacing:.32em;text-transform:uppercase;font-weight:700;padding:5px 14px;border-radius:2px;white-space:nowrap;z-index:2}
+
+/* Section intro (italic body line under the H2) */
+.section-intro-italic{font-family:var(--serif-body);font-style:italic;color:var(--ink-2);font-size:18px;line-height:1.6;max-width:760px;margin:18px auto 0}
+
+/* Section closing block under the four cards */
+.tiers-closing{max-width:760px;margin:56px auto 0;text-align:center}
+.tiers-closing-em{font-family:var(--serif-body);font-style:italic;font-size:20px;color:var(--green-ink);line-height:1.5;margin:0 0 14px}
+.tiers-closing-sub{font-size:14.5px;color:var(--ink-2);line-height:1.65;margin:0;max-width:680px;margin:0 auto}
+
+/* Tier card price small-text override for two-line variants (Fast Track: "ONE-TIME · OR 3 × $697") */
+.tier .price small{display:block;font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;margin-top:4px;opacity:.7}
