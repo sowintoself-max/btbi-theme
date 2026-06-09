@@ -722,6 +722,15 @@ const CV_Apply = () => (0,j.jsx)("section", { className: "cv-green", style: { pa
     (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "Build the foundation for your first quarterly CEO Strategy Session, if accepted." }) })
   ] }),
   (0,j.jsxs)("div", { className: "cv-apply-next", children: [
+    (0,j.jsx)("div", { className: "lab", children: "Your Snapshot Includes" }),
+    (0,j.jsxs)("ul", { className: "cv-apply-list", style: { marginTop: 0 }, children: [
+      (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "Full private executive analysis." }) }),
+      (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "20–30 minute Loom video." }) }),
+      (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "Strategic roadmap deliverable." }) }),
+      (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "Delivered within 7 business days." }) })
+    ] })
+  ] }),
+  (0,j.jsxs)("div", { className: "cv-apply-next", children: [
     (0,j.jsx)("div", { className: "lab", children: "What Happens Next" }),
     (0,j.jsxs)("ul", { className: "cv-apply-list", style: { marginTop: 0 }, children: [
       (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "You complete the Travel Business Snapshot\u2122 \u2014 Founding Cohort Launch Rate: $97." }) }),
