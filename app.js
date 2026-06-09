@@ -730,7 +730,8 @@ const CV_Apply = () => (0,j.jsx)("section", { className: "cv-green", style: { pa
       (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "20–30 minute Loom video." }) }),
       (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "Strategic roadmap deliverable." }) }),
       (0,j.jsx)("li", { children: (0,j.jsx)("p", { children: "Delivered within 7 business days." }) })
-    ] })
+    ] }),
+    (0,j.jsx)("p", { className: "cv-apply-note", children: "Because it includes personalized strategic analysis and custom deliverables, Snapshot purchases are non-refundable once preparation has begun." })
   ] }),
   (0,j.jsxs)("div", { className: "cv-apply-next", children: [
     (0,j.jsx)("div", { className: "lab", children: "What Happens Next" }),
@@ -1073,6 +1074,7 @@ const CV_Final = () => (0,j.jsx)("section", { className: "cv-final", "data-scree
   (0,j.jsx)("div", { className: "cta-row", children: (0,j.jsx)(CV_SnapshotCTA, { children: "Begin Your Snapshot" }) }),
   (0,j.jsx)("p", { className: "cv-final-cta-sub", children: "Application personally reviewed by Bobbie within 7 business days. Founding Cohort pricing of $997/mo locked for your 12-month journey. Standard pricing of $1,497/mo begins after the Founding Cohort fills." }),
   (0,j.jsx)("p", { className: "cv-final-cta-sub", children: "VIP CEO Vault\u2122 exists to deliver one structural outcome: the complete transition from host-dependent travel agent to independent, accredited, 100% commission travel business CEO \u2014 supported, guided, and built to scale." }),
+  (0,j.jsx)("p", { className: "cv-final-cta-sub", children: "Snapshot purchases are non-refundable once preparation has begun." }),
   (0,j.jsxs)("div", { className: "cv-final-sig", children: [
     "Bobbie A. Self",
     (0,j.jsx)("small", { children: "Founder \xB7 The Best Travel Biz Institute\u2122" })
