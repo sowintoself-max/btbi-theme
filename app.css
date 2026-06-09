@@ -190,7 +190,6 @@ button,.btn,a.btn{max-width:100%;white-space:normal;overflow-wrap:break-word}
 /* Nav: hamburger menu and mobile layout */
 @media (width<=980px){
   .nav-row{position:relative}
-  .nav-cta .btn-primary{display:none!important}
   .nav-toggle{display:inline-grid!important;z-index:301}
   .nav-links.open{
     position:absolute;
@@ -780,4 +779,31 @@ button,.btn,a.btn{max-width:100%;white-space:normal;overflow-wrap:break-word}
 /* Add breathing room between last nav link (Bookstore) and Snapshot CTA — desktop only */
 @media (min-width:981px){
   .nav-links{margin-right:32px}
+}
+
+/* ════════════════════════════════════════════════════════
+   NAV DROPDOWN (Programs ▾)
+   ════════════════════════════════════════════════════════ */
+.nav-dd{position:relative}
+.nav-dd-trigger{letter-spacing:.18em;text-transform:uppercase;color:var(--ink-2);font-size:11.5px;font-weight:500;cursor:pointer;display:inline-flex;align-items:center;gap:6px;transition:color .2s;user-select:none}
+.nav-dd-trigger:hover{color:var(--green)}
+.nav-dd-arrow{font-size:9px;line-height:1;margin-top:1px;transition:transform .2s}
+.nav-dd:hover .nav-dd-arrow{transform:rotate(180deg)}
+.nav-dd-menu{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);background:var(--cream);border:1px solid var(--line);padding:10px 0;min-width:260px;z-index:200;box-shadow:0 14px 32px -6px rgba(8,40,28,.18)}
+.nav-dd:hover .nav-dd-menu,
+.nav-dd:focus-within .nav-dd-menu{display:flex;flex-direction:column}
+.nav-dd-menu a{letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)!important;font-size:11px;font-weight:500;padding:12px 22px;white-space:nowrap;transition:color .2s,background .2s}
+.nav-dd-menu a:hover{color:var(--green)!important;background:rgba(196,164,108,.08)}
+
+/* Mobile: dropdown items show flat inside open hamburger menu */
+@media (width<=980px){
+  .nav-dd{width:100%}
+  .nav-dd-trigger{width:100%;justify-content:space-between;color:var(--gold);font-size:13px;letter-spacing:.22em}
+  .nav-dd-arrow{display:none}
+  .nav-dd-menu{display:flex!important;flex-direction:column;position:static;transform:none;background:transparent;border:none;box-shadow:none;padding:8px 0 0 12px;min-width:0}
+  .nav-dd-menu a{color:var(--cream)!important;padding:8px 0;font-size:12.5px;letter-spacing:.18em}
+  .nav-dd-menu a:hover{color:var(--gold)!important;background:transparent}
+  /* Mobile Snapshot CTA — slightly smaller to fit next to hamburger */
+  .nav-cta .btn-primary{padding:10px 14px!important;font-size:9.5px!important;letter-spacing:.14em}
+  .nav-cta .btn-primary svg{display:none}
 }
