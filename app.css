@@ -776,3 +776,8 @@ button,.btn,a.btn{max-width:100%;white-space:normal;overflow-wrap:break-word}
   .sp-disclaimer-wrap{padding:22px 24px}
   .sp-disclaimer-text{font-size:13.5px}
 }
+
+/* Add breathing room between last nav link (Bookstore) and Snapshot CTA — desktop only */
+@media (min-width:981px){
+  .nav-links{margin-right:32px}
+}
