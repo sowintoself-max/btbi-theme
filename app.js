@@ -164,7 +164,7 @@ const CV_Hero = () => (0,j.jsxs)("section", { className: "cv-hero", "data-screen
       "Your ",
       (0,j.jsx)("em", { children: "Business." })
     ] }),
-    (0,j.jsx)("p", { className: "cv-hero-sub", children: "The 12-month executive cohort for established travel professionals walking the structural ownership transition." }),
+    (0,j.jsx)("p", { className: "cv-hero-sub", children: "The 12-month executive cohort for established travel professionals completing the structural transition to 100% commission ownership." }),
     (0,j.jsxs)("div", { className: "cv-hero-body", children: [
       (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 is the private 12-month advisory cohort for established travel professionals ready to complete the structural transition from host-dependent agent to fully accredited, independently operating travel business CEO." }),
       (0,j.jsx)("p", { children: "Founder-led methodology. Phased executive implementation. Guided accreditation. Real-world group trip launch. AI-powered executive infrastructure deployment. All inside a private community of 24 travel CEOs at every stage of the same transition." })
@@ -327,7 +327,8 @@ const CV_Math = () => (0,j.jsx)("section", { className: "cv-math cv-cream", "dat
       (0,j.jsx)("em", { children: "The path is." })
     ] }),
     (0,j.jsx)("p", { children: "Most travel professionals stay tethered to their host not because they want to \u2014 but because the route to independent accreditation, infrastructure, AI deployment, and operational scale is rarely mapped clearly." }),
-    (0,j.jsx)("p", { children: "Inside VIP CEO Vault\u2122, it is \u2014 with structured methodology, supporting infrastructure, and direct guidance from someone who has walked this path personally and led others through it successfully." })
+    (0,j.jsx)("p", { children: "Inside VIP CEO Vault\u2122, it is \u2014 with structured methodology, supporting infrastructure, and direct guidance from someone who has walked this path personally and led others through it successfully." }),
+    (0,j.jsx)("p", { children: "This is what 100% commission means in real numbers: every dollar of commission your work generates returns to your business \u2014 not to your host. The transition to 100% commission is the structural outcome VIP CEO Vault\u2122 is designed to deliver." })
   ] })
 ] }) });
 const CV_WhatItIs = () => (0,j.jsx)("section", { className: "cv-green", style: { padding: "120px 0" }, "data-screen-label": "03 What It Is", children: (0,j.jsxs)("div", { className: "wrap", children: [
@@ -407,7 +408,8 @@ const CV_Pathways = () => (0,j.jsx)("section", { className: "cv-green", style: {
   ] }),
   (0,j.jsxs)("div", { className: "cv-paths-intro", children: [
     (0,j.jsx)("p", { children: "There is no single way to become an independent travel business CEO. There are four \u2014 and which one fits depends on your business stage, your goals, and the structure that best serves your specific operation." }),
-    (0,j.jsx)("p", { children: "Inside VIP CEO Vault\u2122, your Travel Business Snapshot\u2122 determines which pathway fits your situation. Then you walk it with structured guidance." })
+    (0,j.jsx)("p", { children: "Inside VIP CEO Vault\u2122, your Travel Business Snapshot\u2122 determines which pathway fits your situation. Then you walk it with structured guidance." }),
+    (0,j.jsx)("p", { children: "These four pathways are the credentialing routes that move a hosted travel agent into the independent operating structure required to retain 100% of earned commissions. Each pathway delivers the same fundamental outcome \u2014 independent commission authority \u2014 through different industry credentialing bodies." })
   ] }),
   (0,j.jsxs)("div", { className: "cv-paths-grid", children: [
     (0,j.jsxs)("div", { className: "cv-path", children: [
@@ -492,7 +494,7 @@ const CV_PHASES = [
       "One guided starter application pathway \u2014 typically CLIA or IATA/IATAN, selected based on the member's Snapshot, niche, readiness, and business structure",
       "First Quarterly CEO Strategy Session with Bobbie (60 min, recorded)"
     ],
-    outcome: "A clear structural foundation and one ownership milestone in motion within the first 90 days."
+    outcome: "A clear structural foundation, one guided accreditation application in motion, and a defined pathway to 100% commission ownership within the first 90 days."
   },
   {
     ph: "Phase 2",
@@ -750,7 +752,10 @@ const CV_Tracks = () => (0,j.jsx)("section", { className: "cv-cream", style: { p
       (0,j.jsx)("em", { children: "One Ecosystem." })
     ] })
   ] }),
-  (0,j.jsx)("div", { className: "cv-tracks-intro", children: (0,j.jsx)("p", { children: "The Best Travel Biz Institute\u2122 serves travel professionals at every stage of the ownership journey. VIP CEO Vault\u2122 is the most advanced tier \u2014 for established operators ready to walk the full transition with founder-led advisory." }) }),
+  (0,j.jsxs)("div", { className: "cv-tracks-intro", children: [
+    (0,j.jsx)("p", { children: "The Best Travel Biz Institute\u2122 serves travel professionals at every stage of the ownership journey. VIP CEO Vault\u2122 is the most advanced tier \u2014 for established operators ready to walk the full transition with founder-led advisory." }),
+    (0,j.jsx)("p", { children: "All four tracks within The Best Travel Biz Institute\u2122 are structured around a single architectural outcome: the transition to 100% commission ownership. The tracks differ in the level of guidance, pacing, and depth \u2014 not in destination." })
+  ] }),
   (0,j.jsxs)("div", { className: "cv-tracks", children: [
     (0,j.jsxs)("a", { className: "cv-track", href: "/challenge", children: [
       (0,j.jsx)("div", { className: "tname", children: "14-Day Travel Agent to CEO Challenge\u2122" }),
@@ -878,7 +883,8 @@ const CV_Structure = () => (0,j.jsx)("section", { className: "cv-struct", "data-
     (0,j.jsxs)("p", { children: [
       (0,j.jsx)("strong", { children: "Documented track record." }),
       " Six successful transitions completed. Three publicly featured. Three additional transitions delivered through 1:1 advisory."
-    ] })
+    ] }),
+    (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 does not promise faster sales, bigger groups, or aggressive growth tactics. It promises one structural outcome: by the end of your 12-month cohort, you operate as an independent, accredited travel business CEO retaining 100% of your earned commissions \u2014 supported by infrastructure, systems, and a launched group trip as proof." })
   ] }),
   (0,j.jsx)("p", { className: "cv-struct-close", children: "This is independent ownership in its most structural form." })
 ] }) });
@@ -1007,6 +1013,17 @@ const CV_FAQ = () => (0,j.jsx)("section", { className: "cv-faq", "data-screen-la
     ] }),
     (0,j.jsxs)("details", { className: "faq-item", children: [
       (0,j.jsxs)("summary", { children: [
+        "What does \"100% commission\" actually mean \u2014 and is that what VIP CEO Vault\u2122 delivers?",
+        (0,j.jsx)("span", { className: "ico", children: "+" })
+      ] }),
+      (0,j.jsxs)("div", { className: "ans", children: [
+        (0,j.jsx)("p", { children: "100% commission means that when you book a $4,000 cruise for a client and the supplier pays $400 in commission, the full $400 returns to your independent travel business \u2014 not to a host agency that takes a percentage of every booking. This is the structural outcome the Four Pathways enable." }),
+        (0,j.jsx)("p", { children: "VIP CEO Vault\u2122 guides established travel professionals through the credentialing, structural, and operational transition required to operate at 100% commission independently \u2014 supported by the infrastructure, systems, and launched group offer needed to make the transition real and sustainable." }),
+        (0,j.jsx)("p", { children: "The accreditation milestones are the credential. The infrastructure is the operating capacity. The 100% commission income is the structural result." })
+      ] })
+    ] }),
+    (0,j.jsxs)("details", { className: "faq-item", children: [
+      (0,j.jsxs)("summary", { children: [
         "Will pricing stay at $997/month forever?",
         (0,j.jsx)("span", { className: "ico", children: "+" })
       ] }),
@@ -1055,6 +1072,7 @@ const CV_Final = () => (0,j.jsx)("section", { className: "cv-final", "data-scree
   ] }),
   (0,j.jsx)("div", { className: "cta-row", children: (0,j.jsx)(CV_SnapshotCTA, { children: "Begin Your Snapshot" }) }),
   (0,j.jsx)("p", { className: "cv-final-cta-sub", children: "Application personally reviewed by Bobbie within 7 business days. Founding Cohort pricing of $997/mo locked for your 12-month journey. Standard pricing of $1,497/mo begins after the Founding Cohort fills." }),
+  (0,j.jsx)("p", { className: "cv-final-cta-sub", children: "VIP CEO Vault\u2122 exists to deliver one structural outcome: the complete transition from host-dependent travel agent to independent, accredited, 100% commission travel business CEO \u2014 supported, guided, and built to scale." }),
   (0,j.jsxs)("div", { className: "cv-final-sig", children: [
     "Bobbie A. Self",
     (0,j.jsx)("small", { children: "Founder \xB7 The Best Travel Biz Institute\u2122" })
