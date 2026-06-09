@@ -449,8 +449,7 @@ const CV_Proof = () => (0,j.jsx)("section", { className: "cv-proof testi", "data
       (0,j.jsxs)("cite", { children: [
         (0,j.jsx)("span", { className: "av", children: "T" }),
         (0,j.jsxs)("div", { className: "who", children: [
-          (0,j.jsx)("span", { className: "nm", children: "Titinius W." }),
-          (0,j.jsx)("span", { className: "tt", children: "Travel CEO \xB7 Cruise" })
+          (0,j.jsx)("span", { className: "nm", children: "T. White" })
         ] })
       ] })
     ] }),
@@ -460,8 +459,7 @@ const CV_Proof = () => (0,j.jsx)("section", { className: "cv-proof testi", "data
       (0,j.jsxs)("cite", { children: [
         (0,j.jsx)("span", { className: "av", children: "A" }),
         (0,j.jsxs)("div", { className: "who", children: [
-          (0,j.jsx)("span", { className: "nm", children: "Allene L." }),
-          (0,j.jsx)("span", { className: "tt", children: "Travel CEO \xB7 Independent" })
+          (0,j.jsx)("span", { className: "nm", children: "A. Love" })
         ] })
       ] })
     ] }),
@@ -471,8 +469,7 @@ const CV_Proof = () => (0,j.jsx)("section", { className: "cv-proof testi", "data
       (0,j.jsxs)("cite", { children: [
         (0,j.jsx)("span", { className: "av", children: "L" }),
         (0,j.jsxs)("div", { className: "who", children: [
-          (0,j.jsx)("span", { className: "nm", children: "Dr. Latosha H." }),
-          (0,j.jsx)("span", { className: "tt", children: "Travel CEO \xB7 Group Travel" })
+          (0,j.jsx)("span", { className: "nm", children: "L. Hayes" })
         ] })
       ] })
     ] })
