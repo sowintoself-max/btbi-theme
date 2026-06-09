@@ -156,6 +156,20 @@ $tbtb_seo_data = [
         'robots'              => 'index, follow, max-image-preview:large',
     ],
 
+    '/fast-track' => [
+        'title'               => '100% Commission Fast Track™ — Self-Paced Ownership Implementation System | The Best Travel Biz Institute™',
+        'meta_description'    => 'The structured self-paced implementation system for travel professionals walking the path to 100% commission ownership. The 4 Paths to 100% Ownership™ framework, Snapshot-informed starting pathway, implementation templates, and operational setup guidance. $1,997 one-time or 3 × $697. Travel Business Snapshot™ required before enrollment.',
+        'canonical'           => 'https://thebesttravelbiz.com/fast-track/',
+        'og_title'            => '100% Commission Fast Track™ — Self-Paced Ownership Implementation System | The Best Travel Biz Institute™',
+        'og_description'      => 'The structured self-paced implementation system for travel professionals walking the path to 100% commission ownership. $1,997 one-time or 3 × $697. Travel Business Snapshot™ required before enrollment.',
+        'og_image'            => '',
+        'og_type'             => 'website',
+        'twitter_title'       => '100% Commission Fast Track™ — Self-Paced Ownership Implementation System',
+        'twitter_description' => 'The structured self-paced implementation system for travel professionals walking the path to 100% commission ownership. $1,997 one-time or 3 × $697.',
+        'twitter_image'       => '',
+        'robots'              => 'index, follow, max-image-preview:large',
+    ],
+
 ];
 
 
