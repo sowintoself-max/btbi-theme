@@ -420,6 +420,47 @@ add_action('wp_head', function () {
 // X-Robots-Tag block in the theme's .htaccess snippet.)
 // ════════════════════════════════════════════════════════════════════════════
 
+// ════════════════════════════════════════════════════════════════════════════
+// PRERENDERED BODY SNAPSHOTS — for ad-platform crawlers and faster indexing
+//
+// Meta and Google ad crawlers DO NOT execute JavaScript. When they scrape
+// landing pages to approve ads or score landing page quality, they see only
+// the empty <div id="root"></div> shell. That can lower ad reach, raise CPC,
+// and delay ad approval.
+//
+// For the routes that ad campaigns target, we inject a pre-rendered HTML
+// snapshot of the React-rendered body INSIDE #root. React's render() replaces
+// the children of #root the moment it boots, so humans never see the snapshot.
+//
+// Snapshots live in /react-app/prerendered-snapshots.php and are generated
+// by /react-app/prerender-snapshots.js. Re-run that script if content drifts.
+// ════════════════════════════════════════════════════════════════════════════
+
+add_action('template_redirect', function () {
+    if (!btbi_is_react_page()) return;
+
+    $snapshot_file = get_template_directory() . '/react-app/prerendered-snapshots.php';
+    if (!file_exists($snapshot_file)) return;
+
+    $snapshots = include $snapshot_file;
+    $route = tbtb_get_route();
+    if (empty($snapshots[$route])) return;
+
+    $body = $snapshots[$route];
+
+    // Buffer the entire page output, then surgically inject the snapshot
+    // inside <div id="root">…</div>. Matches whether the div is empty or
+    // contains whitespace; preserves any extra attributes the template added.
+    ob_start(function ($html) use ($body) {
+        return preg_replace(
+            '#(<div\s+id="root"[^>]*>)\s*(</div>)#i',
+            '$1' . $body . '$2',
+            $html,
+            1
+        );
+    });
+});
+
 add_action('send_headers', function () {
     $uri = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';
     $protected_prefixes = [
