@@ -170,6 +170,62 @@ $tbtb_seo_data = [
         'robots'              => 'index, follow, max-image-preview:large',
     ],
 
+    '/bookstore' => [
+        'title'               => 'The Bookstore | The Best Travel Biz Institute™',
+        'meta_description'    => 'Books, workbooks, and guides for travel agents building ownership. Business education you can hold — from The Best Travel Biz Institute™.',
+        'canonical'           => 'https://thebesttravelbiz.com/bookstore/',
+        'og_title'            => 'The Bookstore | The Best Travel Biz Institute™',
+        'og_description'      => 'Books, workbooks, and guides for travel agents building ownership. Business education you can hold.',
+        'og_image'            => 'https://thebesttravelbiz.com/wp-content/themes/btbi-theme/react-app/assets/ebook-cover-ipad.png',
+        'og_type'             => 'website',
+        'twitter_title'       => 'The Bookstore | The Best Travel Biz Institute™',
+        'twitter_description' => 'Books, workbooks, and guides for travel agents building ownership.',
+        'twitter_image'       => 'https://thebesttravelbiz.com/wp-content/themes/btbi-theme/react-app/assets/ebook-cover-ipad.png',
+        'robots'              => 'index, follow, max-image-preview:large',
+    ],
+
+    '/why-are-you-splitting-commission' => [
+        'title'               => 'Why Are You Splitting Commission? | The Best Travel Biz Institute™',
+        'meta_description'    => 'The $7 guide that shows travel agents what their commission structure is actually costing them. Ownership Audit, Five Profit Leaks, and a 90-Day Ownership Plan.',
+        'canonical'           => 'https://thebesttravelbiz.com/why-are-you-splitting-commission/',
+        'og_title'            => 'Why Are You Splitting Commission If You Do All the Work?',
+        'og_description'      => 'A $7 wake-up guide for hosted and independent travel agents. Ownership Audit, Profit Leak Breakdown, and a 90-Day Plan.',
+        'og_image'            => 'https://thebesttravelbiz.com/wp-content/themes/btbi-theme/react-app/assets/ebook-cover-ipad.png',
+        'og_type'             => 'article',
+        'twitter_title'       => 'Why Are You Splitting Commission If You Do All the Work?',
+        'twitter_description' => 'The $7 clarity guide for hosted and independent travel agents.',
+        'twitter_image'       => 'https://thebesttravelbiz.com/wp-content/themes/btbi-theme/react-app/assets/ebook-cover-ipad.png',
+        'robots'              => 'index, follow, max-image-preview:large',
+    ],
+
+    '/snapshot' => [
+        'title'               => 'Travel Business Snapshot™ | The Best Travel Biz Institute™',
+        'meta_description'    => 'A structured business assessment for travel agents. Know exactly where you stand across the ownership domains — and which path fits your business.',
+        'canonical'           => 'https://thebesttravelbiz.com/snapshot/',
+        'og_title'            => 'Travel Business Snapshot™ — Executive Diagnostic',
+        'og_description'      => 'A structured business assessment for travel agents. Full private executive analysis, 20–30 minute Loom video, and strategic roadmap deliverable. Personally reviewed by Bobbie within 7 business days.',
+        'og_image'            => 'https://thebesttravelbiz.com/wp-content/uploads/2026/05/the-best-travel-biz-institute-meta.png',
+        'og_type'             => 'website',
+        'twitter_title'       => 'Travel Business Snapshot™ — Executive Diagnostic',
+        'twitter_description' => 'A structured business assessment for travel agents — reviewed personally by Bobbie within 7 business days.',
+        'twitter_image'       => 'https://thebesttravelbiz.com/wp-content/uploads/2026/05/the-best-travel-biz-institute-meta.png',
+        'robots'              => 'index, follow, max-image-preview:large',
+    ],
+
+    '/challenge' => [
+        'title'               => '14-Day Travel Agent to CEO Challenge™ | Free | The Best Travel Biz Institute™',
+        'meta_description'    => 'Fourteen days of guided ownership work for travel agents. Free. No commitment. Shift how you think about your business before you change a single thing about it.',
+        'canonical'           => 'https://thebesttravelbiz.com/challenge/',
+        'og_title'            => '14-Day Travel Agent to CEO Challenge™ — Free',
+        'og_description'      => 'Fourteen days of guided ownership work for travel agents. Daily worksheets, signed CEO declarations, and a Virtual Graduation Ceremony at the end.',
+        'og_image'            => 'https://thebesttravelbiz.com/wp-content/uploads/2026/05/the-best-travel-biz-institute-meta.png',
+        'og_type'             => 'website',
+        'twitter_title'       => '14-Day Travel Agent to CEO Challenge™ — Free',
+        'twitter_description' => 'Fourteen days of guided ownership work for travel agents. Free to join.',
+        'twitter_image'       => 'https://thebesttravelbiz.com/wp-content/uploads/2026/05/the-best-travel-biz-institute-meta.png',
+        'robots'              => 'index, follow, max-image-preview:large',
+    ],
+
 ];
 
 
@@ -294,11 +350,93 @@ add_filter('wpseo_robots',               'tbtb_yoast_robots');
 
 
 // ════════════════════════════════════════════════════════════════════════════
-// SCHEMA MARKUP — pending
+// PRODUCT SCHEMA — Bookstore + Sales page
 //
-// Schema blocks for Organization (/), Person (/about), Service (/snapshot,
-// /ceo-vault), and Course (/challenge) are ready to add here via the
-// wpseo_schema_graph filter once logo URL, social links, descriptions, and
-// founder photo URL are available. Do not add them until all field values
-// are populated — placeholder strings in JSON-LD break schema validation.
+// Social crawlers (Facebook, LinkedIn, Slack, Twitter) and Google's structured
+// data parser do NOT execute JavaScript. The React-rendered page body is
+// invisible to them. We inject Product JSON-LD into the PHP-rendered <head>
+// so search engines see price/availability/author and can show rich results.
+//
+// Mirrors the SEO data pattern: route-keyed, falls back to nothing if the
+// route isn't matched.
 // ════════════════════════════════════════════════════════════════════════════
+
+add_action('wp_head', function () {
+    if (!btbi_is_react_page()) return;
+
+    $route = tbtb_get_route();
+
+    $schemas = [
+        '/bookstore' => [
+            '@context'    => 'https://schema.org',
+            '@type'       => 'Product',
+            'name'        => 'Why Are You Splitting Commission If You Do All the Work?',
+            'description' => "A Travel Agent's Wake-Up Guide to Ownership, Branding, and Keeping What You Earn",
+            'image'       => 'https://thebesttravelbiz.com/wp-content/themes/btbi-theme/react-app/assets/ebook-cover-ipad.png',
+            'brand'       => ['@type' => 'Brand', 'name' => 'The Best Travel Biz Institute™'],
+            'author'      => ['@type' => 'Person', 'name' => 'Bobbie A. Self'],
+            'offers'      => [
+                '@type'         => 'Offer',
+                'price'         => '7.00',
+                'priceCurrency' => 'USD',
+                'availability'  => 'https://schema.org/InStock',
+                'url'           => 'https://thebesttravelbiz.com/bookstore/',
+            ],
+        ],
+        '/why-are-you-splitting-commission' => [
+            '@context'    => 'https://schema.org',
+            '@type'       => 'Product',
+            'name'        => 'Why Are You Splitting Commission If You Do All the Work?',
+            'description' => "A $7 wake-up guide for hosted and independent travel agents. Ownership Audit, Five Profit Leaks, and a 90-Day Ownership Plan.",
+            'image'       => 'https://thebesttravelbiz.com/wp-content/themes/btbi-theme/react-app/assets/ebook-cover-ipad.png',
+            'brand'       => ['@type' => 'Brand', 'name' => 'The Best Travel Biz Institute™'],
+            'author'      => ['@type' => 'Person', 'name' => 'Bobbie A. Self'],
+            'offers'      => [
+                '@type'         => 'Offer',
+                'price'         => '7.00',
+                'priceCurrency' => 'USD',
+                'availability'  => 'https://schema.org/InStock',
+                'url'           => 'https://thebesttravelbiz.com/why-are-you-splitting-commission/',
+            ],
+        ],
+    ];
+
+    if (!isset($schemas[$route])) return;
+
+    echo "\n<script type=\"application/ld+json\">\n";
+    echo wp_json_encode($schemas[$route], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+    echo "\n</script>\n";
+}, 50);
+
+
+// ════════════════════════════════════════════════════════════════════════════
+// X-ROBOTS-TAG — block PDFs and member resources from search indexing
+//
+// Yoast handles HTML pages but cannot stop Google from indexing a PDF if
+// someone links to it directly. This header is set on every request whose
+// path matches a protected resource directory.
+//
+// (The same rules also live in .htaccess as a defense-in-depth — see the
+// X-Robots-Tag block in the theme's .htaccess snippet.)
+// ════════════════════════════════════════════════════════════════════════════
+
+add_action('send_headers', function () {
+    $uri = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';
+    $protected_prefixes = [
+        '/worksheets/',
+        '/challenge-resources/',
+        '/member-resources/',
+        '/wp-content/uploads/private/',
+    ];
+    foreach ($protected_prefixes as $prefix) {
+        if (strpos($uri, $prefix) === 0) {
+            header('X-Robots-Tag: noindex, nofollow', true);
+            return;
+        }
+    }
+    // Also catch any PDF served from /wp-content/uploads/ that lives in a
+    // year/month folder labelled "private" or "members".
+    if (preg_match('#\.pdf(\?|$)#i', $uri) && preg_match('#/(private|members|gated|protected)/#i', $uri)) {
+        header('X-Robots-Tag: noindex, nofollow', true);
+    }
+});
