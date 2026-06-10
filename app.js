@@ -138,7 +138,7 @@ const BookstorePage = () => (0,j.jsxs)("main", { id: "top", children: [
   ] }) }),
   (0,j.jsx)("section", { className: "bk-featured", "data-screen-label": "02 Featured Guide", children: (0,j.jsx)("div", { className: "wrap", children: (0,j.jsxs)("div", { className: "bk-featured-grid", children: [
     (0,j.jsxs)("div", { className: "bk-cover-frame", children: [
-      (0,j.jsx)("img", { src: "../../assets/ebook-cover.png", alt: "Book cover: Why Are You Splitting Commission If You Do All the Work? by Bobbie A. Self", width: "1023", height: "1537", fetchpriority: "high" }),
+      (0,j.jsx)("img", { src: Qn("assets/ebook-cover.png"), alt: "Book cover: Why Are You Splitting Commission If You Do All the Work? by Bobbie A. Self", width: "1023", height: "1537", fetchpriority: "high" }),
       (0,j.jsxs)("div", { className: "bk-feat-badge", children: [
         (0,j.jsx)("span", { className: "dot" }),
         "Featured Guide"
@@ -184,7 +184,7 @@ const BookstorePage = () => (0,j.jsxs)("main", { id: "top", children: [
       (0,j.jsx)("div", { className: "bk-rule" })
     ] }),
     (0,j.jsx)("div", { className: "bk-grid is-single", children: (0,j.jsxs)("article", { className: "bk-card", children: [
-      (0,j.jsx)("div", { className: "bk-card-cover", children: (0,j.jsx)("img", { src: "../../assets/ebook-cover.png", alt: "Book cover: Why Are You Splitting Commission If You Do All the Work? by Bobbie A. Self", width: "1023", height: "1537", loading: "lazy" }) }),
+      (0,j.jsx)("div", { className: "bk-card-cover", children: (0,j.jsx)("img", { src: Qn("assets/ebook-cover.png"), alt: "Book cover: Why Are You Splitting Commission If You Do All the Work? by Bobbie A. Self", width: "1023", height: "1537", loading: "lazy" }) }),
       (0,j.jsxs)("div", { className: "bk-card-body", children: [
         (0,j.jsx)("span", { className: "bk-card-series", children: "The Travel CEO Series \xB7 No. 1" }),
         (0,j.jsx)("h3", { className: "bk-card-title", children: "Why Are You Splitting Commission If You Do All the Work?" }),
@@ -233,7 +233,7 @@ const BookstorePage = () => (0,j.jsxs)("main", { id: "top", children: [
     ] }),
     (0,j.jsxs)("div", { className: "sc-body", children: [
       (0,j.jsxs)("div", { className: "sc-li", children: [
-        (0,j.jsx)("img", { src: "../../assets/ebook-cover.png", alt: "" }),
+        (0,j.jsx)("img", { src: Qn("assets/ebook-cover.png"), alt: "" }),
         (0,j.jsxs)("div", { children: [
           (0,j.jsx)("div", { className: "t", children: "Why Are You Splitting Commission If You Do All the Work?" }),
           (0,j.jsx)("div", { className: "s", children: "Instant digital download \xB7 PDF" })
@@ -295,7 +295,7 @@ const WhyAreYouPage = () => (0,j.jsxs)("main", { id: "top", children: [
       ] })
     ] }),
     (0,j.jsxs)("div", { className: "sp-hero-cover", children: [
-      (0,j.jsx)("div", { className: "sp-coverframe", children: (0,j.jsx)("img", { src: "../../assets/ebook-cover.png", alt: "Book cover: Why Are You Splitting Commission If You Do All the Work? by Bobbie A. Self", width: "1023", height: "1537", fetchpriority: "high" }) }),
+      (0,j.jsx)("div", { className: "sp-coverframe", children: (0,j.jsx)("img", { src: Qn("assets/ebook-cover.png"), alt: "Book cover: Why Are You Splitting Commission If You Do All the Work? by Bobbie A. Self", width: "1023", height: "1537", fetchpriority: "high" }) }),
       (0,j.jsxs)("div", { className: "badge", children: [
         (0,j.jsx)("span", { className: "dot" }),
         "The $7 Guide"
@@ -643,7 +643,7 @@ const WhyAreYouPage = () => (0,j.jsxs)("main", { id: "top", children: [
       (0,j.jsx)("p", { children: "You can't renegotiate from the beginning. You can decide right now to understand exactly what your structure looks like \u2014 and whether it's built in your favor or someone else's." })
     ] }),
     (0,j.jsxs)("div", { className: "sp-offer-card", children: [
-      (0,j.jsx)("div", { className: "sp-offer-cover", children: (0,j.jsx)("img", { src: "../../assets/ebook-cover.png", alt: "Why Are You Splitting Commission If You Do All the Work?", width: "1023", height: "1537" }) }),
+      (0,j.jsx)("div", { className: "sp-offer-cover", children: (0,j.jsx)("img", { src: Qn("assets/ebook-cover.png"), alt: "Why Are You Splitting Commission If You Do All the Work?", width: "1023", height: "1537" }) }),
       (0,j.jsxs)("div", { className: "sp-offer-detail", children: [
         (0,j.jsx)("span", { className: "stamp", children: "The Travel CEO Series \xB7 No. 1" }),
         (0,j.jsx)("h3", { children: "Why Are You Splitting Commission If You Do All the Work?" }),
@@ -767,7 +767,7 @@ const WhyAreYouPage = () => (0,j.jsxs)("main", { id: "top", children: [
     ] }),
     (0,j.jsxs)("div", { className: "sc-body", children: [
       (0,j.jsxs)("div", { className: "sc-li", children: [
-        (0,j.jsx)("img", { src: "../../assets/ebook-cover.png", alt: "" }),
+        (0,j.jsx)("img", { src: Qn("assets/ebook-cover.png"), alt: "" }),
         (0,j.jsxs)("div", { children: [
           (0,j.jsx)("div", { className: "t", children: "Why Are You Splitting Commission If You Do All the Work?" }),
           (0,j.jsx)("div", { className: "s", children: "Instant digital download \xB7 PDF" })
