@@ -1048,7 +1048,7 @@ button,.btn,a.btn{max-width:100%;white-space:normal;overflow-wrap:break-word}
 .bk-cover-frame{position:relative;background:var(--cream);padding:14px;border:1px solid rgba(201,169,97,.5);box-shadow:0 40px 90px -42px rgba(4,38,26,.55)}
 .bk-cover-frame::before{content:"";position:absolute;inset:7px;border:1px solid rgba(201,169,97,.32);pointer-events:none;z-index:1}
 .bk-cover-frame img{width:100%;height:auto;display:block;position:relative;z-index:0}
-.bk-feat-badge{position:absolute;left:-16px;bottom:26px;z-index:2;background:var(--green);color:var(--cream);padding:12px 18px;font-family:var(--sans);font-size:10px;letter-spacing:.28em;text-transform:uppercase;font-weight:700;border-left:3px solid var(--gold);display:flex;align-items:center;gap:10px}
+.bk-feat-badge{position:absolute;left:-16px;bottom:-16px;z-index:2;background:var(--green);color:var(--cream);padding:12px 18px;font-family:var(--sans);font-size:10px;letter-spacing:.28em;text-transform:uppercase;font-weight:700;border-left:3px solid var(--gold);display:flex;align-items:center;gap:10px}
 .bk-feat-badge .dot{width:6px;height:6px;background:var(--gold);border-radius:50%}
 
 /* Dossier info card */
