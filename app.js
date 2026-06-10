@@ -184,7 +184,7 @@ const BookstorePage = () => (0,j.jsxs)("main", { id: "top", children: [
       (0,j.jsx)("div", { className: "bk-rule" })
     ] }),
     (0,j.jsx)("div", { className: "bk-grid is-single", children: (0,j.jsxs)("article", { className: "bk-card", children: [
-      (0,j.jsx)("div", { className: "bk-card-cover", children: (0,j.jsx)("img", { src: Qn("assets/ebook-cover.png"), alt: "Book cover: Why Are You Splitting Commission If You Do All the Work? by Bobbie A. Self", width: "1023", height: "1537", loading: "lazy" }) }),
+      (0,j.jsx)("div", { className: "bk-card-cover", children: (0,j.jsx)("img", { src: Qn("assets/ebook-cover-ipad.png"), alt: "Book cover: Why Are You Splitting Commission If You Do All the Work? by Bobbie A. Self", width: "1023", height: "1537", loading: "lazy" }) }),
       (0,j.jsxs)("div", { className: "bk-card-body", children: [
         (0,j.jsx)("span", { className: "bk-card-series", children: "The Travel CEO Series \xB7 No. 1" }),
         (0,j.jsx)("h3", { className: "bk-card-title", children: "Why Are You Splitting Commission If You Do All the Work?" }),
@@ -279,7 +279,7 @@ const WhyAreYouPage = () => (0,j.jsxs)("main", { id: "top", children: [
       ] }),
       (0,j.jsx)("p", { className: "sp-hero-sub", children: "A $7 clarity guide for hosted and independent travel agents who want to understand what they're exchanging for their commission split \u2014 and whether their current structure supports ownership." }),
       (0,j.jsxs)("div", { className: "sp-hero-cta", children: [
-        (0,j.jsxs)("a", { className: "btn btn-gold js-checkout", href: "#offer", children: [
+        (0,j.jsxs)("a", { className: "btn btn-gold js-checkout", href: "https://bobbieaself.mysamcart.com/checkout/why-are-you-splitting-commission#samcart-slide-open-right", children: [
           "Get Instant Access \u2014 $7 ",
           (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
         ] }),
@@ -482,7 +482,7 @@ const WhyAreYouPage = () => (0,j.jsxs)("main", { id: "top", children: [
     ] }),
     (0,j.jsx)("p", { className: "sp-inside-note", children: "No fluff \xB7 No filler \xB7 No overnight income promises" }),
     (0,j.jsxs)("div", { className: "sp-cta2", children: [
-      (0,j.jsxs)("a", { className: "btn btn-gold js-checkout", href: "#offer", children: [
+      (0,j.jsxs)("a", { className: "btn btn-gold js-checkout", href: "https://bobbieaself.mysamcart.com/checkout/why-are-you-splitting-commission#samcart-slide-open-right", children: [
         "Get the $7 Guide Now \u2014 Instant Download ",
         (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
       ] }),
@@ -643,7 +643,7 @@ const WhyAreYouPage = () => (0,j.jsxs)("main", { id: "top", children: [
       (0,j.jsx)("p", { children: "You can't renegotiate from the beginning. You can decide right now to understand exactly what your structure looks like \u2014 and whether it's built in your favor or someone else's." })
     ] }),
     (0,j.jsxs)("div", { className: "sp-offer-card", children: [
-      (0,j.jsx)("div", { className: "sp-offer-cover", children: (0,j.jsx)("img", { src: Qn("assets/ebook-cover.png"), alt: "Why Are You Splitting Commission If You Do All the Work?", width: "1023", height: "1537" }) }),
+      (0,j.jsx)("div", { className: "sp-offer-cover", children: (0,j.jsx)("img", { src: Qn("assets/ebook-cover-ipad.png"), alt: "Why Are You Splitting Commission If You Do All the Work?", width: "1023", height: "1537" }) }),
       (0,j.jsxs)("div", { className: "sp-offer-detail", children: [
         (0,j.jsx)("span", { className: "stamp", children: "The Travel CEO Series \xB7 No. 1" }),
         (0,j.jsx)("h3", { children: "Why Are You Splitting Commission If You Do All the Work?" }),
@@ -749,7 +749,7 @@ const WhyAreYouPage = () => (0,j.jsxs)("main", { id: "top", children: [
       "Seven dollars. One weekend. One score. One plan. ",
       (0,j.jsx)("strong", { style: { color: "var(--cream)" }, children: "That's the trade." })
     ] }),
-    (0,j.jsxs)("a", { className: "btn btn-gold js-checkout", href: "#offer", children: [
+    (0,j.jsxs)("a", { className: "btn btn-gold js-checkout", href: "https://bobbieaself.mysamcart.com/checkout/why-are-you-splitting-commission#samcart-slide-open-right", children: [
       "Read It This Weekend \u2014 $7 ",
       (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
     ] }),
