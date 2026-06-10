@@ -121,21 +121,687 @@ const CEOLettersPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)(fr,{})
 ]});
 
-const BookstorePage=()=>(0,j.jsxs)("main",{id:"top",children:[
-  (0,j.jsx)($n,{home:!0}),
-  (0,j.jsxs)("section",{className:"sp-hero",style:{minHeight:"60vh",display:"flex",alignItems:"center"},children:[
-    (0,j.jsxs)("div",{className:"wrap",style:{textAlign:"center"},children:[
-      (0,j.jsx)("span",{className:"eyebrow",children:"Coming Soon"}),
-      (0,j.jsxs)("h1",{children:["The Institute ",(0,j.jsx)("em",{style:{color:"var(--gold)"},children:"Bookstore"})]}),
-      (0,j.jsx)("p",{className:"lead",style:{maxWidth:560,margin:"24px auto 0"},children:"Curated executive resources, frameworks, and tools for travel operators building real businesses."}),
-      (0,j.jsxs)("div",{style:{marginTop:56,display:"inline-flex",alignItems:"center",gap:16,background:"var(--cream-2)",border:"1px solid var(--line)",padding:"32px 40px"},children:[
-        (0,j.jsx)("span",{style:{fontFamily:"var(--serif)",fontSize:14,letterSpacing:".3em",textTransform:"uppercase",color:"var(--gold)"},children:"\xb7 Opening Soon \xb7"})
-      ]}),
-      (0,j.jsx)("div",{style:{marginTop:40},children:(0,j.jsx)("a",{href:"/",className:"btn btn-outline",children:"Return to the Institute"})})
-    ]})
-  ]}),
-  (0,j.jsx)(fr,{})
-]});
+const BookstorePage = () => (0,j.jsxs)("main", { id: "top", children: [
+  (0,j.jsx)($n, { home: Jn.home }),
+  (0,j.jsx)("section", { className: "pm-hero bk-hero", "data-screen-label": "01 Hero", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "The Best Travel Biz Institute\u2122" }),
+    (0,j.jsx)("h1", { children: "The Bookstore" }),
+    (0,j.jsx)("p", { className: "pm-sub", children: "Business education you can hold." }),
+    (0,j.jsxs)("div", { className: "bk-pillars", children: [
+      "Ownership ",
+      (0,j.jsx)("span", { children: "\u25C6" }),
+      " Branding ",
+      (0,j.jsx)("span", { children: "\u25C6" }),
+      " Profit"
+    ] }),
+    (0,j.jsx)("p", { className: "bk-hero-support", children: "Guides, workbooks, and frameworks for travel professionals building businesses they actually own." })
+  ] }) }),
+  (0,j.jsx)("section", { className: "bk-featured", "data-screen-label": "02 Featured Guide", children: (0,j.jsx)("div", { className: "wrap", children: (0,j.jsxs)("div", { className: "bk-featured-grid", children: [
+    (0,j.jsxs)("div", { className: "bk-cover-frame", children: [
+      (0,j.jsx)("img", { src: "../../assets/ebook-cover.png", alt: "Book cover: Why Are You Splitting Commission If You Do All the Work? by Bobbie A. Self", width: "1023", height: "1537", fetchpriority: "high" }),
+      (0,j.jsxs)("div", { className: "bk-feat-badge", children: [
+        (0,j.jsx)("span", { className: "dot" }),
+        "Featured Guide"
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "bk-dossier", children: [
+      (0,j.jsx)("div", { className: "stamp", children: "The Travel CEO Series \xB7 No. 1" }),
+      (0,j.jsx)("h2", { children: "Why Are You Splitting Commission If You Do All the Work?" }),
+      (0,j.jsx)("p", { className: "sub", children: "A Travel Agent's Wake-Up Guide to Ownership, Branding, and Keeping What You Earn" }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsxs)("li", { children: [
+          (0,j.jsx)("span", { className: "k", children: "Format" }),
+          (0,j.jsx)("span", { className: "v", children: "Digital PDF \xB7 Instant" })
+        ] }),
+        (0,j.jsxs)("li", { children: [
+          (0,j.jsx)("span", { className: "k", children: "Inside" }),
+          (0,j.jsx)("span", { className: "v", children: "Ownership Audit \xB7 5 Profit Leaks" })
+        ] }),
+        (0,j.jsxs)("li", { children: [
+          (0,j.jsx)("span", { className: "k", children: "Plus" }),
+          (0,j.jsx)("span", { className: "v", children: "The 90-Day Ownership Plan" })
+        ] }),
+        (0,j.jsxs)("li", { children: [
+          (0,j.jsx)("span", { className: "k", children: "Author" }),
+          (0,j.jsx)("span", { className: "v", children: "Bobbie A. Self" })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "bk-price-stack", children: [
+        (0,j.jsx)("span", { className: "amt", children: "$7" }),
+        (0,j.jsx)("span", { className: "note", children: "Companion workbook available at checkout" })
+      ] }),
+      (0,j.jsxs)("a", { className: "btn btn-primary js-checkout", href: "https://bobbieaself.mysamcart.com/checkout/why-are-you-splitting-commission#samcart-slide-open-right", rel: "noopener noreferrer", "aria-label": "Purchase Why Are You Splitting Commission ebook for seven dollars", children: [
+        "Get the $7 Guide ",
+        (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+      ] }),
+      (0,j.jsx)("p", { className: "fine", children: "Instant digital download \xB7 Secure checkout" })
+    ] })
+  ] }) }) }),
+  (0,j.jsx)("section", { className: "bk-pubs", "data-screen-label": "03 All Publications", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "section-head", children: [
+      (0,j.jsx)("span", { className: "eyebrow center", children: "The Catalog" }),
+      (0,j.jsx)("h2", { children: "All Publications" }),
+      (0,j.jsx)("div", { className: "bk-rule" })
+    ] }),
+    (0,j.jsx)("div", { className: "bk-grid is-single", children: (0,j.jsxs)("article", { className: "bk-card", children: [
+      (0,j.jsx)("div", { className: "bk-card-cover", children: (0,j.jsx)("img", { src: "../../assets/ebook-cover.png", alt: "Book cover: Why Are You Splitting Commission If You Do All the Work? by Bobbie A. Self", width: "1023", height: "1537", loading: "lazy" }) }),
+      (0,j.jsxs)("div", { className: "bk-card-body", children: [
+        (0,j.jsx)("span", { className: "bk-card-series", children: "The Travel CEO Series \xB7 No. 1" }),
+        (0,j.jsx)("h3", { className: "bk-card-title", children: "Why Are You Splitting Commission If You Do All the Work?" }),
+        (0,j.jsx)("p", { className: "bk-card-desc", children: "The wake-up guide for travel agents earning commission inside someone else's structure. Ownership Audit, Five Profit Leaks, and a 90-Day Ownership Plan." }),
+        (0,j.jsx)("p", { className: "bk-card-author", children: "By Bobbie A. Self" }),
+        (0,j.jsxs)("div", { className: "bk-card-foot", children: [
+          (0,j.jsx)("hr", { className: "bk-card-div" }),
+          (0,j.jsxs)("div", { className: "bk-card-pricerow", children: [
+            (0,j.jsx)("span", { className: "bk-card-price", children: "$7" }),
+            (0,j.jsxs)("a", { className: "btn btn-primary js-checkout", href: "https://bobbieaself.mysamcart.com/checkout/why-are-you-splitting-commission#samcart-slide-open-right", rel: "noopener noreferrer", "aria-label": "Purchase Why Are You Splitting Commission ebook for seven dollars", children: [
+              "Get the $7 Guide ",
+              (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+            ] })
+          ] }),
+          (0,j.jsx)("p", { className: "bk-card-fine", children: "Instant digital download" })
+        ] })
+      ] })
+    ] }) })
+  ] }) }),
+  (0,j.jsx)("section", { className: "bk-cred", "data-screen-label": "04 Credibility", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("span", { className: "quote", children: "\u201CBusiness education the travel industry should have given you sooner.\u201D" }),
+    (0,j.jsx)("div", { className: "attrib", children: "\u2014 The Best Travel Biz Institute\u2122" })
+  ] }) }),
+  (0,j.jsx)("section", { className: "bk-final", "data-screen-label": "05 Bottom CTA", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("span", { className: "eyebrow center on-green", children: "Start Free" }),
+    (0,j.jsxs)("h2", { style: { marginTop: "18px" }, children: [
+      "Not ready to buy? ",
+      (0,j.jsx)("em", { children: "Start free." })
+    ] }),
+    (0,j.jsx)("p", { children: "The 14-Day Travel Agent to CEO Challenge\u2122 is the free entry point into The Best Travel Biz Institute\u2122. No cost. No commitment. Just 14 days of ownership-focused business education." }),
+    (0,j.jsxs)("a", { className: "btn btn-gold", href: "/challenge", children: [
+      "Start the Free Challenge ",
+      (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+    ] }),
+    (0,j.jsxs)("div", { className: "sig", children: [
+      (0,j.jsx)("span", { className: "script", children: "From Travel Agent to CEO." }),
+      (0,j.jsx)("small", { children: "The Best Travel Biz Institute\u2122" })
+    ] })
+  ] }) }),
+  (0,j.jsx)("div", { className: "sc-overlay", id: "scOverlay", hidden: true }),
+  (0,j.jsxs)("aside", { className: "sc-panel", id: "scPanel", role: "dialog", "aria-modal": "true", "aria-label": "Checkout", hidden: true, children: [
+    (0,j.jsxs)("div", { className: "sc-top", children: [
+      (0,j.jsx)("span", { className: "sc-brand", children: "Secure Checkout" }),
+      (0,j.jsx)("span", { className: "sc-secure", children: "\u{1F512} SSL Encrypted" }),
+      (0,j.jsx)("button", { className: "sc-close", id: "scClose", "aria-label": "Close checkout", children: "\xD7" })
+    ] }),
+    (0,j.jsxs)("div", { className: "sc-body", children: [
+      (0,j.jsxs)("div", { className: "sc-li", children: [
+        (0,j.jsx)("img", { src: "../../assets/ebook-cover.png", alt: "" }),
+        (0,j.jsxs)("div", { children: [
+          (0,j.jsx)("div", { className: "t", children: "Why Are You Splitting Commission If You Do All the Work?" }),
+          (0,j.jsx)("div", { className: "s", children: "Instant digital download \xB7 PDF" })
+        ] }),
+        (0,j.jsx)("div", { className: "p", children: "$7" })
+      ] }),
+      (0,j.jsxs)("label", { className: "sc-bump", children: [
+        (0,j.jsx)("input", { type: "checkbox", id: "scBump" }),
+        (0,j.jsxs)("span", { children: [
+          (0,j.jsx)("span", { className: "bt", children: "Add the Implementation Workbook \u2014 $17" }),
+          (0,j.jsx)("span", { className: "bd", children: "The fillable companion: Ownership Audit, Profit Leak Calculator, and the 90-Day Tracker." })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "sc-fields", children: [
+        (0,j.jsx)("input", { type: "email", placeholder: "Email address", "aria-label": "Email address" }),
+        (0,j.jsx)("input", { type: "text", placeholder: "Card number", "aria-label": "Card number" }),
+        (0,j.jsxs)("div", { className: "two", children: [
+          (0,j.jsx)("input", { type: "text", placeholder: "MM / YY", "aria-label": "Expiry" }),
+          (0,j.jsx)("input", { type: "text", placeholder: "CVC", "aria-label": "CVC" })
+        ] })
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "sc-foot", children: [
+      (0,j.jsxs)("div", { className: "sc-total", children: [
+        (0,j.jsx)("span", { className: "l", children: "Total today" }),
+        (0,j.jsx)("span", { className: "v", id: "scTotal", children: "$7" })
+      ] }),
+      (0,j.jsx)("a", { className: "btn btn-primary sc-pay", href: "https://bobbieaself.mysamcart.com/checkout/why-are-you-splitting-commission#samcart-slide-open-right", children: "Complete Order" }),
+      (0,j.jsx)("p", { className: "sc-note", children: "Demo checkout \u2014 production uses the live SamCart slide-in panel." })
+    ] })
+  ] }),
+  (0,j.jsx)(fr, {})
+] });
+window.BookstorePage = BookstorePage;
+const WhyAreYouPage = () => (0,j.jsxs)("main", { id: "top", children: [
+  (0,j.jsx)($n, { home: Jn.home }),
+  (0,j.jsx)("section", { className: "sp-hero", "data-screen-label": "01 Hero", children: (0,j.jsx)("div", { className: "wrap", children: (0,j.jsxs)("div", { className: "sp-hero-grid", children: [
+    (0,j.jsxs)("div", { className: "sp-hero-copy", children: [
+      (0,j.jsx)("span", { className: "sp-pre", children: "For Hosted & Independent Travel Agents Who Are Already Booking" }),
+      (0,j.jsxs)("h1", { children: [
+        "You're booking the trips. But is your commission structure building your business \u2014 ",
+        (0,j.jsx)("em", { children: "or draining it?" })
+      ] }),
+      (0,j.jsx)("p", { className: "sp-hero-sub", children: "A $7 clarity guide for hosted and independent travel agents who want to understand what they're exchanging for their commission split \u2014 and whether their current structure supports ownership." }),
+      (0,j.jsxs)("div", { className: "sp-hero-cta", children: [
+        (0,j.jsxs)("a", { className: "btn btn-gold js-checkout", href: "#offer", children: [
+          "Get Instant Access \u2014 $7 ",
+          (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+        ] }),
+        (0,j.jsxs)("div", { className: "sp-hero-price", children: [
+          (0,j.jsx)("span", { className: "amt", children: "$7" }),
+          (0,j.jsx)("span", { className: "meta", children: "Instant PDF" })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-hero-trust", children: [
+        (0,j.jsx)("span", { children: "Digital download" }),
+        (0,j.jsx)("span", { children: "No subscription" }),
+        (0,j.jsx)("span", { children: "No recurring charges" })
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "sp-hero-cover", children: [
+      (0,j.jsx)("div", { className: "sp-coverframe", children: (0,j.jsx)("img", { src: "../../assets/ebook-cover.png", alt: "Book cover: Why Are You Splitting Commission If You Do All the Work? by Bobbie A. Self", width: "1023", height: "1537", fetchpriority: "high" }) }),
+      (0,j.jsxs)("div", { className: "badge", children: [
+        (0,j.jsx)("span", { className: "dot" }),
+        "The $7 Guide"
+      ] })
+    ] })
+  ] }) }) }),
+  (0,j.jsx)("section", { className: "sp-off", "data-screen-label": "02 Something Is Off", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("span", { className: "eyebrow", children: "The feeling" }),
+    (0,j.jsx)("h2", { children: "You already know something is off." }),
+    (0,j.jsx)("p", { className: "sp-off-lead", children: "You're good at this. Your clients trust you. Your bookings are consistent. You've put in the hours, learned the suppliers, built the relationships from scratch \u2014 and you have the results to prove it." }),
+    (0,j.jsxs)("div", { className: "sp-build-body", style: { maxWidth: "680px", marginTop: "24px" }, children: [
+      (0,j.jsxs)("p", { children: [
+        "And yet something feels structurally wrong. ",
+        (0,j.jsx)("strong", { children: "Not with your hustle. Not with your dedication. With the math." })
+      ] }),
+      (0,j.jsx)("p", { children: "Every commission you earn gets divided before it reaches you. A percentage routes away \u2014 sometimes to a host, sometimes to a split structure you signed without fully understanding what you were exchanging \u2014 and somewhere along the way, you were told that's just how the industry works." })
+    ] }),
+    (0,j.jsx)("div", { className: "sp-off-quote", children: (0,j.jsx)("p", { children: "This guide says otherwise." }) })
+  ] }) }),
+  (0,j.jsx)("section", { className: "sp-math", "data-screen-label": "03 The Math", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "section-head", children: [
+      (0,j.jsx)("span", { className: "eyebrow center", children: "Run Your Own Numbers" }),
+      (0,j.jsx)("h2", { children: "The math most agents have never run on their own business." }),
+      (0,j.jsx)("p", { children: "Let's use a real number \u2014 then plug in your own." })
+    ] }),
+    (0,j.jsxs)("p", { className: "sp-math-setup", children: [
+      "An agent booking ",
+      (0,j.jsx)("b", { children: "$400,000" }),
+      " in supplier sales at a ",
+      (0,j.jsx)("b", { children: "12%" }),
+      " commission rate earns ",
+      (0,j.jsx)("b", { children: "$48,000" }),
+      " a year. Here's what a split takes off the top \u2014 every single year:"
+    ] }),
+    (0,j.jsxs)("div", { className: "sp-stats", children: [
+      (0,j.jsxs)("div", { className: "sp-stat", children: [
+        (0,j.jsx)("div", { className: "lab", children: "Host's cut \xB7 70 / 30 split" }),
+        (0,j.jsx)("div", { className: "fig", children: "$14,400" })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-stat", children: [
+        (0,j.jsx)("div", { className: "lab", children: "Host's cut \xB7 60 / 40 split" }),
+        (0,j.jsx)("div", { className: "fig", children: "$19,200" })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-stat", children: [
+        (0,j.jsx)("div", { className: "lab", children: "Host's cut \xB7 50 / 50 split" }),
+        (0,j.jsx)("div", { className: "fig", children: "$24,000" })
+      ] })
+    ] }),
+    (0,j.jsxs)("p", { className: "sp-math-mid", children: [
+      "And the split is only the part you can see. ",
+      (0,j.jsx)("b", { children: "Four more leaks never show up on your 1099:" })
+    ] }),
+    (0,j.jsxs)("div", { className: "sp-leaks", children: [
+      (0,j.jsxs)("div", { className: "sp-leak", children: [
+        (0,j.jsx)("span", { className: "no", children: "01" }),
+        (0,j.jsxs)("div", { className: "txt", children: [
+          (0,j.jsx)("h4", { children: "Unpaid Service Recovery" }),
+          (0,j.jsx)("p", { children: "The calls, the schedule changes, the chasing. The average agent absorbs unbilled labor on top of everything else \u2014 then shares the result." })
+        ] }),
+        (0,j.jsxs)("div", { className: "amt", children: [
+          "$39,000",
+          (0,j.jsx)("small", { children: "unbilled labor / yr" })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-leak", children: [
+        (0,j.jsx)("span", { className: "no", children: "02" }),
+        (0,j.jsxs)("div", { className: "txt", children: [
+          (0,j.jsx)("h4", { children: "Delayed Payouts" }),
+          (0,j.jsx)("p", { children: "Commission held 30, 60, sometimes 90 days. You're floating an interest-free loan to a structure that already took its cut." })
+        ] }),
+        (0,j.jsxs)("div", { className: "amt", children: [
+          "30\u201390 days",
+          (0,j.jsx)("small", { children: "cash held" })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-leak", children: [
+        (0,j.jsx)("span", { className: "no", children: "03" }),
+        (0,j.jsxs)("div", { className: "txt", children: [
+          (0,j.jsx)("h4", { children: "Lost Referrals" }),
+          (0,j.jsx)("p", { children: "Every confirmation under someone else's logo trains the client to remember someone else's name. The referrals go where the brand is." })
+        ] }),
+        (0,j.jsxs)("div", { className: "amt", children: [
+          "Untracked",
+          (0,j.jsx)("small", { children: "brand invisibility" })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-leak", children: [
+        (0,j.jsx)("span", { className: "no", children: "04" }),
+        (0,j.jsxs)("div", { className: "txt", children: [
+          (0,j.jsx)("h4", { children: "The Asset You Don't Own" }),
+          (0,j.jsx)("p", { children: "If your effort doesn't build something portable, your income stays welded to your labor \u2014 and you have nothing to sell or scale." })
+        ] }),
+        (0,j.jsxs)("div", { className: "amt", children: [
+          "Untracked",
+          (0,j.jsx)("small", { children: "no equity" })
+        ] })
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "sp-total", children: [
+      (0,j.jsxs)("div", { className: "side visible", children: [
+        (0,j.jsx)("div", { className: "lab", children: "Visible cost" }),
+        (0,j.jsx)("div", { className: "fig", children: "Tens of thousands" }),
+        (0,j.jsx)("div", { className: "cap", children: "per year \u2014 split + unpaid labor + held cash" })
+      ] }),
+      (0,j.jsx)("div", { className: "vs", children: "vs" }),
+      (0,j.jsxs)("div", { className: "side invisible", children: [
+        (0,j.jsx)("div", { className: "lab", children: "Invisible cost" }),
+        (0,j.jsx)("div", { className: "fig", children: "The business you don't fully own." }),
+        (0,j.jsx)("div", { className: "cap", children: "no equity \xB7 no portable asset \xB7 referrals that route elsewhere" })
+      ] })
+    ] }),
+    (0,j.jsx)("p", { className: "sp-math-close", children: "\u201CCommission split isn't the issue. Unexamined structure is.\u201D" }),
+    (0,j.jsx)("p", { className: "sp-math-fine", children: "This guide makes both costs visible \u2014 and shows you exactly what to do about them. Illustrative figures; your numbers will differ." })
+  ] }) }),
+  (0,j.jsx)("section", { className: "sp-build", "data-screen-label": "04 Root Cause", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("span", { className: "eyebrow", children: "Why no one showed you" }),
+    (0,j.jsx)("h2", { children: "This industry taught you to book travel. Not to build a business." }),
+    (0,j.jsx)("div", { className: "sp-build-body", children: (0,j.jsxs)("p", { children: [
+      "The traditional education path in travel teaches you how to sell. How to use booking platforms. How to read commission grids. How to service clients. ",
+      (0,j.jsx)("strong", { children: "What it does not teach you:" })
+    ] }) }),
+    (0,j.jsxs)("div", { className: "sp-callout", children: [
+      (0,j.jsx)("div", { className: "lab", children: "What you were never taught" }),
+      (0,j.jsxs)("ul", { children: [
+        (0,j.jsx)("li", { children: "How to evaluate whether your split structure is working in your favor" }),
+        (0,j.jsx)("li", { children: "What you are actually exchanging that percentage for" }),
+        (0,j.jsx)("li", { children: "What legitimate hosting support looks like vs. structural dependency" }),
+        (0,j.jsx)("li", { children: "What the path from hosted agent to independent owner actually requires" })
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "sp-build-body", style: { marginTop: "36px" }, children: [
+      (0,j.jsx)("p", { children: "Many hosted commission structures are built for organizational scale. That does not automatically make them bad \u2014 but it does mean the individual agent has to understand the exchange clearly." }),
+      (0,j.jsxs)("p", { children: [
+        "Host agencies are businesses. Their revenue model depends on a percentage of yours. ",
+        (0,j.jsx)("strong", { children: "That is not a conspiracy. It is simply economics." }),
+        " And it means the people who trained you had a financial incentive tied to how long you remained inside their structure."
+      ] }),
+      (0,j.jsxs)("p", { children: [
+        "Most organizations are built to sustain their existing model \u2014 not to prepare agents for eventual independence. The result is thousands of experienced agents running businesses they cannot fully see, because they were never given the lens. ",
+        (0,j.jsx)("strong", { children: "This guide is that lens." })
+      ] })
+    ] })
+  ] }) }),
+  (0,j.jsx)("section", { className: "sp-inside", "data-screen-label": "05 What's Inside", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "section-head", children: [
+      (0,j.jsx)("span", { className: "eyebrow center", children: "What You Get for $7" }),
+      (0,j.jsx)("h2", { children: "A complete, workable system \u2014 not a teaser." })
+    ] }),
+    (0,j.jsxs)("div", { className: "sp-booktitle", children: [
+      (0,j.jsx)("div", { className: "lab", children: "The Travel CEO Series \xB7 No. 1" }),
+      (0,j.jsx)("h3", { children: "Why Are You Splitting Commission If You Do All the Work? \u2014 A Travel Agent's Wake-Up Guide to Ownership, Branding, and Keeping What You Earn" })
+    ] }),
+    (0,j.jsxs)("div", { className: "sp-deliv-grid", children: [
+      (0,j.jsxs)("div", { className: "sp-deliv", children: [
+        (0,j.jsx)("span", { className: "pno", children: "01" }),
+        (0,j.jsx)("h4", { children: "The Ownership Audit" }),
+        (0,j.jsx)("p", { children: "A 25-statement diagnostic across Brand, Clients, Systems, Revenue, and Identity." })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-deliv", children: [
+        (0,j.jsx)("span", { className: "pno", children: "02" }),
+        (0,j.jsx)("h4", { children: "The Profit Leak Breakdown" }),
+        (0,j.jsx)("p", { children: "See where money, time, referrals, and ownership quietly leak." })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-deliv", children: [
+        (0,j.jsx)("span", { className: "pno", children: "03" }),
+        (0,j.jsx)("h4", { children: "The Value Exchange Framework" }),
+        (0,j.jsx)("p", { children: "Evaluate whether your current split is returning equal or greater value." })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-deliv", children: [
+        (0,j.jsx)("span", { className: "pno", children: "04" }),
+        (0,j.jsx)("h4", { children: "Three Member Portraits" }),
+        (0,j.jsx)("p", { children: "The Producer, The Builder, The Quiet Burnout. One of them is you." })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-deliv", children: [
+        (0,j.jsx)("span", { className: "pno", children: "05" }),
+        (0,j.jsx)("h4", { children: "The 90-Day Ownership Plan" }),
+        (0,j.jsx)("p", { children: "Fifteen actions to reclaim assets, clarify your brand, and build operational leverage." })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-deliv", children: [
+        (0,j.jsx)("span", { className: "pno", children: "06" }),
+        (0,j.jsx)("h4", { children: "When Commission Split Still Makes Sense" }),
+        (0,j.jsx)("p", { children: "Because sometimes it does \u2014 when the structure earns it." })
+      ] })
+    ] }),
+    (0,j.jsx)("p", { className: "sp-inside-note", children: "No fluff \xB7 No filler \xB7 No overnight income promises" }),
+    (0,j.jsxs)("div", { className: "sp-cta2", children: [
+      (0,j.jsxs)("a", { className: "btn btn-gold js-checkout", href: "#offer", children: [
+        "Get the $7 Guide Now \u2014 Instant Download ",
+        (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+      ] }),
+      (0,j.jsx)("p", { className: "note", children: "Optional companion workbook available at checkout." })
+    ] })
+  ] }) }),
+  (0,j.jsx)("section", { className: "sp-fit", "data-screen-label": "06 For / Not For", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "section-head", children: [
+      (0,j.jsx)("span", { className: "eyebrow center", children: "Honest Fit" }),
+      (0,j.jsx)("h2", { children: "This guide is for experienced agents. Not everyone." })
+    ] }),
+    (0,j.jsxs)("div", { className: "sp-fit-grid", children: [
+      (0,j.jsxs)("div", { className: "sp-fit-col is", children: [
+        (0,j.jsx)("span", { className: "lab", children: "This is for you if" }),
+        (0,j.jsx)("h4", { children: "You're producing real volume \u2014 and ready to evaluate it like a CEO." }),
+        (0,j.jsxs)("ul", { children: [
+          (0,j.jsxs)("li", { children: [
+            "You have ",
+            (0,j.jsx)("b", { children: "1\u20135+ years of experience" }),
+            " and are producing real volume inside a host structure."
+          ] }),
+          (0,j.jsxs)("li", { children: [
+            "You want to evaluate your commission arrangement ",
+            (0,j.jsx)("b", { children: "like a CEO \u2014 not leave in a panic" }),
+            "."
+          ] }),
+          (0,j.jsxs)("li", { children: [
+            "You're tired of inspiration without instruction and want ",
+            (0,j.jsx)("b", { children: "frameworks, math, and a plan" }),
+            "."
+          ] })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-fit-col not", children: [
+        (0,j.jsx)("span", { className: "lab", children: "This isn't for you if" }),
+        (0,j.jsx)("h4", { children: "You want a shortcut, a rant, or a reason to quit by Friday." }),
+        (0,j.jsxs)("ul", { children: [
+          (0,j.jsxs)("li", { children: [
+            "You're looking for ",
+            (0,j.jsx)("b", { children: "overnight income or passive-income shortcuts" }),
+            "."
+          ] }),
+          (0,j.jsxs)("li", { children: [
+            "You have ",
+            (0,j.jsx)("b", { children: "no interest in understanding the business" }),
+            " behind the booking."
+          ] }),
+          (0,j.jsxs)("li", { children: [
+            "You want a ",
+            (0,j.jsx)("b", { children: "host-agency-bashing rant" }),
+            " \u2014 this guide explicitly isn't one."
+          ] }),
+          (0,j.jsxs)("li", { children: [
+            "You're in your ",
+            (0,j.jsx)("b", { children: "first 90 days" }),
+            " and haven't experienced the split in real terms yet."
+          ] })
+        ] })
+      ] })
+    ] })
+  ] }) }),
+  (0,j.jsx)("section", { className: "sp-founder", "data-screen-label": "07 Founder", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "section-head", children: [
+      (0,j.jsx)("span", { className: "eyebrow center", children: "The Person Behind This Guide" }),
+      (0,j.jsx)("h2", { children: "Bobbie A. Self" })
+    ] }),
+    (0,j.jsxs)("div", { className: "sp-founder-body", children: [
+      (0,j.jsxs)("p", { children: [
+        (0,j.jsx)("strong", { children: "Bobbie A. Self" }),
+        " is a former luxury travel and lifestyle executive with Fortune 100 experience, a business consultant, and the founder of The Best Travel Biz Institute\u2122."
+      ] }),
+      (0,j.jsx)("p", { children: "She built this framework from inside the industry \u2014 after watching talented, experienced agents hand away income year after year because no one ever handed them a clear picture of their own structure." })
+    ] }),
+    (0,j.jsx)("div", { className: "sp-pull", children: (0,j.jsx)("p", { children: "\u201CI help travel agents stop renting desks in someone else's business so they can own the building.\u201D" }) }),
+    (0,j.jsxs)("div", { className: "sp-byline", children: [
+      (0,j.jsx)("div", { className: "nm", children: "Bobbie A. Self" }),
+      (0,j.jsx)("div", { className: "ttl", children: "Founder & Travel CEO Architect \xB7 The Best Travel Biz Institute\u2122" })
+    ] }),
+    (0,j.jsxs)("div", { className: "sp-pos", children: [
+      (0,j.jsxs)("div", { className: "nots", children: [
+        (0,j.jsx)("span", { children: "Not a host agency" }),
+        (0,j.jsx)("span", { children: "Not a recruiting network" }),
+        (0,j.jsx)("span", { children: "Not MLM" })
+      ] }),
+      (0,j.jsxs)("p", { children: [
+        "The Institute was built for one purpose: to give experienced travel agents the business education the industry never provided. ",
+        (0,j.jsx)("b", { children: "We do not earn from your commission split." }),
+        " Our model is education \u2014 and our measure of success is how clearly you understand your own business."
+      ] })
+    ] })
+  ] }) }),
+  (0,j.jsx)("section", { className: "sp-out", "data-screen-label": "08 Outcomes", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "section-head", children: [
+      (0,j.jsx)("span", { className: "eyebrow center", children: "What You Walk Away With" }),
+      (0,j.jsx)("h2", { children: "After reading this guide, you will:" })
+    ] }),
+    (0,j.jsxs)("div", { className: "sp-out-grid", children: [
+      (0,j.jsxs)("div", { className: "sp-out-item", children: [
+        (0,j.jsx)("span", { className: "no", children: "01" }),
+        (0,j.jsxs)("div", { children: [
+          (0,j.jsx)("h4", { children: "Know what you're exchanging" }),
+          (0,j.jsx)("p", { children: "Understand exactly what you give for your commission split \u2014 and whether the exchange is in your favor." })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-out-item", children: [
+        (0,j.jsx)("span", { className: "no", children: "02" }),
+        (0,j.jsxs)("div", { children: [
+          (0,j.jsx)("h4", { children: "Spot the profit leaks" }),
+          (0,j.jsx)("p", { children: "Identify the leaks most agents accept without ever questioning them." })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-out-item", children: [
+        (0,j.jsx)("span", { className: "no", children: "03" }),
+        (0,j.jsxs)("div", { children: [
+          (0,j.jsx)("h4", { children: "Tell support from dependency" }),
+          (0,j.jsx)("p", { children: "See the clear distinction between hosting that adds value and dependency that costs you." })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-out-item", children: [
+        (0,j.jsx)("span", { className: "no", children: "04" }),
+        (0,j.jsxs)("div", { children: [
+          (0,j.jsx)("h4", { children: "Evaluate any arrangement" }),
+          (0,j.jsx)("p", { children: "Have a repeatable framework for evaluating any commission deal \u2014 current or future." })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-out-item", children: [
+        (0,j.jsx)("span", { className: "no", children: "05" }),
+        (0,j.jsxs)("div", { children: [
+          (0,j.jsx)("h4", { children: "Know what to ask" }),
+          (0,j.jsx)("p", { children: "The specific questions to ask before signing or renewing any hosting agreement." })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-out-item", children: [
+        (0,j.jsx)("span", { className: "no", children: "06" }),
+        (0,j.jsxs)("div", { children: [
+          (0,j.jsx)("h4", { children: "Have a scored baseline" }),
+          (0,j.jsx)("p", { children: "A reading across five ownership domains, so you know exactly where to focus first." })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "sp-out-item", children: [
+        (0,j.jsx)("span", { className: "no", children: "07" }),
+        (0,j.jsxs)("div", { children: [
+          (0,j.jsx)("h4", { children: "Decide from clarity" }),
+          (0,j.jsx)("p", { children: "Make your next business decision from clarity \u2014 not confusion or pressure." })
+        ] })
+      ] })
+    ] })
+  ] }) }),
+  (0,j.jsx)("section", { className: "sp-credstrip", "data-screen-label": "09 Credibility", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("div", { className: "lab", children: "Built From the Field" }),
+    (0,j.jsx)("p", { children: "Built from real conversations with experienced travel agents navigating commission splits, host structures, branding gaps, client ownership, and the transition from booking travel to building a business." }),
+    (0,j.jsx)("hr", { className: "hr" })
+  ] }) }),
+  (0,j.jsx)("section", { className: "sp-offer", id: "offer", "data-screen-label": "10 Offer", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "section-head", children: [
+      (0,j.jsx)("span", { className: "eyebrow center", children: "The Offer" }),
+      (0,j.jsx)("h2", { children: "The information you needed before you signed your first hosting agreement." }),
+      (0,j.jsx)("p", { children: "You can't renegotiate from the beginning. You can decide right now to understand exactly what your structure looks like \u2014 and whether it's built in your favor or someone else's." })
+    ] }),
+    (0,j.jsxs)("div", { className: "sp-offer-card", children: [
+      (0,j.jsx)("div", { className: "sp-offer-cover", children: (0,j.jsx)("img", { src: "../../assets/ebook-cover.png", alt: "Why Are You Splitting Commission If You Do All the Work?", width: "1023", height: "1537" }) }),
+      (0,j.jsxs)("div", { className: "sp-offer-detail", children: [
+        (0,j.jsx)("span", { className: "stamp", children: "The Travel CEO Series \xB7 No. 1" }),
+        (0,j.jsx)("h3", { children: "Why Are You Splitting Commission If You Do All the Work?" }),
+        (0,j.jsxs)("div", { className: "sp-offer-meta", children: [
+          (0,j.jsx)("span", { children: "Instant digital download" }),
+          (0,j.jsx)("span", { children: "36 pages" }),
+          (0,j.jsx)("span", { children: "Workable in one weekend" })
+        ] }),
+        (0,j.jsxs)("ul", { className: "sp-offer-incl", children: [
+          (0,j.jsx)("li", { children: "The Ownership Audit \u2014 25 statements across 5 domains" }),
+          (0,j.jsx)("li", { children: "The Profit Leak Breakdown & Value Exchange Framework" }),
+          (0,j.jsx)("li", { children: "Three Member Portraits + the 90-Day Ownership Plan" }),
+          (0,j.jsx)("li", { children: "When commission split still makes sense" })
+        ] }),
+        (0,j.jsxs)("div", { className: "sp-offer-price", children: [
+          (0,j.jsx)("span", { className: "amt", children: "$7" }),
+          (0,j.jsx)("span", { className: "note", children: "Optional companion workbook available at checkout" })
+        ] }),
+        (0,j.jsxs)("a", { className: "btn btn-gold js-checkout", href: "https://bobbieaself.mysamcart.com/checkout/why-are-you-splitting-commission#samcart-slide-open-right", "aria-label": "Purchase the $7 guide", children: [
+          "Give Me Instant Access \u2014 $7 ",
+          (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+        ] }),
+        (0,j.jsxs)("p", { className: "sp-offer-guarantee", children: [
+          "If this guide doesn't give you a clearer view of your business than anything you've read in the last year, ",
+          (0,j.jsx)("b", { children: "email me. I'll refund the $7 and you keep the guide." }),
+          " No forms. No friction."
+        ] })
+      ] })
+    ] })
+  ] }) }),
+  (0,j.jsx)("section", { className: "sp-faq", "data-screen-label": "11 FAQ", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "section-head", children: [
+      (0,j.jsx)("span", { className: "eyebrow center", children: "Objection Handling" }),
+      (0,j.jsx)("h2", { children: "Questions you might have." })
+    ] }),
+    (0,j.jsx)("div", { className: "sp-faq-wrap", children: (0,j.jsxs)("div", { className: "faq-list", children: [
+      (0,j.jsxs)("details", { className: "faq-item", children: [
+        (0,j.jsxs)("summary", { children: [
+          "Will this tell me to leave my host? ",
+          (0,j.jsx)("span", { className: "ico", children: "+" })
+        ] }),
+        (0,j.jsx)("div", { className: "ans", children: (0,j.jsxs)("p", { children: [
+          "No. It gives you a framework to evaluate your arrangement. Some agents confirm their host is solid. Others find they've been leaving money on the table. ",
+          (0,j.jsx)("strong", { children: "Either way, the decision is yours." })
+        ] }) })
+      ] }),
+      (0,j.jsxs)("details", { className: "faq-item", children: [
+        (0,j.jsxs)("summary", { children: [
+          "Is this too basic for experienced agents? ",
+          (0,j.jsx)("span", { className: "ico", children: "+" })
+        ] }),
+        (0,j.jsx)("div", { className: "ans", children: (0,j.jsx)("p", { children: "This was written specifically for experienced agents. If you're already earning commission, you're the exact audience. Newer agents don't have this problem yet." }) })
+      ] }),
+      (0,j.jsxs)("details", { className: "faq-item", children: [
+        (0,j.jsxs)("summary", { children: [
+          "Is $7 really going to move the needle? ",
+          (0,j.jsx)("span", { className: "ico", children: "+" })
+        ] }),
+        (0,j.jsx)("div", { className: "ans", children: (0,j.jsxs)("p", { children: [
+          "You may be splitting 30% or more of every commission you earn. If this guide helps you evaluate that structure clearly \u2014 even once \u2014 ",
+          (0,j.jsx)("strong", { children: "the return is not theoretical." })
+        ] }) })
+      ] }),
+      (0,j.jsxs)("details", { className: "faq-item", children: [
+        (0,j.jsxs)("summary", { children: [
+          "Is this going to try to recruit me into something? ",
+          (0,j.jsx)("span", { className: "ico", children: "+" })
+        ] }),
+        (0,j.jsx)("div", { className: "ans", children: (0,j.jsxs)("p", { children: [
+          "No. There is no downline, no recruitment commission, no network. ",
+          (0,j.jsx)("strong", { children: "The Institute earns revenue by selling education" }),
+          " \u2014 not by growing a host roster."
+        ] }) })
+      ] }),
+      (0,j.jsxs)("details", { className: "faq-item", children: [
+        (0,j.jsxs)("summary", { children: [
+          "How do I receive the guide? ",
+          (0,j.jsx)("span", { className: "ico", children: "+" })
+        ] }),
+        (0,j.jsx)("div", { className: "ans", children: (0,j.jsx)("p", { children: "Instant digital access immediately after purchase. No waiting, no shipping." }) })
+      ] }),
+      (0,j.jsxs)("details", { className: "faq-item", children: [
+        (0,j.jsxs)("summary", { children: [
+          "Are there additional charges? ",
+          (0,j.jsx)("span", { className: "ico", children: "+" })
+        ] }),
+        (0,j.jsx)("div", { className: "ans", children: (0,j.jsxs)("p", { children: [
+          "No. One purchase, $7, no subscription. An optional companion workbook is available at checkout for $17 \u2014 ",
+          (0,j.jsx)("strong", { children: "entirely optional." })
+        ] }) })
+      ] })
+    ] }) })
+  ] }) }),
+  (0,j.jsx)("section", { className: "sp-final", "data-screen-label": "12 Final CTA", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("span", { className: "eyebrow center on-green", children: "One Last Thing" }),
+    (0,j.jsxs)("h2", { children: [
+      "This guide won't make the decision for you. ",
+      (0,j.jsx)("em", { children: "It will show you what the decision actually is." })
+    ] }),
+    (0,j.jsx)("p", { children: "Most agents spend years inside a structure they've never fully examined. They tell themselves they'll evaluate it next year. Next year never comes." }),
+    (0,j.jsx)("div", { className: "sp-pull", style: { borderColor: "var(--gold)", margin: "38px auto 30px", maxWidth: "620px" }, children: (0,j.jsx)("p", { style: { color: "var(--gold-soft)" }, children: "\u201COwnership isn't about leaving quickly. It's about building intentionally.\u201D" }) }),
+    (0,j.jsxs)("p", { style: { marginBottom: "4px" }, children: [
+      "Seven dollars. One weekend. One score. One plan. ",
+      (0,j.jsx)("strong", { style: { color: "var(--cream)" }, children: "That's the trade." })
+    ] }),
+    (0,j.jsxs)("a", { className: "btn btn-gold js-checkout", href: "#offer", children: [
+      "Read It This Weekend \u2014 $7 ",
+      (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+    ] }),
+    (0,j.jsxs)("div", { className: "sig", children: [
+      (0,j.jsx)("span", { className: "script", children: "From Travel Agent to CEO." }),
+      (0,j.jsx)("small", { children: "The Best Travel Biz Institute\u2122" })
+    ] })
+  ] }) }),
+  (0,j.jsx)("div", { className: "sc-overlay", id: "scOverlay", hidden: true }),
+  (0,j.jsxs)("aside", { className: "sc-panel", id: "scPanel", role: "dialog", "aria-modal": "true", "aria-label": "Checkout", hidden: true, children: [
+    (0,j.jsxs)("div", { className: "sc-top", children: [
+      (0,j.jsx)("span", { className: "sc-brand", children: "Secure Checkout" }),
+      (0,j.jsx)("span", { className: "sc-secure", children: "\u{1F512} SSL Encrypted" }),
+      (0,j.jsx)("button", { className: "sc-close", id: "scClose", "aria-label": "Close checkout", children: "\xD7" })
+    ] }),
+    (0,j.jsxs)("div", { className: "sc-body", children: [
+      (0,j.jsxs)("div", { className: "sc-li", children: [
+        (0,j.jsx)("img", { src: "../../assets/ebook-cover.png", alt: "" }),
+        (0,j.jsxs)("div", { children: [
+          (0,j.jsx)("div", { className: "t", children: "Why Are You Splitting Commission If You Do All the Work?" }),
+          (0,j.jsx)("div", { className: "s", children: "Instant digital download \xB7 PDF" })
+        ] }),
+        (0,j.jsx)("div", { className: "p", children: "$7" })
+      ] }),
+      (0,j.jsxs)("label", { className: "sc-bump", children: [
+        (0,j.jsx)("input", { type: "checkbox", id: "scBump" }),
+        (0,j.jsxs)("span", { children: [
+          (0,j.jsx)("span", { className: "bt", children: "Add the Implementation Workbook \u2014 $17" }),
+          (0,j.jsx)("span", { className: "bd", children: "The fillable companion: Ownership Audit, Profit Leak Calculator, and the 90-Day Tracker." })
+        ] })
+      ] }),
+      (0,j.jsxs)("div", { className: "sc-fields", children: [
+        (0,j.jsx)("input", { type: "email", placeholder: "Email address", "aria-label": "Email address" }),
+        (0,j.jsx)("input", { type: "text", placeholder: "Card number", "aria-label": "Card number" }),
+        (0,j.jsxs)("div", { className: "two", children: [
+          (0,j.jsx)("input", { type: "text", placeholder: "MM / YY", "aria-label": "Expiry" }),
+          (0,j.jsx)("input", { type: "text", placeholder: "CVC", "aria-label": "CVC" })
+        ] })
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "sc-foot", children: [
+      (0,j.jsxs)("div", { className: "sc-total", children: [
+        (0,j.jsx)("span", { className: "l", children: "Total today" }),
+        (0,j.jsx)("span", { className: "v", id: "scTotal", children: "$7" })
+      ] }),
+      (0,j.jsx)("a", { className: "btn btn-primary sc-pay", href: "https://bobbieaself.mysamcart.com/checkout/why-are-you-splitting-commission#samcart-slide-open-right", children: "Complete Order" }),
+      (0,j.jsx)("p", { className: "sc-note", children: "Demo checkout \u2014 production opens the live SamCart slide-in panel." })
+    ] })
+  ] }),
+  (0,j.jsx)(fr, {})
+] });
+window.WhyAreYouPage = WhyAreYouPage;
 
 const CV_SnapshotCTA = ({ children, className = "" }) => (0,j.jsxs)(
   "a",
@@ -2305,4 +2971,4 @@ const PremiumPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]});
 function SeoMeta(){(0,x.useEffect)(()=>{const p=(window.location.pathname||"/").replace(/\/$/,"")||"/";const T={"/":`The Best Travel Biz Institute™ | Travel CEO Education for Independent Agents`,"/about":`About Bobbie A. Self, MBA — The Travel CEO Architect | The Best Travel Biz Institute`,"/snapshot":`Travel Business Snapshot™ — CEO-Level Diagnostic | The Best Travel Biz Institute`,"/snapshot-intake":`Snapshot Intake Form | The Best Travel Biz Institute™`,"/premium":`Premium Membership — Travel CEO Education Tier | The Best Travel Biz Institute™`,"/challenge":`Free 14-Day Travel Agent to CEO Challenge | The Best Travel Biz Institute™`,"/ceo-vault":`VIP CEO Vault — By Invitation Only | The Best Travel Biz Institute™`,"/contact":`Contact | The Best Travel Biz Institute™`,"/media":`Media & Press | The Best Travel Biz Institute™`,"/careers":`Careers | The Best Travel Biz Institute™`,"/bookstore":`Bookstore | The Best Travel Biz Institute™`,"/ceo-letters":`CEO Letters | The Best Travel Biz Institute™`,"/terms-and-conditions":`Terms and Conditions | The Best Travel Biz Institute™`,"/student-non-disclosure":`Student Non-Disclosure Agreement | The Best Travel Biz Institute™`,"/privacy-policy":`Privacy Policy | The Best Travel Biz Institute™`,"/earnings-disclaimer":`Earnings Disclaimer | The Best Travel Biz Institute™`};const D={"/":`Education for independent travel agents transitioning to true CEO-level business ownership — without host-agency dependence, recruiting, or downlines.`,"/about":`MBA. Fortune 100 luxury travel executive. Founder of The Best Travel Biz Institute & Sow Into Self Wellness Travel. 25 years building structures that develop people into business owners.`,"/snapshot":`The Travel Business Snapshot™ assesses your business across 7 executive dimensions. Find out exactly where you stand before applying to VIP CEO Vault.`,"/snapshot-intake":`Complete your Travel Business Snapshot™ intake form. Share your business details to receive your personalized CEO-level diagnostic assessment.`,"/premium":`Premium Membership is the CEO education and foundational setup tier of The Best Travel Biz Institute™. Learn business structure, systems, and positioning for $97/month, hosted on Skool, cancel anytime.`,"/challenge":`Free 14-Day Challenge. Access training, community, and worksheets designed to shift your mindset from travel agent to business owner. No cost to join.`,"/ceo-vault":`Invitation-based advisory for qualified travel operators. Quarterly CEO sessions, annual retreat, and executive-level scaling guidance. Apply today.`,"/contact":`Reach The Best Travel Biz Institute™ for general inquiries, speaking requests, or media opportunities. Email: institute@thebesttravelbiz.com.`,"/media":`Media and press inquiries for The Best Travel Biz Institute™ and Bobbie A. Self, MBA. Contact our team at media@thebesttravelbiz.com.`,"/careers":`Career opportunities at The Best Travel Biz Institute™. Join the team helping travel agents transition to true business ownership.`,"/bookstore":`The Best Travel Biz Institute™ Bookstore. Educational resources and guides for independent travel agents building toward true ownership.`,"/ceo-letters":`Strategic letters and communications from Bobbie A. Self, MBA, Founder of The Best Travel Biz Institute™, to the travel CEO community.`,"/terms-and-conditions":`Terms and Conditions for The Best Travel Biz Institute™. Review membership tiers, billing, cancellation, and intellectual property guidelines.`,"/student-non-disclosure":`Student NDA for Premium and VIP members of The Best Travel Biz Institute™. Governs use of proprietary methods, strategies, and educational materials.`,"/privacy-policy":`Privacy Policy for The Best Travel Biz Institute™, operated by Sow Into Self Wellness & Travel Group, LLC. How we collect, use, and protect your information.`,"/earnings-disclaimer":`Earnings Disclaimer for The Best Travel Biz Institute™. Individual results vary. Income outcomes depend on individual effort, experience, and market conditions.`};document.title=T[p]||`The Best Travel Biz Institute™`;const m=document.querySelector(`meta[name='description']`);if(m)m.content=D[p]||`Travel business education for independent agents transitioning to true CEO-level ownership.`;});return null;}
 
-function Gr(){return(0,j.jsx)(En,{children:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(SeoMeta,{}),(0,j.jsxs)(Rt,{children:[(0,j.jsx)(It,{path:`/`,element:(0,j.jsx)(pr,{})}),(0,j.jsx)(It,{path:`/snapshot`,element:(0,j.jsx)(Tr,{})}),(0,j.jsx)(It,{path:`/snapshot-intake`,element:(0,j.jsx)(jr,{})}),(0,j.jsx)(It,{path:`/premium`,element:(0,j.jsx)(PremiumPage,{})}),(0,j.jsx)(It,{path:`/challenge`,element:(0,j.jsx)(Wr,{})}),(0,j.jsx)(It,{path:`/contact`,element:(0,j.jsx)(ContactPage,{})}),(0,j.jsx)(It,{path:`/media`,element:(0,j.jsx)(MediaPage,{})}),(0,j.jsx)(It,{path:`/careers`,element:(0,j.jsx)(CareersPage,{})}),(0,j.jsx)(It,{path:`/ceo-letters`,element:(0,j.jsx)(CEOLettersPage,{})}),(0,j.jsx)(It,{path:`/bookstore`,element:(0,j.jsx)(BookstorePage,{})}),(0,j.jsx)(It,{path:`/ceo-vault`,element:(0,j.jsx)(CEOVaultPage,{})}),(0,j.jsx)(It,{path:`/fast-track`,element:(0,j.jsx)(FastTrackPage,{})}),(0,j.jsx)(It,{path:`/terms-and-conditions`,element:(0,j.jsx)(TermsPage,{})}),(0,j.jsx)(It,{path:`/student-non-disclosure`,element:(0,j.jsx)(StudentNDAPage,{})}),(0,j.jsx)(It,{path:`/privacy-policy`,element:(0,j.jsx)(PrivacyPage,{})}),(0,j.jsx)(It,{path:`/earnings-disclaimer`,element:(0,j.jsx)(EarningsPage,{})}),(0,j.jsx)(It,{path:`/about`,element:(0,j.jsx)(AboutPage,{})})]})]})})}document.documentElement.style.setProperty(`--founder-bg`,`url(${Qn(`founder.png`)})`),(0,qn.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(x.StrictMode,{children:(0,j.jsx)(Gr,{})}));
+function Gr(){return(0,j.jsx)(En,{children:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(SeoMeta,{}),(0,j.jsxs)(Rt,{children:[(0,j.jsx)(It,{path:`/`,element:(0,j.jsx)(pr,{})}),(0,j.jsx)(It,{path:`/snapshot`,element:(0,j.jsx)(Tr,{})}),(0,j.jsx)(It,{path:`/snapshot-intake`,element:(0,j.jsx)(jr,{})}),(0,j.jsx)(It,{path:`/premium`,element:(0,j.jsx)(PremiumPage,{})}),(0,j.jsx)(It,{path:`/challenge`,element:(0,j.jsx)(Wr,{})}),(0,j.jsx)(It,{path:`/contact`,element:(0,j.jsx)(ContactPage,{})}),(0,j.jsx)(It,{path:`/media`,element:(0,j.jsx)(MediaPage,{})}),(0,j.jsx)(It,{path:`/careers`,element:(0,j.jsx)(CareersPage,{})}),(0,j.jsx)(It,{path:`/ceo-letters`,element:(0,j.jsx)(CEOLettersPage,{})}),(0,j.jsx)(It,{path:`/bookstore`,element:(0,j.jsx)(BookstorePage,{})}),(0,j.jsx)(It,{path:`/ceo-vault`,element:(0,j.jsx)(CEOVaultPage,{})}),(0,j.jsx)(It,{path:`/fast-track`,element:(0,j.jsx)(FastTrackPage,{})}),(0,j.jsx)(It,{path:`/why-are-you-splitting-commission`,element:(0,j.jsx)(WhyAreYouPage,{})}),(0,j.jsx)(It,{path:`/terms-and-conditions`,element:(0,j.jsx)(TermsPage,{})}),(0,j.jsx)(It,{path:`/student-non-disclosure`,element:(0,j.jsx)(StudentNDAPage,{})}),(0,j.jsx)(It,{path:`/privacy-policy`,element:(0,j.jsx)(PrivacyPage,{})}),(0,j.jsx)(It,{path:`/earnings-disclaimer`,element:(0,j.jsx)(EarningsPage,{})}),(0,j.jsx)(It,{path:`/about`,element:(0,j.jsx)(AboutPage,{})})]})]})})}document.documentElement.style.setProperty(`--founder-bg`,`url(${Qn(`founder.png`)})`),(0,qn.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(x.StrictMode,{children:(0,j.jsx)(Gr,{})}));
