@@ -1203,7 +1203,7 @@ button,.btn,a.btn{max-width:100%;white-space:normal;overflow-wrap:break-word}
 .sp-hero-trust span{font-family:var(--sans);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-soft);font-weight:600;display:inline-flex;align-items:center;gap:9px}
 .sp-hero-trust span::before{content:"";width:5px;height:5px;background:var(--gold);border-radius:50%;flex:none}
 .sp-hero-cover{position:relative}
-.sp-hero-cover .badge{position:absolute;left:-14px;bottom:26px;z-index:2;background:var(--green-deep);color:var(--cream);padding:11px 16px;font-family:var(--sans);font-size:9.5px;letter-spacing:.26em;text-transform:uppercase;font-weight:700;border-left:3px solid var(--gold);display:flex;align-items:center;gap:9px}
+.sp-hero-cover .badge{position:absolute;left:-14px;bottom:-16px;z-index:2;background:var(--green-deep);color:var(--cream);padding:11px 16px;font-family:var(--sans);font-size:9.5px;letter-spacing:.26em;text-transform:uppercase;font-weight:700;border-left:3px solid var(--gold);display:flex;align-items:center;gap:9px}
 .sp-hero-cover .badge .dot{width:6px;height:6px;background:var(--gold);border-radius:50%}
 
 /* ============================================================
