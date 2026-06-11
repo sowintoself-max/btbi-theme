@@ -226,6 +226,48 @@ $tbtb_seo_data = [
         'robots'              => 'index, follow, max-image-preview:large',
     ],
 
+    '/ceo-letters' => [
+        'title'               => 'CEO Letters | The Best Travel Biz Institute™',
+        'meta_description'    => 'A founder-letter series from Bobbie A. Self to the travel-agent community. Strategic thinking on ownership, structure, and the operator\'s edge.',
+        'canonical'           => 'https://thebesttravelbiz.com/ceo-letters/',
+        'og_title'            => 'CEO Letters — From Bobbie A. Self',
+        'og_description'      => 'A founder-letter series for travel professionals building real businesses. Strategic thinking on ownership, structure, and the operator\'s edge.',
+        'og_image'            => 'https://thebesttravelbiz.com/wp-content/uploads/2026/05/the-best-travel-biz-institute-meta.png',
+        'og_type'             => 'website',
+        'twitter_title'       => 'CEO Letters — From Bobbie A. Self',
+        'twitter_description' => 'A founder-letter series for travel professionals building real businesses.',
+        'twitter_image'       => 'https://thebesttravelbiz.com/wp-content/uploads/2026/05/the-best-travel-biz-institute-meta.png',
+        'robots'              => 'index, follow, max-image-preview:large',
+    ],
+
+    '/ceo-letters/do-you-have-a-travel-business-or-just-a-booking-activity' => [
+        'title'               => 'Do You Have a Travel Business, or Just a Booking Activity? | CEO Letters | The Best Travel Biz Institute™',
+        'meta_description'    => 'A founder letter from Bobbie A. Self: the difference between booking activity and a real travel business — and the structural question every operator has to answer.',
+        'canonical'           => 'https://thebesttravelbiz.com/ceo-letters/do-you-have-a-travel-business-or-just-a-booking-activity/',
+        'og_title'            => 'Do You Have a Travel Business, or Just a Booking Activity?',
+        'og_description'      => 'A founder letter from Bobbie A. Self on the structural difference between booking activity and a real travel business.',
+        'og_image'            => 'https://thebesttravelbiz.com/wp-content/uploads/2026/05/the-best-travel-biz-institute-meta.png',
+        'og_type'             => 'article',
+        'twitter_title'       => 'Do You Have a Travel Business, or Just a Booking Activity?',
+        'twitter_description' => 'A founder letter from Bobbie A. Self on the structural difference between booking activity and a real travel business.',
+        'twitter_image'       => 'https://thebesttravelbiz.com/wp-content/uploads/2026/05/the-best-travel-biz-institute-meta.png',
+        'robots'              => 'index, follow, max-image-preview:large',
+    ],
+
+    '/preview/ceo-letters-archive' => [
+        'title'               => 'CEO Letters Archive Template (preview) | The Best Travel Biz Institute™',
+        'meta_description'    => '',
+        'canonical'           => 'https://thebesttravelbiz.com/preview/ceo-letters-archive/',
+        'robots'              => 'noindex, nofollow',
+    ],
+
+    '/preview/ceo-letter-single' => [
+        'title'               => 'CEO Letter Single Template (preview) | The Best Travel Biz Institute™',
+        'meta_description'    => '',
+        'canonical'           => 'https://thebesttravelbiz.com/preview/ceo-letter-single/',
+        'robots'              => 'noindex, nofollow',
+    ],
+
 ];
 
 
@@ -481,3 +523,4 @@ add_action('send_headers', function () {
         header('X-Robots-Tag: noindex, nofollow', true);
     }
 });
+
