@@ -95,6 +95,27 @@ add_action('init', function () {
     remove_action('wp_head', 'rsd_link');
     remove_action('wp_head', 'wlwmanifest_link');
     remove_action('wp_head', 'wp_shortlink_wp_head');
+
+    // Map every /ceo-letters/<slug> URL to the existing /ceo-letters WP page.
+    // React Router reads window.location and renders the right letter component.
+    // Each new letter only needs an entry in app.js + functions.php — no new WP page.
+    add_rewrite_rule(
+        '^ceo-letters/([^/]+)/?$',
+        'index.php?pagename=ceo-letters',
+        'top'
+    );
+
+    // Same approach for /preview/* template routes.
+    add_rewrite_rule(
+        '^preview/ceo-letters-archive/?$',
+        'index.php?pagename=ceo-letters',
+        'top'
+    );
+    add_rewrite_rule(
+        '^preview/ceo-letter-single/?$',
+        'index.php?pagename=ceo-letters',
+        'top'
+    );
 });
 
 
