@@ -2047,3 +2047,7 @@ button,.btn,a.btn{max-width:100%;white-space:normal;overflow-wrap:break-word}
   .cl-page-nav{flex-wrap:wrap;justify-content:center;text-align:center}
   .cl-page-count{order:-1;flex-basis:100%}
 }
+
+/* CEO Letters: prev/next nav when only one link is present */
+.cl-pn.cl-pn--solo{grid-template-columns:1fr;max-width:480px}
+.cl-pn.cl-pn--solo a.next{text-align:center;align-items:center}
