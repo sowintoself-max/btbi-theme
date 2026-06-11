@@ -283,23 +283,434 @@ const CareersPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)(fr,{})
 ]});
 
-const CEOLettersPage=()=>(0,j.jsxs)("main",{id:"top",children:[
-  (0,j.jsx)($n,{home:!0}),
-  (0,j.jsxs)("section",{className:"sp-hero",style:{minHeight:"50vh",display:"flex",alignItems:"center"},children:[
-    (0,j.jsxs)("div",{className:"wrap",children:[
-      (0,j.jsx)("span",{className:"eyebrow",children:"From Bobbie’s Desk"}),
-      (0,j.jsxs)("h1",{children:["The CEO ",(0,j.jsx)("em",{style:{color:"var(--gold)"},children:"Letters"})]}),
-      (0,j.jsx)("p",{className:"lead",style:{maxWidth:580},children:"A monthly executive dispatch on travel, ownership, and the operator’s edge. Written personally by Bobbie A. Self."})
-    ]})
-  ]}),
-  (0,j.jsx)("section",{style:{padding:"80px 0",background:"var(--cream)"},children:
-    (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:760},children:[
-      (0,j.jsx)("p",{style:{fontFamily:"var(--serif-body)",fontSize:20,fontStyle:"italic",color:"var(--green-ink)",textAlign:"center",padding:"60px 0"},children:"The first letter is being prepared. Subscribe to the CEO Letter in the footer to receive it when it arrives."})
-    ]})
-  }),
-  (0,j.jsx)(fr,{})
-]});
+const CEOLettersPage = () => (0,j.jsxs)("main", { id: "top", children: [
+  (0,j.jsx)($n, { home: Jn.home }),
+  (0,j.jsx)("section", { className: "cl-hero", "data-screen-label": "CEO Letters Hero", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "From the Founder" }),
+    (0,j.jsxs)("h1", { children: [
+      "CEO ",
+      (0,j.jsx)("em", { children: "Letters" })
+    ] }),
+    (0,j.jsx)("p", { className: "cl-hero-sub", children: "Strategic notes on ownership, business structure, and building a travel business you actually own." }),
+    (0,j.jsx)("hr", { className: "cl-rule center" }),
+    (0,j.jsxs)("p", { className: "cl-byline", children: [
+      "By ",
+      (0,j.jsx)("b", { children: "Bobbie A. Self" }),
+      " \xB7 Founder & Travel CEO Architect"
+    ] })
+  ] }) }),
+  (0,j.jsx)("section", { className: "cl-archive", "data-screen-label": "Letter Archive", children: (0,j.jsx)("div", { className: "wrap", children: (0,j.jsx)("div", { className: "cl-list", children: (0,j.jsxs)("article", { className: "cl-letter is-latest", "data-screen-label": "Letter: Do You Have a Travel Business", children: [
+    (0,j.jsx)("div", { className: "date", children: "June 10, 2026" }),
+    (0,j.jsx)("h2", { children: (0,j.jsxs)("a", { href: "/ceo-letters/do-you-have-a-travel-business-or-just-a-booking-activity", children: [
+      "Do You Have a Travel Business, or Just a Booking Activity?",
+      (0,j.jsx)("span", { className: "cl-latest-tag", children: "Latest" })
+    ] }) }),
+    (0,j.jsx)("p", { className: "excerpt", children: "Almost every travel agent I meet says the same thing: \u201CI have a travel business.\u201D They have clients, they book trips, they fix problems no traveler ever sees. That is real work, but real work is not the same thing as ownership. So before we go further, I want to ask the question most agents avoid." }),
+    (0,j.jsxs)("a", { href: "/ceo-letters/do-you-have-a-travel-business-or-just-a-booking-activity", className: "more", children: [
+      "Read the letter ",
+      (0,j.jsx)("span", { className: "arr", children: "\u2192" })
+    ] })
+  ] }) }) }) }),
+  (0,j.jsx)("section", { className: "cl-cta", "data-screen-label": "Archive CTA", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("div", { className: "lab", children: "Want more than letters?" }),
+    (0,j.jsx)("h2", { children: "Build the business the letters describe." }),
+    (0,j.jsx)("p", { children: "The Best Travel Biz Institute\u2122 helps travel agents build businesses they actually own. Start with the free 14-Day Challenge, or explore the $7 guide that started the conversation." }),
+    (0,j.jsxs)("div", { className: "cl-cta-btns", children: [
+      (0,j.jsxs)("a", { href: "/challenge", className: "btn btn-primary", children: [
+        "Start the Free Challenge ",
+        (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+      ] }),
+      (0,j.jsxs)("a", { href: "/why-are-you-splitting-commission", className: "btn btn-gold", children: [
+        "Get the $7 Guide ",
+        (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+      ] })
+    ] })
+  ] }) }),
+  (0,j.jsx)(fr, {})
+] });
+window.CEOLettersPage = CEOLettersPage;
 
+const CEOLetterSingle = () => (0,j.jsxs)("main", { id: "top", children: [
+  (0,j.jsx)($n, { home: Jn.home }),
+  (0,j.jsx)("header", { className: "cl-letterhead", "data-screen-label": "Letter Header", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("a", { href: "/ceo-letters", className: "cl-back", children: [
+      (0,j.jsx)("span", { className: "arr", children: "\u2190" }),
+      " All CEO Letters"
+    ] }),
+    (0,j.jsx)("div", { className: "date", children: "June 10, 2026" }),
+    (0,j.jsx)("h1", { children: "Do You Have a Travel Business, or Just a Booking Activity?" }),
+    (0,j.jsx)("hr", { className: "cl-rule center" })
+  ] }) }),
+  (0,j.jsx)("article", { className: "cl-body", "data-screen-label": "Letter Body", children: (0,j.jsx)("div", { className: "wrap", children: (0,j.jsxs)("div", { className: "cl-prose", children: [
+    (0,j.jsx)("p", { className: "lede", children: "Almost every travel agent I meet says the same thing in one form or another." }),
+    (0,j.jsx)("blockquote", { children: (0,j.jsx)("p", { children: "\u201CI have a travel business.\u201D" }) }),
+    (0,j.jsx)("p", { children: "And I understand why they say it." }),
+    (0,j.jsx)("p", { children: "They have clients. They book trips. They answer questions at night. They chase supplier updates. They fix problems no traveler ever sees. They post offers, create quotes, collect payments, research destinations, manage emotions, and hold vacations together with a level of care most people will never understand." }),
+    (0,j.jsx)("p", { children: "That is real work." }),
+    (0,j.jsxs)("p", { children: [
+      "But real work is not the same thing as ",
+      (0,j.jsx)("strong", { children: "ownership" }),
+      "."
+    ] }),
+    (0,j.jsx)("p", { children: "So before we go any further, I want to ask the question most agents avoid, because the answer may change how they see everything they have been building." }),
+    (0,j.jsx)("blockquote", { children: (0,j.jsx)("p", { children: "Do you have a travel business, or do you have a booking activity?" }) }),
+    (0,j.jsx)("p", { children: "A booking activity can make money. A booking activity can keep you busy. A booking activity can look successful from the outside. It can have a logo, a social media page, a booking link, a supplier portal, and a calendar full of client calls." }),
+    (0,j.jsx)("p", { children: "But a business is something different." }),
+    (0,j.jsxs)("p", { children: [
+      "A business has assets.",
+      (0,j.jsx)("br", {}),
+      "A business has control.",
+      (0,j.jsx)("br", {}),
+      "A business has structure.",
+      (0,j.jsx)("br", {}),
+      "A business has memory."
+    ] }),
+    (0,j.jsx)("p", { children: "A business can survive a platform change, a host change, a supplier change, a social media change, or a season where you are not manually touching every detail yourself." }),
+    (0,j.jsx)("p", { children: "If everything stops when you stop moving, you may not have a business yet." }),
+    (0,j.jsx)("p", { children: "You may have activity with income attached to it." }),
+    (0,j.jsx)("p", { children: "That sentence is not meant to shame you. It is meant to locate you." }),
+    (0,j.jsx)("p", { children: "Because most agents were taught how to book travel long before they were taught how to build a company." }),
+    (0,j.jsx)("p", { children: "They were taught how to quote. They were taught how to find promotions. They were taught how to access suppliers, join trainings, post deals, collect payments, and celebrate commission." }),
+    (0,j.jsx)("p", { children: "But very few were taught how to ask the ownership questions." }),
+    (0,j.jsx)("blockquote", { children: (0,j.jsxs)("p", { children: [
+      "Who owns the client relationship?",
+      (0,j.jsx)("br", {}),
+      "Who controls the data?",
+      (0,j.jsx)("br", {}),
+      "Whose brand is the traveler actually loyal to?",
+      (0,j.jsx)("br", {}),
+      "What system holds the client journey?",
+      (0,j.jsx)("br", {}),
+      "What happens if you leave the host?",
+      (0,j.jsx)("br", {}),
+      "What happens if the platform changes?",
+      (0,j.jsx)("br", {}),
+      "What happens if your social media account disappears?",
+      (0,j.jsx)("br", {}),
+      "What happens if you want to bring on help?",
+      (0,j.jsx)("br", {}),
+      "What happens if you want to stop doing every task yourself?",
+      (0,j.jsx)("br", {}),
+      "What happens if you want the business to grow beyond your personal effort?"
+    ] }) }),
+    (0,j.jsx)("p", { children: "Those are not agent questions." }),
+    (0,j.jsxs)("p", { children: [
+      "Those are ",
+      (0,j.jsx)("strong", { children: "CEO questions" }),
+      "."
+    ] }),
+    (0,j.jsx)("p", { children: "And the shift from travel agent to CEO does not begin when you make six figures. It does not begin when you file the LLC. It does not begin when you print the business cards, buy the domain, or put \u201Cfounder\u201D in your bio." }),
+    (0,j.jsx)("p", { children: "It begins when you stop measuring the business only by the trips you book and start measuring it by what you own, control, protect, and retain." }),
+    (0,j.jsx)("p", { children: "That is the dividing line." }),
+    (0,j.jsx)("hr", {}),
+    (0,j.jsxs)("p", { children: [
+      "Bookings are not the business.",
+      (0,j.jsx)("br", {}),
+      "Bookings are the result of the business.",
+      (0,j.jsx)("br", {}),
+      "Commission is not the business.",
+      (0,j.jsx)("br", {}),
+      "Commission is the compensation attached to the transaction.",
+      (0,j.jsx)("br", {}),
+      "A supplier login is not the business.",
+      (0,j.jsx)("br", {}),
+      "A replicated website is not the business.",
+      (0,j.jsx)("br", {}),
+      "A host agency relationship is not the business.",
+      (0,j.jsx)("br", {}),
+      "A social media page is not the business."
+    ] }),
+    (0,j.jsx)("p", { children: "Those may be tools. They may be access points. They may be support structures. They may be useful for a season." }),
+    (0,j.jsx)("p", { children: "But none of them should be confused with ownership." }),
+    (0,j.jsx)("p", { children: "The danger is that activity can feel like progress." }),
+    (0,j.jsxs)("p", { children: [
+      "You can be busy enough to believe you are building.",
+      (0,j.jsx)("br", {}),
+      "You can be earning enough to avoid questioning the structure.",
+      (0,j.jsx)("br", {}),
+      "You can be praised enough to ignore what is missing.",
+      (0,j.jsx)("br", {}),
+      "You can be visible enough to assume you are secure."
+    ] }),
+    (0,j.jsx)("p", { children: "But if your client relationships are not truly yours, if your brand is not distinct, if your systems live inside someone else\u2019s house, if your revenue depends entirely on a structure you do not control, then you need to be honest about what you have." }),
+    (0,j.jsxs)("p", { children: [
+      "You may be operating in travel.",
+      (0,j.jsx)("br", {}),
+      "You may be producing in travel.",
+      (0,j.jsx)("br", {}),
+      "You may even be profitable in travel."
+    ] }),
+    (0,j.jsx)("p", { children: "But you may not yet own a travel business." }),
+    (0,j.jsx)("p", { children: "Not fully." }),
+    (0,j.jsxs)("p", { children: [
+      "And that distinction matters because ",
+      (0,j.jsx)("strong", { children: "what you build on determines what you can keep" }),
+      "."
+    ] }),
+    (0,j.jsx)("p", { children: "If you build on borrowed systems, you keep access only as long as access is granted. If you build on someone else\u2019s brand, you keep recognition only as long as that brand allows it. If you build on scattered memory, you keep nothing that can be transferred, trained, repeated, or scaled. If you build only on your personal effort, you do not have leverage. You have exhaustion with a commission statement." }),
+    (0,j.jsx)("p", { children: "A business should create more than income." }),
+    (0,j.jsx)("p", { children: "It should create equity. It should create repeatable systems. It should create client trust that belongs to your brand. It should create data you can use. It should create intellectual property from the way you sell, serve, follow up, price, package, and retain. It should create something that does not disappear the moment you change platforms, leave a host, take a break, hire help, or decide to grow." }),
+    (0,j.jsx)("p", { children: "That is what most agents are missing." }),
+    (0,j.jsxs)("p", { children: [
+      "Not talent.",
+      (0,j.jsx)("br", {}),
+      "Not passion.",
+      (0,j.jsx)("br", {}),
+      "Not work ethic."
+    ] }),
+    (0,j.jsx)("blockquote", { children: (0,j.jsx)("p", { children: "Structure." }) }),
+    (0,j.jsx)("p", { children: "They are trying to build ownership with activity alone. And activity alone will not hold the weight of a real business." }),
+    (0,j.jsx)("hr", {}),
+    (0,j.jsx)("p", { children: "So this is where I want you to start." }),
+    (0,j.jsxs)("p", { children: [
+      "Not with the next certification.",
+      (0,j.jsx)("br", {}),
+      "Not with the next supplier training.",
+      (0,j.jsx)("br", {}),
+      "Not with the next logo revision.",
+      (0,j.jsx)("br", {}),
+      "Not with the next group trip flyer."
+    ] }),
+    (0,j.jsx)("p", { children: "Start with the question." }),
+    (0,j.jsx)("blockquote", { children: (0,j.jsx)("p", { children: "What do I own?" }) }),
+    (0,j.jsx)("p", { children: "If the answer is unclear, that is your first assignment. If the answer makes you uncomfortable, that is not failure. That is clarity." }),
+    (0,j.jsx)("p", { children: "And clarity is the beginning of ownership." }),
+    (0,j.jsx)("p", { children: "This is the work of The Best Travel Biz Institute\u2122. Not simply teaching agents how to sell more travel. Teaching them how to examine what they are building. Teaching them how to move from activity into architecture. Teaching them how to stop confusing access with ownership." }),
+    (0,j.jsx)("p", { children: "Because a travel business is not defined by the trips you book." }),
+    (0,j.jsxs)("p", { children: [
+      "It is defined by ",
+      (0,j.jsx)("strong", { children: "what you own, control, protect, and retain" }),
+      "."
+    ] }),
+    (0,j.jsx)("p", { children: "Everything else is activity." }),
+    (0,j.jsx)("p", { children: "Build on what you own." }),
+    (0,j.jsx)("p", { children: "To your ownership," }),
+    (0,j.jsxs)("div", { className: "cl-signoff", children: [
+      (0,j.jsx)("div", { className: "script", children: "Bobbie" }),
+      (0,j.jsx)("div", { className: "nm", children: "Bobbie A. Self" }),
+      (0,j.jsxs)("div", { className: "ttl", children: [
+        (0,j.jsx)("b", { children: "Founder & Travel CEO Architect" }),
+        (0,j.jsx)("br", {}),
+        "The Best Travel Biz Institute\u2122"
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "cl-share", "data-screen-label": "Share Strip", children: [
+      (0,j.jsx)("span", { className: "lab", children: "Share this letter" }),
+      (0,j.jsxs)("div", { className: "icons", children: [
+        (0,j.jsx)("a", { href: "#", id: "shareLinkedIn", "aria-label": "Share on LinkedIn", title: "Share on LinkedIn", children: (0,j.jsx)("svg", { width: "18", height: "18", viewBox: "0 0 24 24", fill: "currentColor", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.2 8h4.6v15H.2V8zm7.6 0h4.4v2.05h.06c.61-1.16 2.1-2.38 4.32-2.38 4.62 0 5.47 3.04 5.47 7v8.33h-4.6v-7.39c0-1.76-.03-4.02-2.45-4.02-2.45 0-2.83 1.92-2.83 3.9V23H7.8V8z" }) }) }),
+        (0,j.jsx)("a", { href: "#", id: "shareFacebook", "aria-label": "Share on Facebook", title: "Share on Facebook", children: (0,j.jsx)("svg", { width: "18", height: "18", viewBox: "0 0 24 24", fill: "currentColor", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z" }) }) }),
+        (0,j.jsx)("a", { href: "#", id: "copyLink", "aria-label": "Copy link", title: "Copy link", children: (0,j.jsxs)("svg", { width: "18", height: "18", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "1.7", "aria-hidden": "true", children: [
+          (0,j.jsx)("path", { d: "M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" }),
+          (0,j.jsx)("path", { d: "M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" })
+        ] }) })
+      ] })
+    ] }),
+    (0,j.jsxs)("nav", { className: "cl-pn", "aria-label": "More letters", children: [
+      (0,j.jsxs)("a", { className: "prev", href: "ceo-letter.html", children: [
+        (0,j.jsx)("span", { className: "dir", children: "\u2190 Previous Letter" }),
+        (0,j.jsx)("span", { className: "ttl", children: "Rent Is Not a Business Model" })
+      ] }),
+      (0,j.jsxs)("a", { className: "next", href: "/ceo-letters", children: [
+        (0,j.jsx)("span", { className: "dir", children: "More from Bobbie \u2192" }),
+        (0,j.jsx)("span", { className: "ttl", children: "Browse all CEO Letters" })
+      ] })
+    ] })
+  ] }) }) }),
+  (0,j.jsx)("section", { className: "cl-cta", "data-screen-label": "Letter CTA", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("div", { className: "lab", children: "Want to go deeper?" }),
+    (0,j.jsx)("h2", { children: "The letters point at it. The Institute builds it." }),
+    (0,j.jsx)("p", { children: "Start the free 14-Day Challenge, or explore the $7 guide that started the conversation about what you actually own." }),
+    (0,j.jsxs)("div", { className: "cl-cta-btns", children: [
+      (0,j.jsxs)("a", { href: "/challenge", className: "btn btn-primary", children: [
+        "Start the Free Challenge ",
+        (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+      ] }),
+      (0,j.jsxs)("a", { href: "/why-are-you-splitting-commission", className: "btn btn-gold", children: [
+        "Get the $7 Guide ",
+        (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+      ] })
+    ] })
+  ] }) }),
+  (0,j.jsx)(fr, {})
+] });
+window.CEOLetterSingle = CEOLetterSingle;
+
+const CEOLettersArchiveTemplate = () => (0,j.jsxs)("main", { id: "top", children: [
+  (0,j.jsx)($n, { home: Jn.home }),
+  (0,j.jsx)("section", { className: "cl-hero", "data-screen-label": "CEO Letters Hero", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("span", { className: "eyebrow center", children: "From the Founder" }),
+    (0,j.jsxs)("h1", { children: [
+      "CEO ",
+      (0,j.jsx)("em", { children: "Letters" })
+    ] }),
+    (0,j.jsx)("p", { className: "cl-hero-sub", children: "Strategic notes on ownership, business structure, and building a travel business you actually own." }),
+    (0,j.jsx)("hr", { className: "cl-rule center" }),
+    (0,j.jsxs)("p", { className: "cl-byline", children: [
+      "By ",
+      (0,j.jsx)("b", { children: "Bobbie A. Self" }),
+      " \xB7 Founder & Travel CEO Architect"
+    ] })
+  ] }) }),
+  (0,j.jsx)("section", { className: "cl-archive", "data-screen-label": "Letter Archive", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "cl-list", children: [
+      (0,j.jsxs)("article", { className: "cl-letter is-latest", "data-screen-label": "Letter: The Question Nobody Asks", children: [
+        (0,j.jsx)("div", { className: "date", children: "June 10, 2026" }),
+        (0,j.jsx)("h2", { children: (0,j.jsxs)("a", { href: "ceo-letter-template.html", children: [
+          "Do You Have a Travel Business, or Just a Booking Activity?",
+          (0,j.jsx)("span", { className: "cl-latest-tag", children: "Latest" })
+        ] }) }),
+        (0,j.jsx)("p", { className: "excerpt", children: "Almost every travel agent I meet says the same thing: \u201CI have a travel business.\u201D They have clients, they book trips, they fix problems no traveler ever sees. That is real work, but real work is not the same thing as ownership. So before we go further, I want to ask the question most agents avoid." }),
+        (0,j.jsxs)("a", { href: "ceo-letter-template.html", className: "more", children: [
+          "Read the letter ",
+          (0,j.jsx)("span", { className: "arr", children: "\u2192" })
+        ] })
+      ] }),
+      (0,j.jsxs)("article", { className: "cl-letter", "data-screen-label": "Letter: Rent Is Not a Business Model", children: [
+        (0,j.jsx)("div", { className: "date", children: "May 13, 2026" }),
+        (0,j.jsx)("h2", { children: (0,j.jsx)("a", { href: "ceo-letter-template.html", children: "Rent Is Not a Business Model" }) }),
+        (0,j.jsx)("p", { className: "excerpt", children: "You can run profitable numbers for a decade and still own nothing at the end of it. The difference between income and equity is the difference between renting a desk and owning the building, and most agents never notice they chose the desk." }),
+        (0,j.jsxs)("a", { href: "ceo-letter-template.html", className: "more", children: [
+          "Read the letter ",
+          (0,j.jsx)("span", { className: "arr", children: "\u2192" })
+        ] })
+      ] }),
+      (0,j.jsxs)("article", { className: "cl-letter", "data-screen-label": "Letter: You Don't Have a Pricing Problem", children: [
+        (0,j.jsx)("div", { className: "date", children: "April 15, 2026" }),
+        (0,j.jsx)("h2", { children: (0,j.jsx)("a", { href: "ceo-letter-template.html", children: "You Don't Have a Pricing Problem" }) }),
+        (0,j.jsx)("p", { className: "excerpt", children: "When margins feel thin, the instinct is to discount harder or chase volume. Both are symptoms. The real issue is almost always structural, you've built a practice that bills for your time instead of a company that compounds your work." }),
+        (0,j.jsxs)("a", { href: "ceo-letter-template.html", className: "more", children: [
+          "Read the letter ",
+          (0,j.jsx)("span", { className: "arr", children: "\u2192" })
+        ] })
+      ] }),
+      (0,j.jsxs)("article", { className: "cl-letter", "data-screen-label": "Letter: The Day You Stop Being an Agent", children: [
+        (0,j.jsx)("div", { className: "date", children: "March 18, 2026" }),
+        (0,j.jsx)("h2", { children: (0,j.jsx)("a", { href: "ceo-letter-template.html", children: "The Day You Stop Being an Agent" }) }),
+        (0,j.jsx)("p", { className: "excerpt", children: "There's a specific morning it happens, not when you incorporate, not when you cross a revenue line, but when you stop asking permission to make a decision about your own clients. I can usually tell who's crossed it within five minutes of a conversation." }),
+        (0,j.jsxs)("a", { href: "ceo-letter-template.html", className: "more", children: [
+          "Read the letter ",
+          (0,j.jsx)("span", { className: "arr", children: "\u2192" })
+        ] })
+      ] }),
+      (0,j.jsxs)("article", { className: "cl-letter", "data-screen-label": "Letter: Own the Building", children: [
+        (0,j.jsx)("div", { className: "date", children: "February 11, 2026" }),
+        (0,j.jsx)("h2", { children: (0,j.jsx)("a", { href: "ceo-letter-template.html", children: "Own the Building" }) }),
+        (0,j.jsx)("p", { className: "excerpt", children: "This is the first letter, and it's the one idea everything else rests on. Build on assets you control, your clients, your brand, your systems, instead of renting a seat in someone else's house. Everything I write here is a footnote to that sentence." }),
+        (0,j.jsxs)("a", { href: "ceo-letter-template.html", className: "more", children: [
+          "Read the letter ",
+          (0,j.jsx)("span", { className: "arr", children: "\u2192" })
+        ] })
+      ] })
+    ] }),
+    (0,j.jsxs)("nav", { className: "cl-page-nav", "aria-label": "Letter pages", children: [
+      (0,j.jsx)("span", { className: "disabled", children: "\u2190 Older Letters" }),
+      (0,j.jsx)("span", { className: "cl-page-count", children: "Letters 1\u20135 of 5" }),
+      (0,j.jsx)("span", { className: "disabled", children: "Newer Letters \u2192" })
+    ] })
+  ] }) }),
+  (0,j.jsx)("section", { className: "cl-cta", "data-screen-label": "Archive CTA", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("div", { className: "lab", children: "Want more than letters?" }),
+    (0,j.jsx)("h2", { children: "Build the business the letters describe." }),
+    (0,j.jsx)("p", { children: "The Best Travel Biz Institute\u2122 helps travel agents build businesses they actually own. Start with the free 14-Day Challenge, or explore the $7 guide that started the conversation." }),
+    (0,j.jsxs)("div", { className: "cl-cta-btns", children: [
+      (0,j.jsxs)("a", { href: "/challenge", className: "btn btn-primary", children: [
+        "Start the Free Challenge ",
+        (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+      ] }),
+      (0,j.jsxs)("a", { href: "/why-are-you-splitting-commission", className: "btn btn-gold", children: [
+        "Get the $7 Guide ",
+        (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+      ] })
+    ] })
+  ] }) }),
+  (0,j.jsx)(fr, {})
+] });
+window.CEOLettersArchiveTemplate = CEOLettersArchiveTemplate;
+
+const CEOLetterSingleTemplate = () => (0,j.jsxs)("main", { id: "top", children: [
+  (0,j.jsx)($n, { home: Jn.home }),
+  (0,j.jsx)("header", { className: "cl-letterhead", "data-screen-label": "Letter Header", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("a", { href: "ceo-letters-template.html", className: "cl-back", children: [
+      (0,j.jsx)("span", { className: "arr", children: "\u2190" }),
+      " All CEO Letters"
+    ] }),
+    (0,j.jsx)("div", { className: "date", children: "Month DD, YYYY" }),
+    (0,j.jsx)("h1", { children: "Your Letter Title Goes Here" }),
+    (0,j.jsx)("hr", { className: "cl-rule center" })
+  ] }) }),
+  (0,j.jsx)("article", { className: "cl-body", "data-screen-label": "Letter Body", children: (0,j.jsx)("div", { className: "wrap", children: (0,j.jsxs)("div", { className: "cl-prose", children: [
+    (0,j.jsx)("p", { className: "lede", children: "[ Open with one clear sentence that names the tension or claim this letter will resolve. This is the hook. ]" }),
+    (0,j.jsx)("p", { children: "[ Body paragraph. Write in Bobbie's voice: direct, strategic, personal. Keep paragraphs short so the letter keeps its rhythm. ]" }),
+    (0,j.jsxs)("p", { children: [
+      "[ Body paragraph. Use ",
+      (0,j.jsx)("strong", { children: "bold" }),
+      " sparingly, for the one line you most want a skimming reader to catch. ]"
+    ] }),
+    (0,j.jsx)("blockquote", { children: (0,j.jsx)("p", { children: "[ Pull-quote: the single sentence you want the reader to remember. One or two of these per letter, no more. ]" }) }),
+    (0,j.jsx)("p", { children: "[ Body paragraph. ]" }),
+    (0,j.jsxs)("p", { children: [
+      "[ Optional anaphora stanza, one line per break: ]",
+      (0,j.jsx)("br", {}),
+      "[ Line one. ]",
+      (0,j.jsx)("br", {}),
+      "[ Line two. ]",
+      (0,j.jsx)("br", {}),
+      "[ Line three. ]"
+    ] }),
+    (0,j.jsx)("p", { children: "[ Body paragraph that turns toward the point. ]" }),
+    (0,j.jsx)("hr", {}),
+    (0,j.jsx)("p", { children: "[ Closing thought. Most letters land on the house refrain: ]" }),
+    (0,j.jsx)("p", { children: "Build on what you own." }),
+    (0,j.jsx)("p", { children: "To your ownership," }),
+    (0,j.jsxs)("div", { className: "cl-signoff", children: [
+      (0,j.jsx)("div", { className: "script", children: "Bobbie" }),
+      (0,j.jsx)("div", { className: "nm", children: "Bobbie A. Self" }),
+      (0,j.jsxs)("div", { className: "ttl", children: [
+        (0,j.jsx)("b", { children: "Founder & Travel CEO Architect" }),
+        (0,j.jsx)("br", {}),
+        "The Best Travel Biz Institute\u2122"
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "cl-share", "data-screen-label": "Share Strip", children: [
+      (0,j.jsx)("span", { className: "lab", children: "Share this letter" }),
+      (0,j.jsxs)("div", { className: "icons", children: [
+        (0,j.jsx)("a", { href: "#", id: "shareLinkedIn", "aria-label": "Share on LinkedIn", title: "Share on LinkedIn", children: (0,j.jsx)("svg", { width: "18", height: "18", viewBox: "0 0 24 24", fill: "currentColor", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.2 8h4.6v15H.2V8zm7.6 0h4.4v2.05h.06c.61-1.16 2.1-2.38 4.32-2.38 4.62 0 5.47 3.04 5.47 7v8.33h-4.6v-7.39c0-1.76-.03-4.02-2.45-4.02-2.45 0-2.83 1.92-2.83 3.9V23H7.8V8z" }) }) }),
+        (0,j.jsx)("a", { href: "#", id: "shareFacebook", "aria-label": "Share on Facebook", title: "Share on Facebook", children: (0,j.jsx)("svg", { width: "18", height: "18", viewBox: "0 0 24 24", fill: "currentColor", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z" }) }) }),
+        (0,j.jsx)("a", { href: "#", id: "copyLink", "aria-label": "Copy link", title: "Copy link", children: (0,j.jsxs)("svg", { width: "18", height: "18", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "1.7", "aria-hidden": "true", children: [
+          (0,j.jsx)("path", { d: "M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" }),
+          (0,j.jsx)("path", { d: "M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" })
+        ] }) })
+      ] })
+    ] }),
+    (0,j.jsxs)("nav", { className: "cl-pn", "aria-label": "More letters", children: [
+      (0,j.jsxs)("a", { className: "prev", href: "ceo-letter-template.html", children: [
+        (0,j.jsx)("span", { className: "dir", children: "\u2190 Previous Letter" }),
+        (0,j.jsx)("span", { className: "ttl", children: "[ Previous letter title ]" })
+      ] }),
+      (0,j.jsxs)("a", { className: "next", href: "ceo-letters-template.html", children: [
+        (0,j.jsx)("span", { className: "dir", children: "More from Bobbie \u2192" }),
+        (0,j.jsx)("span", { className: "ttl", children: "Browse all CEO Letters" })
+      ] })
+    ] })
+  ] }) }) }),
+  (0,j.jsx)("section", { className: "cl-cta", "data-screen-label": "Letter CTA", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("div", { className: "lab", children: "Want to go deeper?" }),
+    (0,j.jsx)("h2", { children: "The letters point at it. The Institute builds it." }),
+    (0,j.jsx)("p", { children: "Start the free 14-Day Challenge, or explore the $7 guide that started the conversation about what you actually own." }),
+    (0,j.jsxs)("div", { className: "cl-cta-btns", children: [
+      (0,j.jsxs)("a", { href: "/challenge", className: "btn btn-primary", children: [
+        "Start the Free Challenge ",
+        (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+      ] }),
+      (0,j.jsxs)("a", { href: "/why-are-you-splitting-commission", className: "btn btn-gold", children: [
+        "Get the $7 Guide ",
+        (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+      ] })
+    ] })
+  ] }) }),
+  (0,j.jsx)(fr, {})
+] });
+window.CEOLetterSingleTemplate = CEOLetterSingleTemplate;
 const BookstorePage = () => (0,j.jsxs)("main", { id: "top", children: [
   (0,j.jsx)($n, { home: Jn.home }),
   (0,j.jsx)("section", { className: "pm-hero bk-hero", "data-screen-label": "01 Hero", children: (0,j.jsxs)("div", { className: "wrap", children: [
@@ -3150,4 +3561,4 @@ const PremiumPage=()=>(0,j.jsxs)("main",{id:"top",children:[
 ]});
 function SeoMeta(){(0,x.useEffect)(()=>{const p=(window.location.pathname||"/").replace(/\/$/,"")||"/";const T={"/":`The Best Travel Biz Institute™ | Travel CEO Education for Independent Agents`,"/about":`About Bobbie A. Self, MBA — The Travel CEO Architect | The Best Travel Biz Institute`,"/snapshot":`Travel Business Snapshot™ — CEO-Level Diagnostic | The Best Travel Biz Institute`,"/snapshot-intake":`Snapshot Intake Form | The Best Travel Biz Institute™`,"/premium":`Premium Membership — Travel CEO Education Tier | The Best Travel Biz Institute™`,"/challenge":`Free 14-Day Travel Agent to CEO Challenge | The Best Travel Biz Institute™`,"/ceo-vault":`VIP CEO Vault — By Invitation Only | The Best Travel Biz Institute™`,"/contact":`Contact | The Best Travel Biz Institute™`,"/media":`Media & Press | The Best Travel Biz Institute™`,"/careers":`Careers | The Best Travel Biz Institute™`,"/bookstore":`Bookstore | The Best Travel Biz Institute™`,"/ceo-letters":`CEO Letters | The Best Travel Biz Institute™`,"/terms-and-conditions":`Terms and Conditions | The Best Travel Biz Institute™`,"/student-non-disclosure":`Student Non-Disclosure Agreement | The Best Travel Biz Institute™`,"/privacy-policy":`Privacy Policy | The Best Travel Biz Institute™`,"/earnings-disclaimer":`Earnings Disclaimer | The Best Travel Biz Institute™`};const D={"/":`Education for independent travel agents transitioning to true CEO-level business ownership — without host-agency dependence, recruiting, or downlines.`,"/about":`MBA. Fortune 100 luxury travel executive. Founder of The Best Travel Biz Institute & Sow Into Self Wellness Travel. 25 years building structures that develop people into business owners.`,"/snapshot":`The Travel Business Snapshot™ assesses your business across 7 executive dimensions. Find out exactly where you stand before applying to VIP CEO Vault.`,"/snapshot-intake":`Complete your Travel Business Snapshot™ intake form. Share your business details to receive your personalized CEO-level diagnostic assessment.`,"/premium":`Premium Membership is the CEO education and foundational setup tier of The Best Travel Biz Institute™. Learn business structure, systems, and positioning for $97/month, hosted on Skool, cancel anytime.`,"/challenge":`Free 14-Day Challenge. Access training, community, and worksheets designed to shift your mindset from travel agent to business owner. No cost to join.`,"/ceo-vault":`Invitation-based advisory for qualified travel operators. Quarterly CEO sessions, annual retreat, and executive-level scaling guidance. Apply today.`,"/contact":`Reach The Best Travel Biz Institute™ for general inquiries, speaking requests, or media opportunities. Email: institute@thebesttravelbiz.com.`,"/media":`Media and press inquiries for The Best Travel Biz Institute™ and Bobbie A. Self, MBA. Contact our team at media@thebesttravelbiz.com.`,"/careers":`Career opportunities at The Best Travel Biz Institute™. Join the team helping travel agents transition to true business ownership.`,"/bookstore":`The Best Travel Biz Institute™ Bookstore. Educational resources and guides for independent travel agents building toward true ownership.`,"/ceo-letters":`Strategic letters and communications from Bobbie A. Self, MBA, Founder of The Best Travel Biz Institute™, to the travel CEO community.`,"/terms-and-conditions":`Terms and Conditions for The Best Travel Biz Institute™. Review membership tiers, billing, cancellation, and intellectual property guidelines.`,"/student-non-disclosure":`Student NDA for Premium and VIP members of The Best Travel Biz Institute™. Governs use of proprietary methods, strategies, and educational materials.`,"/privacy-policy":`Privacy Policy for The Best Travel Biz Institute™, operated by Sow Into Self Wellness & Travel Group, LLC. How we collect, use, and protect your information.`,"/earnings-disclaimer":`Earnings Disclaimer for The Best Travel Biz Institute™. Individual results vary. Income outcomes depend on individual effort, experience, and market conditions.`};document.title=T[p]||`The Best Travel Biz Institute™`;const m=document.querySelector(`meta[name='description']`);if(m)m.content=D[p]||`Travel business education for independent agents transitioning to true CEO-level ownership.`;});return null;}
 
-function Gr(){return(0,j.jsx)(En,{children:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(SeoMeta,{}),(0,j.jsxs)(Rt,{children:[(0,j.jsx)(It,{path:`/`,element:(0,j.jsx)(pr,{})}),(0,j.jsx)(It,{path:`/snapshot`,element:(0,j.jsx)(Tr,{})}),(0,j.jsx)(It,{path:`/snapshot-intake`,element:(0,j.jsx)(jr,{})}),(0,j.jsx)(It,{path:`/premium`,element:(0,j.jsx)(PremiumPage,{})}),(0,j.jsx)(It,{path:`/challenge`,element:(0,j.jsx)(Wr,{})}),(0,j.jsx)(It,{path:`/contact`,element:(0,j.jsx)(ContactPage,{})}),(0,j.jsx)(It,{path:`/media`,element:(0,j.jsx)(MediaPage,{})}),(0,j.jsx)(It,{path:`/careers`,element:(0,j.jsx)(CareersPage,{})}),(0,j.jsx)(It,{path:`/ceo-letters`,element:(0,j.jsx)(CEOLettersPage,{})}),(0,j.jsx)(It,{path:`/bookstore`,element:(0,j.jsx)(BookstorePage,{})}),(0,j.jsx)(It,{path:`/ceo-vault`,element:(0,j.jsx)(CEOVaultPage,{})}),(0,j.jsx)(It,{path:`/fast-track`,element:(0,j.jsx)(FastTrackPage,{})}),(0,j.jsx)(It,{path:`/why-are-you-splitting-commission`,element:(0,j.jsx)(WhyAreYouPage,{})}),(0,j.jsx)(It,{path:`/terms-and-conditions`,element:(0,j.jsx)(TermsPage,{})}),(0,j.jsx)(It,{path:`/student-non-disclosure`,element:(0,j.jsx)(StudentNDAPage,{})}),(0,j.jsx)(It,{path:`/privacy-policy`,element:(0,j.jsx)(PrivacyPage,{})}),(0,j.jsx)(It,{path:`/earnings-disclaimer`,element:(0,j.jsx)(EarningsPage,{})}),(0,j.jsx)(It,{path:`/about`,element:(0,j.jsx)(AboutPage,{})})]})]})})}document.documentElement.style.setProperty(`--founder-bg`,`url(${Qn(`founder.png`)})`),(0,qn.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(x.StrictMode,{children:(0,j.jsx)(Gr,{})}));
+function Gr(){return(0,j.jsx)(En,{children:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(SeoMeta,{}),(0,j.jsxs)(Rt,{children:[(0,j.jsx)(It,{path:`/`,element:(0,j.jsx)(pr,{})}),(0,j.jsx)(It,{path:`/snapshot`,element:(0,j.jsx)(Tr,{})}),(0,j.jsx)(It,{path:`/snapshot-intake`,element:(0,j.jsx)(jr,{})}),(0,j.jsx)(It,{path:`/premium`,element:(0,j.jsx)(PremiumPage,{})}),(0,j.jsx)(It,{path:`/challenge`,element:(0,j.jsx)(Wr,{})}),(0,j.jsx)(It,{path:`/contact`,element:(0,j.jsx)(ContactPage,{})}),(0,j.jsx)(It,{path:`/media`,element:(0,j.jsx)(MediaPage,{})}),(0,j.jsx)(It,{path:`/careers`,element:(0,j.jsx)(CareersPage,{})}),(0,j.jsx)(It,{path:`/ceo-letters`,element:(0,j.jsx)(CEOLettersPage,{})}),(0,j.jsx)(It,{path:`/ceo-letters/do-you-have-a-travel-business-or-just-a-booking-activity`,element:(0,j.jsx)(CEOLetterSingle,{})}),(0,j.jsx)(It,{path:`/preview/ceo-letters-archive`,element:(0,j.jsx)(CEOLettersArchiveTemplate,{})}),(0,j.jsx)(It,{path:`/preview/ceo-letter-single`,element:(0,j.jsx)(CEOLetterSingleTemplate,{})}),(0,j.jsx)(It,{path:`/bookstore`,element:(0,j.jsx)(BookstorePage,{})}),(0,j.jsx)(It,{path:`/ceo-vault`,element:(0,j.jsx)(CEOVaultPage,{})}),(0,j.jsx)(It,{path:`/fast-track`,element:(0,j.jsx)(FastTrackPage,{})}),(0,j.jsx)(It,{path:`/why-are-you-splitting-commission`,element:(0,j.jsx)(WhyAreYouPage,{})}),(0,j.jsx)(It,{path:`/terms-and-conditions`,element:(0,j.jsx)(TermsPage,{})}),(0,j.jsx)(It,{path:`/student-non-disclosure`,element:(0,j.jsx)(StudentNDAPage,{})}),(0,j.jsx)(It,{path:`/privacy-policy`,element:(0,j.jsx)(PrivacyPage,{})}),(0,j.jsx)(It,{path:`/earnings-disclaimer`,element:(0,j.jsx)(EarningsPage,{})}),(0,j.jsx)(It,{path:`/about`,element:(0,j.jsx)(AboutPage,{})})]})]})})}document.documentElement.style.setProperty(`--founder-bg`,`url(${Qn(`founder.png`)})`),(0,qn.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(x.StrictMode,{children:(0,j.jsx)(Gr,{})}));
