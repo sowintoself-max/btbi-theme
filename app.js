@@ -14,75 +14,254 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
 const _fs={width:"100%",padding:"13px 16px",border:"1px solid var(--line)",background:"var(--paper)",fontFamily:"var(--sans)",fontSize:14,color:"var(--ink)",outline:"none",boxSizing:"border-box"};
 const _ls={display:"block",letterSpacing:".2em",textTransform:"uppercase",fontSize:10,fontWeight:700,color:"var(--muted)",marginBottom:8};
 
-const ContactPage=()=>(0,j.jsxs)("main",{id:"top",children:[
-  (0,j.jsx)($n,{home:!0}),
-  (0,j.jsxs)("section",{className:"sp-hero",style:{minHeight:"50vh",display:"flex",alignItems:"center"},children:[
-    (0,j.jsxs)("div",{className:"wrap",children:[
-      (0,j.jsx)("span",{className:"eyebrow",children:"Get in Touch"}),
-      (0,j.jsxs)("h1",{children:["Speak with ",(0,j.jsx)("em",{style:{color:"var(--gold)"},children:"The Institute"})]}),
-      (0,j.jsx)("p",{className:"lead",style:{maxWidth:560},children:"Direct. No funnel. Our team replies inside one business day."})
-    ]})
-  ]}),
-  (0,j.jsx)("section",{style:{padding:"80px 0",background:"var(--cream)"},children:
-    (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:680},children:[
-      (0,j.jsx)("h2",{children:"Send a Message"}),
-      (0,j.jsx)("p",{style:{marginTop:14,marginBottom:36,color:"var(--ink-2)"},children:"Use this form for general questions, member support, or introductions."}),
-      (0,j.jsxs)("form",{action:"https://formsubmit.co/institute@thebesttravelbiz.com",method:"POST",style:{display:"flex",flexDirection:"column",gap:20},children:[
-        (0,j.jsx)("input",{type:"hidden",name:"_subject",value:"Contact Inquiry — BTBI"}),
-        (0,j.jsx)("input",{type:"hidden",name:"_captcha",value:"false"}),
-        (0,j.jsxs)("div",{style:{display:"grid",gridTemplateColumns:"1fr 1fr",gap:16},children:[
-          (0,j.jsxs)("div",{children:[(0,j.jsx)("label",{style:_ls,children:"Name"}),(0,j.jsx)("input",{name:"name",required:!0,style:_fs})]}),
-          (0,j.jsxs)("div",{children:[(0,j.jsx)("label",{style:_ls,children:"Email"}),(0,j.jsx)("input",{type:"email",name:"email",required:!0,style:_fs})]})
-        ]}),
-        (0,j.jsxs)("div",{children:[(0,j.jsx)("label",{style:_ls,children:"Subject"}),(0,j.jsx)("input",{name:"subject",required:!0,style:_fs})]}),
-        (0,j.jsxs)("div",{children:[(0,j.jsx)("label",{style:_ls,children:"Message"}),(0,j.jsx)("textarea",{name:"message",rows:6,required:!0,style:{..._fs,resize:"vertical"}})]}),
-        (0,j.jsx)("button",{type:"submit",className:"btn btn-gold",children:"Send Message →"})
-      ]})
-    ]})
-  }),
-  (0,j.jsx)(fr,{})
-]});
-
-const MediaPage=()=>(0,j.jsxs)("main",{id:"top",children:[
-  (0,j.jsx)($n,{home:!0}),
-  (0,j.jsxs)("section",{className:"sp-hero",style:{minHeight:"50vh",display:"flex",alignItems:"center"},children:[
-    (0,j.jsxs)("div",{className:"wrap",children:[
-      (0,j.jsx)("span",{className:"eyebrow",children:"Press · Media · Speaking"}),
-      (0,j.jsxs)("h1",{children:["Media & ",(0,j.jsx)("em",{style:{color:"var(--gold)"},children:"Press"})]}),
-      (0,j.jsx)("p",{className:"lead",style:{maxWidth:580},children:"For speaking invitations, podcast appearances, press features, and media inquiries."})
-    ]})
-  ]}),
-  (0,j.jsx)("section",{style:{padding:"80px 0",background:"var(--cream)"},children:
-    (0,j.jsxs)("div",{className:"wrap",style:{maxWidth:680},children:[
-      (0,j.jsx)("h2",{children:"Submit a Request"}),
-      (0,j.jsx)("p",{style:{marginTop:14,marginBottom:36,color:"var(--ink-2)"},children:"All requests are reviewed personally. We respond within 3 business days."}),
-      (0,j.jsxs)("form",{action:"https://formsubmit.co/media@thebesttravelbiz.com",method:"POST",style:{display:"flex",flexDirection:"column",gap:20},children:[
-        (0,j.jsx)("input",{type:"hidden",name:"_subject",value:"Media/Press Inquiry — BTBI"}),
-        (0,j.jsx)("input",{type:"hidden",name:"_captcha",value:"false"}),
-        (0,j.jsxs)("div",{style:{display:"grid",gridTemplateColumns:"1fr 1fr",gap:16},children:[
-          (0,j.jsxs)("div",{children:[(0,j.jsx)("label",{style:_ls,children:"Name"}),(0,j.jsx)("input",{name:"name",required:!0,style:_fs})]}),
-          (0,j.jsxs)("div",{children:[(0,j.jsx)("label",{style:_ls,children:"Organization"}),(0,j.jsx)("input",{name:"organization",style:_fs})]})
-        ]}),
-        (0,j.jsxs)("div",{children:[(0,j.jsx)("label",{style:_ls,children:"Email"}),(0,j.jsx)("input",{type:"email",name:"email",required:!0,style:_fs})]}),
-        (0,j.jsxs)("div",{children:[
-          (0,j.jsx)("label",{style:_ls,children:"Request Type"}),
-          (0,j.jsxs)("select",{name:"request_type",required:!0,style:_fs,children:[
-            (0,j.jsx)("option",{value:"",children:"Select one"}),
-            (0,j.jsx)("option",{children:"Speaking Invitation"}),
-            (0,j.jsx)("option",{children:"Podcast Appearance"}),
-            (0,j.jsx)("option",{children:"Press Feature"}),
-            (0,j.jsx)("option",{children:"Media Inquiry"}),
-            (0,j.jsx)("option",{children:"Other"})
-          ]})
-        ]}),
-        (0,j.jsxs)("div",{children:[(0,j.jsx)("label",{style:_ls,children:"Details"}),(0,j.jsx)("textarea",{name:"details",rows:5,required:!0,style:{..._fs,resize:"vertical"}})]}),
-        (0,j.jsx)("button",{type:"submit",className:"btn btn-gold",children:"Submit Request →"})
-      ]})
-    ]})
-  }),
-  (0,j.jsx)(fr,{})
-]});
-
+const JotFormEmbed = ({ formId, title, minHeight = 700 }) => {
+  const [height, setHeight] = (0,x.useState)(minHeight);
+  (0,x.useEffect)(() => {
+    const handler = (e) => {
+      if (typeof e.data !== "string") return;
+      const args = e.data.split(":");
+      if (args[0] !== "setHeight") return;
+      if (String(args[2]) !== String(formId)) return;
+      setHeight(parseInt(args[1], 10));
+    };
+    window.addEventListener("message", handler);
+    return () => window.removeEventListener("message", handler);
+  }, [formId]);
+  return (0,j.jsx)(
+    "iframe",
+    {
+      id: `JotFormIFrame-${formId}`,
+      title,
+      allow: "geolocation; microphone; camera; fullscreen",
+      src: `https://form.jotform.com/${formId}`,
+      frameBorder: "0",
+      scrolling: "no",
+      style: { width: "100%", height: `${height}px`, border: 0, display: "block" }
+    }
+  );
+};
+const ContactPage = () => (0,j.jsxs)("main", { id: "top", children: [
+  (0,j.jsx)($n, { home: Jn.home }),
+  (0,j.jsx)("section", { className: "ct-hero", "data-screen-label": "Contact Hero", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("span", { className: "eyebrow on-green center", children: "Get In Touch" }),
+    (0,j.jsxs)("h1", { children: [
+      "Let's talk about your ",
+      (0,j.jsx)("em", { children: "travel business." })
+    ] }),
+    (0,j.jsx)("p", { className: "ct-hero-sub", children: "Questions about the Snapshot, memberships, or Fast Track? Send a note below and the Institute team will get back to you personally." }),
+    (0,j.jsxs)("div", { className: "ct-hero-meta", children: [
+      (0,j.jsx)("span", { children: "Personally reviewed" }),
+      (0,j.jsx)("span", { children: "Replies within 2 business days" }),
+      (0,j.jsx)("span", { children: "No bots, no autoresponders" })
+    ] })
+  ] }) }),
+  (0,j.jsxs)("section", { className: "ct-form-section", "data-screen-label": "Contact Form", children: [
+    (0,j.jsxs)("div", { className: "ct-prep", children: [
+      (0,j.jsxs)("div", { className: "ct-prep-card", children: [
+        (0,j.jsx)("div", { className: "ct-prep-num", children: "01" }),
+        (0,j.jsx)("h6", { children: "Tell us where you are" }),
+        (0,j.jsx)("p", { children: "Hosted, independent, or just exploring \u2014 a sentence of context helps us point you to the right next step." })
+      ] }),
+      (0,j.jsxs)("div", { className: "ct-prep-card", children: [
+        (0,j.jsx)("div", { className: "ct-prep-num", children: "02" }),
+        (0,j.jsx)("h6", { children: "Ask your real question" }),
+        (0,j.jsx)("p", { children: "Pricing, fit, timelines, the program path \u2014 nothing is too detailed. We'd rather answer it properly." })
+      ] }),
+      (0,j.jsxs)("div", { className: "ct-prep-card", children: [
+        (0,j.jsx)("div", { className: "ct-prep-num", children: "03" }),
+        (0,j.jsx)("h6", { children: "We reply personally" }),
+        (0,j.jsx)("p", { children: "Every message reaches a real person at the Institute. Expect a considered reply, not a canned one." })
+      ] })
+    ] }),
+    (0,j.jsxs)("div", { className: "ct-form-frame", children: [
+      (0,j.jsxs)("div", { className: "ct-form-frame-head", children: [
+        (0,j.jsx)("span", { className: "ct-form-frame-eyebrow", children: "Contact The Institute" }),
+        (0,j.jsx)("span", { className: "ct-form-frame-dot", "aria-hidden": "true" })
+      ] }),
+      (0,j.jsx)("div", { className: "ct-form-frame-body", children: (0,j.jsx)(JotFormEmbed, { formId: "261608175865062", title: "Contact The Best Travel Biz Institute" }) }),
+      (0,j.jsxs)("div", { className: "ct-form-frame-foot", children: [
+        (0,j.jsx)("span", { children: "Your details are sent securely and used only to respond to your inquiry." }),
+        (0,j.jsx)("span", { className: "ct-form-frame-seal", children: "The Best Travel Biz Institute\u2122" })
+      ] })
+    ] })
+  ] }),
+  (0,j.jsx)(fr, {})
+] });
+window.ContactPage = ContactPage;
+const MediaPage = () => (0,j.jsxs)("main", { id: "top", children: [
+  (0,j.jsx)($n, { home: Jn.home }),
+  (0,j.jsx)("section", { className: "md-hero", "data-screen-label": "Media Hero", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "md-hero-copy", children: [
+      (0,j.jsx)("span", { className: "eyebrow on-green", children: "Press \xB7 Media \xB7 Speaking" }),
+      (0,j.jsxs)("h1", { children: [
+        "Media & ",
+        (0,j.jsx)("em", { children: "Press" })
+      ] }),
+      (0,j.jsx)("p", { className: "md-hero-sub", children: "For speaking invitations, podcast appearances, press features, and media inquiries." })
+    ] }),
+    (0,j.jsx)("div", { className: "md-portrait", children: (0,j.jsx)("img", { src: Qn("founder.png"), alt: "Bobbie A. Self, founder of The Best Travel Biz Institute" }) })
+  ] }) }),
+  (0,j.jsx)("section", { className: "md-talks", "data-screen-label": "Signature Talks", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "section-head", style: { textAlign: "left", margin: "0", maxWidth: "620px" }, children: [
+      (0,j.jsx)("span", { className: "eyebrow", children: "Signature Talks" }),
+      (0,j.jsx)("h2", { style: { marginTop: "14px" }, children: "What Bobbie speaks on" }),
+      (0,j.jsx)("p", { style: { marginTop: "14px" }, children: "Keynotes, workshops, and podcast conversations on ownership, commission structure, and building a travel business that lasts." })
+    ] }),
+    (0,j.jsxs)("div", { className: "md-talks-grid", children: [
+      (0,j.jsxs)("div", { className: "md-talk", children: [
+        (0,j.jsx)("div", { className: "n", children: "01" }),
+        (0,j.jsx)("h3", { children: "From Travel Agent to CEO" }),
+        (0,j.jsx)("p", { children: "The mindset and structural shift from booking trips to owning a real, independent travel business." })
+      ] }),
+      (0,j.jsxs)("div", { className: "md-talk", children: [
+        (0,j.jsx)("div", { className: "n", children: "02" }),
+        (0,j.jsx)("h3", { children: "The Commission-Split Trap" }),
+        (0,j.jsx)("p", { children: "What hosted agents actually trade away for their split \u2014 and the path to keeping more of what they earn." })
+      ] }),
+      (0,j.jsxs)("div", { className: "md-talk", children: [
+        (0,j.jsx)("div", { className: "n", children: "03" }),
+        (0,j.jsx)("h3", { children: "Own the Building" }),
+        (0,j.jsx)("p", { children: "Building on assets you control \u2014 your clients, your brand, your systems \u2014 instead of renting a desk in someone else's house." })
+      ] }),
+      (0,j.jsxs)("div", { className: "md-talk", children: [
+        (0,j.jsx)("div", { className: "n", children: "04" }),
+        (0,j.jsx)("h3", { children: "The Operator's Edge" }),
+        (0,j.jsx)("p", { children: "Running travel like a real company: profit, process, and the intellectual property behind a durable business." })
+      ] })
+    ] })
+  ] }) }),
+  (0,j.jsx)("section", { className: "md-invite", "data-screen-label": "Invite to Speak", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsx)("span", { className: "eyebrow on-green center", children: "Speaking & Interviews" }),
+    (0,j.jsx)("h2", { children: "Invite Bobbie to Speak" }),
+    (0,j.jsx)("p", { children: "Bobbie A. Self speaks on ownership, commission structure, travel-business systems, and the shift from hosted agent to independent business owner." }),
+    (0,j.jsx)("p", { children: "She is available for podcast interviews, virtual trainings, summit sessions, workshops, and select media conversations connected to travel entrepreneurship, business ownership, and women building profitable independent brands." }),
+    (0,j.jsxs)("a", { href: "#request", className: "btn btn-gold", children: [
+      "Submit a Media or Speaking Request ",
+      (0,j.jsx)("svg", { className: "arr", width: "14", height: "10", viewBox: "0 0 14 10", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M0 5h12M8 1l4 4-4 4", stroke: "currentColor", strokeWidth: "1.4", fill: "none" }) })
+    ] })
+  ] }) }),
+  (0,j.jsxs)("section", { className: "md-form-section", id: "request", "data-screen-label": "Submit a Request", children: [
+    (0,j.jsxs)("div", { className: "md-head", children: [
+      (0,j.jsx)("h2", { children: "Submit a Request" }),
+      (0,j.jsx)("p", { children: "All requests are reviewed personally. We respond within 3 business days." })
+    ] }),
+    (0,j.jsxs)("div", { className: "md-form-frame", children: [
+      (0,j.jsxs)("div", { className: "md-form-frame-head", children: [
+        (0,j.jsx)("span", { className: "md-form-frame-eyebrow", children: "Press \xB7 Media \xB7 Speaking" }),
+        (0,j.jsx)("span", { className: "md-form-frame-dot", "aria-hidden": "true" })
+      ] }),
+      (0,j.jsx)("div", { className: "md-form-frame-body", children: (0,j.jsx)(JotFormEmbed, { formId: "261608361959063", title: "Media & Press \u2014 The Best Travel Biz Institute" }) }),
+      (0,j.jsxs)("div", { className: "md-form-frame-foot", children: [
+        (0,j.jsx)("span", { children: "Your details are sent securely and used only to respond to your request." }),
+        (0,j.jsx)("span", { className: "md-form-frame-seal", children: "The Best Travel Biz Institute\u2122" })
+      ] })
+    ] }),
+    (0,j.jsx)("p", { className: "md-formnote", children: "For approved interviews and speaking requests, a short bio, headshot, and topic summary will be provided." })
+  ] }),
+  (0,j.jsx)(fr, {})
+] });
+window.MediaPage = MediaPage;
+const Media2Page = () => (0,j.jsxs)("main", { id: "top", children: [
+  (0,j.jsx)($n, { home: Jn.home }),
+  (0,j.jsx)("section", { className: "md-hero", "data-screen-label": "Media Hero", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "md-hero-copy", children: [
+      (0,j.jsx)("span", { className: "eyebrow on-green", children: "Press \xB7 Media \xB7 Speaking" }),
+      (0,j.jsxs)("h1", { children: [
+        "Media & ",
+        (0,j.jsx)("em", { children: "Press" })
+      ] }),
+      (0,j.jsx)("p", { className: "md-hero-sub", children: "For speaking invitations, podcast appearances, press features, and media inquiries." })
+    ] }),
+    (0,j.jsx)("div", { className: "md-portrait", children: (0,j.jsx)("img", { src: Qn("founder.png"), alt: "Bobbie A. Self, founder of The Best Travel Biz Institute" }) })
+  ] }) }),
+  (0,j.jsx)("section", { className: "md-talks", "data-screen-label": "Signature Talks", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "section-head", style: { textAlign: "left", margin: "0", maxWidth: "620px" }, children: [
+      (0,j.jsx)("span", { className: "eyebrow", children: "Signature Talks" }),
+      (0,j.jsx)("h2", { style: { marginTop: "14px" }, children: "What Bobbie speaks on" }),
+      (0,j.jsx)("p", { style: { marginTop: "14px" }, children: "Keynotes, workshops, and podcast conversations on ownership, commission structure, and building a travel business that lasts." })
+    ] }),
+    (0,j.jsxs)("div", { className: "md-talks-grid", children: [
+      (0,j.jsxs)("div", { className: "md-talk", children: [
+        (0,j.jsx)("div", { className: "n", children: "01" }),
+        (0,j.jsx)("h3", { children: "From Travel Agent to CEO" }),
+        (0,j.jsx)("p", { children: "The mindset and structural shift from booking trips to owning a real, independent travel business." })
+      ] }),
+      (0,j.jsxs)("div", { className: "md-talk", children: [
+        (0,j.jsx)("div", { className: "n", children: "02" }),
+        (0,j.jsx)("h3", { children: "The Commission-Split Trap" }),
+        (0,j.jsx)("p", { children: "What hosted agents actually trade away for their split \u2014 and the path to keeping more of what they earn." })
+      ] }),
+      (0,j.jsxs)("div", { className: "md-talk", children: [
+        (0,j.jsx)("div", { className: "n", children: "03" }),
+        (0,j.jsx)("h3", { children: "Own the Building" }),
+        (0,j.jsx)("p", { children: "Building on assets you control \u2014 your clients, your brand, your systems \u2014 instead of renting a desk in someone else's house." })
+      ] }),
+      (0,j.jsxs)("div", { className: "md-talk", children: [
+        (0,j.jsx)("div", { className: "n", children: "04" }),
+        (0,j.jsx)("h3", { children: "The Operator's Edge" }),
+        (0,j.jsx)("p", { children: "Running travel like a real company: profit, process, and the intellectual property behind a durable business." })
+      ] })
+    ] })
+  ] }) }),
+  (0,j.jsxs)("section", { className: "md-form-section", "data-screen-label": "Submit a Request", children: [
+    (0,j.jsxs)("div", { className: "md-head", children: [
+      (0,j.jsx)("h2", { children: "Submit a Request" }),
+      (0,j.jsx)("p", { children: "All requests are reviewed personally. We respond within 3 business days." })
+    ] }),
+    (0,j.jsxs)("div", { className: "md-form-frame", children: [
+      (0,j.jsxs)("div", { className: "md-form-frame-head", children: [
+        (0,j.jsx)("span", { className: "md-form-frame-eyebrow", children: "Press \xB7 Media \xB7 Speaking" }),
+        (0,j.jsx)("span", { className: "md-form-frame-dot", "aria-hidden": "true" })
+      ] }),
+      (0,j.jsx)("div", { className: "md-form-frame-body", children: (0,j.jsx)(JotFormEmbed, { formId: "261608361959063", title: "Media & Press \u2014 The Best Travel Biz Institute" }) }),
+      (0,j.jsxs)("div", { className: "md-form-frame-foot", children: [
+        (0,j.jsx)("span", { children: "Your details are sent securely and used only to respond to your request." }),
+        (0,j.jsx)("span", { className: "md-form-frame-seal", children: "The Best Travel Biz Institute\u2122" })
+      ] })
+    ] })
+  ] }),
+  (0,j.jsx)("section", { className: "md-kit", "data-screen-label": "Media Kit", children: (0,j.jsxs)("div", { className: "wrap", children: [
+    (0,j.jsxs)("div", { className: "md-kit-head", children: [
+      (0,j.jsx)("span", { className: "eyebrow on-green", children: "Media Kit" }),
+      (0,j.jsx)("h2", { children: "Everything you need to feature Bobbie." })
+    ] }),
+    (0,j.jsxs)("div", { className: "md-kit-grid", children: [
+      (0,j.jsx)("div", { className: "md-kit-photo", children: (0,j.jsx)("img", { src: Qn("founder.png"), alt: "Bobbie A. Self, founder of The Best Travel Biz Institute" }) }),
+      (0,j.jsxs)("div", { className: "md-kit-bio", children: [
+        (0,j.jsxs)("p", { children: [
+          "Bobbie A. Self is the founder of The Best Travel Biz Institute\u2122 and author of ",
+          (0,j.jsx)("em", { children: "Why Are You Splitting Commission If You Do All the Work?" }),
+          " \u2014 guiding travel professionals from hosted agents to independent owners with the structure, systems, and ownership behind a real travel company."
+        ] }),
+        (0,j.jsxs)("ul", { className: "md-kit-facts", children: [
+          (0,j.jsx)("li", { children: "Founder \xB7 The Best Travel Biz Institute\u2122" }),
+          (0,j.jsx)("li", { children: "Author \xB7 \u201CWhy Are You Splitting Commission If You Do All the Work?\u201D" }),
+          (0,j.jsx)("li", { children: "Speaks on ownership, commission structure & travel-business systems" })
+        ] }),
+        (0,j.jsxs)("div", { className: "md-kit-dl", children: [
+          (0,j.jsxs)("a", { href: "#", download: true, children: [
+            "Press Bio (PDF) ",
+            (0,j.jsx)("svg", { width: "14", height: "14", viewBox: "0 0 14 14", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M7 1v8.5m0 0L3.8 6.3M7 9.5l3.2-3.2M2 13h10", fill: "none", stroke: "currentColor", strokeWidth: "1.3" }) })
+          ] }),
+          (0,j.jsxs)("a", { href: "#", download: true, children: [
+            "Headshots (ZIP) ",
+            (0,j.jsx)("svg", { width: "14", height: "14", viewBox: "0 0 14 14", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M7 1v8.5m0 0L3.8 6.3M7 9.5l3.2-3.2M2 13h10", fill: "none", stroke: "currentColor", strokeWidth: "1.3" }) })
+          ] }),
+          (0,j.jsxs)("a", { href: "#", download: true, children: [
+            "Brand & Logo Pack ",
+            (0,j.jsx)("svg", { width: "14", height: "14", viewBox: "0 0 14 14", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M7 1v8.5m0 0L3.8 6.3M7 9.5l3.2-3.2M2 13h10", fill: "none", stroke: "currentColor", strokeWidth: "1.3" }) })
+          ] }),
+          (0,j.jsxs)("a", { href: "#", download: true, children: [
+            "Topics & Fact Sheet ",
+            (0,j.jsx)("svg", { width: "14", height: "14", viewBox: "0 0 14 14", "aria-hidden": "true", children: (0,j.jsx)("path", { d: "M7 1v8.5m0 0L3.8 6.3M7 9.5l3.2-3.2M2 13h10", fill: "none", stroke: "currentColor", strokeWidth: "1.3" }) })
+          ] })
+        ] })
+      ] })
+    ] })
+  ] }) }),
+  (0,j.jsx)(fr, {})
+] });
+window.Media2Page = Media2Page;
 const CareersPage=()=>(0,j.jsxs)("main",{id:"top",children:[
   (0,j.jsx)($n,{home:!0}),
   (0,j.jsxs)("section",{className:"sp-hero",style:{minHeight:"40vh",display:"flex",alignItems:"center"},children:[
