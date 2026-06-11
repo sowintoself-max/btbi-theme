@@ -1916,3 +1916,134 @@ button,.btn,a.btn{max-width:100%;white-space:normal;overflow-wrap:break-word}
     .md-form-frame-foot{flex-direction:column;align-items:flex-start;gap:10px;padding:16px 20px}
     .md-form-frame-body iframe{min-height:1320px}
   }
+
+/* ════════════════════════════════════════════════════════
+   CEO LETTERS (archive + single + templates)
+   ════════════════════════════════════════════════════════ */
+/* ============================================================
+   ceo-letters.css — CEO Letters from Bobbie A. Self
+   · Archive   → /ceo-letters/                 (reverse-chron list)
+   · Letter    → /ceo-letters/[slug]/           (single letter)
+   Editorial & executive. Berkshire-letter restraint crossed
+   with the Institute's cream / gold / green warmth.
+   Extends app.css — same color & type vars.
+   ============================================================ */
+
+.pm-monogram{font-family:var(--serif);color:var(--gold);font-size:20px;font-weight:600;line-height:1}
+.foot-brand .pm-monogram{color:var(--gold)}
+
+/* Reading column — the spine of both pages */
+:root{--cl-col:720px;--cl-read:680px}
+
+/* Shared thin gold rule */
+.cl-rule{width:80px;height:1px;background:var(--gold);opacity:.45;border:0;margin:0}
+.cl-rule.center{margin-left:auto;margin-right:auto}
+
+/* ============================================================
+   HERO  (deep green — signature founder dispatch)
+   ============================================================ */
+.cl-hero{background:var(--green);color:var(--cream);text-align:center;padding:120px 0 96px;position:relative;overflow:hidden}
+.cl-hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(196,164,108,.14),transparent 58%);pointer-events:none}
+.cl-hero .wrap{position:relative;z-index:1;max-width:840px}
+.cl-hero .eyebrow{color:var(--gold);justify-content:center;margin-bottom:26px}
+.cl-hero h1{font-family:var(--serif);font-size:clamp(46px,6.4vw,84px);line-height:1.0;font-weight:500;letter-spacing:.005em;color:var(--cream);margin:0}
+.cl-hero h1 em{font-style:italic;color:var(--gold);font-family:var(--serif-body);font-weight:400;letter-spacing:.01em}
+.cl-hero-sub{font-family:var(--serif-body);font-style:italic;font-size:clamp(19px,2.2vw,25px);line-height:1.5;color:var(--gold-soft);max-width:600px;margin:28px auto 0}
+.cl-hero .cl-rule{margin:34px auto 30px}
+.cl-byline{font-family:var(--sans);font-size:12.5px;letter-spacing:.04em;color:rgba(250,246,238,.62);line-height:1.6}
+.cl-byline b{color:var(--gold-soft);font-weight:600}
+
+/* ============================================================
+   ARCHIVE — letter list  (cream, single reading column)
+   ============================================================ */
+.cl-archive{background:var(--cream);padding:104px 0 110px}
+.cl-list{max-width:var(--cl-col);margin:0 auto;border-top:1px solid rgba(201,169,97,.32)}
+.cl-letter{padding:40px 0 38px;border-bottom:1px solid rgba(201,169,97,.22)}
+.cl-letter .date{font-family:var(--sans);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-deep,#a98a52);font-weight:700}
+.cl-letter h2{margin:14px 0 0}
+.cl-letter h2 a{font-family:var(--serif-body);font-size:clamp(26px,3vw,32px);font-weight:600;color:var(--green-ink);line-height:1.18;letter-spacing:0;display:inline;background-image:linear-gradient(var(--gold),var(--gold));background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .3s ease,color .2s ease;padding-bottom:2px}
+.cl-letter h2 a:hover{color:var(--green);background-size:100% 1px}
+.cl-letter .excerpt{font-size:15.5px;line-height:1.66;color:var(--ink-2);margin:16px 0 0;max-width:640px}
+.cl-letter .more{display:inline-flex;align-items:center;gap:9px;margin-top:20px;font-family:var(--sans);font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--green);font-weight:700;transition:color .2s ease}
+.cl-letter .more .arr{transition:transform .3s ease}
+.cl-letter .more:hover{color:var(--gold-deep,#a98a52)}
+.cl-letter .more:hover .arr{transform:translateX(4px)}
+.cl-letter.is-latest .date{color:var(--gold-deep,#a98a52)}
+.cl-latest-tag{display:inline-block;margin-left:14px;font-family:var(--sans);font-size:9px;letter-spacing:.26em;text-transform:uppercase;font-weight:700;color:var(--green);border:1px solid rgba(201,169,97,.6);padding:4px 9px;vertical-align:middle}
+
+/* Pagination */
+.cl-page-nav{max-width:var(--cl-col);margin:46px auto 0;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.cl-page-nav a,.cl-page-nav span{font-family:var(--sans);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--green);display:inline-flex;align-items:center;gap:10px}
+.cl-page-nav a:hover{color:var(--gold-deep,#a98a52)}
+.cl-page-nav .disabled{color:var(--muted);opacity:.5;pointer-events:none}
+.cl-page-count{font-family:var(--serif-body);font-style:italic;letter-spacing:0;text-transform:none;color:var(--muted)}
+
+/* ============================================================
+   SINGLE LETTER  (cream header + paper body)
+   ============================================================ */
+.cl-letterhead{background:var(--cream);padding:64px 0 56px;text-align:center}
+.cl-letterhead .wrap{max-width:var(--cl-col)}
+.cl-back{display:inline-flex;align-items:center;gap:9px;font-family:var(--sans);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:40px;transition:color .2s ease}
+.cl-back .arr{transition:transform .3s ease}
+.cl-back:hover{color:var(--green)}
+.cl-back:hover .arr{transform:translateX(-4px)}
+.cl-letterhead .date{font-family:var(--sans);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-deep,#a98a52);font-weight:700}
+.cl-letterhead h1{font-family:var(--serif-body);font-size:clamp(32px,4.4vw,48px);font-weight:600;color:var(--green-ink);line-height:1.16;letter-spacing:0;margin:18px auto 0;max-width:640px;text-wrap:balance}
+.cl-letterhead .cl-rule{margin:34px auto 0}
+
+.cl-body{background:var(--paper);padding:74px 0 92px}
+.cl-prose{max-width:var(--cl-read);margin:0 auto}
+.cl-prose p{font-size:17px;line-height:1.78;color:var(--ink-2);margin:0 0 24px}
+.cl-prose p.lede{font-family:var(--serif-body);font-style:italic;font-size:clamp(20px,2.3vw,24px);line-height:1.5;color:var(--green-ink);margin-bottom:30px}
+.cl-prose strong{color:var(--green-ink);font-weight:600}
+.cl-prose a{color:var(--green);border-bottom:1px solid var(--gold);transition:color .2s}
+.cl-prose a:hover{color:var(--gold-deep,#a98a52)}
+.cl-prose h3{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-deep,#a98a52);font-weight:700;margin:44px 0 18px}
+.cl-prose blockquote{margin:34px 0;padding:6px 0 6px 28px;border-left:3px solid var(--gold)}
+.cl-prose blockquote p{font-family:var(--serif-body);font-style:italic;font-size:clamp(21px,2.4vw,25px);line-height:1.45;color:var(--green-ink);margin:0}
+.cl-prose hr{border:0;height:1px;background:rgba(201,169,97,.3);max-width:120px;margin:44px auto}
+
+/* Sign-off */
+.cl-signoff{max-width:var(--cl-read);margin:46px auto 0;padding-top:6px}
+.cl-signoff .script{font-family:var(--script);font-size:54px;color:var(--gold);line-height:.9;margin-bottom:6px}
+.cl-signoff .nm{font-family:var(--sans);font-size:15px;color:var(--green-ink);font-weight:600;letter-spacing:.01em}
+.cl-signoff .ttl{font-family:var(--sans);font-size:12.5px;color:var(--muted);line-height:1.6;margin-top:6px}
+.cl-signoff .ttl b{color:var(--gold-deep,#a98a52);font-weight:600}
+
+/* Share strip */
+.cl-share{max-width:var(--cl-read);margin:54px auto 0;padding-top:30px;border-top:1px solid rgba(201,169,97,.3);display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.cl-share .lab{font-family:var(--serif-body);font-style:italic;font-size:15px;color:var(--muted)}
+.cl-share .icons{display:flex;gap:10px}
+.cl-share .icons a{width:38px;height:38px;border:1px solid var(--line);display:grid;place-items:center;color:var(--green-ink);transition:border-color .2s ease,color .2s ease,background .2s ease}
+.cl-share .icons a:hover{border-color:var(--gold);color:var(--gold-deep,#a98a52);background:var(--cream)}
+.cl-share .icons a.copied{border-color:var(--green);color:var(--green)}
+
+/* Prev / next */
+.cl-pn{max-width:var(--cl-read);margin:14px auto 0;padding:48px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.cl-pn a{display:flex;flex-direction:column;gap:8px;padding:26px 28px;border:1px solid var(--line);transition:border-color .2s ease,background .2s ease}
+.cl-pn a:hover{border-color:var(--gold);background:var(--cream)}
+.cl-pn a.next{text-align:right;align-items:flex-end}
+.cl-pn .dir{font-family:var(--sans);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-deep,#a98a52);font-weight:700}
+.cl-pn .ttl{font-family:var(--serif-body);font-size:18px;font-weight:600;color:var(--green-ink);line-height:1.3}
+
+/* ============================================================
+   BOTTOM CTA  (shared — cream-2, soft)
+   ============================================================ */
+.cl-cta{background:var(--cream-2);padding:92px 0;text-align:center}
+.cl-cta .wrap{max-width:680px}
+.cl-cta .lab{font-family:var(--sans);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-deep,#a98a52);font-weight:700;margin-bottom:18px}
+.cl-cta h2{font-family:var(--serif-body);font-size:clamp(26px,3vw,34px);font-weight:600;color:var(--green-ink);line-height:1.2;margin:0}
+.cl-cta p{font-size:15.5px;line-height:1.7;color:var(--ink-2);max-width:540px;margin:18px auto 0}
+.cl-cta-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:34px}
+
+@media (max-width:760px){
+  .cl-hero{padding:96px 0 76px}
+  .cl-archive{padding:64px 0 72px}
+  .cl-body{padding:56px 0 72px}
+  .cl-letterhead{padding:48px 0 44px}
+  .cl-pn{grid-template-columns:1fr}
+  .cl-pn a.next{text-align:left;align-items:flex-start}
+  .cl-cta-btns .btn{width:100%}
+  .cl-page-nav{flex-wrap:wrap;justify-content:center;text-align:center}
+  .cl-page-count{order:-1;flex-basis:100%}
+}
